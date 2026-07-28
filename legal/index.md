@@ -12,6 +12,7 @@ Esta seção contém os documentos legais do V3RCondo — a plataforma de gestã
 |---|---|---|
 | [Termos de Uso](/legal/termos/) | v1.1 | Maio de 2026 |
 | [Política de Privacidade](/legal/privacidade/) | v1.1 | Maio de 2026 |
+| [Segurança e Privacidade](/legal/seguranca/) | — | Julho de 2026 |
 
 ---
 
