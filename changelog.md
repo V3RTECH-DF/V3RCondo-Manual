@@ -9,6 +9,10 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## Documentação — Julho 2026
+
+- **Nova página "Segurança e Privacidade".** Publicamos uma página dedicada que explica, em linguagem clara, como o V3RCondo protege seus dados: nossas práticas de segurança, de privacidade e os parceiros de tecnologia (subprocessadores) que apoiam a plataforma. Veja [Segurança e Privacidade](legal/seguranca.md).
+
 ## v7.87 a v7.89 — Julho 2026
 
 - **Caça-diferenças: descubra por que o saldo não bate.** Quando o saldo de uma conta no V3RCondo não fecha com o do extrato do banco, o novo caça-diferenças acha o furo pra você. No **Financeiro → Saldos por Conta**, clique na lupa 🔍 da conta, informe o saldo que o banco mostra, e o app aponta as causas mais prováveis — uma cobrança duplicada, algo lançado na conta errada, uma tarifa que faltou lançar — com correção em um clique nos casos seguros. Funciona só com o número do saldo, sem precisar importar o extrato. Veja [Caça-diferenças](modulos/caca-diferencas.md).
