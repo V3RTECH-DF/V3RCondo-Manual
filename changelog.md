@@ -9,6 +9,10 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.91 — Julho 2026
+
+- **Nova camada interna de auditoria e segurança.** Reforçamos os bastidores do V3RCondo com uma nova estrutura de registro de eventos de segurança — quem fez o quê, quando, em ações sensíveis como login, exportação de dados e mudanças administrativas. É uma capacidade **interna**, pensada para detectar e responder mais rápido a qualquer incidente; não muda nada na tela nem no dia a dia de síndicos e condôminos. Durante a implementação, identificamos e corrigimos rapidamente uma falha de permissão nessa estrutura nova (ainda não exposta a usuários externos) — nenhum dado de condomínio foi acessado indevidamente.
+
 ## Documentação — Julho 2026
 
 - **Nova página "Segurança e Privacidade".** Publicamos uma página dedicada que explica, em linguagem clara, como o V3RCondo protege seus dados: nossas práticas de segurança, de privacidade e os parceiros de tecnologia (subprocessadores) que apoiam a plataforma. Veja [Segurança e Privacidade](legal/seguranca.md).
