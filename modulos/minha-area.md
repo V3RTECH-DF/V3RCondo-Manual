@@ -42,7 +42,7 @@ Alguns documentos são gerados automaticamente, na hora, a partir dos dados da s
 
 Clique em **Emitir** e o PDF é baixado na hora. Na Quitação Anual (IR), o seletor mostra apenas os anos em que há lançamentos da sua unidade. Documentos do plano **Pro** aparecem com cadeado quando o condomínio está no Básico. Se a unidade tiver débitos vencidos, o Nada Consta e a Certidão de venda não são emitidos — o app oferece a Declaração de Débitos no lugar.
 
-Todo documento emitido traz um **código de verificação** e um **QR Code**: qualquer pessoa (banco, cartório) confere a autenticidade na página pública **v3rcondo.com.br/verificar**, sem ver seus dados financeiros.
+Todo documento emitido traz um **código de verificação** e um **QR Code**: qualquer pessoa (banco, cartório) confere a autenticidade na página pública **app.v3rcondo.com.br/verificar**, sem ver seus dados financeiros. Documentos emitidos antes de agosto de 2026 trazem o endereço antigo (`v3rcondo.com.br/verificar`), que continua funcionando.
 
 <!-- TODO captura: página /verificar com um documento válido -->
 

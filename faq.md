@@ -10,7 +10,7 @@ nav_order: 4
 <details markdown="1">
 <summary>Como faço login no V3RCondo?</summary>
 
-Acesse [v3rcondo.com.br](https://v3rcondo.com.br) e entre com e-mail e
+Acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br) e entre com e-mail e
 senha ou clique em **Entrar com Google** para usar sua conta Google.
 Na primeira vez, você receberá um e-mail de boas-vindas com instruções
 para definir sua senha.
@@ -37,7 +37,7 @@ clicando no botão de reenvio ao lado do seu nome. O link expira após 7 dias
 <details markdown="1">
 <summary>Como solicitar vínculo a um condomínio sem ter recebido convite?</summary>
 
-Acesse [v3rcondo.com.br](https://v3rcondo.com.br), faça login e clique em
+Acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br), faça login e clique em
 **Solicitar vínculo** na tela de boas-vindas. Busque o condomínio pelo
 nome, informe sua unidade e envie a solicitação. O síndico poderá aprová-la
 em **Configurações → Condôminos**.
@@ -181,7 +181,7 @@ chega diretamente à equipe do V3RCondo. Passo a passo em
 <summary>Posso instalar o V3RCondo como aplicativo no celular ou computador?</summary>
 
 Sim. O V3RCondo é um **aplicativo web instalável (PWA)**. No celular, abra
-[v3rcondo.com.br](https://v3rcondo.com.br) no navegador e use **Adicionar à
+[app.v3rcondo.com.br](https://app.v3rcondo.com.br) no navegador e use **Adicionar à
 tela inicial**; no computador (Chrome/Edge), clique no ícone de instalar na
 barra de endereço. O app abre em tela cheia, como um aplicativo nativo, e se
 atualiza automaticamente.
