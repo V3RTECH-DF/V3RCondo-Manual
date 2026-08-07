@@ -8,7 +8,7 @@ nav_order: 1
 
 ## Acessar o V3RCondo
 
-Abra o navegador e acesse [v3rcondo.com.br](https://v3rcondo.com.br). Clique em **Entrar** para ir à tela de login.
+Abra o navegador e acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br). Você cai direto na tela de login.
 
 ![Tela de login do V3RCondo](/assets/screenshots/01-login.png)
 

@@ -9,6 +9,13 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.92 — Agosto 2026
+
+- **O aplicativo mudou de endereço: agora é [app.v3rcondo.com.br](https://app.v3rcondo.com.br).** O endereço antigo, `v3rcondo.com.br`, passou a ser o site do V3RCondo, com informações sobre a plataforma e os planos. Nada muda no seu acesso: **login, senha e dados continuam os mesmos**, e quem digitar o endereço antigo continua encontrando o caminho para o aplicativo.
+  - **Atualize seus favoritos** para o novo endereço.
+  - **Se você instalou o V3RCondo no celular** (aquele atalho que abre em tela cheia), reinstale a partir de `app.v3rcondo.com.br` — o atalho antigo passa a abrir o site institucional. É só abrir o novo endereço no navegador e usar **Adicionar à tela inicial**.
+  - **Documentos já emitidos continuam válidos.** O QR Code impresso neles aponta para o endereço antigo, que continua levando à página de verificação. Documentos novos já trazem o endereço novo.
+
 ## v7.91 — Julho 2026
 
 - **Nova camada interna de auditoria e segurança.** Reforçamos os bastidores do V3RCondo com uma nova estrutura de registro de eventos de segurança — quem fez o quê, quando, em ações sensíveis como login, exportação de dados e mudanças administrativas. É uma capacidade **interna**, pensada para detectar e responder mais rápido a qualquer incidente; não muda nada na tela nem no dia a dia de síndicos e condôminos. Durante a implementação, identificamos e corrigimos rapidamente uma falha de permissão nessa estrutura nova (ainda não exposta a usuários externos) — nenhum dado de condomínio foi acessado indevidamente.

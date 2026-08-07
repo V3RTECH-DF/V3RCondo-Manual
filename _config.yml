@@ -52,7 +52,7 @@ callouts:
 # Links auxiliares (canto superior direito)
 aux_links:
   "Acessar o V3RCondo":
-    - "https://v3rcondo.com.br"
+    - "https://app.v3rcondo.com.br"
 aux_links_new_tab: true
 
 # Rodapé
