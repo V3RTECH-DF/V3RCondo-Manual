@@ -318,20 +318,30 @@ Selecione a sub-aba do módulo desejado. Para cada categoria é possível:
 
 ## Aba Contas Bancárias
 
-Lista as contas bancárias com: nome, banco, agência, número e saldo inicial.
-A conta marcada como **Padrão** é pré-selecionada automaticamente em novos
-lançamentos.
+Lista as contas bancárias com: nome, banco, agência, conta e saldo inicial.
+Quando informados, o **código do banco** aparece entre parênteses ao lado do
+nome do banco e o **dígito** aparece junto do número da conta. A conta marcada
+como **Padrão** é pré-selecionada automaticamente em novos lançamentos.
 
 ![Aba Contas Bancárias com lista de contas e indicação de conta padrão](/assets/screenshots/82-config-contas.png)
 
-Para adicionar uma nova conta, clique em **+ Nova Conta** e preencha:
+Para adicionar uma nova conta, clique em **Adicionar conta** e preencha:
 
 1. **Nome da conta** — ex: "Conta Inter", "Fundo de Reserva" (obrigatório)
 2. **Banco** — nome do banco
-3. **Agência** — número da agência
-4. **Número da conta**
-5. **Saldo inicial** — saldo na data de implantação (padrão: 0,00)
-6. **Data do saldo inicial** — data de referência do saldo
-7. **Conta padrão** — ative para pré-selecionar em novos lançamentos
+3. **Código** *(opcional)* — o código de 3 dígitos do banco, aquele que aparece no extrato (ex: 237)
+4. **Agência** — número da agência
+5. **Conta** — número da conta
+6. **Dígito** *(opcional)* — o dígito verificador da conta, o número depois do traço
+7. **Tipo de conta** *(opcional)* — Conta corrente ou Conta poupança; deixe em "Não informado" se preferir
+8. **Titular da conta** *(opcional)* — o nome como está registrado no banco
+9. **Saldo inicial** — saldo na data de implantação (padrão: 0,00)
+10. **Data do saldo inicial** — data de referência do saldo
+11. **Conta padrão** — ative para pré-selecionar em novos lançamentos
+
+{: .note }
+> **Os campos novos são opcionais**
+>
+> Código do banco, dígito, tipo de conta e titular podem ficar em branco. As contas que você já cadastrou continuam válidas do jeito que estão — não é preciso voltar e completar nada. Preencher ajuda a identificar a conta com precisão quando o dado é usado fora do aplicativo.
 
 ![Modal de cadastro de nova conta bancária com todos os campos](/assets/screenshots/83-config-conta-modal.png)
