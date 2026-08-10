@@ -9,6 +9,17 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.97 — Agosto 2026
+
+### Corrigido
+
+- **Assinatura do plano Pro passa a ativar corretamente após o pagamento.** Um defeito interno impedia que a confirmação do pagamento fosse registrada, e o condomínio continuava no plano anterior mesmo com a assinatura paga e o e-mail de boas-vindas recebido. Corrigido na origem, junto com o alcance do problema: renovação, cancelamento e alteração de assinatura eram afetados pelo mesmo ponto.
+- **Data da próxima cobrança volta a aparecer** na confirmação da assinatura, acompanhando uma mudança recente na plataforma de pagamentos.
+
+_Em desenvolvimento, ainda indisponível: a cobrança da cota por boleto e Pix. A área existe no aplicativo, desligada, e será liberada por condomínio quando estiver pronta._
+
+---
+
 ## v7.95 — Agosto 2026
 
 - **Excluir um arquivo deixou de apagá-lo para sempre.** Até agora, ao excluir um documento, um comprovante, um anexo de tarefa ou a foto de um item, o arquivo era **removido definitivamente** — sem possibilidade de recuperação, mesmo que a exclusão tivesse sido por engano. Isso mudou: o item **sai da lista**, como antes, mas o arquivo **fica guardado**. Para quem usa o V3RCondo, o dia a dia é o mesmo; a diferença é que uma exclusão acidental deixou de ser irreversível — em especial nos **comprovantes de lançamentos financeiros**, que são documentos contábeis.
