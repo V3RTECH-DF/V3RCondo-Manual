@@ -238,9 +238,43 @@ link válido.
 <details markdown="1">
 <summary>Como remover um condômino do condomínio?</summary>
 
-Acesse **Configurações → Condôminos**, localize o membro e clique no
-botão de remoção. O membro perde o acesso imediatamente. Os dados
-lançados por ele (financeiro, tarefas etc.) são preservados.
+Acesse **Configurações → Condôminos** e localize o membro. Clique no ícone
+de **desativar** e confirme — ele perde o acesso na hora e passa a aparecer
+como **Inativo**. Se a saída for definitiva, clique em seguida no ícone de
+lixeira para **excluir**: ele sai da lista de condôminos e continua apenas no
+histórico do condomínio.
+</details>
+
+<details markdown="1">
+<summary>Qual a diferença entre desativar e excluir um condômino?</summary>
+
+**Desativar é uma pausa:** a pessoa continua na lista, marcada como Inativa,
+sem acesso ao aplicativo. Serve para quem pode voltar — e você reativa quando
+quiser, com um clique.
+
+**Excluir é a saída:** a pessoa sai da lista de condôminos e perde o acesso,
+mas continua em tudo que já foi registrado — presença em assembleias, atas,
+cobranças, acordos e solicitações. O histórico do condomínio não muda.
+
+A exclusão só aparece para membros já inativos: desative primeiro, depois
+exclua.
+</details>
+
+<details markdown="1">
+<summary>Não consigo excluir um condômino que já participou de assembleia. O que faço?</summary>
+
+Isso não acontece mais. A exclusão funciona para qualquer condômino, inclusive
+quem tem presença em assembleias, cobranças lançadas ou acordos registrados —
+esses registros são preservados no histórico. Se a opção de excluir não estiver
+visível, é porque o membro ainda está **Ativo**: desative-o primeiro.
+</details>
+
+<details markdown="1">
+<summary>Um ex-morador voltou para o condomínio. Preciso criar um cadastro novo?</summary>
+
+Não. Cadastre a pessoa novamente com o mesmo e-mail, pelo **+ Adicionar
+condômino** ou pela importação em planilha. O vínculo anterior é reaproveitado:
+não fica cadastro duplicado e o histórico dela no condomínio continua no lugar.
 </details>
 
 <details markdown="1">

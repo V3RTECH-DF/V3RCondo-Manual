@@ -27,7 +27,8 @@ Exibe e permite editar os dados cadastrais:
 - **CNPJ** — cadastro nacional do condomínio
 - **Quantidade de unidades** — exibido em **modo leitura**: reflete a contagem de unidades cadastradas na aba **Unidades** e é o que define o preço do plano Pro. Use o atalho **Gerenciar unidades** para ajustar
 - **Logo do Condomínio** — PNG ou JPG até 2 MB. A logo aparece na sidebar
-  ao lado do nome
+  ao lado do nome e também no cabeçalho da ata gerada pelo sistema. Sem logo
+  cadastrada, a ata sai com a marca do V3RCondo
 
 - **Fuso horário** — selecione o fuso horário do condomínio entre os 14 fusos brasileiros disponíveis (padrão: Brasília, UTC−3). A configuração afeta como datas e horários são exibidos em todo o aplicativo — Dashboard, Financeiro, Tarefas, Assembleias, Compras e Fale com o Síndico — e também nos **documentos gerados** (edital de convocação, ata), nos **e-mails** e nas **notificações**. O horário impresso em um documento é o mesmo que aparece na tela
 
@@ -85,8 +86,11 @@ existente para editar ou excluir.
 
 ## Aba Condôminos
 
-Lista todos os membros ativos com: nome, e-mail, unidade, papel e título.
-Use o filtro para visualizar apenas síndicos ou apenas condôminos. O condômino designado como **responsável** pela unidade aparece com um badge laranja "Responsável" — ele é o destinatário das notificações extrajudiciais.
+Lista os membros do condomínio com: nome, e-mail, unidade, papel e título.
+Use o filtro para visualizar apenas síndicos ou apenas condôminos, e o filtro de
+situação (**Todos**, **Ativos**, **Inativos**) para escolher quem aparece na lista.
+Cada membro exibe um badge de situação — **Ativo** (verde) ou **Inativo** (cinza).
+O condômino designado como **responsável** pela unidade aparece com um badge laranja "Responsável" — ele é o destinatário das notificações extrajudiciais.
 
 ![Aba Condôminos com lista de membros ativos, badges de responsável, ícone de editar perfil e botão Transferir](/assets/screenshots/config-condominos-editar.png)
 
@@ -123,6 +127,38 @@ Clique em **Salvar** para confirmar. Ao promover um membro para Síndico, o sist
 ![Modal de transferência de responsabilidade com seletor de novo responsável](/assets/screenshots/95-configuracoes-transferir-responsavel.png)
 
 *Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
+
+### Desativar, reativar e excluir um condômino
+
+São duas ações diferentes, para situações diferentes.
+
+**Desativar é uma pausa.** O condômino continua na lista, marcado como **Inativo**,
+e perde o acesso ao aplicativo naquele condomínio. Use quando a pessoa pode voltar —
+um morador que viajou, uma unidade temporariamente desocupada, um cadastro que
+você quer congelar sem perder de vista. Clique no ícone de **desativar** na linha
+do membro e confirme.
+
+**Reativar devolve o acesso.** Um membro inativo mostra o ícone verde de
+**reativar** — clique nele e a pessoa volta a ser Ativa, com acesso restaurado.
+Se a lista estiver filtrada por **Ativos**, troque o filtro para **Inativos** ou
+**Todos** para encontrá-lo.
+
+**Excluir é a saída definitiva.** O condômino sai da lista e perde o acesso, mas
+**continua em tudo que já foi registrado**: presença em assembleias, atas,
+cobranças, acordos e solicitações. O histórico do condomínio não é reescrito.
+A opção de excluir aparece para membros **inativos** — desative primeiro, depois
+exclua. Clique no ícone de lixeira e confirme.
+
+{: .tip }
+> **Se a pessoa voltar a morar no condomínio**
+>
+> Basta cadastrá-la de novo, pelo **+ Adicionar condômino** ou pela importação
+> em planilha, usando o mesmo e-mail. O vínculo anterior é reaproveitado: não
+> há cadastro duplicado e o histórico continua no lugar.
+
+{: .note }
+> A exclusão funciona para qualquer condômino, inclusive quem já participou de
+> assembleias, tem cobranças lançadas ou acordos registrados.
 
 **Importar planilha de condôminos:** clique em **Importar planilha** para
 cadastrar vários condôminos de uma vez. Baixe o modelo, preencha com Nome,
