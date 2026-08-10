@@ -9,6 +9,14 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.94 — Agosto 2026
+
+- **Os horários agora saem certos em tudo que o sistema emite.** Se o seu condomínio usa um fuso horário diferente do horário de Brasília — ou mesmo se usa o de Brasília —, os documentos e mensagens gerados pelo sistema podiam mostrar o horário deslocado: uma assembleia marcada para as **19h** aparecia como **22h** na ata. Isso acabou. A correção alcança o **edital em PDF**, o **e-mail de convocação**, a **ata**, as **notificações**, o **extrato da sua unidade**, os **documentos emitidos**, os **acordos**, a **inadimplência**, a **prestação de contas**, o **relatório de gestão**, as **reservas** e os **avisos de vencimento de tarefa**. O fuso continua sendo o que o síndico escolheu em **Configurações → Condomínio**.
+  - **Uma observação para o síndico:** as rotinas automáticas que rodam de madrugada (quebra de acordo por atraso, aviso de tarefa vencendo, arquivamento de reserva) passaram a considerar o **dia do calendário no fuso do condomínio**. Na prática, isso torna o comportamento mais previsível; vale daqui para frente, e nada do que já aconteceu foi refeito.
+- **Gerar a ata ficou mais simples — e o texto não se perde mais.** Antes, ao pedir a ata, aparecia uma caixa com um texto técnico e comprido explicando à inteligência artificial como redigir uma ata. Esse texto não era para você ver, e pior: **sumia quando você pedia a ata de novo**, e a segunda versão saía sem orientação nenhuma. Agora essa instrução é interna e **vale sempre**, em toda geração. Você vê apenas um campo opcional — **"Observações para a geração da ata"** — para escrever livremente o que quer ajustar. E, se pedir outra versão, o campo reaparece com o que você escreveu antes.
+- **Uma ata por assembleia na lista de documentos.** Cada vez que você pedia uma nova versão da ata, ela se somava às anteriores e a lista ia acumulando. Agora, ao gerar uma ata nova, as versões anteriores **saem da lista automaticamente** — fica só a mais recente. O **edital** e as **atas já publicadas** não são afetados, e nada é apagado de verdade: as versões antigas apenas deixam de aparecer.
+- **A ata ficou com cara de documento oficial.** O **título** agora vem centralizado e destacado, e logo abaixo aparece um **bloco com a identificação do condomínio** — nome, endereço e CNPJ —, montado a partir dos dados cadastrados. As marcações de seção (**Quórum**, **Presença**, **Ordem do dia**) viraram subtítulos, em vez de linhas de texto em maiúsculas.
+
 ## v7.92 — Agosto 2026
 
 - **O aplicativo mudou de endereço: agora é [app.v3rcondo.com.br](https://app.v3rcondo.com.br).** O endereço antigo, `v3rcondo.com.br`, passou a ser o site do V3RCondo, com informações sobre a plataforma e os planos. Nada muda no seu acesso: **login, senha e dados continuam os mesmos**, e quem digitar o endereço antigo continua encontrando o caminho para o aplicativo.

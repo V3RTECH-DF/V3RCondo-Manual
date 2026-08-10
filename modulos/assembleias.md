@@ -243,10 +243,18 @@ Ao encerrar, um painel pergunta se deseja gerar a ata com IA. Você também
 pode acessar essa opção a qualquer momento pela seção **Ata da assembleia**
 na tela da assembleia encerrada.
 
-Antes de solicitar a geração, você pode revisar e complementar as
-**Instruções para a IA** — um campo de texto com orientações sobre tom,
-estrutura e destaques que a ata deve conter. Um texto padrão já é
-pré-preenchido e pode ser editado livremente.
+Antes de solicitar a geração, você pode preencher **Observações para a
+geração da ata (opcional)** — um campo livre para comentários e observações
+sobre aquela ata específica: destacar a votação de um item, registrar uma
+ressalva de um condômino, pedir ênfase em algum ponto. O campo é opcional;
+deixá-lo em branco gera a ata normalmente.
+
+{: .note }
+> **Você não precisa explicar como redigir uma ata**
+>
+> A orientação de estrutura, linguagem e formalidade do documento é interna
+> do V3RCondo e sempre aplicada. As observações servem apenas para o conteúdo
+> específico daquela assembleia.
 
 {: .tip }
 > **Qualidade da ata**
@@ -276,8 +284,19 @@ Quando a ata estiver disponível, três opções são exibidas:
 ### Regenerar com ajustes
 
 Clique em **Regenerar com ajustes** e descreva no campo de texto o que
-precisa ser corrigido ou modificado. Uma nova versão será gerada e enviada
+precisa ser corrigido ou modificado. As observações que você escreveu na
+geração anterior aparecem já preenchidas — complemente ou substitua o texto,
+sem precisar escrever tudo de novo. Uma nova versão será gerada e enviada
 por e-mail.
+
+{: .note }
+> **Só a ata mais recente fica na lista**
+>
+> A cada nova geração, a ata anterior sai da lista de documentos da
+> assembleia e permanece apenas a mais recente — assim ninguém baixa uma
+> versão vencida por engano. O edital de convocação continua na lista
+> normalmente. Ata já **publicada** permanece: ela é o registro oficial
+> distribuído aos condôminos.
 
 ### Lançar ata própria
 
@@ -317,6 +336,18 @@ Após a publicação, um aviso é exibido:
 Todos os documentos da assembleia — edital, ata e anexos — ficam disponíveis
 no módulo **Documentos** com a categoria **Assembleias**, e também acessíveis
 diretamente na tela da assembleia com links individuais para cada arquivo.
+
+Da ata, fica listada apenas a versão vigente: quando você gera uma nova, a
+anterior sai da lista. Atas já publicadas permanecem, por serem o registro
+oficial enviado aos condôminos.
+
+{: .note }
+> **Horários nos documentos**
+>
+> A data e o horário impressos no edital, na ata, nos e-mails de convocação
+> e nos avisos do aplicativo seguem o **fuso horário configurado pelo
+> condomínio** (Configurações → aba Condomínio). É o mesmo horário que
+> você vê na tela ao cadastrar a assembleia.
 
 ---
 

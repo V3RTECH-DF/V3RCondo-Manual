@@ -852,8 +852,29 @@ atualizar.
 
 Sim. Clique em **Regenerar com ajustes** e descreva no campo de texto
 o que precisa ser corrigido ou modificado — por exemplo, "incluir que
-o condômino da unidade X fez ressalva ao item 2" ou "usar tom mais
-formal". Uma nova versão será gerada e enviada por e-mail.
+o condômino da unidade X fez ressalva ao item 2" ou "destacar a votação
+do item 3". O que você escreveu na geração anterior já vem preenchido:
+complemente ou substitua, sem recomeçar do zero. Uma nova versão será
+gerada e enviada por e-mail.
+</details>
+
+<details markdown="1">
+<summary>Gerei a ata duas vezes. As duas vão aparecer para os condôminos?</summary>
+
+Não. Fica listada apenas a ata mais recente — ao gerar uma nova versão,
+a anterior sai da lista de documentos da assembleia. O edital de convocação
+continua aparecendo normalmente. Se a ata já tiver sido **publicada**, ela
+permanece na lista, porque é o registro oficial distribuído aos condôminos.
+</details>
+
+<details markdown="1">
+<summary>Preciso escrever as instruções para a IA redigir a ata?</summary>
+
+Não. A orientação sobre estrutura, linguagem e formalidade da ata é interna
+do V3RCondo e sempre aplicada. Antes de gerar, você vê apenas o campo
+**Observações para a geração da ata (opcional)**, para registrar comentários
+sobre aquela assembleia específica — destacar a votação de um item, anotar
+uma ressalva. Deixar em branco é válido e gera a ata normalmente.
 </details>
 
 <details markdown="1">

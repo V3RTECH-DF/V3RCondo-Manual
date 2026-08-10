@@ -29,7 +29,7 @@ Exibe e permite editar os dados cadastrais:
 - **Logo do Condomínio** — PNG ou JPG até 2 MB. A logo aparece na sidebar
   ao lado do nome
 
-- **Fuso horário** — selecione o fuso horário do condomínio entre os 14 fusos brasileiros disponíveis (padrão: Brasília, UTC−3). A configuração afeta como datas e horários são exibidos em todo o aplicativo — Dashboard, Financeiro, Tarefas, Assembleias, Compras e Fale com o Síndico
+- **Fuso horário** — selecione o fuso horário do condomínio entre os 14 fusos brasileiros disponíveis (padrão: Brasília, UTC−3). A configuração afeta como datas e horários são exibidos em todo o aplicativo — Dashboard, Financeiro, Tarefas, Assembleias, Compras e Fale com o Síndico — e também nos **documentos gerados** (edital de convocação, ata), nos **e-mails** e nas **notificações**. O horário impresso em um documento é o mesmo que aparece na tela
 
 Clique em **Salvar alterações** para confirmar.
 
