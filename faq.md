@@ -368,7 +368,7 @@ para entender a saúde financeira atual do condomínio.
 <details markdown="1">
 <summary>Como configurar o saldo inicial de uma conta bancária?</summary>
 
-Acesse **Configurações → Contas Bancárias**, clique em **+ Nova Conta**
+Acesse **Configurações → Contas Bancárias**, clique em **Adicionar conta**
 ou edite uma conta existente e informe o **Saldo inicial** e a **Data
 do saldo inicial**. Esse valor representa o saldo na data de implantação
 do V3RCondo.
@@ -380,6 +380,11 @@ do V3RCondo.
 Sim. Acesse **Configurações → Contas Bancárias** para cadastrar quantas
 contas precisar — conta corrente, fundo de reserva, poupança etc. A conta
 marcada como **Padrão** é pré-selecionada em novos lançamentos.
+
+Além de nome, banco, agência e conta, o cadastro tem quatro campos
+**opcionais**: código do banco, dígito da conta, tipo de conta (corrente ou
+poupança) e titular. Contas já cadastradas continuam valendo com esses
+campos em branco.
 </details>
 
 <details markdown="1">
@@ -1104,10 +1109,12 @@ ver o valor do seu condomínio.
 <details markdown="1">
 <summary>Como assinar o plano Pro?</summary>
 
-Acesse **Configurações → Condomínio** e clique em **Assinar Plano Pro**.
-Selecione a faixa correspondente ao número de unidades do seu condomínio
-e prossiga para o checkout. Aceitamos **somente cartão de crédito** (via
-Stripe); boleto e Pix estarão disponíveis em breve.
+Acesse **Configurações → Condomínio** e clique em **Assinar Plano Pro**. A
+tela já mostra a **faixa e o valor** correspondentes ao número de unidades
+cadastradas — você não escolhe o tamanho — e daí é só prosseguir para o
+checkout. Aceitamos **somente cartão de crédito** (via Stripe); boleto e Pix
+estarão disponíveis em breve. Confirmado o pagamento, o **plano Pro é ativado
+automaticamente**, em instantes, e você recebe um e-mail de confirmação.
 </details>
 
 <details markdown="1">
@@ -1132,7 +1139,9 @@ assinatura** para cancelar pelo portal do cliente.
 
 Seus dados ficam preservados. O plano volta para o Básico e os módulos
 Pro ficam inacessíveis, mas nenhum dado é excluído. Você pode exportar
-tudo em **Configurações → Exportar dados** a qualquer momento.
+tudo em **Configurações → Exportar dados** a qualquer momento. E pode
+**reativar a assinatura quando quiser** — basta assinar o Pro novamente em
+**Configurações → Condomínio**; tudo o que estava lá continua no lugar.
 </details>
 
 <details markdown="1">
@@ -1151,10 +1160,23 @@ comprovantes.
 </details>
 
 <details markdown="1">
+<summary>O que acontece se o pagamento da assinatura falhar?</summary>
+
+O síndico recebe um **e-mail avisando da falha** e o caminho para
+regularizar: **Configurações → Gerenciar assinatura**, atualizando o cartão
+no portal do cliente. Se a pendência continuar, o sistema envia **lembretes
+aos 7 e aos 20 dias** de atraso. O aplicativo **não corta o acesso sozinho**
+nem em prazo predefinido — nada é apagado e o condomínio segue funcionando
+enquanto a situação é resolvida.
+</details>
+
+<details markdown="1">
 <summary>O que é o status 'Suspenso'?</summary>
 
-Um condomínio fica suspenso quando há mais de 30 dias de inadimplência
-após o encerramento do trial ou do período pago. No estado suspenso,
-os membros não conseguem acessar o condomínio. Para reativar, regularize
-o pagamento em **Configurações → Gerenciar assinatura**.
+É um estado em que os membros não conseguem acessar o condomínio. Ele
+**não é aplicado automaticamente pelo sistema**: a suspensão é uma decisão
+da nossa equipe, tomada caso a caso e sempre precedida de aviso — por
+exemplo, uma pendência de pagamento que permanece sem solução mesmo após os
+lembretes. Para sair da suspensão, regularize o pagamento em
+**Configurações → Gerenciar assinatura** e fale com a gente.
 </details>

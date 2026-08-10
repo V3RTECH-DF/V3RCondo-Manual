@@ -64,11 +64,22 @@ O preço **acompanha o tamanho do condomínio**: se você cadastrar mais ou meno
 
 O preço do Pro é definido automaticamente pela **quantidade de unidades cadastradas** do seu condomínio (aba **Configurações → Unidades**) — por isso, **cadastre as unidades antes de assinar**. Depois, acesse **Configurações → aba Condomínio** e clique em **Assinar Plano Pro**: o sistema já mostra a **faixa e o valor** correspondentes ao seu número de unidades (você não escolhe o tamanho). Conclua o checkout — o pagamento é feito por cartão de crédito. Sem unidades cadastradas, a assinatura fica bloqueada; condomínios com mais de 200 unidades são atendidos sob consulta (**Fale conosco**).
 
+Confirmado o pagamento, o **plano Pro é ativado automaticamente**, em instantes — você não precisa avisar ninguém nem repetir o processo. O síndico recebe um e-mail de confirmação com a data da próxima cobrança, e os recursos do Pro passam a aparecer liberados no aplicativo.
+
 ## Gerenciar assinatura
 
 Clique em **Gerenciar assinatura** na aba Condomínio de Configurações para acessar o portal do cliente, onde você pode atualizar o método de pagamento, ver faturas e cancelar a assinatura.
 
+## Se o pagamento falhar
+
+Quando uma cobrança não é aprovada (cartão vencido, limite insuficiente, cartão cancelado), o síndico recebe um **e-mail avisando da falha**, com o caminho para regularizar: **Configurações → Gerenciar assinatura**, atualizando o cartão no portal do cliente. Se a pendência continuar, o sistema envia **lembretes aos 7 e aos 20 dias** de atraso.
+
+{: .note }
+> **Não existe corte automático de acesso**
+>
+> O aplicativo **não suspende o condomínio sozinho** por falta de pagamento, nem em um prazo predefinido. A suspensão, quando acontece, é uma **decisão da nossa equipe**, tomada caso a caso e sempre precedida de aviso. Regularizado o pagamento, a assinatura volta ao normal.
+
 {: .note }
 > **Cancelamento**
 >
-> O cancelamento pode ser feito a qualquer momento, sem multa. Após cancelar, o plano volta automaticamente para o Básico. Seus dados são preservados.
+> O cancelamento pode ser feito a qualquer momento, sem multa. Após cancelar, o plano volta automaticamente para o Básico. **Seus dados são preservados** — nada é apagado — e você pode **reativar a assinatura quando quiser**, voltando a **Configurações → aba Condomínio** e assinando o Pro novamente.

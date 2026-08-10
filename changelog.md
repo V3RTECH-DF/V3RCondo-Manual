@@ -9,6 +9,25 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.98 — Agosto 2026
+
+### Melhorado
+
+- **Os e-mails sobre a assinatura ficaram mais curtos e mais honestos.** O e-mail de confirmação da assinatura Pro deixou de trazer uma lista de funcionalidades — que envelhecia a cada novidade do produto — e passou a **apontar para a página de planos no manual**, sempre atualizada. Ele também passou a **chamar você pelo nome** e a mencionar a data da próxima cobrança **apenas quando ela existe**. O e-mail de cancelamento seguiu o mesmo caminho, sem lista de recursos.
+- **O aviso de falha no pagamento não promete mais o que o sistema não faz.** Ele dizia que o condomínio seria **suspenso automaticamente em 30 dias**. Isso não acontece: nenhuma suspensão é automática. O que existe são **lembretes aos 7 e aos 20 dias**, e qualquer suspensão é decidida e feita por uma pessoa da nossa equipe, com contato antes. O texto passou a dizer exatamente isso.
+
+### Corrigido
+
+- **Campos de data voltaram a aceitar datas futuras — e o calendário está em português.** Alguns campos de data recusavam qualquer data à frente de hoje, porque reaproveitavam, por engano, o campo de **data de nascimento**, que por natureza só olha para trás. Agora existe um campo de data comum a todo o aplicativo, e o de nascimento é apenas um caso particular dele. Nos dois, você pode **digitar a data** em vez de procurar no calendário. O calendário também parou de mostrar **mês e ano repetidos** e alguns rótulos **em inglês**.
+
+### Contas bancárias
+
+- **O cadastro de contas do condomínio ficou mais completo.** Ao cadastrar uma conta em **Financeiro**, você agora pode informar também o **código do banco**, o **dígito da conta**, o **tipo de conta** (corrente, poupança ou pagamento) e o **titular**. Todos são **opcionais**: as contas já cadastradas continuam válidas, e nada precisa ser preenchido de novo.
+
+_Em desenvolvimento, ainda indisponível: a cobrança da cota por boleto e Pix. A área existe no aplicativo, desligada, e será liberada por condomínio quando estiver pronta._
+
+---
+
 ## v7.97 — Agosto 2026
 
 ### Corrigido
