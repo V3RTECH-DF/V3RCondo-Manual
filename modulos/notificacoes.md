@@ -39,7 +39,7 @@ Para excluir uma notificação do histórico, clique no ícone de lixeira e conf
 
 ## Notificações via Telegram *(Básico e Pro)*
 
-Além do e-mail, as notificações do V3RCondo podem ser entregues no **Telegram**. Para receber, conecte sua conta ao bot **@V3RCondoBot** na página de [Perfil](/modulos/perfil/).
+Além do e-mail, as notificações do V3RCondo podem ser entregues no **Telegram**. Para receber, conecte sua conta ao bot **@V3RCondoBot** em [Meu Perfil](/modulos/perfil/), no cartão **Como sou avisado**.
 
 Eventos que geram notificação no Telegram (quando conectado):
 
@@ -53,6 +53,12 @@ Eventos que geram notificação no Telegram (quando conectado):
 - Lembretes de cadastro incompleto
 
 As notificações chegam em paralelo ao e-mail — quem não tiver o Telegram conectado não é afetado.
+
+{: .tip }
+> **Onde escolho o que quero receber?**
+>
+> Em [Meu Perfil](/modulos/perfil/), no cartão **Como sou avisado**. Cada
+> usuário — síndico ou condômino — ajusta as próprias preferências.
 
 ## Visão do condômino
 

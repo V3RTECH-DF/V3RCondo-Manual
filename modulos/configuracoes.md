@@ -9,11 +9,17 @@ nav_order: 14
 {: .warning }
 > **Acesso restrito**
 >
-> O módulo de Configurações é exclusivo para **síndicos**. As preferências
-> de notificação também estão disponíveis para condôminos.
+> O módulo de Configurações é exclusivo para **síndicos**.
 
 O módulo reúne todas as opções de gestão do condomínio, organizadas em
-sete abas.
+seis abas.
+
+{: .note }
+> **Procurando as preferências de notificação?**
+>
+> Elas saíram das Configurações e agora ficam em
+> [**Meu Perfil**](/modulos/perfil/), no cartão **Como sou avisado** — assim
+> todo usuário, síndico ou condômino, alcança as suas.
 
 ![Aba Condomínio com dados cadastrais e card do plano atual](/assets/screenshots/73-config-condominio.png)
 
@@ -265,24 +271,6 @@ Define as condições do acordo quando o próprio condômino inicia o parcelamen
 | **Valor mínimo por parcela (R$)** | R$ 50,00 | Opções com valor de parcela abaixo deste limite não são oferecidas |
 
 Clique em **Salvar parâmetros** para confirmar. Os valores entram em vigor imediatamente para novos acordos — acordos já criados não são afetados.
-
-## Aba Notificações
-
-Controla quais eventos geram notificações por e-mail para o usuário logado:
-
-![Aba de preferências de notificações por e-mail com toggles por evento](/assets/screenshots/79-config-notificacoes.png)
-
-- **Avisos no mural** — notificar ao publicar aviso
-- **Novos documentos** — notificar ao adicionar arquivo
-- **Comunicados gerais** — notificar ao receber comunicado
-
-Ative ou desative cada toggle e clique em **Salvar preferências**.
-
-{: .note }
-> **Disponível para condôminos**
->
-> Esta aba também está disponível para condôminos — cada morador controla
-> individualmente suas preferências.
 
 ## Aba Categorias
 

@@ -112,7 +112,7 @@ O V3RCondo envia automaticamente um e-mail diário ao síndico com o resumo das 
 - **Vencem hoje**
 - **Vencem em breve** — próximos 7 dias
 
-Para ativar ou desativar os lembretes, acesse **Configurações → Notificações → Lembretes de tarefas por e-mail**.
+O envio é automático e não depende de nenhuma configuração.
 
 ## Gerenciar tarefas
 

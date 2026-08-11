@@ -22,4 +22,4 @@ O V3RCondo é organizado em módulos independentes, cada um responsável por uma
 | [Nosso Condomínio](/modulos/nosso-condominio/) | Diretório compartilhado de pets, veículos e itens dos moradores *(Pro)* |
 | [Relatórios](/modulos/relatorios/) | Análises financeiras e relatório com IA *(Pro)* |
 | [Configurações](/modulos/configuracoes/) | Dados do condomínio, condôminos e preferências |
-| [Perfil](/modulos/perfil/) | Dados pessoais e senha |
+| [Perfil](/modulos/perfil/) | Dados pessoais, preferências de notificação, privacidade e senha |

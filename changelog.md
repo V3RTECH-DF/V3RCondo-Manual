@@ -9,6 +9,17 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.102 — Agosto 2026
+
+### Melhorado
+
+- **Suas preferências de notificação agora ficam no Meu Perfil — e todo mundo alcança as suas.** Elas moravam em **Configurações → Notificações**, uma tela que só o síndico conseguia abrir: na prática, o condômino não tinha como escolher como queria ser avisado. Mudaram de lugar. Agora ficam no **Meu Perfil**, no cartão **Como sou avisado**, junto de tudo o que é seu. Ali você liga o aviso na tela do celular (vale por aparelho, com um botão para testar na hora), escolhe se quer entrar na lista dos comunicados do síndico, conecta ou desconecta o **Telegram** e define a frequência do **resumo por e-mail**. As preferências valem para o condomínio ativo; quem participa de mais de um troca o condomínio no topo da tela para ajustar os outros.
+- **O Meu Perfil foi reorganizado.** No computador, a página passou a exibir os cartões em **duas colunas**, agrupados por assunto — seus dados e sua privacidade de um lado; como você é avisado, a senha e as opções de conta do outro. Antes era uma coluna só, comprida, que obrigava a rolar bastante para achar qualquer coisa. No celular nada muda: continua em coluna única.
+
+_Em desenvolvimento, ainda indisponível: a cobrança da cota por boleto e Pix. A área existe no aplicativo, desligada, e será liberada por condomínio quando estiver pronta._
+
+---
+
 ## v7.98 — Agosto 2026
 
 ### Melhorado
