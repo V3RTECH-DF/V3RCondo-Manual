@@ -552,9 +552,8 @@ de clipe ao editar a tarefa para adicionar arquivos.
 <details markdown="1">
 <summary>Como recebo lembretes de tarefas?</summary>
 
-Se ativado em **Configurações → Notificações**, você recebe um e-mail
-diário às 8h com um resumo das tarefas vencidas, com vencimento no dia
-e nos próximos 7 dias. Disponível no plano Pro.
+Você recebe um e-mail diário às 8h com um resumo das tarefas vencidas,
+com vencimento no dia e nos próximos 7 dias. Disponível no plano Pro.
 </details>
 
 ---
@@ -657,9 +656,8 @@ grid, garantindo que não passe despercebido.
 <details markdown="1">
 <summary>Condôminos recebem notificação quando um aviso é publicado?</summary>
 
-Se as preferências de notificação estiverem ativas em **Configurações →
-Notificações**, os membros recebem um e-mail ao publicar um novo aviso.
-Cada condômino controla suas próprias preferências.
+Sim — os membros recebem um e-mail ao publicar um novo aviso. Quem tem o
+Telegram conectado em **Meu Perfil** também recebe por lá.
 </details>
 
 ---
@@ -1050,21 +1048,23 @@ excluir.
 </details>
 
 <details markdown="1">
-<summary>Como controlar as notificações por e-mail?</summary>
+<summary>Onde ficam as preferências de notificação?</summary>
 
-Acesse **Configurações → Notificações**. Cada usuário — síndico ou
-condômino — controla individualmente quais eventos geram e-mail:
-avisos no mural, novos documentos e comunicados gerais.
+Em **Meu Perfil**, no cartão **Como sou avisado** — clique no seu nome ou
+avatar para chegar lá. Elas ficavam em Configurações, que só o síndico
+conseguia abrir; agora cada usuário, síndico ou condômino, ajusta as suas.
+As preferências valem para o condomínio ativo: se você participa de mais de
+um, troque o condomínio no topo da tela para ajustar os outros.
 </details>
 
 <details markdown="1">
 <summary>Como receber notificações pelo Telegram?</summary>
 
-Acesse **Meu Perfil → Conectar Telegram** e clique no link gerado para
-iniciar uma conversa com o bot **@V3RCondoBot**. Após a vinculação, você
-passa a receber no Telegram as mesmas notificações configuradas por e-mail,
-além de alertas específicos do condomínio. A conexão pode ser desfeita a
-qualquer momento no mesmo local.
+Em **Meu Perfil**, no cartão **Como sou avisado**, procure **Outros canais**
+e clique em **Conectar**. O link abre uma conversa com o bot
+**@V3RCondoBot** — envie `/start` e pronto. Quem conecta o Telegram recebe
+**todos os assuntos** por esse canal. A conexão pode ser desfeita a qualquer
+momento no mesmo lugar, em **Desconectar**.
 </details>
 
 <details markdown="1">

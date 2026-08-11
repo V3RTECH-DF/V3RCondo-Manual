@@ -4,86 +4,136 @@ parent: Módulos
 nav_order: 15
 ---
 
-# Perfil
+# Meu Perfil
 
-A página de Perfil permite gerenciar suas informações pessoais e senha de acesso. Está disponível para síndicos e condôminos.
+O **Meu Perfil** reúne, em uma única página, tudo o que é seu: seus dados
+pessoais, a forma como você é avisado, o que os vizinhos enxergam de você e as
+opções de conta e segurança. Está disponível para síndicos e condôminos.
 
-Para acessar, clique no seu nome ou avatar no canto inferior esquerdo da sidebar.
+Para acessar, clique no seu nome ou avatar — no canto inferior esquerdo do menu
+lateral ou no canto superior direito da tela.
 
-![Página de Perfil com avatar, dados pessoais e botão Salvar](/assets/screenshots/84-perfil-dados.png)
+![Página Meu Perfil no computador, com os cartões distribuídos em duas colunas](/assets/screenshots/perfil-completo-01.png)
 
 *Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
+{: .note }
+> **A página foi reorganizada**
+>
+> No computador, os cartões ficam em **duas colunas**, agrupados por assunto: de
+> um lado seus dados e sua privacidade; do outro, como você é avisado e as
+> opções de conta e segurança. No celular, tudo continua em coluna única, um
+> cartão embaixo do outro.
+>
+> As **preferências de notificação**, que antes ficavam em Configurações,
+> mudaram para cá — agora todo mundo alcança as suas, inclusive os condôminos.
+
 ## Dados Pessoais
 
-Exibe seu avatar, nome e e-mail no topo. Para atualizar o avatar, clique no ícone de câmera sobre a foto.
+Exibe seu avatar, nome e e-mail no topo. Para atualizar o avatar, clique no
+ícone de câmera sobre a foto.
+
+![Cartão de dados pessoais com os campos do cadastro](/assets/screenshots/perfil-dados-01.png)
+
+*Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
 Campos editáveis:
 
-- **Nome completo** — nome exibido no sistema e nas publicações do mural
+- **Nome completo** *(obrigatório)* — nome exibido no sistema e nas publicações do mural
 - **E-mail** — somente leitura, não pode ser alterado
-- **Telefone** — número de contato (opcional)
-- **CPF** — cadastro de pessoa física no formato ###.###.###-## (obrigatório). Enquanto não preenchido, um banner de aviso é exibido no perfil
+- **Telefone / WhatsApp** *(obrigatório)* — informe o número que você usa no WhatsApp
+- **CPF** *(obrigatório)* — no formato ###.###.###-##
+- **RG** — número do documento de identidade
+- **Profissão**
+- **Instagram** e **LinkedIn**
+- **Aniversário** — dia e mês
+
+Clique em **Salvar dados** para confirmar as alterações.
 
 {: .warning }
 > **CPF obrigatório**
 >
-> O CPF é necessário para emissão de notificações extrajudiciais e identificação em documentos gerados pelo sistema. Preencha-o para remover o aviso.
+> O CPF é necessário para emissão de notificações extrajudiciais e identificação
+> em documentos gerados pelo sistema. Enquanto não estiver preenchido, um aviso
+> é exibido no perfil.
 
-Clique em **Salvar dados** para confirmar as alterações.
+## Como sou avisado
 
-## Alterar Senha
+Aqui você escolhe por onde e sobre o quê quer ser avisado. As preferências valem
+para o **condomínio ativo** — se você participa de mais de um, troque o
+condomínio no topo da tela para ajustar os outros.
 
-Preencha os campos **Nova senha** e **Confirmar nova senha** e clique em **Alterar senha**.
+![Cartão "Como sou avisado", com os assuntos e canais de notificação](/assets/screenshots/perfil-como-sou-avisado-01.png)
 
-![Seção de alteração de senha no Perfil](/assets/screenshots/85-perfil-senha.png)
+### Push neste aparelho
+
+Liga o aviso na tela do celular ou do navegador. Ao ativar, o próprio aparelho
+pede sua permissão — é preciso autorizar. A escolha vale **só para o aparelho
+que você está usando**: se você usa o V3RCondo no celular e no computador,
+autorize em cada um.
+
+O botão **Enviar notificação de teste** dispara um aviso na hora, para você
+conferir que está funcionando.
+
+### Assuntos
+
+- **Cobranças** — avisos sobre as cobranças da sua unidade.
+    - **E-mail** — fica **sempre ligado** e não pode ser desmarcado. Sem ele
+      você pode perder o vencimento da sua cota.
+    - **Push** — o aviso no celular é opcional; ligue ou desligue à vontade.
+- **Comunicados gerais** — entra ou sai da lista de destinatários dos
+  comunicados enviados pelo síndico. Livre para ligar e desligar.
+
+### Outros canais
+
+- **Telegram** — conecte sua conta ao bot **@V3RCondoBot** para receber os
+  avisos por lá. Clique em **Conectar**, envie `/start` no bot e pronto: o
+  cartão passa a mostrar *Conectado*. Quem conecta o Telegram recebe **todos os
+  assuntos** por esse canal. Para interromper, clique em **Desconectar**.
+
+### Resumo por e-mail
+
+Um panorama periódico das atividades do condomínio, com a frequência que você
+escolher. Quando não houver nenhuma pendência no seu condomínio, nenhum e-mail
+é enviado.
+
+Depois de ajustar o que quiser, clique em **Salvar preferências**.
+
+## Minha visibilidade no diretório
+
+Controla quais dados pessoais ficam visíveis para os outros condôminos no
+diretório do condomínio. Cada condomínio de que você participa aparece em uma
+linha própria — clique para abrir e ajustar. Os campos disponíveis variam por
+condomínio.
+
+{: .note }
+> Síndicos sempre veem nome, unidade, e-mail, telefone e CPF, para fins de
+> gestão — isso não depende dessas escolhas.
+
+## Alterar senha
+
+Preencha **Nova senha** e **Confirmar nova senha** e clique em **Alterar senha**.
 
 {: .note }
 > **Login com Google**
 >
-> Usuários que fizeram login com o Google não precisam definir senha — o acesso é gerenciado pela conta Google.
-
-## Notificações via Telegram *(Básico e Pro)*
-
-O card **Notificações via Telegram** permite conectar sua conta ao bot **@V3RCondoBot** para receber alertas do condomínio diretamente no Telegram.
-
-### Conectar
-
-1. Clique em **Conectar Telegram**
-2. O link abre o Telegram no bot **@V3RCondoBot**
-3. Envie o comando `/start` no bot
-4. Uma mensagem de confirmação aparece no Telegram e o card atualiza para o estado conectado
-
-### Desconectar
-
-Clique em **Desconectar** e confirme. As notificações via Telegram são interrompidas imediatamente.
-
-![Card de conexão com o Telegram — bot @V3RCondoBot](/assets/screenshots/86-perfil-telegram.png)
-
-{: .tip }
-> **Quais eventos geram notificação?**
->
-> Veja a lista completa na página de [Notificações](/modulos/notificacoes/).
-
-## Privacidade e visibilidade no diretório
-
-O card **Minha visibilidade no diretório** permite controlar quais dados pessoais são visíveis para outros condôminos no diretório do condomínio. Os campos configuráveis variam por condomínio.
-
-![Toggles de visibilidade de campos no diretório do condomínio](/assets/screenshots/87-perfil-visibilidade.png)
-
-*Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
+> Quem entra com a conta Google não precisa definir senha — o acesso é
+> gerenciado pelo Google.
 
 ## Exportar meus dados
 
-O botão **Exportar meus dados** gera um arquivo XLSX com todas as informações do seu perfil armazenadas no V3RCondo: dados pessoais, condomínios vinculados e consentimentos de visibilidade.
+O botão **Exportar XLSX** gera uma planilha com todas as informações do seu
+perfil guardadas no V3RCondo: dados pessoais, condomínios vinculados e
+consentimentos de visibilidade.
 
 ## Excluir minha conta
 
-O botão **Excluir minha conta** inicia um assistente de 3 etapas com confirmação por digitação de e-mail. A ação é irreversível: o perfil é anonimizado e o acesso é removido de todos os condomínios.
+Inicia um assistente com confirmação por digitação do e-mail. A ação é
+permanente: seu cadastro é anonimizado e você perde o acesso a todos os
+condomínios.
 
 {: .warning }
 > **Síndico único**
 >
-> Se você for o único síndico de um condomínio, a exclusão fica bloqueada até que outro membro assuma o papel de síndico.
-
-![Botões de exportação de dados e exclusão de conta](/assets/screenshots/88-perfil-exportar-excluir.png)
+> Se você for o único síndico de um condomínio, a exclusão fica bloqueada até
+> que outro membro assuma o papel de síndico.

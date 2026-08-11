@@ -30,7 +30,7 @@ Clique em **Publicar** para tornar o aviso visível a todos.
 {: .note }
 > **Notificação automática**
 >
-> Ao publicar um aviso, uma notificação por e-mail é enviada automaticamente para os moradores que tenham essa preferência ativada em **Configurações → Notificações**.
+> Ao publicar um aviso, uma notificação por e-mail é enviada automaticamente para os moradores do condomínio. Quem tem o Telegram conectado em [Meu Perfil](/modulos/perfil/) também recebe por lá.
 
 {: .tip }
 > **Excluir um aviso**
