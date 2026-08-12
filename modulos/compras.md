@@ -97,7 +97,9 @@ Na página de detalhe da compra, a seção **Documentos e Anexos** permite visua
 - Upload de múltiplos arquivos de uma vez *(plano Pro)*
 - Aceita PDF, JPG, PNG e DOCX (máx. 20 MB por arquivo)
 - A fase sugerida é determinada automaticamente pelo status atual da compra
-- Download via URL segura; exclusão preserva histórico via soft delete
+- Download por endereço seguro, válido por tempo limitado
+
+**Excluir um anexo** agora **pede confirmação** — antes o arquivo saía no primeiro clique. A caixa nomeia o arquivo e explica que ele sai da lista desta solicitação, mas **fica guardado**: se tiver sido engano, dá para recuperar com a nossa ajuda. O mesmo vale ao excluir o orçamento de um fornecedor.
 
 ## Controle financeiro da obra *(síndico)*
 

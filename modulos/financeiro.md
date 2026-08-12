@@ -27,6 +27,11 @@ A seção **Saldos por Conta** mostra o saldo atual de cada conta bancária cada
 >
 > Cada conta tem um botão de lupa 🔍 que abre o **[Caça-diferenças](caca-diferencas.md)** — ele descobre onde está a diferença entre o saldo do app e o do extrato, mesmo sem importar o arquivo. Veja o capítulo dedicado.
 
+{: .tip }
+> **Cobrar a cota por boleto, Pix ou cartão**
+>
+> Qualquer lançamento de receita em aberto pode virar uma cobrança para o morador pagar, com baixa automática quando o pagamento entra. Veja **[Cobrança Automática](/modulos/cobranca-automatica/)** *(Pro)*.
+
 ## Filtros
 
 | Filtro | Descrição |
@@ -66,7 +71,27 @@ Clique em **+ Novo Lançamento** e preencha:
 {: .tip }
 > **Editar ou excluir**
 >
-> Para editar um lançamento, clique no ícone de lápis. Para excluir, clique no ícone de lixeira e confirme.
+> Para editar um lançamento, clique no ícone de lápis. Para excluir, clique no ícone de lixeira e confirme. O lançamento excluído **sai das listas e dos relatórios, mas fica guardado** — se tiver sido engano, dá para recuperar com a nossa ajuda.
+
+## Ver os detalhes de um lançamento
+
+Para consultar um lançamento sem entrar no modo de edição, **clique na linha** dele na lista — ou no cartão, se estiver no celular. Abre um painel de leitura com tudo o que está registrado:
+
+- **Valor** e a situação (Pago, Pendente ou Vencido)
+- **Unidade**, **Categoria** e **Conta** bancária
+- **Vencimento**, **Competência** e a data em que foi **pago**
+- **Observações**
+- **Anexos** — os comprovantes ligados ao lançamento, prontos para abrir
+- **Composição do pagamento**, quando a cota foi paga por [Cobrança Automática](/modulos/cobranca-automatica/) — mostra o valor cobrado, o que entrou, tarifas e o líquido creditado
+
+<!-- PRINT: financeiro-detalhe-lancamento-01 — ver roteiro de capturas -->
+
+O painel é de leitura: **nada é alterado só por abri-lo** e não há botão de excluir dentro dele. Para o síndico, o rodapé oferece dois atalhos — **Marcar como pago** (quando o lançamento ainda está em aberto) e **Editar lançamento**, que fecha o painel e abre o formulário. Quem tem acesso apenas de leitura não vê esses botões: para essas pessoas o painel é só consulta.
+
+{: .note }
+> **Para o conselho fiscal e o contador**
+>
+> Antes, quem tinha acesso apenas de leitura ao Financeiro **não conseguia abrir o detalhe de lançamento nenhum** — a única porta era o painel de edição, exclusivo do síndico. Agora o detalhe abre para todo mundo que enxerga o Financeiro, com a informação completa — inclusive anexos e composição do pagamento — e, para quem só lê, **sem nenhum botão de ação**. Conferir comprovante, competência e composição do pagamento deixou de depender do síndico.
 
 ## Lançamentos parcelados *(síndico)*
 
@@ -290,4 +315,10 @@ Exibe quantos lançamentos foram atualizados. Registros sem correspondência sã
 
 ## Visão do condômino
 
-Condôminos têm acesso de **leitura** ao módulo Financeiro — visualizam lançamentos, filtros e saldos, mas não podem criar, editar, excluir ou importar extratos. Transferências entre contas também são visíveis na listagem, identificadas pelo badge **Transferência**.
+Condôminos têm acesso de **leitura** ao módulo Financeiro — visualizam lançamentos, filtros e saldos, mas não podem criar, editar, excluir ou importar extratos. Também podem **abrir o detalhe de um lançamento** clicando na linha (ou no cartão, no celular), que é um painel de consulta sem botões de ação. Transferências entre contas também são visíveis na listagem, identificadas pelo badge **Transferência**.
+
+## Botões de ação mais fáceis de acertar
+
+Nas listas do Financeiro, os botões da coluna de ações ficaram **maiores** e o de **excluir foi afastado dos demais**, com um espaço separando-o do lápis e dos outros ícones. A mudança é para o celular, onde o dedo cobre mais de um botão e o toque errado em uma lixeira colada no lápis custava caro.
+
+O mesmo tratamento foi aplicado nas listas de **Contas bancárias**, **Categorias**, **Itens do condômino**, **fornecedores pessoais** e **recursos de reserva**.

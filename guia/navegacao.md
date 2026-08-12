@@ -22,6 +22,14 @@ Após o login, a barra lateral à esquerda é o ponto central de navegação. El
 
 No alto da tela ficam o **seletor de condomínio** (à esquerda) e, à direita, o **seu avatar** com o menu de perfil. Ao lado do avatar há o **ícone de mensagem (💬)** — é por ele que você **[envia feedback](enviar-feedback.md)** (sugestões, problemas, elogios, reclamações ou depoimentos) à equipe do V3RCondo, inclusive no celular.
 
+## Abas das telas no celular
+
+Várias telas do V3RCondo se dividem em abas — Configurações, Cobrança Automática, Nosso Condomínio, Inadimplência, entre outras. **No celular, as abas passaram a quebrar em mais de uma linha**, de modo que todas ficam visíveis de uma vez.
+
+Antes, quando não cabiam na largura da tela, as últimas saíam do enquadramento e era preciso arrastar de lado para alcançá-las — o que costumava passar despercebido, dando a impressão de que a aba não existia.
+
+<!-- PRINT: navegacao-abas-celular-01 — ver roteiro de capturas (opcional) -->
+
 ## Módulos por perfil
 
 | Módulo | Síndico | Condômino |
@@ -30,6 +38,7 @@ No alto da tela ficam o **seletor de condomínio** (à esquerda) e, à direita, 
 | Minha Área | ✅ | ✅ |
 | Financeiro | ✅ Leitura e escrita | ✅ Leitura |
 | Inadimplência | ✅ Leitura e escrita | ❌ Não aparece no menu |
+| Cobrança Automática | ✅ Plano Pro — liberação gradual | ❌ Não aparece no menu |
 | Fornecedores | ✅ Leitura e escrita | ✅ Leitura |
 | Tarefas | ✅ Plano Pro | ❌ Não aparece no menu |
 | Compras e Serviços | ✅ Leitura e escrita | ✅ Leitura |

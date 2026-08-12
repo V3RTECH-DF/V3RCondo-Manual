@@ -8,6 +8,11 @@ nav_order: 3
 
 O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo condomínio novo começa com **30 dias de trial gratuito** do plano Pro — sem cartão de crédito.
 
+{: .note }
+> **Cobrança automática**
+>
+> A [Cobrança Automática](/modulos/cobranca-automatica/) faz parte do Pro e está sendo **liberada aos poucos**, condomínio a condomínio. Além do plano, ela exige que o condomínio tenha a conta de cobrança aberta e aprovada.
+
 ## Comparativo
 
 | Funcionalidade | Básico | Pro |
@@ -35,6 +40,7 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 | **Recorrências financeiras** | 🔒 Pro | ✅ |
 | **Importação de extrato OFX/CSV** | 🔒 Pro | ✅ |
 | **Importação de retorno CNAB400 (Banco Inter)** | 🔒 Pro | ✅ |
+| **Cobrança automática (boleto, Pix e cartão, com baixa automática)** | 🔒 Pro | ✅ |
 | **Notificações por e-mail** | 🔒 Pro | ✅ |
 | **Documentos ilimitados** | 🔒 Pro | ✅ |
 | **Exportação PDF/XLSX** | 🔒 Pro | ✅ |

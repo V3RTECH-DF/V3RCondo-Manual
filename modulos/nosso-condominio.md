@@ -193,6 +193,14 @@ Para cada recurso é possível definir:
 **Bloquear datas:** pelo gerenciamento de recursos, o síndico pode bloquear
 períodos específicos (manutenção, feriados, eventos) com um motivo.
 
+Na lista de recursos e na de bloqueios, os botões de ação ficaram **maiores** e o de
+excluir foi **afastado** do de editar. Ao excluir, a confirmação diz o que acontece:
+
+- **Recurso** — sai da lista e deixa de aceitar reservas novas. As **reservas já
+  feitas continuam valendo** e o registro fica guardado.
+- **Bloqueio** — sai da lista e as datas **voltam a aceitar reserva**. O registro
+  fica guardado.
+
 ### Status das reservas
 
 | Status | Significado |
@@ -264,6 +272,13 @@ Clique em **+ Adicionar item** e preencha:
 
 Cada membro pode editar e excluir apenas seus próprios itens. Síndicos também
 podem editar e excluir itens cadastrados como bens do condomínio.
+
+Os botões de ação ficaram **maiores** e o de excluir foi **afastado** do de editar,
+para evitar o toque errado no celular.
+
+Ao excluir, a confirmação nomeia o item e explica o que acontece: ele **sai da
+vitrine, mas fica guardado** — se tiver sido engano, dá para recuperar com a nossa
+ajuda.
 
 ### Visão do condômino
 

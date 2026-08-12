@@ -112,12 +112,20 @@ O V3RCondo envia automaticamente um e-mail diário ao síndico com o resumo das 
 - **Vencem hoje**
 - **Vencem em breve** — próximos 7 dias
 
-O envio é automático e não depende de nenhuma configuração.
+O envio é automático e vai para quem está envolvido na tarefa — o responsável, quando
+houver, ou os síndicos.
+
+{: .note }
+> **Dá para não receber**
+>
+> O lembrete respeita o assunto **Tarefas** em [Meu Perfil](/modulos/perfil/) →
+> **Como sou avisado**. Desligue lá se não quiser receber; quem nunca mexeu nas
+> preferências continua recebendo normalmente.
 
 ## Gerenciar tarefas
 
 - **Editar** — clique no ícone de lápis
-- **Excluir** — clique no ícone de lixeira e confirme
+- **Excluir** — clique no ícone de lixeira e confirme. A tarefa sai da lista, mas **fica guardada** — dá para recuperar com a nossa ajuda se tiver sido engano
 - **Alterar status** — edite a tarefa e atualize o campo Status
 
 {: .tip }

@@ -77,19 +77,40 @@ conferir que está funcionando.
 
 ### Assuntos
 
-- **Cobranças** — avisos sobre as cobranças da sua unidade.
+- **Cobranças** — aviso de cobrança emitida, com Pix, boleto e link da fatura.
     - **E-mail** — fica **sempre ligado** e não pode ser desmarcado. Sem ele
       você pode perder o vencimento da sua cota.
     - **Push** — o aviso no celular é opcional; ligue ou desligue à vontade.
+      Só tem efeito depois que você autorizar o push neste aparelho, acima.
 - **Comunicados gerais** — entra ou sai da lista de destinatários dos
-  comunicados enviados pelo síndico. Livre para ligar e desligar.
+  comunicados enviados pelo síndico.
+- **Mural de avisos** — ser avisado quando um aviso novo for publicado no mural.
+- **Documentos** — ser avisado quando um documento novo for publicado.
+- **Tarefas** — lembrete no dia do vencimento das tarefas em que você está
+  envolvido.
+
+Cada assunto vale para todos os canais em que você recebe. Desmarcar "Mural de
+avisos", por exemplo, interrompe o aviso de mural tanto por e-mail quanto pelo
+Telegram.
 
 ### Outros canais
 
+- **Receber e-mails** — o interruptor geral. Desligar interrompe os e-mails dos
+  assuntos acima.
+
+    {: .warning }
+    > **O que continua chegando mesmo com o e-mail desligado**
+    >
+    > **Cobrança, acordos, aviso de inadimplência e convocação de assembleia.**
+    > São comunicações financeiras e formais, com prazo e consequência — perder
+    > uma delas custa caro, então elas não obedecem a este interruptor.
+
 - **Telegram** — conecte sua conta ao bot **@V3RCondoBot** para receber os
   avisos por lá. Clique em **Conectar**, envie `/start` no bot e pronto: o
-  cartão passa a mostrar *Conectado*. Quem conecta o Telegram recebe **todos os
-  assuntos** por esse canal. Para interromper, clique em **Desconectar**.
+  cartão passa a mostrar *Conectado*. O Telegram segue os **assuntos** que você
+  deixou ligados e **não** obedece ao interruptor de e-mail: desligar o e-mail
+  não interrompe o Telegram. Para parar de receber por lá, clique em
+  **Desconectar**.
 
 ### Resumo por e-mail
 

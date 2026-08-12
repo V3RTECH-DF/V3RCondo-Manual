@@ -33,7 +33,14 @@ Clique em **+ Fazer Upload** e preencha:
 {: .tip }
 > **Editar metadados**
 >
-> Para editar o nome, categoria ou mês/ano de referência de um arquivo já enviado, clique no ícone de lápis no card. Para excluir, clique no ícone de lixeira e confirme.
+> Para editar o nome, categoria ou mês/ano de referência de um arquivo já enviado, clique no ícone de lápis no card. Para excluir, clique no ícone de lixeira e confirme — o arquivo sai da lista e ninguém mais consegue baixá-lo, mas **fica guardado**: se tiver sido engano, dá para recuperar com a nossa ajuda.
+
+{: .note }
+> **Quem é avisado do documento novo**
+>
+> Ao publicar um arquivo, os moradores recebem um aviso — respeitando o assunto
+> **Documentos** que cada um mantém em [Meu Perfil](/modulos/perfil/) → **Como sou
+> avisado**. Quem desligou esse assunto não recebe, nem por e-mail nem pelo Telegram.
 
 ## Baixar um documento
 
