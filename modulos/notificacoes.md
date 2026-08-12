@@ -33,7 +33,13 @@ Clique em **Enviar agora** para disparar a notificação.
 
 Abaixo do formulário, a seção **Histórico** lista todas as notificações enviadas com: Título, Destinatários, Data e Status. O status **Enviado** confirma que a notificação foi processada.
 
-Para excluir uma notificação do histórico, clique no ícone de lixeira e confirme.
+Para excluir uma notificação do histórico, clique no ícone de lixeira e confirme. A notificação sai do histórico e o **registro fica guardado** — mas o que já foi enviado ao morador não volta atrás.
+
+### Cancelar um envio agendado
+
+Um comunicado agendado para uma data futura pode ser cancelado antes de sair: use **Cancelar envio agendado** na linha do histórico.
+
+O cancelamento agora **pede confirmação** — antes acontecia no primeiro clique, sem pergunta. A caixa avisa que o aviso não será enviado na data marcada e que **não dá para reagendá-lo por aqui**: se você ainda quiser avisar os moradores, terá de criar um comunicado novo.
 
 ![Histórico de notificações enviadas com status](/assets/screenshots/37-notificacoes-historico.png)
 
@@ -54,11 +60,40 @@ Eventos que geram notificação no Telegram (quando conectado):
 
 As notificações chegam em paralelo ao e-mail — quem não tiver o Telegram conectado não é afetado.
 
-{: .tip }
-> **Onde escolho o que quero receber?**
+## O que cada pessoa escolhe receber
+
+As preferências ficam em [Meu Perfil](/modulos/perfil/), no cartão **Como sou
+avisado** — cada usuário, síndico ou condômino, ajusta as próprias. As escolhas
+valem para o **condomínio ativo**; quem participa de mais de um troca o
+condomínio no topo da tela para ajustar os outros.
+
+Hoje você controla:
+
+| Controle | O que faz |
+|---|---|
+| **Push neste aparelho** | Liga o aviso na tela do celular ou do navegador. Vale por aparelho, e tem botão para testar na hora |
+| **Cobranças** | Aviso de cobrança emitida, com Pix, boleto e link da fatura. O e-mail é fixo; o push é opcional |
+| **Comunicados gerais** | Entra ou sai da lista de destinatários dos comunicados do síndico |
+| **Mural de avisos** | Aviso quando um aviso novo é publicado no mural |
+| **Documentos** | Aviso quando um documento novo é publicado |
+| **Tarefas** | Lembrete no dia do vencimento das tarefas em que você está envolvido |
+| **Receber e-mails** | Interruptor geral dos e-mails dos assuntos acima |
+| **Telegram** | Conecta ou desconecta a conta do bot @V3RCondoBot |
+| **Resumo por e-mail** | Frequência do panorama periódico: diário, semanal ou desativado |
+
+{: .warning }
+> **O que chega mesmo com o e-mail desligado**
 >
-> Em [Meu Perfil](/modulos/perfil/), no cartão **Como sou avisado**. Cada
-> usuário — síndico ou condômino — ajusta as próprias preferências.
+> **Cobrança, acordos, aviso de inadimplência e convocação de assembleia** são
+> comunicações financeiras e formais, com prazo e consequência. Elas continuam
+> saindo por e-mail mesmo que o interruptor **Receber e-mails** esteja
+> desligado.
+
+{: .note }
+> **O Telegram segue os assuntos, não o interruptor de e-mail**
+>
+> Se você desligar o e-mail, continua recebendo pelo Telegram os assuntos que
+> deixou ligados. Para parar de receber por lá, desconecte o Telegram no perfil.
 
 ## Visão do condômino
 

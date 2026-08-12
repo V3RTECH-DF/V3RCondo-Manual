@@ -122,6 +122,16 @@ pelo menu hambúrguer no canto superior esquerdo.
 </details>
 
 <details markdown="1">
+<summary>No celular, faltavam abas em algumas telas. Foi resolvido?</summary>
+
+Sim. As abas das telas — Configurações, Cobrança Automática, Nosso Condomínio,
+Inadimplência e outras — passaram a **quebrar em mais de uma linha** no celular,
+de modo que todas ficam visíveis de uma vez. Antes, as que não cabiam na largura
+da tela saíam do enquadramento e só apareciam se você arrastasse de lado — o que
+dava a impressão de que a aba não existia.
+</details>
+
+<details markdown="1">
 <summary>O que significa o cadeado ao lado de um módulo?</summary>
 
 O cadeado indica que o módulo requer o plano Pro. Clique no item para
@@ -294,6 +304,10 @@ Sim, em modo **somente leitura**. Membros com o título **Conselho Fiscal**
 ou **Contador** passam a visualizar as telas de **Financeiro**, **Inadimplência**
 e **Relatórios** (inclusive gerar e baixar relatórios), mas **não podem lançar,
 editar nem excluir** — a escrita continua exclusiva do síndico.
+
+No Financeiro, eles também **abrem o detalhe de qualquer lançamento** clicando na
+linha: um painel de consulta com valor, categoria, conta, competência, anexos e a
+composição do pagamento, sem botões de ação.
 </details>
 
 <details markdown="1">
@@ -321,6 +335,50 @@ de acesso administrativo. Um condomínio pode ter mais de um manager.
 Apenas síndicos podem criar, editar e excluir lançamentos. Condôminos
 têm acesso de leitura — podem visualizar todos os lançamentos, mas não
 podem modificá-los.
+</details>
+
+<details markdown="1">
+<summary>Como vejo os detalhes de um lançamento sem entrar no modo de edição?</summary>
+
+Clique na linha do lançamento — ou no cartão, se estiver no celular. Abre um
+painel de leitura com valor, situação, unidade, categoria, conta, vencimento,
+competência, data de pagamento, observações, anexos e, quando a cota foi paga
+por cobrança automática, a composição do pagamento. Abrir o painel **não altera
+nada** e não há botão de excluir dentro dele. Para o síndico, o rodapé traz dois
+atalhos — *Marcar como pago* e *Editar lançamento*; quem tem acesso só de leitura
+não vê esses botões.
+</details>
+
+<details markdown="1">
+<summary>Sou do conselho fiscal (ou contador). Consigo abrir o detalhe de um lançamento?</summary>
+
+Sim. Antes não conseguia: a única porta para o detalhe era o painel de edição,
+que é do síndico, então quem tinha acesso de leitura via só a linha da lista.
+Agora o detalhe abre para todo mundo que enxerga o Financeiro, com a informação
+completa — inclusive anexos e composição do pagamento — e, no seu caso, **sem
+nenhum botão de ação**. Conferir comprovante e competência deixou de depender do
+síndico.
+</details>
+
+<details markdown="1">
+<summary>Excluí um lançamento por engano. Dá para recuperar?</summary>
+
+Sim. Lançamento excluído sai das listas e dos relatórios, mas **fica guardado**.
+Fale com o suporte informando qual lançamento era e quando foi excluído, que a
+gente recupera. Vale também para aviso do mural, documento, tarefa, compra, item
+do condomínio e parceiro. As exceções estão na pergunta seguinte.
+</details>
+
+<details markdown="1">
+<summary>O que é excluído de vez e não dá para recuperar?</summary>
+
+As **categorias** de Tarefas, Compras e Serviços, Documentos, Mural e
+Fornecedores são apagadas permanentemente — não ficam arquivadas e não há como
+trazê-las de volta. O mesmo vale para **fornecedores pessoais**. Já a
+**categoria financeira** e a **categoria de item do condômino** ficam guardadas
+quando você exclui, e os registros antigos continuam com elas.
+
+A caixa de confirmação sempre diz qual é o caso — leia antes de confirmar.
 </details>
 
 <details markdown="1">
@@ -464,6 +522,118 @@ transação.
 Sim. A exclusão é **reversível** e sempre pede **confirmação** antes — o mesmo vale
 para a ação de **mover um lançamento de conta**. Ainda assim, confira o lançamento
 antes de confirmar: o app aponta o mais provável, mas a decisão é sua.
+</details>
+
+---
+
+## Cobrança Automática *(síndico — plano Pro)*
+
+<details markdown="1">
+<summary>O dinheiro da cota passa pela V3RTECH?</summary>
+
+**Não.** A conta de cobrança é aberta em nome do condomínio, e o valor da cota cai
+**direto nela**. Quem processa o pagamento é o Asaas, uma instituição de pagamento
+autorizada pelo Banco Central. A V3RTECH não guarda nem intermedia o dinheiro em
+momento nenhum.
+</details>
+
+<details markdown="1">
+<summary>Quanto custa emitir uma cobrança?</summary>
+
+São dois custos, e **só existem quando a cobrança é paga**: a **tarifa do Asaas**
+(valor deles, na [página oficial de preços](https://www.asaas.com/precos)) e o **uso
+da plataforma**, R$ 1,00 por cobrança paga. Cobrança emitida e não paga não gera custo
+nenhum. No Financeiro, os dois aparecem numa única despesa que discrimina as duas
+partes.
+</details>
+
+<details markdown="1">
+<summary>Posso emitir uma cobrança com vencimento numa data que já passou?</summary>
+
+Não. O campo de vencimento só aceita **hoje ou uma data futura** — o Asaas não
+emite cobrança vencida. Se você digitar uma data passada, o aviso aparece na hora
+e o botão de confirmar fica bloqueado até corrigir. Para cobrar uma cota que já
+venceu, informe a data de hoje ou a data-limite que você quer dar ao morador; o
+vencimento do lançamento no Financeiro continua o original.
+</details>
+
+<details markdown="1">
+<summary>Preciso lançar a cota duas vezes — no Financeiro e na cobrança?</summary>
+
+Não. A cobrança **parte de um lançamento que já existe no Financeiro**. Você escolhe o
+lançamento e o vencimento que o morador vai ver; o vencimento do lançamento no
+Financeiro não muda, e nada é criado em dobro.
+</details>
+
+<details markdown="1">
+<summary>Emiti a cobrança com o valor errado. Dá para desfazer?</summary>
+
+Sim, enquanto o morador não tiver pago: abra a cobrança e clique em **Cancelar
+cobrança**. Ela sai do ar e o lançamento volta a ficar disponível para nova emissão. Se
+o morador já pagou, o cancelamento é recusado — nesse caso a devolução é tratada fora
+do aplicativo. A cobrança cancelada continua aparecendo na lista, marcada como
+**Cancelada**.
+</details>
+
+<details markdown="1">
+<summary>Preciso marcar como paga a cota que o morador pagou pelo boleto?</summary>
+
+Não. O aplicativo **fica sabendo sozinho**, em poucos minutos: a cota é baixada com a
+data real do pagamento, as tarifas entram como despesa e, se houve juros e multa, a
+diferença entra como receita. Uma vez por dia você ainda recebe um e-mail com o resumo
+dos pagamentos do dia.
+</details>
+
+<details markdown="1">
+<summary>Cancelei a cobrança e agora não consigo abrir o boleto nem a fatura. É defeito?</summary>
+
+Não. Ao cancelar, o boleto, o Pix e a fatura **deixam de existir do lado do Asaas** —
+abri-los levaria a uma página de erro. Por isso a tela mostra **"Não há onde pagar"** e
+explica o motivo, em vez de oferecer um botão que não funciona. Se o condomínio ainda
+precisa receber aquele valor, emita uma **nova cobrança** a partir do mesmo lançamento
+no Financeiro. O mesmo vale para cobrança removida no Asaas e para emissão que falhou.
+</details>
+
+<details markdown="1">
+<summary>O morador pagou e pediu comprovante. Onde eu pego?</summary>
+
+Abra a cobrança na aba **Cobranças**. Depois de paga, o bloco de pagamento vira
+**Comprovante da cobrança** e oferece a **fatura**, que serve como comprovante. O boleto
+em PDF não aparece mais: para cota já quitada ele não tem função.
+</details>
+
+<details markdown="1">
+<summary>Cancelei (ou recebi) uma cobrança direto no painel do Asaas. O V3RCondo fica sabendo?</summary>
+
+Fica. Quando o desfecho acontece fora do aplicativo, vale o que o Asaas diz — é lá que a
+cobrança mora —, e a lista mostra isso com rótulo próprio: **Paga no Asaas**,
+**Cancelada no Asaas** ou **Removida no Asaas**. Os contadores e os filtros usam esse
+estado real, e a régua de lembretes para de avisar aquele morador.
+</details>
+
+<details markdown="1">
+<summary>Recebo recibo do Asaas a cada cota paga?</summary>
+
+Não. O síndico não é copiado nos avisos do Asaas. O pagamento aparece para você **no
+Financeiro, assim que é conciliado**, e no **resumo diário por e-mail** com os
+pagamentos do dia. Do lado do morador, o Asaas manda uma única mensagem por conta
+própria: o e-mail com a linha digitável, no dia do vencimento.
+</details>
+
+<details markdown="1">
+<summary>Até quando o morador recebe cobrança da cota atrasada?</summary>
+
+Depois do aviso de vencimento, ele recebe um aviso no dia seguinte e, a partir daí, **a
+cada 7 dias — no máximo 4 avisos e nunca além de 30 dias do vencimento**. Passado esse
+limite, repetir e-mail não resolve, e o assunto passa a ser tratado na
+**[Inadimplência](/modulos/inadimplencia/)**, com aviso formal e proposta de acordo.
+</details>
+
+<details markdown="1">
+<summary>Não vejo "Cobrança automática" no menu. Por quê?</summary>
+
+A funcionalidade é do **plano Pro** e está sendo **liberada aos poucos**, condomínio a
+condomínio. Se o seu condomínio é Pro e o item não aparece, fale com a nossa equipe.
 </details>
 
 ---
@@ -656,8 +826,10 @@ grid, garantindo que não passe despercebido.
 <details markdown="1">
 <summary>Condôminos recebem notificação quando um aviso é publicado?</summary>
 
-Sim — os membros recebem um e-mail ao publicar um novo aviso. Quem tem o
-Telegram conectado em **Meu Perfil** também recebe por lá.
+Sim — os membros recebem um e-mail ao publicar um novo aviso, **exceto quem
+desligou o assunto "Mural de avisos"** em **Meu Perfil → Como sou avisado**, ou
+o interruptor geral de e-mails. Quem tem o Telegram conectado também recebe por
+lá, respeitando a mesma escolha de assunto.
 </details>
 
 ---
@@ -1058,13 +1230,34 @@ um, troque o condomínio no topo da tela para ajustar os outros.
 </details>
 
 <details markdown="1">
+<summary>Desliguei "Receber e-mails" e ainda recebo alguns. Por quê?</summary>
+
+Porque **cobrança, acordos, aviso de inadimplência e convocação de assembleia**
+não obedecem a esse interruptor: são comunicações financeiras e formais, com
+prazo e consequência, e perder uma delas custa caro. Todo o resto — mural,
+documentos, tarefas e comunicados gerais — para de chegar por e-mail.
+</details>
+
+<details markdown="1">
+<summary>Marquei minhas preferências antes e nada mudava. Mudou?</summary>
+
+Mudou. Até agosto de 2026, parte dos controles era gravada mas não era
+consultada no momento do envio — na prática, decorativa. Hoje o envio consulta
+o que você marcou em **mural, documentos, tarefas e comunicados gerais**, e a
+tela **Como sou avisado** mostra todos os controles que o sistema realmente
+honra. Vale a pena revisitar as suas escolhas.
+</details>
+
+<details markdown="1">
 <summary>Como receber notificações pelo Telegram?</summary>
 
 Em **Meu Perfil**, no cartão **Como sou avisado**, procure **Outros canais**
 e clique em **Conectar**. O link abre uma conversa com o bot
-**@V3RCondoBot** — envie `/start` e pronto. Quem conecta o Telegram recebe
-**todos os assuntos** por esse canal. A conexão pode ser desfeita a qualquer
-momento no mesmo lugar, em **Desconectar**.
+**@V3RCondoBot** — envie `/start` e pronto. Pelo Telegram você recebe os
+**assuntos que deixou ligados** no mesmo cartão; ele não obedece ao
+interruptor **Receber e-mails**, então desligar o e-mail não interrompe o
+Telegram. A conexão pode ser desfeita a qualquer momento no mesmo lugar, em
+**Desconectar**.
 </details>
 
 <details markdown="1">

@@ -12,6 +12,7 @@ O V3RCondo é organizado em módulos independentes, cada um responsável por uma
 |---|---|
 | [Dashboard](/modulos/dashboard/) | Visão geral financeira e resumo do condomínio |
 | [Financeiro](/modulos/financeiro/) | Receitas, despesas, contas bancárias e extratos |
+| [Cobrança Automática](/modulos/cobranca-automatica/) | Cobrança da cota por boleto, Pix ou cartão, com baixa automática *(Pro)* |
 | [Fornecedores](/modulos/fornecedores/) | Cadastro de prestadores de serviço |
 | [Tarefas](/modulos/tarefas/) | Pendências e manutenções do condomínio *(Pro)* |
 | [Compras e Serviços](/modulos/compras/) | Cotações, orçamentos e aprovações |

@@ -9,6 +9,133 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.115 — Agosto 2026
+
+### Corrigido
+
+- **Excluir um anexo de cotação não apaga mais sem perguntar.** O clique na lixeira apagava o arquivo na hora, sem confirmação nenhuma. Agora o app pergunta antes. O mesmo valia para **cancelar o envio de uma notificação agendada** — também passou a confirmar.
+- **Os textos de confirmação passaram a dizer a verdade sobre cada exclusão.** Em algumas telas o registro sai da lista e fica guardado; em outras — as listas de **categorias** e a de **fornecedores pessoais** — ele é apagado de vez, porque configuração não é histórico. Cada confirmação agora descreve o que de fato acontece naquela tela, em vez de repetir a mesma frase em todas.
+- **Uma categoria financeira excluída deixou de contar no relatório de inadimplência.** Ela ainda entrava na conta, inflando o número. Já onde a categoria aparece apenas para **dar nome** a um registro antigo, ela continua sendo mostrada — um lançamento do ano passado não pode ficar sem nome só porque a categoria foi excluída depois.
+- **Uma categoria de item do condômino excluída some da lista de gestão e do seletor**, como se espera, e continua nomeando os itens antigos que a usavam.
+
+### Melhorado
+
+- **Os botões de ação das listas ficaram maiores e mais seguros.** Lápis e lixeira estavam colados, com alvos pequenos demais para o dedo — em **bloqueios de reserva**, o menor deles tinha um terço do tamanho recomendado. Agora todas as ações têm alvo confortável e **a exclusão fica separada das demais por uma divisória**, para não ser acertada por engano. Vale para **Categorias**, **fornecedores pessoais**, **recursos**, **bloqueios de reserva** e **notificações**.
+- **O campo de vencimento da cobrança recusa data no passado antes de emitir.** O provedor de pagamento sempre recusa, e a recusa só aparecia no fim — depois de a cobrança já ter nascido com erro. Agora o próprio campo avisa na hora.
+
+---
+
+## v7.114 — Agosto 2026
+
+### Corrigido
+
+- **As abas pararam de sair da tela no celular e de arrastar a página junto.** Em telas com muitas abas — Configurações é o caso extremo —, a faixa de abas se esticava para fora da tela e a página inteira passava a rolar para os lados, atrapalhando a leitura de tudo. Agora as abas **quebram em linhas** e cabem na largura do aparelho. Em Configurações, a faixa passou de mais de duas telas de largura para pouco mais de uma linha e meia. A correção vale para **15 telas** de uma vez.
+
+_Em **Relatórios**, os nomes das abas são longos e a faixa ainda ocupa cinco linhas no celular. Preferimos manter os nomes claros a encurtá-los para caber._
+
+---
+
+## v7.113 — Agosto 2026
+
+### Adicionado
+
+- **Clicar em um lançamento do Financeiro abre o detalhe dele.** Antes, a única forma de ver os dados completos de um lançamento era abrir a tela de **edição** — e quem não pode editar não conseguia ver nada. Agora a linha (no computador) ou o cartão (no celular) abre um painel **somente leitura**, com tudo à vista. **Editar continua sendo uma ação explícita**, pelo ícone de lápis.
+- **Conselho fiscal e contador passaram a conseguir abrir o detalhe dos lançamentos.** Este é o efeito mais importante da mudança: quem tem esses títulos sempre pôde **ver** o Financeiro, mas não tinha por onde abrir um lançamento — a única porta era a tela de edição, exclusiva de quem administra. Na prática, um papel criado para conferir as contas não conseguia conferir nada em detalhe. Agora abre o detalhe completo, **sem botões de ação**. **Nenhuma permissão foi alterada.**
+
+### Melhorado
+
+- **Lápis e lixeira deixaram de ficar colados.** Em **Financeiro** (lançamentos e recorrências), **Contas bancárias** e **Itens do condômino**, os botões eram pequenos e vizinhos — errar o alvo e excluir por engano era questão de tempo. Os alvos ficaram maiores e a exclusão foi afastada por uma divisória.
+
+### Corrigido
+
+- **Os textos da Cobrança Automática pararam de falar como se a conta ainda não estivesse aprovada.**
+- **No celular, o cartão do lançamento não abria o painel de detalhes** (corrigido na v7.113.1). No computador funcionava; no celular, o toque simplesmente não fazia nada.
+
+---
+
+## v7.112 — Agosto 2026
+
+### Melhorado
+
+- **O Financeiro passou a organizar os lançamentos pelo mês em que o dinheiro se move.** Antes, o mês a que um lançamento pertencia dependia da tela. Agora a regra é única e vale em todo lugar: **se foi pago, ele pertence ao mês do pagamento; se ainda não foi, ao mês do vencimento**. Uma conta de julho paga em agosto aparece em agosto — e some de julho. Cada lançamento pertence a exatamente um mês.
+- **O saldo acumulado passou a contar apenas o que foi efetivamente pago.** Saldo é o dinheiro que existe, e é o número que alguém olha para decidir se paga uma conta hoje — incluir o que ainda não entrou seria enganoso. Com isso, o saldo passou a **bater com a Prestação de Contas**.
+
+_Os relatórios de **Fluxo de Caixa** e de **Categorias** não mudaram: eles já contavam somente o que foi pago no período, e continuam assim._
+
+---
+
+## v7.111 — Agosto 2026
+
+### Corrigido
+
+- **O campo de data parou de aceitar ano absurdo.** Ao digitar por cima de uma data já preenchida, o campo embaralhava o conteúdo e aceitava o resultado sem reclamar — havia uma cobrança de verdade com vencimento em **11/10/8202**, recusada pelo provedor de pagamento. Agora a data digitada respeita os mesmos limites que o calendário já conhecia, e o campo avisa antes de deixar seguir. A correção vale para **todas as telas** que usam o campo de data.
+- **O selo "Vencida" na lista de cobranças finalmente funciona.** O selo, o contador e o filtro existiam e ficavam **sempre em zero**, mesmo com cobranças em aberto de vencimento passado — filtrar por "Vencida" devolvia lista vazia, o que parecia informação e era caminho morto. Agora uma cobrança em aberto cujo vencimento já passou aparece como vencida nos três lugares. Uma cobrança que vence **hoje** não conta como vencida, e uma já paga, cancelada ou removida também não.
+
+---
+
+## v7.110 — Agosto 2026
+
+### Corrigido
+
+- **Uma cobrança cancelada não oferece mais boleto nem fatura.** Os botões continuavam ali e levavam a uma página de erro, logo abaixo do selo "Cancelada". Agora a tela diz **"Não há onde pagar"** e explica o caminho certo: emitir uma nova cobrança a partir do lançamento no Financeiro.
+- **Uma cobrança paga mostra o comprovante, e só ele.** No lugar dos links de pagamento aparece **"Comprovante da cobrança"** — a fatura. O boleto em PDF saiu: numa cobrança já quitada, ele não serve para nada.
+- **A lista passou a mostrar a situação real da cobrança.** Quando o que está registrado aqui e o que está no Asaas divergem, vale o Asaas — e a lista diz qual é o caso, com **"Cancelada no Asaas"**, **"Removida no Asaas"** ou **"Paga no Asaas"**. Os filtros e os contadores no topo da lista também passaram a contar por essa situação.
+- **Cobrança excluída sumiu da lista.** Ela ainda aparecia na tabela, nos cartões e — o que mais confundia — **nos contadores**, fazendo o painel acusar falha de emissão onde não havia nenhuma pendência. Agora não aparece mais em lugar nenhum.
+- **As telas pararam de dizer que a exclusão é permanente.** Nove confirmações de exclusão ainda avisavam que o item seria apagado para sempre e que a ação não poderia ser desfeita — Mural, Tarefas, Financeiro, Arquivos, Itens do morador, Compras, Notificações, Parceiros do condomínio e Orçamento do prestador. Desde a mudança de junho isso deixou de ser verdade: o registro sai da lista e o arquivo é preservado. Os textos agora descrevem o que realmente acontece. **O comportamento da exclusão não mudou** — só o que a tela diz sobre ele.
+- **O texto sobre os avisos do Asaas ficou correto.** Ele ainda prometia ao síndico um recibo de pagamento que havia sido desligado. Agora informa a única mensagem que o Asaas continua enviando — o e-mail com a linha digitável ao morador, no dia do vencimento — e diz onde o pagamento aparece: no Financeiro e no resumo diário.
+
+### Melhorado
+
+- **A coluna de ações da lista de cobranças agora usa ícone**, no mesmo padrão da Prestação de Contas, com descrição para leitores de tela e uma dica ao passar o mouse. Quando uma ação não está disponível para aquela cobrança, ela aparece desabilitada **com o motivo na dica**, em vez de sumir. No celular, o botão mantém o tamanho de toque confortável.
+
+---
+
+## v7.109 — Agosto 2026
+
+### Corrigido
+
+- **Os lembretes de cobrança pararam de perseguir quem já pagou.** O sistema decidia ao contrário: mantinha uma lista do que considerava resolvido e continuava cobrando tudo o que ficasse de fora dela. Quando o pagamento entrava por um caminho menos comum, a cota estava paga e os avisos continuavam saindo. Agora o sistema reconhece o que está **em aberto** e encerra os avisos em todo o resto. Se aparecer uma situação que ele não conhece, o aviso do dia **não sai** — e a cobrança tampouco é dada como paga: ela volta a ser consultada até a situação ficar clara.
+- **As suas preferências de notificação passaram a valer de verdade.** Você marcava e desmarcava os assuntos em **Meu Perfil → Como sou avisado**, o sistema guardava a escolha e, na hora de enviar, não a consultava. Agora as preferências valem para **avisos do mural, documentos publicados, tarefas e comunicados do síndico**.
+- **Todo mundo começou com tudo ligado.** Os controles de e-mail e de push nunca chegaram a ser gravados pela tela — estavam desligados por herança, não por escolha de ninguém. Antes de passar a obedecê-los, deixamos todos ligados. Se você quiser desligar algo, é só ajustar no seu perfil.
+- **O aviso novo do mural não nasce mais como "Convocação".** O formulário vinha pré-marcado com a primeira categoria da lista, que costuma ser justamente **Convocação** — o chamamento formal para assembleia. Agora abre com uma categoria neutra, como *Informativo*; se o condomínio não tiver nenhuma categoria neutra, o campo abre em branco e pede a escolha.
+
+### Importante saber
+
+- **Cobrança, acordos, aviso de inadimplência e convocação de assembleia continuam chegando por e-mail mesmo com o interruptor "Receber e-mails" desligado.** São comunicações financeiras e formais: perder uma delas custa caro.
+- **O Telegram segue os assuntos, não o interruptor de e-mail.** Se você desligar o e-mail, continua recebendo pelo Telegram os assuntos que deixou ligados. Para parar tudo por lá, desconecte o Telegram no seu perfil.
+- **A tela "Como sou avisado" voltou a mostrar tudo o que o sistema realmente cumpre:** cobranças, comunicados gerais, mural de avisos, documentos, tarefas, o interruptor de e-mail, o Telegram e a frequência do resumo.
+
+---
+
+## v7.108 — Agosto 2026
+
+### Em desenvolvimento — cobrança da cota por boleto e Pix
+
+- **A tarifa e os juros pararam de poluir a lista do Financeiro.** Quando um pagamento é conciliado, o sistema registra também a tarifa cobrada e, quando houve, os juros e a multa. Esses registros deixaram de aparecer soltos entre os demais lançamentos: agora ficam **recolhidos dentro da linha da cota** que os originou, e você abre quando quiser ver.
+- **O detalhe da cota mostra a conta fechada.** Ao abrir um lançamento que já foi pago pela cobrança automática, você vê **quanto foi cobrado, quanto o morador pagou, quanto saiu em tarifas, quanto entrou de juros e multa e quanto foi de fato creditado** na conta do condomínio. Do lançamento você chega à cobrança, e da cobrança de volta ao lançamento.
+- **Nenhum valor mudou.** Esta versão só mudou a forma de apresentar: nada passou a ser gravado de outro jeito e nenhuma soma foi recalculada.
+
+_Esta área continua **desligada** e será liberada por condomínio quando estiver pronta._
+
+---
+
+## v7.107 — Agosto 2026
+
+### Em desenvolvimento — cobrança da cota por boleto e Pix
+
+_Construído em três etapas, das versões v7.105 a v7.107._
+
+- **O pagamento do morador volta sozinho para dentro do V3RCondo.** Quando o morador paga o boleto, o Pix ou o cartão, o Asaas avisa o sistema, o sistema **confere direto na fonte** — nunca acredita apenas no aviso — e **dá baixa na cota automaticamente**, com a data em que o pagamento realmente aconteceu. Ninguém precisa marcar nada à mão.
+- **As tarifas viram despesa e o saldo passa a bater com o extrato.** Junto com a baixa, o sistema lança como **despesa do condomínio** as tarifas daquela cobrança. É o que faltava para o saldo mostrado no aplicativo ser o mesmo que aparece no extrato da conta.
+- **O que o morador paga a mais entra como receita.** Se a cobrança foi paga com juros e multa por atraso, a diferença é lançada como **receita**, e não some no meio do caminho.
+- **Um resumo por dia para quem administra.** No fim do dia, o síndico recebe **um** aviso com os pagamentos que entraram, com valores e unidades. O resumo cobre tudo que foi conciliado **desde o resumo anterior** — assim um pagamento que cai tarde da noite aparece no aviso seguinte em vez de se perder. Quem não quiser receber é só desligar o aviso de cobrança no **Meu Perfil**.
+- **Acabaram as mensagens duplicadas do Asaas.** A última notificação que o Asaas ainda enviava por conta própria foi desligada, inclusive para os cadastros feitos antes desta mudança. Quem avisa sobre a cobrança é o V3RCondo.
+- **O canal de avisos é vigiado.** Se o caminho por onde o Asaas nos comunica os pagamentos for interrompido, ou se um condomínio com cobranças em aberto ficar dias sem nenhuma movimentação, um alerta é disparado — em vez de o sistema simplesmente parar de conciliar em silêncio.
+
+_Esta área continua **desligada** e será liberada por condomínio quando estiver pronta._
+
+---
+
 ## v7.104 — Agosto 2026
 
 ### Em desenvolvimento — cobrança da cota por boleto e Pix

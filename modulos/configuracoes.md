@@ -78,7 +78,9 @@ telefone, e-mail e observações.
 
 Clique em **+ Adicionar parceiro** para
 cadastrar um novo contato, ou no ícone de lápis (✎) ao lado de um parceiro
-existente para editar ou excluir.
+existente para editar ou excluir. Ao excluir, o parceiro sai da lista do
+condomínio, mas o cadastro **fica guardado** — dá para recuperar com a nossa
+ajuda se tiver sido engano.
 
 ![Modal de cadastro de parceiro do condomínio](/assets/screenshots/75-config-parceiro-modal.png)
 
@@ -286,6 +288,32 @@ Selecione a sub-aba do módulo desejado. Para cada categoria é possível:
 - **Editar** — clique no ícone de lápis
 - **Excluir** — clique no ícone de lixeira (com confirmação)
 
+Os botões ficaram **maiores** e o de excluir foi **afastado** do de editar, para reduzir o toque errado no celular.
+
+### O que acontece ao excluir uma categoria
+
+Não é igual em todas as sub-abas, e a caixa de confirmação agora diz exatamente o que vai acontecer em cada caso. Leia antes de confirmar:
+
+| Sub-aba | O que acontece ao excluir |
+|---|---|
+| **Financeiro** | A categoria sai da lista, mas o **registro fica guardado** e os lançamentos antigos continuam com ela. Nada no histórico é reescrito |
+| **Itens** | A categoria sai da lista e deixa de ser oferecida em itens novos. O **registro fica guardado** |
+| **Tarefas** | A categoria é **excluída permanentemente** |
+| **Compras e Serviços** | A categoria é **excluída permanentemente** |
+| **Documentos** | A categoria é **excluída permanentemente** |
+| **Mural** | A categoria é **excluída permanentemente** |
+| **Fornecedores** | A categoria é **excluída permanentemente** |
+
+{: .warning }
+> **"Permanentemente" quer dizer permanentemente**
+>
+> Nas cinco sub-abas marcadas acima, a categoria some de vez — não fica arquivada e **não há como recuperá-la**, nem com a nossa ajuda. Se a intenção é apenas parar de usá-la, prefira renomeá-la ou simplesmente deixar de oferecê-la em registros novos.
+
+{: .tip }
+> **E se eu excluir alguma coisa por engano?**
+>
+> Fora dessas cinco listas de categoria, quase tudo no V3RCondo é guardado quando você exclui — lançamento financeiro, aviso do mural, documento, tarefa, compra, item do condômino, parceiro. O registro sai das listas e dos relatórios, mas continua lá, e **dá para recuperar com a nossa ajuda** se tiver sido engano. Fale com o suporte informando o que foi excluído e quando.
+
 {: .tip }
 > **Categorias financeiras**
 >
@@ -312,6 +340,8 @@ nome do banco e o **dígito** aparece junto do número da conta. A conta marcada
 como **Padrão** é pré-selecionada automaticamente em novos lançamentos.
 
 ![Aba Contas Bancárias com lista de contas e indicação de conta padrão](/assets/screenshots/82-config-contas.png)
+
+Na coluna de ações, os botões ficaram **maiores** e o de excluir foi **afastado** do de editar — no celular, o toque errado entre dois ícones colados era fácil demais.
 
 Para adicionar uma nova conta, clique em **Adicionar conta** e preencha:
 

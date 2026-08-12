@@ -27,6 +27,8 @@ A aba **Inadimplentes** lista as **unidades devedoras** e, dentro de cada uma, o
 
 {: .note }
 > **O que conta como inadimplência?** Um lançamento entra quando é do tipo **receita**, tem vencimento **no passado** e **não** foi pago. Lançamentos com vencimento futuro, mesmo em aberto, ainda estão no prazo e não entram.
+>
+> Lançamentos de uma **categoria financeira que você excluiu** também deixaram de entrar na conta. Antes eles continuavam somando no total de inadimplência mesmo depois de a categoria sair da lista, o que inflava o valor devido de unidades que já estavam quitadas para efeitos práticos. Se o total do seu condomínio diminuiu sem que ninguém tenha pago, é provável que seja isto.
 
 {: .note }
 > Uma unidade que fechou um acordo **sai desta lista** enquanto o acordo estiver em dia — a dívida não sumiu, está "em acordo". Se o acordo for descumprido ou cancelado, a dívida **volta a aparecer** aqui. O acordo em si você acompanha na aba **Acordos** (veja abaixo).

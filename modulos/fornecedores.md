@@ -51,7 +51,12 @@ Tanto síndicos quanto condôminos podem cadastrar fornecedores pessoais clicand
 - Manter o contato apenas para **uso pessoal**
 - **Compartilhar com o condomínio** — aparecerá na aba Compartilhados pelos Moradores
 
-> Para excluir um fornecedor pessoal, clique no ícone de lixeira e confirme a exclusão na caixa de diálogo exibida.
+Na lista de fornecedores pessoais, os botões de ação ficaram **maiores** e o de excluir foi **afastado** do de editar, para reduzir o toque errado no celular.
+
+{: .warning }
+> **Excluir um fornecedor pessoal é definitivo**
+>
+> Ao clicar no ícone de lixeira, a confirmação avisa que o fornecedor será **removido permanentemente** e que a ação **não pode ser desfeita** — o cadastro não fica arquivado e não há como recuperá-lo depois. Diferente de um lançamento ou de um item do condomínio, que ficam guardados quando você exclui.
 
 ## Visão do condômino
 

@@ -20,22 +20,28 @@ Clique em **+ Novo Aviso** e preencha:
 
 1. **Título** — título do aviso (obrigatório)
 2. **Mensagem** — conteúdo do aviso, até 500 caracteres (obrigatório)
-3. **Categoria** — Informativo, Convocação, Manutenção etc.
+3. **Categoria** — Informativo, Convocação, Manutenção etc. O formulário abre com uma categoria neutra já escolhida — normalmente **Informativo**. Se o condomínio não tiver nenhuma categoria neutra, o campo abre em branco e você precisa escolher.
 4. **Data de Expiração** — quando o aviso deixará de ser exibido (opcional). Deixe em branco para exibir indefinidamente.
 
 Clique em **Publicar** para tornar o aviso visível a todos.
 
 ![Formulário de publicação de novo aviso](/assets/screenshots/42-mural-form.png)
 
+{: .warning }
+> **Convocação nunca vem marcada por padrão**
+>
+> *Convocação* é o chamamento formal para assembleia — tem peso e prazo. Ela só
+> é usada quando você a escolhe de propósito.
+
 {: .note }
 > **Notificação automática**
 >
-> Ao publicar um aviso, uma notificação por e-mail é enviada automaticamente para os moradores do condomínio. Quem tem o Telegram conectado em [Meu Perfil](/modulos/perfil/) também recebe por lá.
+> Ao publicar um aviso, uma notificação por e-mail é enviada automaticamente para os moradores do condomínio — exceto para quem desligou **Mural de avisos** em [Meu Perfil](/modulos/perfil/). Quem tem o Telegram conectado também recebe por lá, respeitando a mesma escolha.
 
 {: .tip }
 > **Excluir um aviso**
 >
-> Clique no ícone de lixeira no canto superior direito do post e confirme a exclusão.
+> Clique no ícone de lixeira no canto superior direito do post e confirme a exclusão. O aviso **sai do mural para todo mundo**, mas o registro fica guardado — se tiver sido engano, dá para recuperar com a nossa ajuda.
 
 ## Visão do condômino
 
