@@ -9,6 +9,19 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.104 — Agosto 2026
+
+### Em desenvolvimento — cobrança da cota por boleto e Pix
+
+- **O síndico passou a poder cancelar uma cobrança que ainda não foi paga.** Nos detalhes da cobrança há agora a ação **Cancelar cobrança**, com confirmação antes de valer. Ao cancelar, o lançamento correspondente no **Financeiro volta a ficar disponível** para uma nova cobrança — útil quando o valor saiu errado, o vencimento estava trocado ou a cobrança simplesmente não deveria ter saído.
+- **Cobrança cancelada não desaparece.** Ela continua na lista, marcada como **Cancelada**, para que o histórico do que foi emitido permaneça completo.
+- **Cobrança já paga não pode ser cancelada pelo aplicativo.** Antes de cancelar, o sistema confere a situação atual da cobrança e recusa a operação sempre que ela não estiver claramente em aberto — se houver qualquer dúvida sobre o estado do pagamento, nada é cancelado e o síndico é orientado a conferir antes de tentar de novo.
+- **Os lembretes pararam de perseguir cobrança cancelada.** Uma cobrança cancelada não recebe mais aviso de vencimento nem de atraso — inclusive quando o cancelamento é feito fora do V3RCondo.
+
+_Esta área continua **desligada** e será liberada por condomínio quando estiver pronta._
+
+---
+
 ## v7.102 — Agosto 2026
 
 ### Melhorado
