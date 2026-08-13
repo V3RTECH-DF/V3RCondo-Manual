@@ -35,6 +35,11 @@ No primeiro acesso, você verá uma tela de boas-vindas com duas opções:
 
 Para síndicos que ainda não cadastraram o condomínio na plataforma. Preencha os dados básicos e o condomínio estará pronto em instantes. Você terá **30 dias de trial gratuito** do plano Pro ao criar o condomínio.
 
+{: .note }
+> **As unidades são cadastradas depois, não na criação**
+>
+> O formulário de criação **não pede o número de unidades**. Depois de criar o condomínio, cadastre as unidades em **Configurações → Unidades** — é esse cadastro que alimenta o painel, o cálculo do plano e tudo que depende de "quantas unidades o condomínio tem".
+
 #### Solicitar vínculo
 
 Para condôminos cujo condomínio já está cadastrado. Busque o condomínio pelo nome, informe sua unidade e envie a solicitação. O síndico receberá a solicitação e poderá aprová-la em **Configurações → Condôminos**.
