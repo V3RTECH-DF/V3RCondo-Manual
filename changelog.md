@@ -9,6 +9,27 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.119 — Agosto 2026
+
+### Corrigido
+
+- **Cobrança excluída, estornada ou vencida no provedor de pagamento agora tem tratamento.** Antes, três situações que podiam acontecer do lado do provedor — uma cobrança ser **excluída**, ser **estornada** ou simplesmente **vencer** — não geravam nenhuma ação da nossa parte. Agora: uma cobrança **excluída** lá volta a poder ser emitida novamente por aqui; uma cobrança **estornada** fica sinalizada, e a baixa do pagamento **só é desfeita por decisão do síndico**, nunca automaticamente; e uma cobrança **vencida** não precisa de nenhuma ação — já era identificada normalmente. Quando as duas informações se contradizem (por exemplo, excluída no provedor mas registrada como paga por aqui), o síndico recebe um aviso por e-mail e decide o que fazer — o sistema nunca corrige sozinho quando o assunto é dinheiro.
+- **O aviso de cobrança por e-mail ao síndico deixou de depender do interruptor de notificações push.** Quem tinha o push desligado continuava recebendo o aviso de cobrança por e-mail normalmente — essa regra já valia, e agora está confirmada e reforçada.
+
+---
+
+## v7.118 — Agosto 2026
+
+### Adicionado
+
+- **A conta de Cobrança Automática passou a se conectar sozinha ao canal de avisos do provedor de pagamento, assim que é aprovada.** Antes, esse passo dependia de uma ação manual que não aparecia em lugar nenhum para o síndico — a conta parecia pronta, mas sem esse passo os pagamentos recebidos não davam baixa automática. Agora isso acontece sozinho na aprovação, com uma verificação diária que resolve o que eventualmente ficar pendente.
+
+### Corrigido
+
+- **O número de unidades deixou de ser pedido na criação do condomínio.** Esse campo nunca criava as unidades de verdade e ficava "congelado" no número digitado, mesmo que o número real de unidades mudasse depois. O painel do síndico, o cabeçalho do app, o cálculo de quórum das assembleias, o relatório de inadimplência, a exportação de dados e a geração de atas e editais passaram a usar sempre o número real de unidades cadastradas em Configurações → Unidades.
+
+---
+
 ## v7.116 — Agosto 2026
 
 ### Adicionado

@@ -62,6 +62,11 @@ Depois de enviar, a tela passa a exibir o cartão **Situação da conta**, com t
 
 Cada indicador aparece como **Pendente**, **Em análise**, **Aprovado** ou **Reprovado**. Use o botão **Verificar agora** para consultar o Asaas e atualizar a situação na hora.
 
+{: .note }
+> **Assim que a conta é aprovada, o canal de avisos se conecta sozinho**
+>
+> É esse canal que avisa o V3RCondo quando um morador paga — é o que permite a baixa automática no Financeiro. Você não precisa fazer nada: a conexão acontece na hora da aprovação e, se por algum motivo ela não completar de primeira, uma verificação diária tenta de novo até dar certo.
+
 Quando o Asaas pedir documentos, aparece o cartão **Documentos que o Asaas precisa**, com a lista do que falta e o link de envio deles (o envio inclui reconhecimento facial, feito no site do Asaas).
 
 <!-- PRINT: cobranca-05-documentos — ver roteiro de capturas -->
@@ -181,6 +186,19 @@ A aba **Cobranças** abre no cartão **Como estão as cobranças**, com um **con
 Uma cobrança pode ser paga, cancelada ou apagada **direto no painel do Asaas**, sem passar pelo V3RCondo. Quando isso acontece, vale sempre o que o Asaas diz — é lá que a cobrança mora —, e a lista deixa isso explícito com um rótulo próprio: **Paga no Asaas**, **Cancelada no Asaas** ou **Removida no Asaas**.
 
 Esse estado real é o que manda também nos **contadores e nos filtros**: procurar por "cancelada" encontra tanto o que foi cancelado aqui quanto o que foi cancelado lá.
+
+### Cobrança excluída ou estornada no Asaas
+
+Além de cancelar, dá para **excluir** ou **estornar** uma cobrança direto no painel do Asaas. O V3RCondo reage de um jeito diferente para cada caso:
+
+- **Excluída no Asaas** — a cobrança deixa de existir lá. O V3RCondo passa a tratá-la como **cancelada**, e o lançamento do Financeiro que a originou **volta a ficar disponível** para uma nova emissão, do mesmo jeito que aconteceria com um cancelamento feito por aqui.
+- **Estornada no Asaas** — o dinheiro **entrou e voltou**. A cota continua marcada como **paga no Financeiro**, porque o sistema nunca desfaz uma baixa sozinho quando o assunto é dinheiro. A cobrança fica sinalizada como estornada, e cabe ao síndico decidir: se quiser desfazer a baixa, use a ação **Reverter baixa**, no detalhe da cobrança.
+- **Vencida no Asaas** — não exige nenhuma ação: o V3RCondo já identifica sozinho uma cobrança vencida pela data, então não há nada a sincronizar.
+
+{: .warning }
+> **Quando os dois lados se contradizem sobre dinheiro**
+>
+> Se uma cobrança foi excluída no Asaas mas está registrada como **paga** por aqui, o V3RCondo não corrige nada sozinho: marca a cobrança com um aviso de divergência, envia um e-mail ao síndico e espera a decisão dele — manter como paga ou reverter a baixa e cancelar. Contradição sobre dinheiro sempre pede uma pessoa decidindo, nunca uma correção automática.
 
 ### O detalhe de uma cobrança
 

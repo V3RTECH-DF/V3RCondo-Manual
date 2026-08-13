@@ -109,6 +109,7 @@ Ao publicar:
 - Uma notificação interna é disparada no aplicativo
 - O status muda para **Edital publicado**
 - O edital fica disponível em **Documentos → Assembleias**
+- O **total de unidades do condomínio é registrado neste momento**, a partir do que está cadastrado em **Configurações → Unidades** — é essa contagem que serve de referência para o cálculo do quórum desta assembleia, e ela **não muda depois**, mesmo que o condomínio cadastre ou remova unidades em seguida
 
 {: .warning }
 > **Ação irreversível**
