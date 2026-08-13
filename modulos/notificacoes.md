@@ -72,7 +72,9 @@ Hoje você controla:
 | Controle | O que faz |
 |---|---|
 | **Push neste aparelho** | Liga o aviso na tela do celular ou do navegador. Vale por aparelho, e tem botão para testar na hora |
-| **Cobranças** | Aviso de cobrança emitida, com Pix, boleto e link da fatura. O e-mail é fixo; o push é opcional |
+| **Cobranças → E-mail** | Aviso de cobrança emitida, com Pix, boleto e link da fatura. Sempre ligado — sem ele você pode perder o vencimento da sua cota |
+| **Cobranças → Push** | Aviso no celular quando a cobrança sai e nos lembretes de vencimento. Não afeta os e-mails |
+| **Cobranças → Resumo diário de pagamentos** | Só para quem administra um condomínio. Um e-mail por dia com os pagamentos que entraram — valor recebido, juros e tarifas. Vale para **todos** os condomínios que você administra, e é **independente do Push**: desligar o aviso no celular não desliga mais este resumo |
 | **Comunicados gerais** | Entra ou sai da lista de destinatários dos comunicados do síndico |
 | **Mural de avisos** | Aviso quando um aviso novo é publicado no mural |
 | **Documentos** | Aviso quando um documento novo é publicado |
@@ -80,6 +82,13 @@ Hoje você controla:
 | **Receber e-mails** | Interruptor geral dos e-mails dos assuntos acima |
 | **Telegram** | Conecta ou desconecta a conta do bot @V3RCondoBot |
 | **Resumo por e-mail** | Frequência do panorama periódico: diário, semanal ou desativado |
+
+{: .note }
+> **Dois resumos diferentes, dois controles diferentes**
+>
+> O **Resumo diário de pagamentos** (dentro de Cobranças, só para quem
+> administra um condomínio) e o **Resumo por e-mail** (panorama geral do
+> condomínio) são controles independentes — desligar um não afeta o outro.
 
 {: .warning }
 > **O que chega mesmo com o e-mail desligado**

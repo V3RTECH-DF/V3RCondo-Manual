@@ -36,7 +36,7 @@ Preencha:
 2. **Nome / Razão social** e **CNPJ ou CPF**
 3. **E-mail** e **celular com DDD**
 4. **Data de nascimento** (para titular pessoa física) ou **tipo de empresa** (para pessoa jurídica — condomínios normalmente se enquadram como *Associação*)
-5. **Faturamento mensal estimado**
+5. **Faturamento mensal estimado** — digite o valor e o campo formata como moeda sozinho (ex.: `25000` vira `R$ 25.000,00`); confira o valor formatado antes de avançar
 6. **Endereço** — CEP, logradouro, número e bairro
 
 <!-- PRINT: cobranca-03-formulario-abertura — ver roteiro de capturas -->

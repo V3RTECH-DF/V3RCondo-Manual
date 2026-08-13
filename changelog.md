@@ -9,9 +9,23 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.116 — Agosto 2026
+
+### Adicionado
+
+- **O resumo diário de pagamentos por e-mail ganhou um controle só dele.** Em Meu Perfil → Como sou avisado, no bloco Cobranças, esse resumo era controlado pelo mesmo interruptor do aviso "Push" — quem desligava o aviso no celular parava de receber, sem perceber, o resumo por e-mail de quanto entrou no dia. Agora cada um tem seu próprio interruptor. Ninguém deixou de receber o resumo por causa dessa mudança.
+
+### Melhorado
+
+- **Melhorias internas de segurança na Cobrança Automática.** A conferência de que a funcionalidade está liberada para o condomínio passou a acontecer também nos bastidores, não só na tela; e duas funções internas do banco deixaram de poder ser chamadas por quem não está autenticado. Sem alteração visível no uso.
+
+---
+
 ## v7.115 — Agosto 2026
 
 ### Corrigido
+
+- **O faturamento declarado na abertura de conta de Cobrança Automática chegava cem vezes menor.** O campo "Faturamento mensal estimado" não formatava o valor enquanto se digitava, e quem digitava R$ 25.000 podia acabar declarando R$ 250,00. O campo agora formata o valor como moeda desde a primeira tecla.
 
 - **Excluir um anexo de cotação não apaga mais sem perguntar.** O clique na lixeira apagava o arquivo na hora, sem confirmação nenhuma. Agora o app pergunta antes. O mesmo valia para **cancelar o envio de uma notificação agendada** — também passou a confirmar.
 - **Os textos de confirmação passaram a dizer a verdade sobre cada exclusão.** Em algumas telas o registro sai da lista e fica guardado; em outras — as listas de **categorias** e a de **fornecedores pessoais** — ele é apagado de vez, porque configuração não é histórico. Cada confirmação agora descreve o que de fato acontece naquela tela, em vez de repetir a mesma frase em todas.
