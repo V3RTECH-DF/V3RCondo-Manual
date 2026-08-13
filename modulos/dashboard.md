@@ -10,6 +10,68 @@ O Dashboard é a tela inicial do V3RCondo. Ao fazer login, você encontra aqui u
 
 ![Dashboard do síndico com cards financeiros, gráfico de barras e tarefas urgentes](/assets/screenshots/10-dashboard-sindico.png)
 
+## Configuração inicial *(síndico — condomínio novo)*
+
+Quem acabou de criar o condomínio encontra no topo do Dashboard o cartão **Configuração inicial**: a lista do que ainda falta para o condomínio operar, cada item com o atalho que leva direto ao lugar de resolver.
+
+A ideia é simples: as pendências que só aparecem quando você tropeça nelas — a cota que não foi gerada porque a unidade estava sem valor, o lançamento em lote que abre com a lista de categorias vazia — passam a estar ditas de saída, em um lugar só.
+
+<!-- PRINT: setup-01-cartao-configuracao-inicial — ver roteiro de capturas -->
+
+### O que a lista cobra
+
+| Item | Por que importa | Botão |
+|---|---|---|
+| **Dados do condomínio** | Endereço e fuso horário — é o fuso que define o que vence hoje e a hora dos avisos | Preencher |
+| **Unidades** | Sem unidades cadastradas o condomínio não gera cobrança nem controla inadimplência | Cadastrar unidades |
+| **Valor da cota das unidades** | A geração mensal pula toda unidade sem valor de cota — e não avisa depois | Definir cotas |
+| **Categoria da taxa condominial** | Sem ela, o lançamento em lote abre com a lista de categorias vazia | Escolher categoria |
+| **Condôminos** | Importe a planilha ou cadastre um a um | Cadastrar condôminos |
+| **Conta bancária** | Opcional. Serve para conciliar o extrato com os lançamentos | Cadastrar conta |
+| **Cobrança automática** | Boleto e Pix emitidos pelo Asaas, com baixa automática no Financeiro. Opcional | Conhecer e abrir conta |
+
+Acima da lista, uma barra de progresso mostra **quantos passos de seis** já estão concluídos, com o botão **Continuar de onde parei** — ele leva ao primeiro passo que ainda não foi resolvido nem pulado. O **Valor da cota das unidades** aparece na lista mas fica fora dessa contagem: ele não pode ser pulado nem tirado da lista, e sai dali quando **todas** as unidades tiverem valor definido.
+
+{: .note }
+> **Nada aqui é marcado à mão**
+>
+> A conclusão de cada item é lida da situação real do condomínio. Cadastrou as unidades, o item sai da lista sozinho; apagou a última, ele volta. Não existe caixinha para marcar.
+
+### Pular, tirar da lista e trazer de volta
+
+São duas ações diferentes, e a diferença importa:
+
+- **Pular** — o item **continua na lista**, agora com a marca **Pulado**. Use quando você vai resolver depois e não quer perder de vista.
+- **Não vamos usar** (o **✕** ao lado do botão) — o item **sai da lista**. Use para o que o condomínio decidiu não adotar. Só alguns itens aceitam isso: **Condôminos**, **Conta bancária** e **Cobrança automática**. O que é estrutural — dados do condomínio, unidades, cota e categoria da taxa — não sai da lista, porque sem eles o condomínio não funciona.
+
+O que foi tirado da lista não desaparece: no rodapé do cartão aparece o contador **“*n* item(ns) que você tirou da lista”**. Clique para abrir e use **Voltar para a lista** em qualquer um deles.
+
+**O cartão some sozinho** quando não sobra nada — nem pendência, nem item tirado da lista. Não é preciso fechá-lo.
+
+### A linha da Cobrança automática muda de texto conforme o andamento
+
+É a única linha que depende de um terceiro, o Asaas, e o cartão deixa isso explícito em vez de cobrar de você algo que não está na sua mão:
+
+| Situação | O que o cartão diz | Ação |
+|---|---|---|
+| Conta ainda não aberta | **Cobrança automática** | Conhecer e abrir conta |
+| Cadastro enviado, em análise | **Cobrança automática — em análise no Asaas**, com a data do envio | Nenhuma. O botão aparece como **Aguardando**, desabilitado, com a etiqueta **Com o Asaas** |
+| Cadastro recusado | **Cobrança automática — cadastro recusado**, com o motivo informado por eles | Corrigir e reenviar |
+| Falta reconectar a chave de acesso | **Cobrança automática — falta reconectar a chave** | Reconectar |
+| Conta aprovada | A linha desaparece | — |
+
+Essa linha aparece para **qualquer condomínio** com conta de cobrança em andamento, mesmo os mais antigos — deixar a conta pela metade sem ninguém avisando seria exatamente o silêncio que o cartão existe para evitar.
+
+{: .note }
+> **Só para condomínios criados a partir de 13 de agosto de 2026**
+>
+> Os passos de configuração aparecem apenas em condomínios criados a partir dessa data. Quem já está rodando há meses não é cobrado por uma lista de coisas que já resolveu do seu jeito. A linha da **conta de cobrança**, essa sim, vale para todos.
+
+{: .note }
+> **Se a consulta falhar, o cartão diz que falhou**
+>
+> No lugar da lista aparece **“Não deu para conferir a configuração”**, com o botão **Tentar de novo**. Uma consulta que não respondeu nunca é apresentada como “está tudo certo”.
+
 ## Resumo financeiro
 
 Três cards no topo exibem os dados do mês atual:
@@ -45,6 +107,7 @@ Lista os documentos mais recentemente disponibilizados no condomínio, com nome 
 
 |  | Síndico | Condômino |
 |---|---|---|
+| Configuração inicial | ✅ Em condomínio novo, até resolver a lista | ❌ Não aparece |
 | Resumo financeiro | ✅ | ✅ |
 | Fluxo de caixa | ✅ | ✅ |
 | Tarefas urgentes | ✅ Vê tarefas pendentes | ❌ Não aparece |

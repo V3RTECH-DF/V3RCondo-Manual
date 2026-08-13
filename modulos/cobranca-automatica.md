@@ -62,6 +62,23 @@ Depois de enviar, a tela passa a exibir o cartão **Situação da conta**, com t
 
 Cada indicador aparece como **Pendente**, **Em análise**, **Aprovado** ou **Reprovado**. Use o botão **Verificar agora** para consultar o Asaas e atualizar a situação na hora.
 
+### Você é avisado por e-mail a cada virada
+
+Não é preciso ficar voltando à tela para saber como anda a análise. O síndico recebe um e-mail em cada um dos três momentos:
+
+| Aviso | Quando | O que ele diz |
+|---|---|---|
+| **Cadastro enviado** | Assim que o cadastro vai para o Asaas | Que a análise costuma levar alguns dias e depende deles; e que conferir se todos os documentos pedidos já foram enviados é o que mais costuma destravar |
+| **Conta aprovada** | Quando o Asaas aprova | Que já dá para emitir a primeira cobrança e que a baixa no Financeiro passa a ser automática. Lembra também de **conferir o valor da cota das unidades antes de emitir** — unidade sem valor é pulada na geração mensal |
+| **Cadastro recusado** | Quando o Asaas recusa | O motivo informado por eles, quando informam. Enquanto o cadastro não for corrigido e reenviado, o condomínio não emite cobrança — e reenviar o mesmo documento sem mudar nada tende a ser recusado de novo |
+
+Cada aviso traz um botão que leva direto à tela da Cobrança automática. A situação continua visível no painel a qualquer momento, e o cartão **Configuração inicial** do [Dashboard](/modulos/dashboard/) também acompanha essa linha.
+
+{: .note }
+> **Cada aviso sai uma vez só**
+>
+> Consultar a situação de novo, ou o app reconferir sozinho, não faz o e-mail sair outra vez.
+
 {: .note }
 > **Assim que a conta é aprovada, o canal de avisos se conecta sozinho**
 >
@@ -276,8 +293,22 @@ Além disso, o responsável pela unidade recebe **avisos por e-mail**:
 | **Vence hoje** | No dia do vencimento |
 | **Venceu** | No dia seguinte ao vencimento |
 | **Continua em aberto** | A cada 7 dias depois disso, **até um limite**: no máximo 4 avisos de vencida e nunca além de 30 dias do vencimento. Passado o limite, o assunto deixa de ser tratado por e-mail de cobrança e passa para a [Inadimplência](/modulos/inadimplencia/), com aviso formal e acordo |
+| **Pagamento confirmado** | Assim que o pagamento é reconhecido. Traz unidade, valor pago, vencimento, data do pagamento e a **forma de pagamento** usada, e diz que não há mais nada a pagar naquela cobrança |
+| **Cobrança cancelada** | Quando a cobrança deixa de valer. O texto muda conforme o motivo (ver abaixo) |
 
-Todos os avisos trazem o Pix, a linha digitável e o link da fatura, para a pessoa conseguir pagar no momento em que lê.
+Todos os avisos de cobrança trazem o Pix, a linha digitável e o link da fatura, para a pessoa conseguir pagar no momento em que lê. Os avisos de confirmação e de cancelamento trazem o botão **Ver minhas cobranças**, que leva à aba do morador em Minha Área.
+
+### Quando uma cobrança deixa de valer
+
+O morador é avisado, e o aviso não afirma o que o aplicativo não sabe:
+
+| Situação | O que o morador lê |
+|---|---|
+| O condomínio cancelou a cobrança | **“Uma cobrança sua foi cancelada”** — o boleto, o Pix e a fatura não valem mais; se ainda houver o que pagar, uma nova cobrança será emitida e ele recebe o aviso normalmente |
+| A cobrança foi excluída no provedor | **“Uma cobrança sua deixou de valer”** — não pode mais ser paga; em caso de dúvida sobre o motivo, falar com o síndico |
+| Havia pagamento e ele foi desfeito | **“Um pagamento seu foi desfeito e a cobrança foi cancelada”** — o aplicativo **não afirma** o que houve com o valor e orienta procurar o síndico, que tem acesso ao extrato da conta de cobrança |
+
+Em todos os três, a mesma orientação: **não pagar de novo**, porque a cobrança não vale mais.
 
 {: .important }
 > **Ninguém é avisado sem conferir antes**
@@ -308,8 +339,32 @@ Abra o lançamento da cota paga no Financeiro e você verá o bloco **Composiç�
 - Valor cobrado e, quando diferente, o **valor efetivamente pago**
 - **Juros e multa recebidos**, quando houver
 - **Tarifa do Asaas** e **Uso da plataforma (V3RTECH)**, discriminados
-- **Líquido creditado** na conta do condomínio
+- **Creditado na conta do condomínio** — o valor que de fato entra, com a taxa da plataforma **já descontada**
+- A data em que foi pago
 - Um caminho para abrir a cobrança que originou tudo isso
+
+{: .note }
+> **A última linha é o que entra na conta**
+>
+> A taxa da plataforma é descontada na própria cobrança, junto com a tarifa do Asaas. Antes, a soma exibida não fechava com o extrato porque a taxa da plataforma aparecia discriminada mas não era subtraída do total apresentado. Hoje o número da linha **Creditado na conta do condomínio** é o que você confere no extrato.
+
+### De onde veio o pagamento
+
+Logo abaixo da composição, o bloco **Origem do pagamento** diz como aquela cota foi liquidada:
+
+- A frase **“Liquidado pelo Asaas · Pix”** (ou Boleto, Cartão de crédito, Cartão de débito, Transferência bancária, Dinheiro), seguida da data do pagamento
+- O **identificador da cobrança no Asaas**, com um botão para copiar — é o que você usa para localizar o lançamento no extrato do Asaas
+
+<!-- PRINT: cobranca-17-origem-do-pagamento — ver roteiro de capturas -->
+
+{: .note }
+> **Quando o meio não é informado**
+>
+> Quem escolhe como pagar é o morador, na página de cobrança, e o meio só é conhecido quando o pagamento entra. Se o provedor não informar, a frase diz **“meio não informado”** — nunca um meio inventado. Cobranças pagas antes desta versão ficam assim, e está certo: não há como descobrir depois o que não foi registrado na hora.
+
+Essa mesma informação aparece na **Prestação de Contas**, junto de cada lançamento pago por cobrança — ver [Relatórios](/modulos/relatorios/).
+
+**Lançamento pago à mão não mostra origem nenhuma.** Sem cobrança eletrônica por trás, não há meio a informar, e o bloco simplesmente não aparece — em vez de um espaço vazio.
 
 Na lista do Financeiro, esses lançamentos automáticos aparecem **recolhidos dentro da linha da cota** que os originou — clique para expandir. Eles continuam sendo lançamentos normais e entram em todas as somas, filtros, relatórios e exportações exatamente como qualquer outro.
 
@@ -365,8 +420,13 @@ Para não haver surpresa, o que **não** está disponível nesta versão:
 
 ## Visão do condômino
 
-O condômino **não acessa** a tela de Cobrança Automática — ela é exclusiva de quem administra o condomínio. Para o morador, tudo acontece por e-mail e na página de cobrança:
+O condômino **não acessa** a tela de Cobrança Automática — ela é exclusiva de quem administra o condomínio. O que ele tem é a aba **Minhas cobranças**, em [Minha Área](/modulos/minha-area/), mais os avisos por e-mail:
 
 1. Ele recebe o e-mail com o Pix copia-e-cola, a linha digitável e o link
-2. Abre a página de cobrança e escolhe **boleto, Pix ou cartão**
-3. Paga; em poucos minutos a cota aparece baixada no extrato da unidade, em [Minha Área](/modulos/minha-area/)
+2. Abre a página de cobrança — ou a aba **Minhas cobranças** — e escolhe **boleto, Pix ou cartão**
+3. Paga; em poucos minutos a cota aparece baixada no extrato da unidade, e ele recebe o aviso de **pagamento confirmado**
+
+{: .note }
+> **Quanto tempo até constar pago**
+>
+> Tanto na tela quanto no e-mail de emissão, o morador lê o mesmo aviso: **Pix e cartão costumam ser reconhecidos em minutos; boleto depende do banco processar e pode levar até o dia útil seguinte — e não é para pagar de novo antes disso.** É um texto só, escrito em um lugar só, justamente para a tela e o e-mail nunca dizerem coisas diferentes.

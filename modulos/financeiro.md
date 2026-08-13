@@ -82,7 +82,8 @@ Para consultar um lançamento sem entrar no modo de edição, **clique na linha*
 - **Vencimento**, **Competência** e a data em que foi **pago**
 - **Observações**
 - **Anexos** — os comprovantes ligados ao lançamento, prontos para abrir
-- **Composição do pagamento**, quando a cota foi paga por [Cobrança Automática](/modulos/cobranca-automatica/) — mostra o valor cobrado, o que entrou, tarifas e o líquido creditado
+- **Composição do pagamento**, quando a cota foi paga por [Cobrança Automática](/modulos/cobranca-automatica/) — mostra o valor cobrado, o que entrou, as tarifas e o valor **creditado na conta do condomínio**, já com a taxa da plataforma descontada
+- **Origem do pagamento**, no mesmo bloco — **como** aquela cota foi liquidada (Pix, boleto, cartão…), a data e o identificador da cobrança no Asaas, com um botão para copiar e conferir no extrato deles. Lançamento pago à mão não tem esse bloco
 
 <!-- PRINT: financeiro-detalhe-lancamento-01 — ver roteiro de capturas -->
 
