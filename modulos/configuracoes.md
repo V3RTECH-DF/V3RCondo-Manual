@@ -146,6 +146,15 @@ um morador que viajou, uma unidade temporariamente desocupada, um cadastro que
 você quer congelar sem perder de vista. Clique no ícone de **desativar** na linha
 do membro e confirme.
 
+{: .note }
+> **Desativar corta o acesso de verdade**
+>
+> A desativação sempre tirou a pessoa do aplicativo, mas alguns conteúdos do
+> condomínio — **arquivos** e **categorias** — continuavam alcançáveis por quem
+> já estava desativado. Não é mais o caso: quem está **Inativo** perde o acesso
+> a tudo do condomínio, inclusive esses. Se você desativou alguém contando com
+> isso, agora vale o que a tela diz.
+
 **Reativar devolve o acesso.** Um membro inativo mostra o ícone verde de
 **reativar** — clique nele e a pessoa volta a ser Ativa, com acesso restaurado.
 Se a lista estiver filtrada por **Ativos**, troque o filtro para **Inativos** ou
@@ -191,11 +200,16 @@ Lista todas as unidades ativas do condomínio (registro canônico de unidades do
 |---|---|
 | **Unidade** | Identificação da unidade (ex.: 101, Bloco A Apto 3) |
 | **Taxa Mensal (R$)** | Valor configurado ou "—" se ainda não definido |
-| **Ações** | Botão Editar para definir ou alterar o valor individualmente |
+| **Ações** | Ícone de lápis para definir ou alterar o valor individualmente |
 
 ### Edição individual
 
-Clique em **Editar** ao lado de uma unidade, informe o valor em reais e clique em **Salvar**. Para remover a taxa configurada, deixe o campo em branco e salve.
+Clique no **lápis** ao lado de uma unidade (a dica mostra **Editar taxa**), informe o valor em reais e clique em **Salvar**. Para remover a taxa configurada, deixe o campo em branco e salve. A confirmação aparece dizendo qual unidade foi atualizada.
+
+{: .note }
+> **Voltou a funcionar**
+>
+> Por um período a edição individual não estava operando, e corrigir a taxa de **uma** unidade só dependia de recorrer à aplicação em lote. O lápis está normalizado.
 
 ### Filtro rápido
 
@@ -219,15 +233,23 @@ Para configurar a taxa de várias unidades de uma vez:
 
 4. Clique em **Aplicar**. Um diálogo de confirmação exibe uma prévia das alterações — incluindo exemplos de cálculo no modo reajuste e a lista de unidades que serão ignoradas — antes de gravar.
 
+### Criar várias unidades de uma vez
+
+O botão **Gerar unidades em lote** cria as unidades a partir de um padrão, em vez de uma a uma. Escolha entre **Faixa numérica** (101 a 104) e **Bloco × Faixa** (A-101, A-102, B-101…), informe prefixo, sufixo e quantos dígitos usar, e confira a **prévia** — ela mostra quantas serão criadas e quantas já existem. Unidades já cadastradas são ignoradas.
+
+O formulário também pede a **Taxa mensal das unidades criadas (R$) — opcional**: o valor informado é aplicado a **todas** as unidades criadas naquele momento. Deixando em branco, você define a taxa depois, unidade a unidade.
+
+{: .tip }
+> **Preencha a taxa já na criação**
+>
+> É o caminho mais curto para deixar o condomínio pronto para cobrar: a geração mensal **pula toda unidade sem valor de cota**, e não avisa depois. Unidades com valores diferentes entre si continuam sendo resolvidas pela edição individual ou pela aplicação em lote.
+
+O diálogo **Cadastrar unidade**, para criar uma unidade avulsa, também aceita a **Taxa mensal (R$) — opcional** no mesmo momento do cadastro.
+
 {: .note }
 > **Para que serve esse campo?**
 >
-> A taxa mensal por unidade é usada como valor padrão ao gerar cobranças em lote no módulo Financeiro. Configure antes de usar o lançamento em lote para não precisar preencher o valor manualmente para cada unidade.
-
-{: .tip }
-> **Unidades não aparecem na lista?**
->
-> A lista é derivada dos condôminos cadastrados com unidade preenchida. Cadastre os condôminos em **Condôminos** antes de configurar as taxas.
+> A taxa mensal por unidade é usada como valor padrão ao gerar cobranças em lote no módulo Financeiro e na geração mensal automática. Configure antes de usar o lançamento em lote para não precisar preencher o valor manualmente para cada unidade.
 
 ## Aba Cobranças & Acordos *(síndico)*
 
@@ -289,6 +311,17 @@ Selecione a sub-aba do módulo desejado. Para cada categoria é possível:
 - **Excluir** — clique no ícone de lixeira (com confirmação)
 
 Os botões ficaram **maiores** e o de excluir foi **afastado** do de editar, para reduzir o toque errado no celular.
+
+### A categoria da taxa condominial
+
+Na sub-aba **Financeiro**, uma categoria pode ser marcada como **“É a taxa condominial (cota) das unidades”**. Lançamentos dessa categoria são vinculados a uma unidade, entram no **lançamento em lote da cota** e contam na **inadimplência**.
+
+O indicador se chamava antes *“Considerar no cálculo de inadimplência”*, o que descrevia só metade do efeito e escondia o principal: **sem nenhuma categoria marcada, o lançamento em lote abre com a lista de categorias vazia** e não há como lançar a cota do mês.
+
+{: .note }
+> **Condomínio novo já nasce com ela**
+>
+> A categoria **Taxas de condomínio** é criada junto com o condomínio e **já vem marcada** como a taxa condominial. Não é mais preciso descobrir esse ajuste depois de esbarrar na lista vazia. Condomínios criados antes continuam como estão — se o seu não tem nenhuma categoria marcada, marque uma aqui.
 
 ### O que acontece ao excluir uma categoria
 

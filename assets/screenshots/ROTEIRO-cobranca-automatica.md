@@ -95,3 +95,56 @@ bem e que renderiam imagens quase idênticas às que já existem.
 3. Só se houver um condomínio **sem conta aberta** à mão: 02, 03, 04, 05 — estas quatro
    dependem de um estado que não se reproduz depois da aprovação; se não houver, o
    capítulo segue publicável sem elas
+
+---
+
+## Acrescentado em 13/08/2026 — versões 7.120.0 a 7.124.1
+
+Mesmas regras de sempre: condomínio de teste, dados fictícios, e a legenda de dados
+fictícios embaixo da imagem quando houver nome, unidade, CPF ou valor de morador
+visível.
+
+⚠️ **Três destas telas dependem de um condomínio recém-criado** (a partir de
+13/08/2026) — o cartão de configuração inicial não aparece em condomínio antigo.
+Se o Residencial TESTE não servir, criar um condomínio novo só para a captura.
+
+| # | Arquivo | Viewport | Como chegar | O que precisa aparecer | Entra em |
+|---|---|---|---|---|---|
+| 19 | `setup-01-cartao-configuracao-inicial.png` | desktop | `/dashboard` de um condomínio **criado a partir de 13/08/2026**, com pendências de sobra | O cartão **Configuração inicial** inteiro: a barra de progresso com **"n de 6 passos concluídos"**, o botão **Continuar de onde parei** e ao menos quatro itens da lista, cada um com seu botão de ação. Se der, incluir um item com o selo **Pulado** | `modulos/dashboard.md`, seção "Configuração inicial" — trocar o marcador `<!-- PRINT: setup-01-cartao-configuracao-inicial … -->` |
+| 20 | `setup-02-cobranca-em-analise.png` *(opcional)* | desktop | Mesmo cartão, num condomínio com o cadastro da conta **enviado e em análise** | A linha **Cobrança automática — em análise no Asaas**, com a data do envio, o selo **Com o Asaas** e o botão **Aguardando** desabilitado. É a prova de que o cartão distingue o que depende do síndico do que depende de terceiro | `modulos/dashboard.md`, subseção "A linha da Cobrança automática muda de texto conforme o andamento" — hoje sem marcador; inserir logo abaixo da tabela |
+| 21 | `cobranca-17-origem-do-pagamento.png` | desktop | **Financeiro** → abrir o lançamento de uma cota **paga por cobrança** | O bloco **Origem do pagamento**, com a frase **"Liquidado pelo Asaas · Pix"** (ou o meio que for), a data, o identificador da cobrança e o botão de copiar. Enquadrar junto com a **Composição do pagamento** acima dele, para a última linha **"Creditado na conta do condomínio"** aparecer na mesma imagem | `modulos/cobranca-automatica.md`, subseção "De onde veio o pagamento" — trocar o marcador `<!-- PRINT: cobranca-17-origem-do-pagamento … -->` |
+| 22 | `minha-area-cobrancas-01.png` | desktop | Entrar como **condômino** de unidade com cobrança emitida → **Minha Área** → aba **Minhas cobranças** | O bloco **Em aberto** com ao menos uma cobrança: valor, "Vence em …", a unidade, o selo de situação e o botão **Pagar**. Se houver, o bloco **Histórico** logo abaixo. **Dados fictícios obrigatórios** — a tela mostra unidade e valor | `modulos/minha-area.md`, seção "Aba Minhas cobranças" — trocar o marcador `<!-- PRINT: minha-area-cobrancas-01 … -->` |
+| 23 | `minha-area-cobrancas-02-pagar.png` *(opcional)* | **celular 375×812** | Na mesma aba → botão **Pagar** | O painel de pagamento aberto na aba **Pix**, com o **QR Code**, o código copia-e-cola e, no rodapé, o texto do **prazo de reconhecimento** ("Pix e cartão costumam ser reconhecidos em minutos; boleto…"). O celular é o enquadramento certo porque é onde o morador vai pagar | `modulos/minha-area.md`, subseção "Pagar" — hoje sem marcador; inserir depois da tabela de formas |
+| 24 | `config-unidades-gerar-em-lote.png` *(opcional)* | desktop | **Configurações → Unidades** → botão **Gerar unidades em lote** | O diálogo com o padrão preenchido (faixa ou bloco), o campo **Taxa mensal das unidades criadas (R$) — opcional** e a **prévia** dizendo quantas serão criadas e quantas já existem | `modulos/configuracoes.md`, subseção "Criar várias unidades de uma vez" — hoje sem marcador; inserir após o primeiro parágrafo |
+
+**Candidatas já existentes.** Na raiz da pasta de trabalho há prints de validação
+tirados em 13/08 que podem servir depois de conferidos quanto a dado pessoal e
+recortados: `176-cartao-condominio-novo.png` (#19), `176-passo-fecha-sozinho.png`,
+`176b-cartao-em-falha-permanente.png`, `177-composicao-corrigida.png`,
+`178-origem-do-pagamento.png` (#21), `180-cobrancas-reais-do-morador.png` (#22) e
+`unidades-edicao-taxa.png` (#24). **Não foram copiados para `assets/screenshots/`**:
+são prints de teste em base de produção e precisam da conferência do Bruno antes de
+irem para o manual público.
+
+Não foi pedida captura para os avisos por e-mail (conta de cobrança, pagamento
+confirmado, cancelamento) nem para a categoria da cota nascer marcada: o texto
+descreve bem, e imagem de e-mail envelhece a cada ajuste de redação.
+
+### ⚠️ Duas imagens quebradas no manual publicado (achado de 13/08)
+
+Não têm relação com as versões acima — são anteriores e estão **quebradas hoje, no ar**:
+`modulos/minha-area.md` referencia dois arquivos que **não existem** em
+`assets/screenshots/`. O leitor vê o ícone de imagem quebrada.
+
+| # | Arquivo | Viewport | Como chegar | O que precisa aparecer | Entra em |
+|---|---|---|---|---|---|
+| 25 | `102-minha-area-solicitar-lista.png` | desktop | **Minha Área** → aba **Solicitar Documentos e Serviços** | A lista no computador: Nada Consta, Quitação Anual (IR) com o seletor de ano, Declaração de Débitos/Residência e Certidão de Quitação com cadeado Pro, Solicitar documento (Outros) e Extrato da Unidade, cada item com sua ação à direita | `modulos/minha-area.md` linha 25 — a referência já está no texto, basta o arquivo existir |
+| 26 | `103-minha-area-solicitar-cards.png` | **celular 375×812** | A mesma aba | Os mesmos itens como cartões empilhados | `modulos/minha-area.md` linha 29 — idem |
+
+Enquanto não forem capturadas, a alternativa é trocar as duas referências por
+marcadores `<!-- PRINT: … -->`, como no resto do manual, para não publicar imagem
+quebrada. **Não fiz a troca** para não remover conteúdo sem decisão do Bruno: pode ser
+que os arquivos existam fora do repositório e só não tenham sido copiados.
+
+_Nota de arrumação: há três arquivos `debug-minha-area*.png` em `assets/screenshots/`
+que nenhuma página referencia — sobra de depuração, candidatos a remoção._

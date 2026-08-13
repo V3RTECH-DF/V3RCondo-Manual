@@ -6,7 +6,7 @@ nav_order: 2
 
 # Minha Área
 
-A **Minha Área** é o espaço de autoatendimento para condôminos e síndicos. Os serviços da sua unidade ficam organizados em duas abas: **Solicitar Documentos e Serviços** (emitir e solicitar documentos, extrato da unidade e negociação de dívida) e **Meus Documentos** (baixar os documentos que você emitiu ou recebeu).
+A **Minha Área** é o espaço de autoatendimento para condôminos e síndicos. Os serviços da sua unidade ficam organizados em abas: **Solicitar Documentos e Serviços** (emitir e solicitar documentos, extrato da unidade e negociação de dívida), **Meus Documentos** (baixar os documentos que você emitiu ou recebeu) e, nos condomínios que usam a Cobrança Automática, **Minhas cobranças** (pagar as cobranças da sua unidade).
 
 > Porteiros não têm acesso a este módulo.
 
@@ -137,6 +137,54 @@ Cada acordo aparece em um card com as informações principais: valor total, nú
 Lista todos os documentos da sua unidade para baixar — tanto os **automáticos** que você emitiu quanto os **manuais** que o síndico entregou. Cada item mostra o tipo, a data, o **código de verificação** e um botão para **baixar** (ou re-baixar) o PDF. Pedidos ainda em andamento aparecem com o status: *aguardando síndico*, *em análise*, *concluído* ou *recusado* (com o motivo).
 
 <!-- TODO captura: aba "Meus Documentos" com o histórico de emissões/solicitações -->
+
+---
+
+## Aba "Minhas cobranças"
+
+Reúne as cobranças da **sua unidade** e é por onde você paga. A aba aparece apenas nos condomínios que usam a [Cobrança Automática](/modulos/cobranca-automatica/) com a conta já aprovada — nos demais, ela não existe.
+
+<!-- PRINT: minha-area-cobrancas-01 — ver roteiro de capturas -->
+
+{: .note }
+> **Agora são as suas cobranças de verdade**
+>
+> Por um período esta aba mostrou **dados de demonstração** — valores e vencimentos de exemplo, iguais para todo mundo. Hoje ela lê as cobranças reais da sua unidade: o Pix, o boleto e a fatura são os do seu condomínio, e o pagamento vale.
+
+A tela tem dois blocos:
+
+- **Em aberto** — o que ainda há para pagar. Cada cobrança mostra o **valor**, o **vencimento**, a sua **unidade**, o selo de situação e o botão **Pagar**
+- **Histórico** — as cobranças já encerradas (pagas, canceladas). Clique em qualquer uma para ver o detalhe
+
+### Pagar
+
+Clique em **Pagar** e escolha entre as formas disponíveis naquela cobrança:
+
+| Forma | O que aparece |
+|---|---|
+| **Pix** | O **QR Code** e o código copia-e-cola, com botão de copiar |
+| **Boleto** | A **linha digitável**, com botão de copiar, e **Abrir boleto** para o PDF |
+| **Fatura** | O botão **Abrir fatura**, que reúne as formas de pagamento liberadas pelo condomínio |
+
+No rodapé, o prazo de reconhecimento: **Pix e cartão costumam ser reconhecidos em minutos; boleto depende do banco processar e pode levar até o dia útil seguinte.** Enquanto isso, **não pague de novo**.
+
+{: .note }
+> **Reconhecido é quando a cobrança consta paga**
+>
+> É disso que o prazo acima fala: o momento em que a cobrança aparece como quitada para você e para o síndico. Assim que isso acontece, você recebe o e-mail de **pagamento confirmado** e a cobrança passa para o **Histórico**.
+
+### Cobrança já paga
+
+Abrindo uma cobrança do Histórico que já foi paga, no lugar das formas de pagamento aparece o aviso de que ela **já consta como paga** (com a data) e que não há nada a pagar, mais o botão **Ver comprovante na fatura**.
+
+### Não vejo uma cobrança que eu esperava
+
+Só aparecem aqui as cobranças **já emitidas pelo síndico**. Se você tem uma cota em aberto e não vê nada, o condomínio ainda não emitiu a cobrança daquele lançamento — o lançamento em si continua visível no **Extrato da Unidade**.
+
+{: .warning }
+> **Consulta que falha não vira “você não deve nada”**
+>
+> Se a consulta não responder, a tela diz **“Não deu para carregar suas cobranças”** e oferece **Tentar de novo**, deixando claro que isso não significa que não há o que pagar. Lista vazia e falha de carregamento são coisas diferentes, e a tela nunca troca uma pela outra.
 
 ---
 

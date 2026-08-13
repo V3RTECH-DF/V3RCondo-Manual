@@ -148,6 +148,8 @@ A Prestação de Contas é o **documento financeiro formal** do condomínio, em 
 >
 > Quando há comprovantes vinculados aos lançamentos do período, eles são reunidos em um único PDF junto com a prestação, cada um identificado por descrição, data e valor.
 
+**Origem do pagamento:** os lançamentos pagos por [Cobrança Automática](/modulos/cobranca-automatica/) trazem, no documento, **como** foram liquidados — a frase *Liquidado pelo Asaas · Pix* (ou boleto, cartão, transferência), a data e o identificador da cobrança. É o que permite a quem confere a prestação amarrar cada entrada ao extrato da conta de cobrança, sem precisar pedir nada ao síndico. Lançamentos pagos à mão continuam sem essa menção, porque não há meio eletrônico a informar.
+
 ## Relatório de Gestão *(síndico)*
 
 O Relatório de Gestão é um documento **gerencial, exclusivo do síndico**, com o panorama operacional de todos os módulos do condomínio no período: indicadores (receitas, despesas, saldo, unidades, inadimplência), **Destaques e Pontos de Atenção**, inadimplência por unidade, compras/obras e resumos de tarefas, solicitações, visitantes, assembleias, reservas, documentos, mural e membros.

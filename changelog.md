@@ -9,6 +9,79 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.124 — Agosto 2026
+
+### Melhorado
+
+- **Condomínio novo já nasce pronto para cobrar a cota.** Duas configurações que só se descobria depois de esbarrar nelas passaram a vir resolvidas. A categoria **Taxas de condomínio** é criada junto com o condomínio e **já vem marcada** como a taxa condominial das unidades — antes, sem nenhuma categoria marcada, o lançamento em lote abria com a lista vazia e não havia como lançar a cota. E o **gerador de unidades em lote** passou a perguntar a **taxa mensal das unidades criadas**, um campo opcional aplicado a todas as unidades daquela criação: dá para sair da criação do condomínio com unidades e cota já definidas, em vez de voltar unidade por unidade depois. Condomínios já existentes não mudam.
+
+### Corrigido
+
+- **Editar a taxa de uma unidade só voltou a funcionar.** Em **Configurações → Unidades**, o lápis ao lado de cada unidade estava sem efeito, e quem precisava ajustar **uma** unidade dependia de recorrer à aplicação em lote. Voltou ao normal: clique no lápis, informe o valor e salve.
+- **Um condomínio criado logo depois da mudança acima nascia sem categoria nenhuma** (corrigido na v7.124.1). Ao arrumar a categoria da cota, a criação das demais categorias padrão parou de acontecer — em vez de nascer com a lista pronta, o condomínio nascia com ela vazia. Só condomínios criados na janela entre as duas versões foram afetados; se o seu estiver sem categorias, cadastre-as em Configurações › Categorias.
+
+---
+
+## v7.123 — Agosto 2026
+
+### Adicionado
+
+- **O condômino passou a ser avisado por e-mail quando o pagamento é reconhecido.** O aviso traz unidade, valor pago, vencimento, data do pagamento e a forma usada, e diz o principal: aquela cobrança está quitada e não há mais nada a pagar nela. Antes, quem pagava ficava sem confirmação nenhuma do nosso lado.
+- **E também quando uma cobrança dele deixa de valer.** O texto muda conforme o que aconteceu — o condomínio cancelou, a cobrança foi excluída, ou havia um pagamento e ele foi desfeito. Nos três casos a orientação é a mesma: **não pagar de novo**. No caso do pagamento desfeito, o aviso **não afirma** o que houve com o dinheiro (não temos como saber daqui) e orienta procurar o síndico, que tem acesso ao extrato da conta de cobrança.
+
+### Corrigido
+
+- **Desativar um condômino agora corta o acesso de verdade.** A desativação sempre tirou a pessoa do aplicativo, mas os **arquivos** e as **categorias** do condomínio continuavam alcançáveis por quem já estava desativado. Não é mais o caso: quem está **Inativo** perde o acesso a tudo do condomínio. Se você desativou alguém contando com isso, agora vale o que a tela diz.
+- **Melhorias internas de monitoramento.** Alertas que continuavam disparando para situações já encerradas foram silenciados, e verificações automáticas que estavam pela metade foram recriadas. Sem alteração visível no uso.
+
+---
+
+## v7.122 — Agosto 2026
+
+### Adicionado
+
+- **"Minhas cobranças" passou a mostrar as cobranças de verdade da sua unidade.** A aba existia em **Minha Área** mas exibia **dados de demonstração** — valores e vencimentos de exemplo, iguais para todo mundo. Agora o morador vê as cobranças reais do seu condomínio: o Pix (com QR Code e código copia-e-cola), a linha digitável do boleto e a fatura são os dele, e o pagamento vale. As cobranças ficam separadas entre **Em aberto** e **Histórico**, e uma cobrança já paga mostra o comprovante no lugar das formas de pagamento. A aba aparece apenas nos condomínios que usam a Cobrança Automática, com a conta aprovada.
+- **A tela diz em quanto tempo o pagamento passa a constar pago.** Na hora de pagar, o morador lê que **Pix e cartão costumam ser reconhecidos em minutos** e que **boleto depende do banco processar e pode levar até o dia útil seguinte** — com o aviso de não pagar de novo antes disso. É a dúvida que mais gera pagamento em duplicidade.
+- **Uma consulta que falha deixou de parecer "você não deve nada".** Se a lista não carregar, a tela diz que **não deu para carregar suas cobranças** e oferece tentar de novo, em vez de mostrar uma lista vazia — que pareceria informação e seria só falha.
+
+### Corrigido
+
+- **A aba não aparecia para ninguém** (corrigido na v7.122.1). A condição que decidia exibi-la consultava um estado de simulação, e não a situação real do condomínio.
+
+---
+
+## v7.121 — Agosto 2026
+
+### Adicionado
+
+- **Agora dá para saber como cada cota foi paga.** No lançamento da cota paga, no Financeiro, o bloco **Origem do pagamento** informa o meio efetivamente usado pelo morador — Pix, boleto, cartão, transferência —, a data e o identificador da cobrança no provedor, com um botão para copiar. É o que permite localizar aquela entrada no extrato sem adivinhação. Quem escolhe o meio é o morador, na hora de pagar, então a informação só existe depois que o pagamento entra; quando o provedor não informa, a tela diz **"meio não informado"** em vez de arriscar um palpite.
+- **A mesma informação entra na Prestação de Contas.** Cada lançamento pago por cobrança traz no documento como foi liquidado, com a data e o identificador — quem confere as contas consegue amarrar cada entrada ao extrato da conta de cobrança sem precisar pedir nada ao síndico.
+
+_Lançamento pago à mão não tem origem eletrônica e continua exatamente como sempre foi: sem menção a meio de pagamento e sem espaço vazio na tela. Cobranças pagas antes desta versão ficam sem essa informação — não há como descobrir depois o que não foi registrado na hora._
+
+---
+
+## v7.120 — Agosto 2026
+
+### Adicionado
+
+- **Um cartão no painel diz o que falta para o condomínio operar.** Quem acaba de criar o condomínio encontra o cartão **Configuração inicial**, com a lista do que ainda precisa ser feito — dados do condomínio, unidades, valor da cota, categoria da taxa, condôminos, conta bancária e cobrança automática —, cada item com o atalho que leva direto ao lugar de resolver. A ideia é dizer de saída o que antes só aparecia quando alguém tropeçava: a cota que não foi gerada porque a unidade estava sem valor, o lançamento em lote que abre com a lista de categorias vazia.
+
+    Nada é marcado à mão: a conclusão de cada item vem da situação real do condomínio. Um item pode ser **pulado** (continua na lista, marcado como pulado) ou tirado da lista com **"não vamos usar"** — e, nesse caso, há sempre o caminho de volta, no rodapé do cartão. Os itens estruturais não podem ser tirados. **O cartão some sozinho** quando não sobra nada.
+
+    O cartão aparece apenas em condomínios criados a partir de 13 de agosto de 2026 — quem já roda há meses não é cobrado por uma lista que resolveu do seu jeito. A **linha da conta de cobrança**, essa, vale para todos os condomínios com conta pela metade, e muda de texto conforme o andamento: em análise (sem botão, porque a bola está com o Asaas), recusada (com o motivo) ou aguardando reconexão.
+
+- **Avisos por e-mail sobre a conta de Cobrança Automática.** O síndico passou a ser avisado em cada virada: quando o **cadastro é enviado**, quando é **aprovado** e quando é **recusado**. Antes era preciso voltar à tela para descobrir. O aviso de aprovação lembra de conferir o valor da cota das unidades antes de emitir — unidade sem valor é pulada na geração mensal —, e o de recusa traz o motivo informado pelo provedor, quando informado.
+
+- **O indicador da categoria da cota passou a dizer o que faz.** Chamava-se *"Considerar no cálculo de inadimplência"*, que descrevia metade do efeito. Agora é **"É a taxa condominial (cota) das unidades"**, e o texto explica o resto: lançamentos dessa categoria são vinculados a uma unidade, entram no lançamento em lote da cota e contam na inadimplência.
+
+### Corrigido
+
+- **O cartão de configuração nascia sem funcionar** (corrigido na v7.120.1). Na primeira versão ele falhava para todos os condomínios e não chegava a aparecer.
+- **A "Composição do pagamento" não fechava** (corrigido na v7.120.2). A taxa da plataforma aparecia discriminada, mas não era descontada do total apresentado — a conta ficava R$ 1,00 acima do que realmente entrava na conta do condomínio. A última linha passou a se chamar **"Creditado na conta do condomínio"** e é o valor que você confere no extrato.
+
+---
+
 ## v7.119 — Agosto 2026
 
 ### Corrigido
