@@ -463,7 +463,7 @@ São **dois valores diferentes, de duas empresas diferentes**:
 | Custo | Quem cobra | Quando |
 |---|---|---|
 | **Tarifa do Asaas** | O Asaas, em cada cobrança paga. O valor varia conforme o meio de pagamento e está na [página oficial de preços deles](https://www.asaas.com/precos) | Em cada cobrança **paga** |
-| **Uso da plataforma (V3RTECH)** | R$ 1,00 por cobrança paga — o valor é combinado por condomínio e aparece na própria tela | Em cada cobrança **paga** |
+| **Uso da plataforma (V3RTECH)** | Um valor fixo por cobrança paga, **combinado com o seu condomínio** — ele aparece na própria tela de Cobrança automática, antes de você aderir e sempre que quiser conferir | Em cada cobrança **paga** |
 
 **Cobrança emitida e não paga não gera custo nenhum**, nem do Asaas nem da V3RTECH.
 

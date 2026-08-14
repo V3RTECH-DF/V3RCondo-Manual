@@ -573,7 +573,8 @@ momento nenhum.
 
 São dois custos, e **só existem quando a cobrança é paga**: a **tarifa do Asaas**
 (valor deles, na [página oficial de preços](https://www.asaas.com/precos)) e o **uso
-da plataforma**, R$ 1,00 por cobrança paga. Cobrança emitida e não paga não gera custo
+da plataforma**, um valor fixo por cobrança paga, combinado com o seu condomínio e
+exibido na área de Cobrança automática. Cobrança emitida e não paga não gera custo
 nenhum. No Financeiro, os dois aparecem numa única despesa que discrimina as duas
 partes.
 </details>
