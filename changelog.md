@@ -13,8 +13,12 @@ Registro de versões e novidades do V3RCondo.
 
 ### Adicionado
 
-- **A taxa do espaço de reserva agora é uma escolha clara: "Sem taxa" ou "Com taxa".** Antes, um espaço com valor zero podia significar tanto "esse espaço é gratuito de propósito" quanto "ninguém configurou a taxa ainda" — ficava ambíguo. Agora o cadastro do espaço pede a escolha explícita (o padrão é "Sem taxa"), e quando você escolhe "Com taxa" o app explica o efeito antes de você salvar — por exemplo, "cada turno reservado custa R$ 50,00, então uma reserva de 2 turnos custa R$ 100,00".
-- **A categoria financeira das reservas pode ser renomeada livremente, sem afetar o funcionamento.** Antes, o app reconhecia essa categoria pelo nome exato "Reservas" — se o nome fosse alterado, ou se já existisse outra categoria com o mesmo nome mas de finalidade diferente, os valores pagos nas reservas podiam parar de aparecer corretamente no seu Financeiro, sem nenhum aviso. Agora o app reconhece essa categoria de um jeito interno, independente do nome exibido, então você pode renomeá-la à vontade em Configurações → Categorias sem correr esse risco.
+- **A taxa do espaço de reserva agora é uma escolha clara: "Sem taxa" ou "Com taxa".** Antes, um espaço com valor zero podia significar tanto "esse espaço é gratuito de propósito" quanto "ninguém configurou a taxa ainda" — ficava ambíguo. Agora o cadastro do espaço pede a escolha explícita (o padrão é "Sem taxa"), e quando você escolhe "Com taxa" o app explica o efeito antes de você salvar — por exemplo, "cada turno reservado custa R$ 50,00, então uma reserva de 2 turnos custa R$ 100,00". Escolhendo "Com taxa", o valor precisa ser maior que zero.
+- **A categoria financeira das reservas pode ser renomeada livremente, sem afetar o funcionamento.** Antes, o app reconhecia essa categoria pelo nome exato "Reservas" — se o nome fosse alterado, ou se já existisse outra categoria com o mesmo nome mas de finalidade diferente, os valores pagos nas reservas podiam parar de aparecer corretamente no seu Financeiro, sem nenhum aviso. Agora o app reconhece essa categoria de um jeito interno, independente do nome exibido, então você pode renomeá-la à vontade em Configurações → Categorias sem correr esse risco. Em compensação, o tipo dessa categoria específica ficou travado em Receita — não é mais possível mudá-la para Despesa ou Transferência.
+
+### Corrigido
+
+- **Criar uma categoria financeira do tipo "Transferência" agora funciona de verdade.** O seletor já mostrava essa opção há alguns meses, mas salvar uma categoria nova com esse tipo falhava sem avisar nada — o formulário parecia funcionar e a categoria simplesmente não aparecia na lista. Corrigido: categorias de Transferência já podem ser criadas e usadas normalmente em Configurações → Categorias.
 
 ---
 
