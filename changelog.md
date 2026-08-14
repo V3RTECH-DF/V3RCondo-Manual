@@ -9,6 +9,24 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.135 — Agosto 2026
+
+### Adicionado
+
+- **A situação da conta de cobrança automática do condomínio passa a ser atualizada com muito mais agilidade.** Antes, uma mudança na sua conta no Asaas — por exemplo, a aprovação — podia levar até 24 horas para aparecer no app, porque dependíamos de uma conferência diária. Agora o app é avisado pelo próprio Asaas assim que algo muda, e a conferência diária continua rodando por trás como uma segunda camada de segurança. **Observação:** ainda estamos confirmando, com as primeiras contas em ambiente de teste, que os avisos do Asaas chegam como esperado — enquanto isso é confirmado, a conferência diária garante que nada fica parado.
+
+---
+
+## v7.134 (continuação) — Agosto 2026
+
+### Adicionado
+
+- **O termo de autorização do síndico virou um documento de verdade.** Depois de aceitar os termos que autorizam o uso do Asaas, o síndico agora recebe um PDF com código de verificação e QR Code, disponível para download na área de cobrança automática — antes o aceite ficava registrado só internamente, sem documento para o síndico guardar.
+- **Os canais de suporte do Asaas voltaram a aparecer para quem já tem conta aprovada.** Um ajuste anterior fazia esses canais desaparecerem justamente quando a conta estava aprovada e operando dinheiro de verdade — corrigido.
+- **O selo "Serviços financeiros Asaas" passou a aparecer também na tela de login e cadastro**, e ganhou uma frase explicando a divisão de responsabilidade: o Asaas responde pelo serviço de cobrança automática, e a V3RTECH pela plataforma. Essa frase também aparece na tela financeira do síndico, com um link para o site da V3RTECH.
+
+---
+
 ## v7.134 — Agosto 2026
 
 ### Adicionado
