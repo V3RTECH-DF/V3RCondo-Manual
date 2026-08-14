@@ -9,6 +9,26 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.131 / v7.133 — Agosto 2026
+
+### Adicionado
+
+- **O síndico passa a autorizar formalmente a integração com o Asaas antes de abrir a conta de cobrança.** Um termo de autorização é apresentado e o aceite fica registrado, com data e origem do acesso, antes de a conta de cobrança automática ser criada.
+- **Atualizamos os Termos de Uso e a Política de Privacidade.** Os Termos passaram a descrever a prestação de serviços financeiros feita em parceria com o Asaas, e a Política de Privacidade passou a declarar esse compartilhamento de dados. As novas versões (Termos 1.3 e Privacidade 1.2) já estão em vigor.
+
+### Melhorado
+
+- **Reforçamos a segurança das integrações com prestadores de serviço externos.** Credenciais que antes ficavam guardadas em um formato menos protegido passaram para um cofre dedicado.
+- **O assistente de configuração inicial do condomínio ficou mais consistente.** A barra de progresso e a lista de passos deixaram de mostrar números diferentes entre si.
+
+### Corrigido
+
+- **Um filtro de período inválido no Financeiro deixava a tela dizer duas coisas ao mesmo tempo** — um aviso de erro e "nenhum lançamento encontrado" juntos, o que podia ser lido como se realmente não houvesse lançamentos no período. Agora só aparece o aviso de erro.
+- **Valores de reserva apareciam no formato americano** (ex.: "R$ 150.00" em vez de "R$ 150,00") em algumas telas do assistente de reserva. Corrigido.
+- **A tela de administração de plataforma continuava oferecendo "Aprovar conta de teste" para contas já aprovadas**, e a consulta não considerava corretamente contas removidas. Corrigido.
+
+---
+
 ## v7.130 / v7.131 — Agosto 2026
 
 ### Adicionado
