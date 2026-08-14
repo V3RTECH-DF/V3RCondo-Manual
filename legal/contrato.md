@@ -8,7 +8,7 @@ nav_order: 1
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.0 — Agosto de 2026
+Versão 1.1 — Agosto de 2026
 
 ---
 
@@ -63,8 +63,6 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 **3.3. Como o preço é formado.** O preço do plano Pro é calculado automaticamente a partir do **número de unidades cadastradas** pelo condomínio na plataforma, conforme faixas de quantidade de unidades.
 
 **3.3.1.** A **tabela de faixas e valores vigente** é publicada em [v3rcondo.com.br/planos](https://v3rcondo.com.br/planos) e integra este Contrato para todos os efeitos. A tabela aplicável é a que estiver publicada naquele endereço na data da contratação ou da renovação, conforme o caso.
-
-**3.3.2.** A tabela não é reproduzida neste Contrato de propósito: valor copiado em dois lugares vira informação divergente sem aviso. O endereço indicado no item 3.3.1 é a **fonte única**, e a V3RTECH compromete-se a mantê-lo acessível enquanto este Contrato vigorar.
 
 **3.4. Alteração de preço.** Os preços podem ser alterados mediante aviso prévio de **30 dias** por e-mail ao síndico. A alteração:
 
@@ -140,7 +138,13 @@ A cobrança pela plataforma não se limita à cota condominial. Pode alcançar q
 O condômino escolhe a forma de pagamento entre as disponíveis na cobrança — **boleto, Pix ou cartão** —, conforme as opções habilitadas pelo Asaas para a conta do condomínio.
 
 **5.8. Quanto a V3RTECH cobra por isso.**
-Pelo uso dos recursos de cobrança da plataforma, a V3RTECH cobra **R$ 1,00 (um real) por cobrança efetivamente paga** — seja ela de cota ou de qualquer outro valor previsto no item 5.7. A quantia é retida automaticamente no momento da liquidação do pagamento (repartição automática de valores), de forma que o condomínio recebe o valor já líquido dela. Esse valor remunera **o uso da plataforma V3RCondo**, e é apresentado de forma destacada nos relatórios financeiros do condomínio.
+Pelo uso dos recursos de cobrança da plataforma, a V3RTECH cobra um **valor fixo por cobrança efetivamente paga** — seja ela de cota ou de qualquer outro valor previsto no item 5.7. Cobrança emitida e não paga **não gera remuneração alguma** para a V3RTECH.
+
+**5.8.1. Qual é o valor.** O valor aplicável **a este condomínio** é o acordado com ele e configurado na plataforma, e fica **visível ao síndico na própria área de cobrança automática do aplicativo**, antes da adesão e a qualquer tempo depois. O valor pode variar de um condomínio para outro, conforme as condições comerciais de cada contratação.
+
+**5.8.2. Como é cobrado.** A quantia é retida automaticamente no momento da liquidação do pagamento (repartição automática de valores), de forma que o condomínio recebe o valor já líquido dela. Ela remunera **o uso da plataforma V3RCondo**, é distinta das tarifas da instituição de pagamento (item 5.9), e é apresentada de forma destacada nos relatórios financeiros do condomínio.
+
+**5.8.3. Alteração.** A alteração desse valor observa a mesma regra do item 3.4: aviso prévio de **30 dias** ao síndico, sem efeito sobre cobranças já emitidas, sem retroagir, e facultado ao condomínio cancelar sem penalidade antes da vigência.
 
 **5.9.** As tarifas cobradas pelo Asaas pelo serviço financeiro em si — como tarifa por boleto pago, por Pix recebido ou por transação em cartão — são definidas pelo Asaas, incidem sobre a conta de pagamento do condomínio e são informadas ao síndico antes da adesão. ⚠️ No cartão, o prazo de disponibilização do valor na conta do condomínio é maior que no boleto e no Pix, conforme as regras do Asaas e das bandeiras.
 
@@ -212,6 +216,8 @@ Para dúvidas, solicitações ou notificações relacionadas a este Contrato:
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)
 
 ---
+
+*Versão 1.1 — Agosto de 2026. Revisão da versão 1.0: a remuneração da V3RTECH pelo uso dos recursos de cobrança deixou de constar como valor fixo no texto e passou a ser o valor acordado com cada condomínio, visível ao síndico na área de cobrança automática do aplicativo (item 5.8) — pode variar de um condomínio para outro. Retirada também a cláusula que justificava a não reprodução da tabela de preços.*
 
 *Versão 1.0 — Agosto de 2026. Documento criado a partir do desmembramento dos Termos de Uso 1.4, que reuniam num só texto a relação com o condomínio contratante e a relação com cada usuário. As cláusulas de objeto, planos e preços, cancelamento, prestação de serviços financeiros, proteção de dados e suspensão passaram a integrar este Contrato, com a redação preservada e apenas a numeração e as remissões ajustadas.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços.*
