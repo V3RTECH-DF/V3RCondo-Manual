@@ -1,14 +1,14 @@
 ---
 title: Política de Privacidade
 parent: Legal
-nav_order: 2
+nav_order: 3
 ---
 
 # Política de Privacidade
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.2 — Maio de 2026 (revisado em agosto de 2026)
+Versão 1.3 — Maio de 2026 (revisado em agosto de 2026)
 
 ---
 
@@ -19,12 +19,37 @@ Versão 1.2 — Maio de 2026 (revisado em agosto de 2026)
 
 ---
 
-## 1. Controlador dos Dados
+## 1. Quem responde pelos seus dados
 
-**V3RTECH TECNOLOGIA, CONSULTORIA E INOVAÇÃO LTDA.**
-Responsável pela operação do V3RCondo ([v3rcondo.com.br](https://v3rcondo.com.br)).
+O V3RCondo é uma **ferramenta usada pelo condomínio**. Por isso, quem responde pelos dados não é quem fornece o programa: é quem decide coletá-los.
 
-Encarregado de Proteção de Dados (DPO): [dpo@v3rtech.com.br](mailto:dpo@v3rtech.com.br)
+A LGPD chama de **controlador** quem decide por que e como os dados são tratados, e de **operador** quem trata os dados seguindo as instruções do controlador.
+
+### 1.1. O condomínio é o controlador
+
+O **condomínio**, representado pelo síndico, é o **controlador** dos dados tratados na plataforma: cadastro dos condôminos e das unidades, lançamentos financeiros, cotas e cobranças, reservas de áreas comuns, ocorrências, assembleias, documentos, registro de visitantes e as contas de acesso dos usuários vinculados a ele.
+
+É o condomínio que decide coletar esses dados, para que usá-los e por quanto tempo mantê-los — do mesmo modo que já ocorre com os livros, as atas e os arquivos que ele mantém fora da plataforma. A abertura das contas de acesso, a contratação do plano e a guarda dos registros são feitas **por determinação do condomínio** ou, quando ele não tem personalidade jurídica própria para o ato, do síndico que o representa.
+
+### 1.2. A V3RTECH é a operadora
+
+A **V3RTECH TECNOLOGIA, CONSULTORIA E INOVAÇÃO LTDA.** trata esses dados **por conta do condomínio**, como **operadora**: fornece a plataforma, guarda os dados com segurança, executa o que o condomínio determina e **não os utiliza para finalidade própria**.
+
+### 1.3. A exceção, e ela é estreita
+
+A V3RTECH atua como **controladora** apenas na mesma medida e proporção que a instituição de pagamento: **prevenção à fraude, verificação de identidade e cumprimento de obrigações legais e regulatórias** — inclusive as impostas pela instituição de pagamento e pela regulação do sistema financeiro. Fora disso, não define finalidades próprias sobre os dados tratados na plataforma.
+
+### 1.4. O Asaas, quando há cobrança pelo aplicativo
+
+Quando o condomínio usa a cobrança de cota pelo aplicativo, o **Asaas** atua como **operador do condomínio** para a cobrança em si, e como **controlador independente** para as finalidades próprias dele — as mesmas três acima. Detalhes na seção 2.5.
+
+### 1.5. A quem pedir
+
+Você pode exercer seus direitos com qualquer um de nós. Pedidos sobre os dados tratados na plataforma são do **condomínio**, e a V3RTECH os atende sob orientação dele — inclusive quando o pedido chega primeiro a nós.
+
+Na dúvida, escreva para o nosso Encarregado, que direcionamos.
+
+**Encarregado de Proteção de Dados (DPO) da V3RTECH:** [dpo@v3rtech.com.br](mailto:dpo@v3rtech.com.br)
 
 ---
 
@@ -82,7 +107,7 @@ Os dados de visitantes são de uso exclusivamente interno do condomínio e não 
 
 ### 2.5. Dados da cobrança de valores condominiais (boleto, Pix e cartão)
 
-O V3RCondo permite que o condomínio cobre do condômino, por boleto, Pix ou cartão, a cota condominial e demais valores devidos — taxa de reserva de ambiente comum, multa, rateio extraordinário e parcela de acordo de inadimplência. Esse serviço financeiro é prestado pelo **ASAAS GESTÃO FINANCEIRA S.A.**, instituição de pagamento autorizada a funcionar pelo Banco Central do Brasil, conforme a seção 10 dos [Termos de Uso](https://docs.v3rcondo.com.br/legal/termos). A V3RTECH não custodia, não retém e não movimenta em nome próprio os valores arrecadados.
+O V3RCondo permite que o condomínio cobre do condômino, por boleto, Pix ou cartão, a cota condominial e demais valores devidos — taxa de reserva de ambiente comum, multa, rateio extraordinário e parcela de acordo de inadimplência. Esse serviço financeiro é prestado pelo **ASAAS GESTÃO FINANCEIRA S.A.**, instituição de pagamento autorizada a funcionar pelo Banco Central do Brasil, conforme a seção 5 do [Contrato de Prestação de Serviços](https://docs.v3rcondo.com.br/legal/contrato). A V3RTECH não custodia, não retém e não movimenta em nome próprio os valores arrecadados.
 
 Para viabilizar a cobrança, dados pessoais são enviados ao Asaas em duas situações distintas.
 
@@ -238,5 +263,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 
 ---
 
-*Versão 1.2 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais) e em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5).*
+*Versão 1.3 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais), em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5) e, ainda em agosto de 2026, com a definição dos papéis de tratamento: o condomínio passa a constar expressamente como controlador e a V3RTECH como operadora, com a V3RTECH atuando como controladora apenas para prevenção à fraude, verificação de identidade e obrigações legais e regulatórias — seção 1 reescrita.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*

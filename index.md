@@ -90,6 +90,17 @@ O V3RCondo está disponível em dois planos. Veja a comparação completa na pá
 
 ---
 
+## Documentos legais
+
+São **dois instrumentos com públicos diferentes**, e vale saber qual é qual:
+
+- [**Contrato de Prestação de Serviços**](/legal/contrato/) — rege a relação entre a V3RTECH e o **condomínio**: objeto, planos e preços, cancelamento, cobrança da cota pelos condôminos, proteção de dados e encerramento. É aceito pelo **síndico**, em nome do condomínio.
+- [**Termos de Uso**](/legal/termos/) — regem o uso da plataforma por **cada pessoa** — síndico, condômino ou porteiro: cadastro, conduta, responsabilidades, inteligência artificial e acordos de inadimplência.
+- [**Política de Privacidade**](/legal/privacidade/) — quais dados são tratados, com que finalidade, sob qual base legal, por quanto tempo e como você exerce os seus direitos.
+- [**Segurança e Privacidade**](/legal/seguranca/) — como protegemos os dados do condomínio, em linguagem simples.
+
+---
+
 ## Suporte
 
 Dúvidas ou problemas? Entre em contato:

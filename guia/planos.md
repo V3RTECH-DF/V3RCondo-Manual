@@ -52,15 +52,12 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 
 ## Preços do plano Pro
 
-O preço varia conforme a quantidade de unidades do condomínio:
+O preço varia conforme a quantidade de unidades do condomínio, por faixas.
 
-| Faixa | Unidades | Preço |
-|---|---|---|
-| Pro 1–20 | 1 a 20 unidades | R$ 129,90/mês |
-| Pro 21–50 | 21 a 50 unidades | R$ 279,90/mês |
-| Pro 51–100 | 51 a 100 unidades | R$ 499,90/mês |
-| Pro 101–200 | 101 a 200 unidades | R$ 899,90/mês |
-| Pro 201+ | 201 unidades ou mais | Sob consulta |
+{: .note }
+> **A tabela de faixas e valores fica em um lugar só:** [v3rcondo.com.br/planos](https://v3rcondo.com.br/planos){: target="_blank" rel="noopener"}.
+>
+> Ela não é repetida aqui de propósito — valor copiado em duas páginas vira informação divergente sem ninguém perceber. Aquele endereço é a fonte, e é ele que o [Contrato de Prestação de Serviços](/legal/contrato/) considera vigente.
 
 Condomínios com mais de 200 unidades têm atendimento **sob consulta** — use o botão **Fale conosco** na seção de planos.
 

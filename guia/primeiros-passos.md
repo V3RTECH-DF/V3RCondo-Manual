@@ -42,7 +42,7 @@ O aviso **não fecha sem o aceite** — não dá para dispensá-lo clicando fora
 >
 > Se não conseguirmos confirmar seu aceite — falha de rede, por exemplo —, o aviso diz isso com todas as letras e oferece **Tentar de novo**, em vez de deixar você preso numa tela que não responde. Se insistir, saia da conta e entre outra vez. Nunca liberamos o acesso "no escuro": na dúvida sobre o que você já aceitou, o aviso continua.
 
-Os documentos ficam sempre disponíveis, para consulta a qualquer momento, em [Termos de Uso](/legal/termos/) e [Política de Privacidade](/legal/privacidade/).
+Os documentos ficam sempre disponíveis, para consulta a qualquer momento, em [Contrato de Prestação de Serviços](/legal/contrato/), [Termos de Uso](/legal/termos/) e [Política de Privacidade](/legal/privacidade/).
 
 ## Selecionar o condomínio
 
