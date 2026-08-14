@@ -84,6 +84,16 @@ Hoje você controla:
 | **Resumo por e-mail** | Frequência do panorama periódico: diário, semanal ou desativado |
 
 {: .note }
+> **A que horas os avisos saem**
+>
+> Os lembretes automáticos — de **assembleia**, de **reserva** e de **tarefa** — e o
+> **resumo diário** de quem administra o condomínio saem sempre de manhã, no
+> **horário de Brasília**: o resumo diário de pagamentos às **7h**, o lembrete de
+> tarefa por volta das **7h50**, o de reserva às **8h10** e o de assembleia às
+> **8h20**. Antes eles chegavam de madrugada, o que fazia o aviso ser visto só na
+> manhã seguinte e, no caso do lembrete de véspera, tarde demais.
+
+{: .note }
 > **Dois resumos diferentes, dois controles diferentes**
 >
 > O **Resumo diário de pagamentos** (dentro de Cobranças, só para quem

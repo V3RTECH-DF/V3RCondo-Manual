@@ -9,6 +9,57 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.130 / v7.131 — Agosto 2026
+
+### Adicionado
+
+- **Reserva com taxa agora gera a cobrança certa, no nome de quem reservou.** Ao cadastrar uma área comum ou um item emprestável, o síndico escolhe **como a taxa é cobrada**: **por turno** (o valor se multiplica pela quantidade de turnos reservados) ou **por reserva** (valor único, não importa quantos turnos). Os ambientes que já existiam ficaram como **por turno**, que é o que a tela sempre mostrou ao morador. E o lançamento gerado pela reserva passou a nascer **vinculado à unidade** de quem reservou — antes ele ficava sem dono, o que impedia que aparecesse no extrato do condômino e que fosse cobrado.
+- **As ações do painel de administração passaram a ficar registradas.** Suspender ou reativar um condomínio, alterar configurações da plataforma, enviar comunicado em massa e criar condomínio agora deixam registro de quem fez e quando. É registro interno, sem tela nova para o usuário.
+
+### Corrigido
+
+- **Uma reserva com taxa podia ser aceita sem gerar o lançamento, e ninguém era avisado** (corrigido na v7.130.1). A reserva era confirmada normalmente e a cobrança simplesmente não nascia — sem mensagem de erro. Se você tiver reservas confirmadas nessa janela e sem lançamento correspondente, o lançamento pode ser criado manualmente no Financeiro.
+
+---
+
+## v7.128 / v7.129 — Agosto 2026
+
+### Melhorado
+
+- **"Pagamento confirmado" deixou de ser confundido com "dinheiro na conta".** São coisas diferentes, e no **cartão de crédito** a distância entre uma e outra chega a cerca de **um mês**. A tela passou a dizer **"Pagamento confirmado pelo Asaas"** — não mais "liquidado" — e a mostrar **quando o valor deve entrar** na conta do condomínio. Para Pix e boleto a diferença é pequena; no cartão, é o que evita contar com um dinheiro que ainda não chegou.
+- **O lançamento conciliado diz na própria linha de onde veio.** No Financeiro, quem foi pago pela cobrança automática mostra a origem ao lado — **"Asaas · Pix"**, "Asaas · Boleto" e assim por diante —, com aparência diferente do selo de situação, para não confundir "quem cobrou" com "está pago".
+
+### Corrigido
+
+- Ajuste de redação no texto que informa o prazo de disponibilidade do valor.
+
+---
+
+## v7.126 / v7.127 — Agosto 2026
+
+### Melhorado
+
+- **Os avisos automáticos passaram a chegar no horário certo.** As rotinas do sistema rodavam no fuso do servidor, sem ninguém ter traduzido para o horário do Brasil: o lembrete de tarefa saía **às 5h da manhã** e o resumo diário de pagamentos saía **na véspera**. Tudo foi realocado para o horário de Brasília. Nada mudou no que os avisos dizem — mudou a hora em que chegam.
+- **A competência voltou a ser a competência.** Em algumas telas, a coluna "Competência" mostrava na verdade a **data de vencimento** — o que confunde a leitura de qualquer prestação de contas. Agora o **extrato do condômino**, a exportação em **CSV**, o **PDF** e a **declaração de débitos** mostram o mês de referência de verdade. Lançamentos criados por **recorrência** e por **importação de extrato** também passaram a registrar a competência, que antes ficava em branco.
+
+### Corrigido
+
+- **A suspensão automática de condomínio inadimplente passou a avisar os síndicos.** Antes ela acontecia em silêncio: o condomínio era suspenso e ninguém do condomínio recebia comunicação. Agora quem administra é avisado por e-mail, e a operação fica registrada.
+
+---
+
+## v7.125 — Agosto 2026
+
+### Adicionado
+
+- **O Financeiro deixou de enxergar só um mês por vez.** O seletor de período passou a oferecer **mês, trimestre, semestre, ano, do início do ano até hoje, intervalo personalizado e todos os lançamentos**. Dá para olhar um semestre inteiro sem abrir mês a mês, e o saldo e os totais acompanham o período escolhido.
+
+### Corrigido
+
+- **A visão de vencidos de meses anteriores estava contando errado e não tinha saída.** O aviso dizia "Exibindo os N vencidos de meses anteriores", mas a lista incluía também os vencidos **do mês corrente**. Além disso, ao entrar nessa visão não havia caminho de volta, **"Vencidos" não aparecia** entre as opções do filtro de situação — embora fosse um estado que a tela alcançava — e o botão **"carregar mais" continuava aparecendo** quando já não havia mais nada para carregar. Os quatro pontos foram corrigidos.
+
+---
+
 ## v7.124 — Agosto 2026
 
 ### Melhorado

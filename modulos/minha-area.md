@@ -72,6 +72,23 @@ O cabeçalho da página exibe o nome e o CPF do condômino designado como **resp
 - **Exportação em CSV** — baixe o extrato para usar em planilhas ou na declaração de imposto de renda. Disponível para todos os planos
 - **Exportação em PDF** *(plano Pro)* — gera um documento formal com cabeçalho do condomínio, identificação do responsável pela unidade, tabela de resumo e listagem completa dos lançamentos. No plano Básico, o botão aparece com cadeado e mensagem explicativa
 
+**Competência e vencimento são colunas diferentes**
+
+A coluna **Competência** diz **a que mês aquela cobrança se refere**; a coluna
+**Vencimento**, **quando ela tinha de ser paga**. As duas podem divergir — a taxa de
+agosto pode vencer em setembro —, e é isso que a tabela mostra.
+
+![Extrato da unidade com as colunas Competência, Descrição, Valor, Vencimento, Pagamento e Status](/assets/screenshots/condomino-extrato-competencia.png)
+
+*Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
+
+{: .note }
+> **Corrigido**
+>
+> Por um período a coluna Competência repetia a data de vencimento, o que embaralhava
+> a leitura de quem tinha cobranças com vencimento fora do mês de referência. Hoje ela
+> mostra a competência de verdade.
+
 **Status dos lançamentos:**
 
 | Status | Significado |
@@ -144,7 +161,11 @@ Lista todos os documentos da sua unidade para baixar — tanto os **automáticos
 
 Reúne as cobranças da **sua unidade** e é por onde você paga. A aba aparece apenas nos condomínios que usam a [Cobrança Automática](/modulos/cobranca-automatica/) com a conta já aprovada — nos demais, ela não existe.
 
-<!-- PRINT: minha-area-cobrancas-01 — ver roteiro de capturas -->
+![Aba Minhas cobranças com o aviso do topo, uma cobrança em aberto marcada como Vencida com o botão Pagar e o histórico com cobranças pagas e canceladas](/assets/screenshots/condomino-minhas-cobrancas.png)
+
+*Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
+
+No alto da aba fica sempre o mesmo lembrete: **só aparecem aqui as cobranças já emitidas pelo síndico**. Ele está ali de propósito — ver a lista vazia não quer dizer que você não deve nada, quer dizer que o condomínio ainda não emitiu aquela cobrança.
 
 {: .note }
 > **Agora são as suas cobranças de verdade**

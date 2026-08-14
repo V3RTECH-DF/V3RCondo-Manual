@@ -12,13 +12,15 @@ O módulo Financeiro centraliza toda a gestão financeira do condomínio — rec
 
 ## Visão geral *(síndico)*
 
-A tela principal exibe cinco cards de resumo no topo:
+A tela principal exibe cinco cards de resumo no topo. **Todos eles acompanham o período escolhido no filtro** — troque o período e os números mudam junto.
 
-- **Saldo Acumulado Projetado** — saldo inicial das contas bancárias + todos os lançamentos pagos anteriores ao mês atual + saldo projetado do mês atual
-- **Saldo do Mês** — resultado líquido do período filtrado
-- **Entradas do Mês** — total de receitas recebidas no período
-- **Saídas do Mês** — total de despesas pagas no período
-- **Pendentes** — lançamentos com vencimento passado e ainda não pagos
+![Topo do Financeiro com os cinco cards do período e o filtro de período](/assets/screenshots/financeiro-periodo-cards.png)
+
+- **Saldo Acumulado** — só o que foi efetivamente pago, somado até o fim do período escolhido. Nunca projeta além de hoje: se você escolher um período futuro, ele para na data de hoje
+- **Resultado do Período** — entradas menos saídas do período, incluindo o que ainda vai vencer
+- **Entradas do Período** — receitas do período, incluindo o que ainda vai vencer
+- **Saídas do Período** — despesas do período, incluindo o que ainda vai vencer
+- **Pendentes** — quantos lançamentos do período ainda não foram pagos
 
 A seção **Saldos por Conta** mostra o saldo atual de cada conta bancária cadastrada. Um card de **Saldo Total** consolida todas as contas.
 
@@ -36,9 +38,9 @@ A seção **Saldos por Conta** mostra o saldo atual de cada conta bancária cada
 
 | Filtro | Descrição |
 |---|---|
-| **Período** | Filtra por mês/ano. "Todos" exibe o histórico completo |
+| **Período** | Mês, trimestre, semestre, ano, intervalo personalizado ou o histórico completo — ver abaixo |
 | **Tipo** | Receita, Despesa, Transferência ou Todos |
-| **Status** | Todos, Pagos, Pendentes, Futuros ou Recorrentes |
+| **Status** | Todos, Pagos, Pendentes, Vencidos, Futuros ou Recorrentes |
 | **Categoria** | Filtra por categoria financeira cadastrada |
 
 {: .tip }
@@ -47,6 +49,57 @@ A seção **Saldos por Conta** mostra o saldo atual de cada conta bancária cada
 > Selecione **Transferência** no filtro Tipo para visualizar exclusivamente as movimentações entre contas. Os filtros Receita e Despesa excluem automaticamente as transferências dos seus totais.
 
 ![Filtros disponíveis no módulo Financeiro](/assets/screenshots/14-financeiro-filtros.png)
+
+### Escolher o período
+
+O filtro de período deixou de ser mês a mês. Agora ele oferece nove opções, para você olhar o mês, o trimestre, o semestre ou o ano inteiro sem precisar somar nada à mão:
+
+![Seletor de período aberto com as nove opções disponíveis](/assets/screenshots/financeiro-periodo-opcoes.png)
+
+| Opção | O que traz |
+|---|---|
+| **Mês atual** | O mês corrente (padrão) |
+| **Mês anterior** | O mês passado, fechado |
+| **Trimestre atual** | Os três meses do trimestre em curso |
+| **Trimestre anterior** | O trimestre fechado anterior |
+| **Semestre atual** | Os seis meses do semestre em curso |
+| **Ano atual** | Janeiro a dezembro do ano corrente |
+| **Ano até hoje** | De 1º de janeiro até hoje — útil para a prestação de contas parcial |
+| **Personalizado** | Você informa a data de início e a data de fim |
+| **Todos** | O histórico completo, sem recorte de data |
+
+Ao escolher **Personalizado**, aparecem os dois campos de data. Se a data de início for **posterior** à de fim, a tela avisa e não faz a consulta — em vez de devolver uma lista vazia que pareceria "não há nada aqui".
+
+{: .note }
+> **O Saldo Acumulado é a exceção**
+>
+> Os quatro primeiros cards falam do período escolhido. O **Saldo Acumulado** é diferente: ele soma tudo o que foi efetivamente pago **até o fim daquele período**, e **nunca passa de hoje**. Escolher "Ano atual" em agosto não faz o saldo pular para dezembro.
+
+## Vencidos de períodos anteriores
+
+Quando existem lançamentos que venceram **antes** do período que você está vendo, um aviso âmbar aparece acima dos cards dizendo **quantos são e quanto somam**. É o jeito de a conta atrasada de julho não desaparecer só porque você está olhando agosto.
+
+**Clique no aviso** e a lista passa a mostrar **apenas** esses vencidos. O aviso muda de texto — passa a dizer quantos estão sendo exibidos e a oferecer a volta —, e **o mesmo clique devolve você ao período em que estava**.
+
+![Financeiro exibindo apenas os lançamentos vencidos de períodos anteriores, com o aviso âmbar oferecendo a volta](/assets/screenshots/financeiro-vencidos-anteriores.png)
+
+{: .tip }
+> **Vencidos também é um filtro**
+>
+> Além do atalho pelo aviso, **Vencidos** virou uma opção do filtro **Status** — use quando quiser cruzar os vencidos com um tipo, uma categoria ou um período específico.
+
+## Como saber que a baixa foi automática
+
+Lançamentos que o Asaas baixou sozinho — porque o morador pagou a cobrança — exibem um **selo discreto na própria linha**, logo abaixo do status **Pago**, com o meio de pagamento: **Asaas · Pix**, **Asaas · Boleto**, **Asaas · Cartão de crédito**. Quando o meio não foi informado, o selo diz apenas **Asaas**.
+
+![Lista do Financeiro com o selo "Asaas · Cartão de crédito" nas linhas baixadas automaticamente](/assets/screenshots/financeiro-selo-asaas.png)
+
+Serve para a conferência do mês: numa olhada você separa **o que entrou pelo sistema** do que **alguém marcou como pago à mão**. Lançamento sem selo é baixa manual.
+
+{: .note }
+> **O selo é resumo, não substitui o detalhe**
+>
+> Abrindo o lançamento você vê a **composição do pagamento** (valor pago, tarifas, líquido creditado) e a **origem do pagamento**, com o identificador da cobrança no Asaas. Ver [Cobrança Automática](/modulos/cobranca-automatica/).
 
 ## Registrar um lançamento *(síndico)*
 

@@ -415,12 +415,43 @@ módulo Financeiro.
 </details>
 
 <details markdown="1">
-<summary>O que é o 'Saldo Acumulado Projetado'?</summary>
+<summary>O que é o 'Saldo Acumulado'?</summary>
 
-É a projeção do saldo total do condomínio, calculada como: saldo inicial
-de todas as contas bancárias + lançamentos pagos anteriores ao mês atual
-+ saldo projetado do mês corrente (entradas e saídas previstas). É útil
-para entender a saúde financeira atual do condomínio.
+É quanto o condomínio tem de fato, considerando **só o que foi efetivamente
+pago**, somado até o fim do período escolhido no filtro — e **nunca além de
+hoje**. Escolher "Ano atual" em agosto não faz o saldo pular para dezembro.
+
+Os outros quatro cards do topo (**Resultado**, **Entradas**, **Saídas** e
+**Pendentes do Período**) seguem o período escolhido e incluem o que ainda vai
+vencer.
+</details>
+
+<details markdown="1">
+<summary>Dá para ver o trimestre ou o ano inteiro no Financeiro?</summary>
+
+Sim. O filtro **Período** oferece nove opções: mês atual, mês anterior,
+trimestre atual, trimestre anterior, semestre atual, ano atual, **ano até
+hoje**, um intervalo **personalizado** (você informa início e fim) e **todos**.
+Os cards do topo acompanham a escolha.
+</details>
+
+<details markdown="1">
+<summary>Mudei de mês e as contas atrasadas sumiram. Como vejo?</summary>
+
+Elas não sumiram. Acima dos cards aparece um aviso âmbar dizendo **quantos
+lançamentos venceram antes do período que você está vendo e quanto somam**.
+Clique nele e a lista passa a mostrar **só esses vencidos**; clique de novo e
+você volta para o período em que estava. **Vencidos** também é uma opção do
+filtro **Status**.
+</details>
+
+<details markdown="1">
+<summary>Como sei se a baixa de um lançamento foi automática ou feita à mão?</summary>
+
+Pelo **selo na linha**. Lançamentos baixados automaticamente pelo Asaas exibem,
+abaixo do status Pago, um selo com o meio de pagamento — **Asaas · Pix**,
+**Asaas · Boleto**, **Asaas · Cartão de crédito** (ou só **Asaas**, quando o meio
+não foi informado). Linha **sem selo** foi marcada como paga manualmente.
 </details>
 
 <details markdown="1">
@@ -582,6 +613,20 @@ Não. O aplicativo **fica sabendo sozinho**, em poucos minutos: a cota é baixad
 data real do pagamento, as tarifas entram como despesa e, se houve juros e multa, a
 diferença entra como receita. Uma vez por dia você ainda recebe um e-mail com o resumo
 dos pagamentos do dia.
+</details>
+
+<details markdown="1">
+<summary>A cota consta paga. O dinheiro já está na conta do condomínio?</summary>
+
+Não necessariamente — são **duas coisas diferentes**. "Pago" quer dizer que o
+morador pagou; a disponibilidade do valor depende do meio escolhido por ele:
+**Pix** cai praticamente na hora, **boleto** no próximo dia útil e **cartão de
+crédito leva cerca de 30 dias**.
+
+Na lista de cobranças, abaixo da data do pagamento, a linha informa **quando o
+valor fica disponível**. Quando o Asaas já sabe a data exata, ela aparece
+("Disponível em 14/09/2026"); quando é uma estimativa nossa pelo meio de
+pagamento, aparece o prazo aproximado, **marcado como estimativa**.
 </details>
 
 <details markdown="1">
@@ -944,8 +989,24 @@ ser aprovada.
 Na aba **Reservas**, clique em **Gerenciar recursos** e em
 **+ Novo recurso**. Configure nome, tipo, capacidade, horários
 disponíveis por dia da semana, antecedência mínima e máxima, taxa
-(se houver), se requer aprovação e se gera lançamento financeiro
-automaticamente.
+(se houver) e **como ela é cobrada**, se requer aprovação e se gera
+lançamento financeiro automaticamente.
+</details>
+
+<details markdown="1">
+<summary>A taxa da área comum é por turno ou pela reserva inteira?</summary>
+
+Você escolhe. No cadastro do ambiente, o campo **Como a taxa é cobrada** oferece
+duas opções, e a tela explica a diferença já com o valor que você digitou:
+
+- **Por turno** — cada turno reservado custa o valor da taxa; uma reserva de
+  2 turnos custa o dobro
+- **Por reserva** — a reserva custa o valor da taxa, não importa quantos turnos
+  ocupe
+
+Ambientes cadastrados antes desta versão ficaram como **por turno**, que era o
+comportamento anterior. Se algum deveria ser cobrado por reserva, ajuste em
+**Gerenciar recursos**.
 </details>
 
 <details markdown="1">

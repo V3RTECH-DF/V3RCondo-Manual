@@ -147,6 +147,23 @@ os passos:
 
 ![Formulário de nova reserva com seleção de recurso, data, blocos de horário e convidados](/assets/screenshots/53-nosso-cond-reservas-form.png)
 
+**A última etapa mostra a conta antes de você confirmar.** O resumo repete o
+ambiente, a data, os turnos escolhidos, o número de convidados, o valor e a
+situação em que a reserva vai nascer:
+
+![Etapa de confirmação da reserva, com o resumo do Salão de Festas, os turnos Manhã e Tarde, a taxa por turno multiplicada pelos dois turnos, a taxa total e o status esperado](/assets/screenshots/condomino-reserva-composicao.png)
+
+Quando o ambiente cobra **por turno**, aparece a linha do cálculo acima do total —
+por exemplo, *taxa por turno de R$ 150,00 × 2 turnos*, resultando em **R$ 300,00**.
+É o que explica um valor maior do que a taxa anunciada no card do ambiente: você
+reservou mais de um turno.
+
+Quando o ambiente cobra **por reserva** — ou quando você escolheu um único turno —
+não há o que multiplicar, e aparece **apenas a taxa total**.
+
+O **Status esperado** avisa desde já se a reserva vai sair confirmada ou se vai
+**aguardar a aprovação do síndico**.
+
 Após a confirmação, a reserva pode ter dois caminhos:
 
 - **Aprovação automática** — reserva confirmada imediatamente. Se houver taxa,
@@ -187,8 +204,41 @@ Para cada recurso é possível definir:
 - Limite de reservas simultâneas por condômino
 - Se requer aprovação do síndico
 - Se gera lançamento financeiro automaticamente ao aprovar
-- Taxa por uso (opcional)
+- Taxa por uso (opcional) e **como a taxa é cobrada** — ver abaixo
 - Ativo / inativo
+
+O painel **Gerenciar recursos** lista os ambientes já cadastrados, cada um com um
+resumo do que foi configurado — capacidade, antecedência, os turnos abertos por dia
+da semana e, quando houver, a **taxa** e o selo **Requer aprovação**. Os botões de
+cada linha desativam, editam ou excluem o recurso, e **+ Novo recurso** abre o
+formulário de cadastro.
+
+![Painel Gerenciar recursos com os ambientes cadastrados — Academia, Churrasqueira, Piscina e Salão de Festas, este último com taxa e selo de aprovação](/assets/screenshots/reservas-gerenciar-recursos.png)
+
+#### Como a taxa é cobrada
+
+Ao informar uma **taxa** no cadastro do ambiente, escolha logo abaixo se ela vale
+**por turno** ou **por reserva**. A tela explica a diferença já com o valor que você
+digitou, para não restar dúvida:
+
+![Cadastro de ambiente com o campo "Como a taxa é cobrada" e a explicação do cálculo com o valor informado](/assets/screenshots/reservas-modo-cobranca.png)
+
+- **Por turno** — cada turno reservado custa o valor da taxa. Uma reserva de
+  2 turnos custa o dobro. É o caso do salão que se aluga por período (manhã,
+  tarde, noite)
+- **Por reserva** — a reserva custa o valor da taxa, não importa quantos turnos
+  ela ocupe. É o caso da churrasqueira que se cobra por uso, o dia inteiro
+
+{: .note }
+> **Ambientes que já existiam**
+>
+> Todos os recursos cadastrados antes desta versão ficaram como **por turno**, que
+> era o comportamento anterior. Se algum deles deveria ser cobrado **por reserva**,
+> abra o recurso em **Gerenciar recursos** e ajuste o campo.
+
+A cobrança gerada pela reserva sai com a **unidade do morador** preenchida — o que a
+torna cobrável como qualquer outro lançamento do [Financeiro](/modulos/financeiro/),
+inclusive por [Cobrança Automática](/modulos/cobranca-automatica/).
 
 **Bloquear datas:** pelo gerenciamento de recursos, o síndico pode bloquear
 períodos específicos (manutenção, feriados, eventos) com um motivo.
