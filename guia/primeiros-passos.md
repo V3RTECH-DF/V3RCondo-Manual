@@ -21,6 +21,29 @@ Você pode entrar de duas formas:
 
 ![Opção de login com Google](/assets/screenshots/03-login-google.png)
 
+## Aceitar os Termos de Uso e a Política de Privacidade
+
+Logo depois de entrar, pode aparecer um aviso pedindo que você **leia e aceite** os documentos do V3RCondo. Ele aparece em duas situações: no seu **primeiro acesso** e sempre que os documentos forem **atualizados**.
+
+<!-- PRINT: legal-aceite-documentos-01 — ver roteiro de capturas -->
+
+**É agora o caso de todo mundo.** Publicamos os **Termos de Uso 1.3** e a **Política de Privacidade 1.2**, e por isso todo usuário vê o aviso no próximo acesso, ainda que já tivesse aceitado antes. **Não é erro nem problema na sua conta** — é o re-aceite da versão nova, e acontece uma vez só.
+
+O que fazer:
+
+1. Abra os dois links — **Termos de Uso** e **Política de Privacidade** — e leia. Eles abrem em outra aba, sem fechar o aviso
+2. Marque **Li e aceito os Termos de Uso e a Política de Privacidade**
+3. Clique em **Continuar**
+
+O aviso **não fecha sem o aceite** — não dá para dispensá-lo clicando fora nem apertando *Esc*, porque o aceite é condição para usar o aplicativo. Mas ele não é um beco sem saída: há sempre o botão **Sair da conta**, se você preferir decidir depois.
+
+{: .note }
+> **Se algo der errado no meio do caminho**
+>
+> Se não conseguirmos confirmar seu aceite — falha de rede, por exemplo —, o aviso diz isso com todas as letras e oferece **Tentar de novo**, em vez de deixar você preso numa tela que não responde. Se insistir, saia da conta e entre outra vez. Nunca liberamos o acesso "no escuro": na dúvida sobre o que você já aceitou, o aviso continua.
+
+Os documentos ficam sempre disponíveis, para consulta a qualquer momento, em [Termos de Uso](/legal/termos/) e [Política de Privacidade](/legal/privacidade/).
+
 ## Selecionar o condomínio
 
 Se você pertence a mais de um condomínio, após o login o sistema exibe uma tela de seleção. Clique no condomínio que deseja acessar. Você pode trocar de condomínio a qualquer momento clicando em **Trocar** no cabeçalho do aplicativo.

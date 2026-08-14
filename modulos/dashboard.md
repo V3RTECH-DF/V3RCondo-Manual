@@ -30,7 +30,9 @@ A ideia é simples: as pendências que só aparecem quando você tropeça nelas 
 | **Conta bancária** | Opcional. Serve para conciliar o extrato com os lançamentos | Cadastrar conta |
 | **Cobrança automática** | Boleto e Pix emitidos pelo Asaas, com baixa automática no Financeiro. Opcional | Conhecer e abrir conta |
 
-Acima da lista, uma barra de progresso mostra **quantos passos de seis** já estão concluídos, com o botão **Continuar de onde parei** — ele leva ao primeiro passo que ainda não foi resolvido nem pulado. O **Valor da cota das unidades** aparece na lista mas fica fora dessa contagem: ele não pode ser pulado nem tirado da lista, e sai dali quando **todas** as unidades tiverem valor definido.
+Acima da lista, uma barra de progresso mostra **quantos passos de sete** já estão concluídos, com o botão **Continuar de onde parei** — ele leva ao primeiro passo que ainda não foi resolvido nem pulado.
+
+São os sete itens da tabela acima, na mesma ordem — **o Valor da cota das unidades entra na contagem**, logo depois de Unidades, que é de onde ele depende. Ele é o único passo **sem o botão Pular**: sair da lista, ele sai sozinho, quando **todas** as unidades tiverem valor definido. É deliberado — unidade sem valor de cota é pulada na geração mensal em silêncio, e esse é justamente o passo que não pode sumir do radar.
 
 {: .note }
 > **Nada aqui é marcado à mão**
@@ -41,7 +43,7 @@ Acima da lista, uma barra de progresso mostra **quantos passos de seis** já est
 
 São duas ações diferentes, e a diferença importa:
 
-- **Pular** — o item **continua na lista**, agora com a marca **Pulado**. Use quando você vai resolver depois e não quer perder de vista.
+- **Pular** — o item **continua na lista**, agora com a marca **Pulado**. Use quando você vai resolver depois e não quer perder de vista. O **Valor da cota das unidades** não tem esse botão, pelo motivo dito acima.
 - **Não vamos usar** (o **✕** ao lado do botão) — o item **sai da lista**. Use para o que o condomínio decidiu não adotar. Só alguns itens aceitam isso: **Condôminos**, **Conta bancária** e **Cobrança automática**. O que é estrutural — dados do condomínio, unidades, cota e categoria da taxa — não sai da lista, porque sem eles o condomínio não funciona.
 
 O que foi tirado da lista não desaparece: no rodapé do cartão aparece o contador **“*n* item(ns) que você tirou da lista”**. Clique para abrir e use **Voltar para a lista** em qualquer um deles.

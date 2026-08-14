@@ -68,7 +68,12 @@ O filtro de período deixou de ser mês a mês. Agora ele oferece nove opções,
 | **Personalizado** | Você informa a data de início e a data de fim |
 | **Todos** | O histórico completo, sem recorte de data |
 
-Ao escolher **Personalizado**, aparecem os dois campos de data. Se a data de início for **posterior** à de fim, a tela avisa e não faz a consulta — em vez de devolver uma lista vazia que pareceria "não há nada aqui".
+Ao escolher **Personalizado**, aparecem os dois campos de data. Enquanto o intervalo não fizer sentido — falta uma das datas, ou a data de início é **posterior** à de fim —, a tela mostra **só o aviso do erro**, dizendo o que corrigir. Nada é consultado até você ajustar.
+
+{: .note }
+> **Com intervalo inválido, a tela não afirma nada**
+>
+> Os cards de resumo e a lista **somem** junto com a consulta, em vez de ficarem zerados e dizendo "nenhum lançamento encontrado". Zero e "não perguntei" são coisas diferentes, e uma lista vazia num intervalo errado passaria a impressão de que o mês não teve movimento. Corrija as datas e tudo volta.
 
 {: .note }
 > **O Saldo Acumulado é a exceção**

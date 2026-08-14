@@ -141,6 +141,11 @@ A Prestação de Contas é o **documento financeiro formal** do condomínio, em 
 
 **Geração:** escolha o período — **Mês** ou **Ano** — e clique em **Gerar prestação**. Antes de gerar, o síndico pode anexar **documentos complementares** (atas, ofícios, planilhas em PDF/imagem) com um rótulo. O documento é montado em segundo plano e o síndico é avisado por e-mail quando fica pronto.
 
+{: .note }
+> **O ano corrente vai só até o último mês fechado**
+>
+> Ao escolher **Ano** e selecionar o exercício em curso, a própria tela avisa, abaixo do seletor: *a prestação vai de janeiro até (o último mês fechado) — o mês em curso ainda não fechou e fica de fora*. O mês corrente entra na prestação do mês seguinte, quando fechar. O aviso está ali para o recorte não ser descoberto só depois de o documento ficar pronto. Exercícios anteriores saem sempre completos, de janeiro a dezembro.
+
 **Publicação:** depois de pronta, a prestação pode ser **publicada** — a partir daí os condôminos passam a vê-la e baixá-la (na aba e em **Minha Área**). O síndico pode despublicar ou excluir a qualquer momento.
 
 {: .note }

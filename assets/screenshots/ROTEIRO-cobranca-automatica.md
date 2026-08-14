@@ -110,7 +110,7 @@ Se o Residencial TESTE não servir, criar um condomínio novo só para a captura
 
 | # | Arquivo | Viewport | Como chegar | O que precisa aparecer | Entra em |
 |---|---|---|---|---|---|
-| 19 | `setup-01-cartao-configuracao-inicial.png` | desktop | `/dashboard` de um condomínio **criado a partir de 13/08/2026**, com pendências de sobra | O cartão **Configuração inicial** inteiro: a barra de progresso com **"n de 6 passos concluídos"**, o botão **Continuar de onde parei** e ao menos quatro itens da lista, cada um com seu botão de ação. Se der, incluir um item com o selo **Pulado** | `modulos/dashboard.md`, seção "Configuração inicial" — trocar o marcador `<!-- PRINT: setup-01-cartao-configuracao-inicial … -->` |
+| 19 | `setup-01-cartao-configuracao-inicial.png` | desktop | `/dashboard` de um condomínio **criado a partir de 13/08/2026**, com pendências de sobra | O cartão **Configuração inicial** inteiro: a barra de progresso com **"n de 7 passos concluídos"** (eram 6 até a v7.134; o valor da cota entrou na contagem), o botão **Continuar de onde parei** e ao menos quatro itens da lista, cada um com seu botão de ação. Se der, incluir um item com o selo **Pulado** | `modulos/dashboard.md`, seção "Configuração inicial" — trocar o marcador `<!-- PRINT: setup-01-cartao-configuracao-inicial … -->` |
 | 20 | `setup-02-cobranca-em-analise.png` *(opcional)* | desktop | Mesmo cartão, num condomínio com o cadastro da conta **enviado e em análise** | A linha **Cobrança automática — em análise no Asaas**, com a data do envio, o selo **Com o Asaas** e o botão **Aguardando** desabilitado. É a prova de que o cartão distingue o que depende do síndico do que depende de terceiro | `modulos/dashboard.md`, subseção "A linha da Cobrança automática muda de texto conforme o andamento" — hoje sem marcador; inserir logo abaixo da tabela |
 | 21 | `cobranca-17-origem-do-pagamento.png` | desktop | **Financeiro** → abrir o lançamento de uma cota **paga por cobrança** | O bloco **Origem do pagamento**, com a frase **"Liquidado pelo Asaas · Pix"** (ou o meio que for), a data, o identificador da cobrança e o botão de copiar. Enquadrar junto com a **Composição do pagamento** acima dele, para a última linha **"Creditado na conta do condomínio"** aparecer na mesma imagem | `modulos/cobranca-automatica.md`, subseção "De onde veio o pagamento" — trocar o marcador `<!-- PRINT: cobranca-17-origem-do-pagamento … -->` |
 | 22 | `minha-area-cobrancas-01.png` | desktop | Entrar como **condômino** de unidade com cobrança emitida → **Minha Área** → aba **Minhas cobranças** | O bloco **Em aberto** com ao menos uma cobrança: valor, "Vence em …", a unidade, o selo de situação e o botão **Pagar**. Se houver, o bloco **Histórico** logo abaixo. **Dados fictícios obrigatórios** — a tela mostra unidade e valor | `modulos/minha-area.md`, seção "Aba Minhas cobranças" — trocar o marcador `<!-- PRINT: minha-area-cobrancas-01 … -->` |
@@ -148,3 +148,33 @@ que os arquivos existam fora do repositório e só não tenham sido copiados.
 
 _Nota de arrumação: há três arquivos `debug-minha-area*.png` em `assets/screenshots/`
 que nenhuma página referencia — sobra de depuração, candidatos a remoção._
+
+---
+
+## Acrescentado em 14/08/2026 — versões 7.133.0 e 7.134.0
+
+Mesmas regras de sempre: condomínio de teste, dados fictícios, e a legenda de dados
+fictícios embaixo da imagem quando houver nome, unidade, CPF ou valor visível.
+
+⚠️ **As duas primeiras dependem de um condomínio SEM conta de cobrança aberta** — o
+mesmo estado que já bloqueia as capturas 02, 03 e 05. Se o Residencial TESTE não
+servir, criar um condomínio novo só para estas capturas. **Não usar o Vale do Cedro**,
+que é o condomínio de produção.
+
+| # | Arquivo | Viewport | Papel | Como chegar | O que precisa aparecer | Entra em |
+|---|---|---|---|---|---|---|
+| 27 | `cobranca-18-termo-autorizacao.png` | desktop 1920×1080 | síndico | **Cobrança automática**, condomínio **sem conta aberta** → preencher o formulário **Dados para abrir a conta** com dados fictícios → clicar em enviar | A caixa **Termo de Autorização — Conta de Pagamento** aberta: o quadro do topo com condomínio, titular e CNPJ/CPF preenchidos, os três blocos do texto (o que você autoriza, chave Pix, o que a V3RTECH não faz) e, no rodapé, **as duas caixas de seleção** e os botões **Agora não** e **Aceitar e abrir a conta** — este último ainda **desabilitado**, com nenhuma ou só uma caixa marcada. É essa a prova de que os dois consentimentos são exigidos | `modulos/cobranca-automatica.md`, subseção "Autorizar a abertura da conta" — trocar o marcador `<!-- PRINT: cobranca-18-termo-autorizacao … -->` |
+| 28 | `cobranca-19-selo-e-suporte.png` | desktop 1920×1080 | síndico | **Cobrança automática** → painel **Antes de começar, o que você precisa saber** (aparece antes da conta aberta e também abaixo do painel da conta já aberta) | O bloco **Suporte sobre a operação financeira** com o telefone **0800 009 0037**, o e-mail **contato@asaas.com.br**, a frase sobre o que fica com a V3RTECH e o **selo do Asaas** logo abaixo. Enquadrar de modo que o **selo do cabeçalho do painel** também apareça, para a imagem mostrar as duas aplicações do selo | `modulos/cobranca-automatica.md`, seção "Com quem falar: Asaas ou V3RTECH" — trocar o marcador `<!-- PRINT: cobranca-19-selo-e-suporte … -->` |
+| 29 | `legal-aceite-documentos-01.png` | desktop 1920×1080 | qualquer papel (síndico ou morador) | Entrar no aplicativo com um usuário que **ainda não aceitou** os Termos 1.3 / Privacidade 1.2 | A caixa **Atualizamos nossos documentos** aberta sobre a tela, com o texto de explicação, os dois links (**Termos de Uso** e **Política de Privacidade**), a caixa **Li e aceito…** desmarcada e os botões **Sair da conta** e **Continuar** (desabilitado enquanto a caixa não estiver marcada). **Sem o botão ✕** no canto — é parte do que a imagem precisa provar | `guia/primeiros-passos.md`, seção "Aceitar os Termos de Uso e a Política de Privacidade" — trocar o marcador `<!-- PRINT: legal-aceite-documentos-01 … -->` |
+| 30 | `legal-aceite-documentos-02-celular.png` *(opcional)* | **celular 375×812** | qualquer papel | A mesma caixa, no celular | A caixa inteira legível no celular, com os dois botões empilhados e nenhum corte lateral | Mesma seção, como segunda imagem — sem marcador hoje; inserir logo abaixo da #29 |
+
+**Captura que precisa ser refeita:** `setup-01-cartao-configuracao-inicial.png` (#19)
+ainda não foi capturada e agora precisa mostrar **"n de 7 passos concluídos"** — a
+contagem mudou de 6 para 7 na v7.134. O item **Valor da cota das unidades** deve
+aparecer na lista **sem o botão Pular**, ao lado de outro item que tenha o botão: é o
+contraste que a página descreve.
+
+Não foi pedida captura para o documento gerado do Termo de Autorização (o PDF com
+código e QR), para o aviso de intervalo de datas inválido no Financeiro nem para o
+rótulo do exercício corrente na Prestação de Contas: as três são alterações de texto
+que a página descreve bem, e renderiam imagens de pouca leitura.
