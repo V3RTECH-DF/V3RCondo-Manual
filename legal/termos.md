@@ -1,21 +1,28 @@
 ---
 title: Termos de Uso
 parent: Legal
-nav_order: 1
+nav_order: 2
 ---
 
 # Termos de Uso
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.3 — Agosto de 2026
+Versão 1.5 — Agosto de 2026
 
 ---
 
 {: .warning }
 > **Aviso Legal**
 >
-> Este documento é um instrumento jurídico vinculante. Ao criar uma conta ou utilizar o V3RCondo, você declara ter lido, compreendido e concordado com todos os termos aqui descritos. Se não concordar, não utilize a plataforma.
+> Este documento é um instrumento jurídico vinculante entre a V3RTECH e **você**, pessoa que usa o V3RCondo. Ao criar uma conta ou utilizar a plataforma, você declara ter lido, compreendido e concordado com todos os termos aqui descritos. Se não concordar, não utilize a plataforma.
+
+{: .note }
+> **Dois documentos, dois públicos**
+>
+> Estes Termos regem o **uso da plataforma por cada pessoa** — síndico, condômino ou porteiro.
+>
+> A relação entre a V3RTECH e o **condomínio contratante** — objeto, planos e preços, cancelamento, cobrança da cota pelos condôminos, proteção de dados e encerramento — está no [Contrato de Prestação de Serviços](https://docs.v3rcondo.com.br/legal/contrato), aceito pelo síndico em nome do condomínio.
 
 ---
 
@@ -37,86 +44,21 @@ O síndico é responsável pelo cadastro e pela gestão dos usuários vinculados
 
 ---
 
-## 2. Do Objeto
+## 2. Do Cadastro e Acesso
 
-O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial que oferece, entre outros recursos:
+**2.1.** Para utilizar o V3RCondo, o usuário deve criar uma conta com e-mail e senha válidos ou autenticar-se via conta Google.
 
-- Controle financeiro (receitas, despesas, contas bancárias)
-- Gestão de tarefas, compras e fornecedores
-- Comunicação entre síndico e condôminos (mural, notificações, solicitações)
-- Armazenamento e compartilhamento de documentos
-- Geração de relatórios analíticos com inteligência artificial
-- Gestão de acordos de inadimplência e negociação de dívidas condominiais
-- Convocação, condução e registro digital de assembleias condominiais
+**2.2.** O usuário é integralmente responsável pela veracidade das informações cadastradas e pela confidencialidade de suas credenciais de acesso.
 
----
+**2.3.** Um condomínio é cadastrado por um síndico (manager), que pode adicionar condôminos diretamente ou importá-los via planilha. Cada usuário pode estar vinculado a múltiplos condomínios.
 
-## 3. Do Cadastro e Acesso
+**2.4.** É vedado o compartilhamento de credenciais de acesso entre usuários distintos.
 
-**3.1.** Para utilizar o V3RCondo, o usuário deve criar uma conta com e-mail e senha válidos ou autenticar-se via conta Google.
-
-**3.2.** O usuário é integralmente responsável pela veracidade das informações cadastradas e pela confidencialidade de suas credenciais de acesso.
-
-**3.3.** Um condomínio é cadastrado por um síndico (manager), que pode adicionar condôminos diretamente ou importá-los via planilha. Cada usuário pode estar vinculado a múltiplos condomínios.
-
-**3.4.** É vedado o compartilhamento de credenciais de acesso entre usuários distintos.
+**2.5.** Ao cadastrar um condomínio, o síndico aceita também o [Contrato de Prestação de Serviços](https://docs.v3rcondo.com.br/legal/contrato), em nome do condomínio. São aceites distintos: estes Termos vinculam a pessoa; aquele Contrato vincula o condomínio.
 
 ---
 
-## 4. Dos Planos e Preços
-
-**4.1.** O V3RCondo oferece dois planos:
-
-| Plano | Descrição |
-|---|---|
-| **Básico** | Gratuito, com acesso às funcionalidades essenciais |
-| **Pro** | Pago, com acesso completo a todos os recursos |
-
-**4.2.** Todo condomínio novo recebe automaticamente **30 dias de trial gratuito** do plano Pro, sem necessidade de cartão de crédito.
-
-**4.3.** O preço do plano Pro é calculado automaticamente a partir do número de unidades cadastradas pelo condomínio na plataforma, conforme as faixas:
-
-| Faixa | Preço |
-|---|---|
-| 1 a 20 unidades | R$ 129,90/mês |
-| 21 a 50 unidades | R$ 279,90/mês |
-| 51 a 100 unidades | R$ 499,90/mês |
-| 101 a 200 unidades | R$ 899,90/mês |
-| Acima de 200 unidades | Sob consulta |
-
-**4.4.** Os preços podem ser alterados mediante aviso prévio de 30 dias por e-mail. A alteração não se aplica a assinaturas vigentes até o próximo ciclo de cobrança.
-
-**4.5.** O pagamento da assinatura do V3RCondo é processado pelo Stripe, plataforma de pagamentos internacional, e pode ser realizado via cartão de crédito.
-
-**4.5.1.** Esta seção trata **exclusivamente da assinatura do V3RCondo** — o valor que o condomínio paga à V3RTECH pelo uso da plataforma. **Não se confunde** com a cobrança da cota condominial dos condôminos, que é serviço financeiro distinto, processado por instituição de pagamento autorizada pelo Banco Central e disciplinado na seção 10 destes Termos.
-
-**4.6. Do cadastro de unidades e do ajuste automático da faixa.**
-
-**4.6.1.** O valor do plano Pro é calculado automaticamente a partir do número de unidades cadastradas pelo condomínio na plataforma, e é ajustado automaticamente — para cima ou para baixo — quando esse número muda, passando a nova faixa a valer a partir da próxima renovação, sem cobrança ou reembolso proporcional no meio do ciclo vigente.
-
-**4.6.2.** O síndico ou responsável pela conta é responsável por manter o cadastro de unidades completo e fiel à realidade do condomínio. A V3RTECH pode auditar a qualquer tempo a compatibilidade entre o número de unidades cadastradas e o número real de unidades do condomínio.
-
-**4.6.3.** Constatada divergência, a V3RTECH notificará o síndico por escrito (e-mail cadastrado e/ou aviso no aplicativo), concedendo prazo de 10 (dez) dias corridos, contados do envio da notificação, para que corrija voluntariamente o cadastro ou apresente justificativa por escrito para a divergência.
-
-**4.6.4.** Corrigida a divergência ou aceita a justificativa dentro do prazo, aplica-se apenas o ajuste do plano à faixa correta e, quando cabível, a cobrança da diferença do período, sem multa. Não corrigida a divergência nem apresentada justificativa aceitável no prazo, caracterizada a má-fé, a V3RTECH poderá ajustar retroativamente o plano à faixa correta, cobrar a diferença desde o início da divergência — acrescida de juros de mora de 1% ao mês e correção monetária — e aplicar multa de 20% sobre a diferença apurada, sem prejuízo da suspensão ou rescisão do serviço.
-
-**4.6.5.** Configurada reincidência — síndico anteriormente notificado por divergência que, após regularizar, volta a apresentar divergência —, o prazo prévio de correção previsto no item 4.6.3 poderá ser dispensado, aplicando-se diretamente as sanções previstas no item 4.6.4.
-
----
-
-## 5. Do Cancelamento e Reembolso
-
-**5.1.** O usuário pode cancelar a assinatura Pro a qualquer momento pelo portal do cliente, acessível em **Configurações → Gerenciar assinatura**.
-
-**5.2.** Após o cancelamento, o plano volta automaticamente para o Básico ao final do período já pago. Os dados permanecem preservados.
-
-**5.3.** Reembolsos podem ser solicitados em até **7 dias** a partir da contratação, conforme o Código de Defesa do Consumidor (Lei nº 8.078/1990, art. 49). Solicitações fora desse prazo serão avaliadas caso a caso.
-
-**5.4.** Para solicitar reembolso, entre em contato pelo e-mail [v3rcondo@v3rtech.com.br](mailto:v3rcondo@v3rtech.com.br).
-
----
-
-## 6. Das Responsabilidades do Usuário
+## 3. Das Responsabilidades do Usuário
 
 O usuário compromete-se a:
 
@@ -128,15 +70,15 @@ O usuário compromete-se a:
 
 ---
 
-## 7. Das Responsabilidades da V3RTECH
+## 4. Das Responsabilidades da V3RTECH
 
-**7.1.** A V3RTECH compromete-se a:
+**4.1.** A V3RTECH compromete-se a:
 
 - Manter a plataforma disponível com razoável nível de continuidade;
 - Proteger os dados dos usuários conforme descrito na Política de Privacidade;
 - Notificar os usuários em caso de alterações relevantes nos Termos ou nos serviços.
 
-**7.2.** A V3RTECH **não se responsabiliza** por:
+**4.2.** A V3RTECH **não se responsabiliza** por:
 
 - Decisões administrativas ou financeiras tomadas com base nas informações da plataforma;
 - Danos decorrentes de uso indevido por parte do usuário ou de terceiros com acesso às suas credenciais;
@@ -144,142 +86,105 @@ O usuário compromete-se a:
 
 ---
 
-## 8. Do Uso de Inteligência Artificial
+## 5. Do Uso de Inteligência Artificial
 
-**8.1.** O V3RCondo utiliza modelos de inteligência artificial generativa para produzir os seguintes conteúdos:
+**5.1.** O V3RCondo utiliza modelos de inteligência artificial generativa para produzir os seguintes conteúdos:
 
 - Relatório mensal de gestão com análise de dados financeiros e operacionais do condomínio;
 - Relatório de execução de compras e obras;
 - Ata de assembleia condominial.
 
-**8.2.** Todo conteúdo gerado por inteligência artificial tem caráter **meramente orientativo e informativo**. O conteúdo não constitui assessoria jurídica, contábil, financeira ou de qualquer outra natureza profissional regulamentada, e não deve ser utilizado como substituto de orientação profissional qualificada.
+**5.2.** Todo conteúdo gerado por inteligência artificial tem caráter **meramente orientativo e informativo**. O conteúdo não constitui assessoria jurídica, contábil, financeira ou de qualquer outra natureza profissional regulamentada, e não deve ser utilizado como substituto de orientação profissional qualificada.
 
-**8.3.** O síndico que solicitar a geração de conteúdo por IA e optar por publicá-lo ou distribuí-lo assume integralmente a responsabilidade pela revisão, adequação e veracidade do conteúdo final antes de sua publicação. A V3RTECH não valida nem audita o conteúdo gerado.
+**5.3.** O síndico que solicitar a geração de conteúdo por IA e optar por publicá-lo ou distribuí-lo assume integralmente a responsabilidade pela revisão, adequação e veracidade do conteúdo final antes de sua publicação. A V3RTECH não valida nem audita o conteúdo gerado.
 
-**8.4.** Em relação à ata de assembleia condominial gerada por inteligência artificial:
+**5.4.** Em relação à ata de assembleia condominial gerada por inteligência artificial:
 
 - **(a)** O documento gerado constitui uma minuta preliminar elaborada com base nos registros inseridos durante a condução digital da assembleia na plataforma;
 - **(b)** A ata somente adquire validade jurídica após revisão e aprovação pelo síndico responsável, observadas as formalidades previstas na legislação aplicável, em especial a Lei nº 4.591/1964 e os arts. 1.350 a 1.356 do Código Civil;
 - **(c)** A V3RTECH não se responsabiliza por quaisquer consequências decorrentes da publicação, arquivamento ou utilização de ata gerada pela plataforma sem a devida revisão pelo síndico.
 
-**8.5.** Para a geração dos conteúdos listados no art. 8.1, dados do condomínio são processados por provedor de inteligência artificial terceirizado. O tratamento desses dados, o provedor utilizado e as salvaguardas adotadas estão descritos na Política de Privacidade. O uso dos recursos de inteligência artificial implica ciência e concordância com esse processamento.
+**5.5.** Para a geração dos conteúdos listados no art. 5.1, dados do condomínio são processados por provedor de inteligência artificial terceirizado. O tratamento desses dados, o provedor utilizado e as salvaguardas adotadas estão descritos na Política de Privacidade. O uso dos recursos de inteligência artificial implica ciência e concordância com esse processamento.
 
-**8.6.** A disponibilidade dos recursos de inteligência artificial depende de serviços de terceiros e pode estar sujeita a interrupções ou indisponibilidades fora do controle da V3RTECH. A indisponibilidade temporária desses recursos não constitui inadimplemento contratual nem gera direito a reembolso ou compensação.
+**5.6.** A disponibilidade dos recursos de inteligência artificial depende de serviços de terceiros e pode estar sujeita a interrupções ou indisponibilidades fora do controle da V3RTECH. A indisponibilidade temporária desses recursos não constitui inadimplemento contratual nem gera direito a reembolso ou compensação.
 
 ---
 
-## 9. Dos Acordos de Inadimplência
+## 6. Dos Acordos de Inadimplência
 
-**9.1.** O V3RCondo disponibiliza recursos para registro e gestão de acordos de parcelamento de dívidas condominiais, compreendendo:
+**6.1.** O V3RCondo disponibiliza recursos para registro e gestão de acordos de parcelamento de dívidas condominiais, compreendendo:
 
 - Criação de acordos pelo síndico com geração de documento em PDF;
 - Negociação de dívida em modalidade self-service pelo condômino, dentro dos parâmetros previamente configurados pelo síndico.
 
-**9.2.** Os documentos gerados pela plataforma em decorrência de acordos de inadimplência constituem registros internos das condições pactuadas entre as partes do condomínio. Esses documentos **não possuem assinatura digital qualificada** nos termos da Medida Provisória nº 2.200-2/2001 (ICP-Brasil) e não se equiparam, por si só, a títulos executivos extrajudiciais.
+**6.2.** Os documentos gerados pela plataforma em decorrência de acordos de inadimplência constituem registros internos das condições pactuadas entre as partes do condomínio. Esses documentos **não possuem assinatura digital qualificada** nos termos da Medida Provisória nº 2.200-2/2001 (ICP-Brasil) e não se equiparam, por si só, a títulos executivos extrajudiciais.
 
-**9.3.** A V3RTECH **não é parte** dos acordos registrados na plataforma e não se responsabiliza por:
+**6.3.** A V3RTECH **não é parte** dos acordos registrados na plataforma e não se responsabiliza por:
 
 - A veracidade ou exatidão dos dados inseridos pelo síndico ou pelo condômino;
 - O cumprimento das obrigações assumidas por qualquer das partes;
 - A validade ou eficácia jurídica do acordo perante terceiros ou em processos judiciais ou extrajudiciais.
 
-**9.4.** Na modalidade self-service, o condômino propõe o parcelamento dentro dos parâmetros configurados pelo síndico. Ao confirmar o acordo na plataforma, o condômino declara reconhecer a dívida descrita e aceitar as condições de parcelamento estabelecidas. A responsabilidade pela configuração adequada dos parâmetros — incluindo percentual de multa, taxa de juros, número máximo de parcelas e valor mínimo por parcela — é exclusiva do síndico.
+**6.4.** Na modalidade self-service, o condômino propõe o parcelamento dentro dos parâmetros configurados pelo síndico. Ao confirmar o acordo na plataforma, o condômino declara reconhecer a dívida descrita e aceitar as condições de parcelamento estabelecidas. A responsabilidade pela configuração adequada dos parâmetros — incluindo percentual de multa, taxa de juros, número máximo de parcelas e valor mínimo por parcela — é exclusiva do síndico.
 
-**9.5.** Para fins de cobrança judicial ou extrajudicial, os registros da plataforma podem ser utilizados como base documental, cabendo às partes interessadas buscar orientação jurídica especializada quanto à forma de instrumentalização adequada ao seu caso.
+**6.5.** Para fins de cobrança judicial ou extrajudicial, os registros da plataforma podem ser utilizados como base documental, cabendo às partes interessadas buscar orientação jurídica especializada quanto à forma de instrumentalização adequada ao seu caso.
 
-**9.6.** Nenhuma funcionalidade relacionada a acordos de inadimplência disponível na plataforma constitui ou deve ser interpretada como assessoria jurídica, contábil ou de qualquer outra natureza profissional regulamentada.
+**6.6.** Nenhuma funcionalidade relacionada a acordos de inadimplência disponível na plataforma constitui ou deve ser interpretada como assessoria jurídica, contábil ou de qualquer outra natureza profissional regulamentada.
 
 ---
 
-## 10. Da Prestação de Serviços Financeiros (Cobrança da Cota e Demais Valores Condominiais)
+## 7. Da Cobrança da Cota e Demais Valores Condominiais
 
-**10.1. Quem presta o serviço financeiro.**
-Os serviços financeiros e de pagamentos disponibilizados por meio da plataforma — incluindo abertura e manutenção de conta de pagamento, processamento de transações, emissão de boletos, transferências, pagamentos e demais movimentações de valores — são prestados pelo [**ASAAS GESTÃO FINANCEIRA S.A.**](https://www.asaas.com){: target="_blank" rel="noopener"}, instituição de pagamento autorizada a funcionar pelo **Banco Central do Brasil**.
+**7.1.** Quando o condomínio contrata a cobrança pela plataforma, os valores devidos pelo condômino — cota, taxa de reserva de ambiente comum, multa, rateio extraordinário e parcela de acordo de inadimplência — podem ser cobrados por **boleto, Pix ou cartão**.
 
-**10.2. Qual é o papel da V3RTECH.**
-A V3RTECH atua exclusivamente como **integradora tecnológica e distribuidora da experiência do produto**, não sendo instituição financeira ou de pagamento, nem realizando intermediação financeira em nome próprio.
+**7.2.** O serviço financeiro é prestado pelo [**ASAAS GESTÃO FINANCEIRA S.A.**](https://www.asaas.com){: target="_blank" rel="noopener"}, instituição de pagamento autorizada a funcionar pelo Banco Central do Brasil. Os valores são liquidados **diretamente na conta de pagamento do próprio condomínio**. A V3RTECH não custodia, não retém e não movimenta em nome próprio os valores arrecadados.
 
-**10.3. De quem é a responsabilidade regulatória.**
-O usuário declara ciência de que o relacionamento financeiro e de pagamentos e a responsabilidade regulatória pelos serviços descritos no item 10.1 são do **ASAAS GESTÃO FINANCEIRA S.A.**, nos termos da regulamentação vigente.
-
-**10.4. Duas coisas diferentes: a assinatura e a cota.**
-Para evitar confusão, estes Termos tratam de dois pagamentos de natureza distinta:
-
-| | Quem paga | Para quem vai | Como é pago | Onde está nestes Termos |
-|---|---|---|---|---|
-| **Assinatura do V3RCondo** | O condomínio | V3RTECH | Cartão de crédito, via Stripe | Seção 4 |
-| **Cota e demais valores condominiais** | O condômino | Conta do próprio condomínio | Boleto, Pix ou cartão, via [Asaas](https://www.asaas.com){: target="_blank" rel="noopener"} | Seção 10 |
-
-**10.5. Onde o dinheiro da cota cai.**
-Cada condomínio que utilizar a cobrança automática tem uma **conta de pagamento própria no Asaas**, de titularidade do próprio cliente (CPF do síndico ou CNPJ do condomínio, conforme o caso). Os valores pagos pelos condôminos são liquidados pelo Asaas **diretamente nessa conta**. A **V3RTECH não custodia, não retém e não movimenta em nome próprio** os valores arrecadados.
-
-**10.6. Condições para usar a cobrança automática.**
-O uso da cobrança da cota condominial pela plataforma está sujeito:
-
-- **(a)** aos **Termos de Uso do próprio Asaas**, que o titular da conta aceita ao contratar o serviço;
-- **(b)** à **aprovação cadastral pelo Asaas**, que inclui a verificação de identidade e o envio de documentos do titular diretamente ao Asaas.
-
-A V3RTECH não decide sobre a aprovação, a recusa ou o encerramento de contas de pagamento, nem tem ingerência sobre prazos de liquidação, limites operacionais ou bloqueios determinados pelo Asaas ou pela regulação aplicável.
-
-**10.7. O que pode ser cobrado por aqui.**
-A cobrança pela plataforma não se limita à cota condominial. Pode alcançar qualquer valor devido pelo condômino ao condomínio e lançado no financeiro — por exemplo **taxa de reserva de ambiente comum, multa, rateio extraordinário e parcela de acordo de inadimplência**. Tudo o que está nesta seção 10 vale igualmente para esses valores.
-
-O condômino escolhe a forma de pagamento entre as disponíveis na cobrança — **boleto, Pix ou cartão** —, conforme as opções habilitadas pelo Asaas para a conta do condomínio.
-
-**10.8. Quanto a V3RTECH cobra por isso.**
-Pelo uso dos recursos de cobrança da plataforma, a V3RTECH cobra **R$ 1,00 (um real) por cobrança efetivamente paga** — seja ela de cota ou de qualquer outro valor previsto no item 10.7. A quantia é retida automaticamente no momento da liquidação do pagamento (repartição automática de valores), de forma que o condomínio recebe o valor já líquido dela. Esse valor remunera **o uso da plataforma V3RCondo**, e é apresentado de forma destacada nos relatórios financeiros do condomínio.
-
-**10.9.** As tarifas cobradas pelo Asaas pelo serviço financeiro em si — como tarifa por boleto pago, por Pix recebido ou por transação em cartão — são definidas pelo Asaas, incidem sobre a conta de pagamento do condomínio e são informadas ao síndico antes da adesão. ⚠️ No cartão, o prazo de disponibilização do valor na conta do condomínio é maior que no boleto e no Pix, conforme as regras do Asaas e das bandeiras.
-
-**10.10. Suporte sobre a operação financeira.**
-Para dúvidas, reclamações ou solicitações relativas às **operações financeiras de pagamento** — liquidação, estorno, bloqueio, dados da conta de pagamento, documentos de cadastro —, o cliente pode acionar diretamente o [Asaas](https://www.asaas.com){: target="_blank" rel="noopener"}:
+**7.3.** Para dúvidas, reclamações ou solicitações relativas às **operações financeiras de pagamento** — liquidação, estorno, bloqueio, dados da conta de pagamento, documentos de cadastro —, o cliente pode acionar diretamente o Asaas:
 
 - **Telefone:** 0800 009 0037
 - **E-mail:** [contato@asaas.com.br](mailto:contato@asaas.com.br)
 
-O suporte da V3RTECH permanece disponível para questões relativas ao **uso da plataforma V3RCondo**, pelos canais indicados na seção 15.
+O suporte da V3RTECH permanece disponível para questões relativas ao **uso da plataforma V3RCondo**, pelos canais indicados na seção 11.
+
+**7.4.** As condições completas do serviço financeiro — titularidade da conta, aprovação cadastral, tarifas e responsabilidade regulatória — estão na seção 5 do [Contrato de Prestação de Serviços](https://docs.v3rcondo.com.br/legal/contrato).
 
 ---
 
-## 11. Da Propriedade Intelectual
+## 8. Da Propriedade Intelectual
 
-**11.1.** O V3RCondo, incluindo seu código-fonte, design, marca, logotipo e conteúdo editorial, é propriedade exclusiva da V3RTECH.
+**8.1.** O V3RCondo, incluindo seu código-fonte, design, marca, logotipo e conteúdo editorial, é propriedade exclusiva da V3RTECH.
 
-**11.2.** Os dados inseridos pelos usuários permanecem de propriedade dos usuários. A V3RTECH não reivindica qualquer direito sobre o conteúdo gerado pelos condomínios.
+**8.2.** Os dados inseridos pelos usuários permanecem de propriedade dos usuários. A V3RTECH não reivindica qualquer direito sobre o conteúdo gerado pelos condomínios.
 
-**11.3.** É vedada a reprodução, distribuição ou uso comercial de qualquer elemento da plataforma sem autorização expressa da V3RTECH.
-
----
-
-## 12. Da Suspensão e Encerramento
-
-**12.1.** A V3RTECH pode suspender ou encerrar o acesso de um usuário ou condomínio nas seguintes situações:
-
-- Inadimplência por mais de 30 dias após falha no pagamento;
-- Violação dos presentes Termos;
-- Uso da plataforma para fins ilícitos ou fraudulentos.
-
-**12.2.** Em caso de encerramento por inadimplência, o acesso é suspenso após notificação prévia. Após **30 dias contados da suspensão** sem regularização, a conta poderá ser permanentemente desativada e os dados excluídos, conforme descrito na Política de Privacidade.
+**8.3.** É vedada a reprodução, distribuição ou uso comercial de qualquer elemento da plataforma sem autorização expressa da V3RTECH.
 
 ---
 
-## 13. Das Alterações nos Termos
+## 9. Da Proteção de Dados Pessoais
 
-**13.1.** A V3RTECH pode atualizar estes Termos a qualquer momento. Alterações relevantes serão comunicadas por e-mail com antecedência mínima de 15 dias.
+**9.1.** Os dados tratados na plataforma têm o **condomínio como controlador** e a **V3RTECH como operadora**, nos termos da seção 6 do [Contrato de Prestação de Serviços](https://docs.v3rcondo.com.br/legal/contrato) e do artigo 39 da Lei nº 13.709/2018 (LGPD).
 
-**13.2.** O uso continuado da plataforma após a entrada em vigor das alterações implica aceitação dos novos Termos.
-
-**13.3.** A versão vigente estará sempre disponível em [docs.v3rcondo.com.br/legal/termos](https://docs.v3rcondo.com.br/legal/termos).
+**9.2.** A [Política de Privacidade](https://docs.v3rcondo.com.br/legal/privacidade) descreve quais dados são tratados, com que finalidade, sob qual base legal, por quanto tempo, com quem são compartilhados e como você exerce os seus direitos como titular.
 
 ---
 
-## 14. Do Foro e Legislação Aplicável
+## 10. Das Alterações nos Termos
+
+**10.1.** A V3RTECH pode atualizar estes Termos a qualquer momento. Alterações relevantes serão comunicadas por e-mail com antecedência mínima de 15 dias.
+
+**10.2.** O uso continuado da plataforma após a entrada em vigor das alterações implica aceitação dos novos Termos.
+
+**10.3.** A versão vigente estará sempre disponível em [docs.v3rcondo.com.br/legal/termos](https://docs.v3rcondo.com.br/legal/termos).
+
+---
+
+## 11. Do Foro e Legislação Aplicável
 
 Estes Termos são regidos pelas leis brasileiras. Quaisquer disputas serão resolvidas no foro da comarca de **Brasília, Distrito Federal**, com renúncia expressa a qualquer outro, por mais privilegiado que seja.
 
 ---
 
-## 15. Do Contato
+## 12. Do Contato
 
 Para dúvidas, solicitações ou notificações relacionadas a estes Termos:
 
@@ -288,5 +193,5 @@ Para dúvidas, solicitações ou notificações relacionadas a estes Termos:
 
 ---
 
-*Versão 1.3 — Atualizado em agosto de 2026.*
+*Versão 1.5 — Atualizado em agosto de 2026. Desmembramento: as cláusulas que regem a relação com o condomínio contratante — objeto, planos e preços, cancelamento e reembolso, condições completas da prestação de serviços financeiros, proteção de dados e suspensão — passaram para o [Contrato de Prestação de Serviços](https://docs.v3rcondo.com.br/legal/contrato) 1.0, aceito pelo síndico em nome do condomínio. Estes Termos passam a tratar exclusivamente do uso da plataforma por cada pessoa. A redação das cláusulas mantidas foi preservada; mudaram a numeração e as remissões.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços.*

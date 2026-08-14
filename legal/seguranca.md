@@ -1,7 +1,7 @@
 ---
 title: Segurança e Privacidade
 parent: Legal
-nav_order: 3
+nav_order: 4
 ---
 
 # Segurança e Privacidade
@@ -44,7 +44,7 @@ O tratamento dos dados pessoais no V3RCondo segue a **Lei Geral de Proteção de
 {: .tip }
 > **Saiba mais**
 >
-> Os detalhes sobre quais dados são coletados, como são usados e quais são os seus direitos estão na [Política de Privacidade](/legal/privacidade/). As regras de uso da plataforma estão nos [Termos de Uso](/legal/termos/).
+> Os detalhes sobre quais dados são coletados, como são usados e quais são os seus direitos estão na [Política de Privacidade](/legal/privacidade/). As regras de uso da plataforma estão nos [Termos de Uso](/legal/termos/), e a relação com o condomínio contratante, no [Contrato de Prestação de Serviços](/legal/contrato/).
 
 ---
 
