@@ -204,7 +204,7 @@ Para cada recurso é possível definir:
 - Limite de reservas simultâneas por condômino
 - Se requer aprovação do síndico
 - Se gera lançamento financeiro automaticamente ao aprovar
-- Taxa por uso (opcional) e **como a taxa é cobrada** — ver abaixo
+- Cobrança — **Sem taxa** ou **Com taxa**, e se for com taxa, **como ela é cobrada** — ver abaixo
 - Ativo / inativo
 
 O painel **Gerenciar recursos** lista os ambientes já cadastrados, cada um com um
@@ -215,13 +215,30 @@ formulário de cadastro.
 
 ![Painel Gerenciar recursos com os ambientes cadastrados — Academia, Churrasqueira, Piscina e Salão de Festas, este último com taxa e selo de aprovação](/assets/screenshots/reservas-gerenciar-recursos.png)
 
+#### Sem taxa ou Com taxa
+
+No cadastro do ambiente, o campo **Cobrança** pede uma escolha explícita: **Sem
+taxa** ou **Com taxa** — não dá para deixar em branco e ficar na dúvida se o espaço
+é gratuito de propósito ou se ninguém configurou a taxa ainda. O padrão é **Sem
+taxa**.
+
+Cada opção mostra, na hora, uma frase explicando o efeito:
+
+- **Sem taxa** — "a reserva não gera cobrança nem lançamento financeiro."
+- **Com taxa** — ao informar o valor, a tela mostra um exemplo com o número que
+  você digitou, por exemplo *"Por turno: cada turno reservado custa R$ 50,00. Uma
+  reserva de 2 turnos custa R$ 100,00."*
+
+![Cadastro de ambiente com a escolha Sem taxa / Com taxa e a explicação do cálculo com o valor informado](/assets/screenshots/reservas-sem-com-taxa.png)
+
+Se você escolher **Com taxa**, o valor precisa ser **maior que zero** — o cadastro
+recusa taxa zerada com o aviso *"Informe um valor maior que zero, ou escolha
+'Sem taxa'."* Se o espaço realmente não cobra nada, use **Sem taxa**.
+
 #### Como a taxa é cobrada
 
-Ao informar uma **taxa** no cadastro do ambiente, escolha logo abaixo se ela vale
-**por turno** ou **por reserva**. A tela explica a diferença já com o valor que você
-digitou, para não restar dúvida:
-
-![Cadastro de ambiente com o campo "Como a taxa é cobrada" e a explicação do cálculo com o valor informado](/assets/screenshots/reservas-modo-cobranca.png)
+Com **Com taxa** selecionado, escolha logo abaixo se ela vale **por turno** ou
+**por reserva**:
 
 - **Por turno** — cada turno reservado custa o valor da taxa. Uma reserva de
   2 turnos custa o dobro. É o caso do salão que se aluga por período (manhã,
@@ -239,6 +256,16 @@ digitou, para não restar dúvida:
 A cobrança gerada pela reserva sai com a **unidade do morador** preenchida — o que a
 torna cobrável como qualquer outro lançamento do [Financeiro](/modulos/financeiro/),
 inclusive por [Cobrança Automática](/modulos/cobranca-automatica/).
+
+{: .tip }
+> **A categoria financeira das reservas pode ser renomeada à vontade**
+>
+> O valor pago numa reserva com taxa cai na categoria financeira **Reservas**, em
+> [Configurações → Categorias](/modulos/configuracoes/). Você pode renomear essa
+> categoria como quiser — o sistema continua reconhecendo ela por dentro,
+> independente do nome exibido. A única restrição é o **tipo**: essa categoria
+> específica não pode virar Despesa nem Transferência, porque ela existe para
+> receber as taxas de reserva.
 
 **Bloquear datas:** pelo gerenciamento de recursos, o síndico pode bloquear
 períodos específicos (manutenção, feriados, eventos) com um motivo.

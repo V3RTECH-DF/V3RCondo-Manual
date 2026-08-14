@@ -356,7 +356,18 @@ Não é igual em todas as sub-abas, e a caixa de confirmação agora diz exatame
 > de Reserva, Reserva para equipamentos). Informe o tipo ao criar uma nova
 > categoria.
 
-![Sub-aba Financeiro mostrando grupos Receita, Despesa, Ambos e Transferência](/assets/screenshots/81-config-categorias-financeiro.png)
+![Sub-aba Financeiro mostrando os quatro grupos — Receita, Despesa, Ambos e Transferência](/assets/screenshots/config-categorias-quatro-tipos.png)
+
+{: .note }
+> **A categoria Reservas tem o tipo travado**
+>
+> A categoria **Reservas** recebe as taxas pagas nas [reservas de áreas e
+> itens](/modulos/nosso-condominio/), na aba Reservas, então ela precisa
+> continuar aceitando receita. Ao editá-la, o campo Tipo aparece bloqueado, com a
+> explicação na tela — e não é possível mudá-la para Despesa nem Transferência.
+> O nome continua livre para editar.
+>
+> ![Modal de edição da categoria Reservas com o campo Tipo bloqueado e a explicação](/assets/screenshots/config-categoria-reservas-bloqueada.png)
 
 {: .tip }
 > **Categorias de Itens**
