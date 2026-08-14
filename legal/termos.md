@@ -8,7 +8,7 @@ nav_order: 1
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.2 — Julho de 2026
+Versão 1.3 — Agosto de 2026
 
 ---
 
@@ -86,7 +86,9 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 
 **4.4.** Os preços podem ser alterados mediante aviso prévio de 30 dias por e-mail. A alteração não se aplica a assinaturas vigentes até o próximo ciclo de cobrança.
 
-**4.5.** Os pagamentos são processados pelo Stripe, plataforma de pagamentos internacional, e podem ser realizados via cartão de crédito.
+**4.5.** O pagamento da assinatura do V3RCondo é processado pelo Stripe, plataforma de pagamentos internacional, e pode ser realizado via cartão de crédito.
+
+**4.5.1.** Esta seção trata **exclusivamente da assinatura do V3RCondo** — o valor que o condomínio paga à V3RTECH pelo uso da plataforma. **Não se confunde** com a cobrança da cota condominial dos condôminos, que é serviço financeiro distinto, processado por instituição de pagamento autorizada pelo Banco Central e disciplinado na seção 10 destes Termos.
 
 **4.6. Do cadastro de unidades e do ajuste automático da faixa.**
 
@@ -189,45 +191,95 @@ O usuário compromete-se a:
 
 ---
 
-## 10. Da Propriedade Intelectual
+## 10. Da Prestação de Serviços Financeiros (Cobrança da Cota e Demais Valores Condominiais)
 
-**10.1.** O V3RCondo, incluindo seu código-fonte, design, marca, logotipo e conteúdo editorial, é propriedade exclusiva da V3RTECH.
+**10.1. Quem presta o serviço financeiro.**
+Os serviços financeiros e de pagamentos disponibilizados por meio da plataforma — incluindo abertura e manutenção de conta de pagamento, processamento de transações, emissão de boletos, transferências, pagamentos e demais movimentações de valores — são prestados pelo [**ASAAS GESTÃO FINANCEIRA S.A.**](https://www.asaas.com){: target="_blank" rel="noopener"}, instituição de pagamento autorizada a funcionar pelo **Banco Central do Brasil**.
 
-**10.2.** Os dados inseridos pelos usuários permanecem de propriedade dos usuários. A V3RTECH não reivindica qualquer direito sobre o conteúdo gerado pelos condomínios.
+**10.2. Qual é o papel da V3RTECH.**
+A V3RTECH atua exclusivamente como **integradora tecnológica e distribuidora da experiência do produto**, não sendo instituição financeira ou de pagamento, nem realizando intermediação financeira em nome próprio.
 
-**10.3.** É vedada a reprodução, distribuição ou uso comercial de qualquer elemento da plataforma sem autorização expressa da V3RTECH.
+**10.3. De quem é a responsabilidade regulatória.**
+O usuário declara ciência de que o relacionamento financeiro e de pagamentos e a responsabilidade regulatória pelos serviços descritos no item 10.1 são do **ASAAS GESTÃO FINANCEIRA S.A.**, nos termos da regulamentação vigente.
+
+**10.4. Duas coisas diferentes: a assinatura e a cota.**
+Para evitar confusão, estes Termos tratam de dois pagamentos de natureza distinta:
+
+| | Quem paga | Para quem vai | Como é pago | Onde está nestes Termos |
+|---|---|---|---|---|
+| **Assinatura do V3RCondo** | O condomínio | V3RTECH | Cartão de crédito, via Stripe | Seção 4 |
+| **Cota e demais valores condominiais** | O condômino | Conta do próprio condomínio | Boleto, Pix ou cartão, via [Asaas](https://www.asaas.com){: target="_blank" rel="noopener"} | Seção 10 |
+
+**10.5. Onde o dinheiro da cota cai.**
+Cada condomínio que utilizar a cobrança automática tem uma **conta de pagamento própria no Asaas**, de titularidade do próprio cliente (CPF do síndico ou CNPJ do condomínio, conforme o caso). Os valores pagos pelos condôminos são liquidados pelo Asaas **diretamente nessa conta**. A **V3RTECH não custodia, não retém e não movimenta em nome próprio** os valores arrecadados.
+
+**10.6. Condições para usar a cobrança automática.**
+O uso da cobrança da cota condominial pela plataforma está sujeito:
+
+- **(a)** aos **Termos de Uso do próprio Asaas**, que o titular da conta aceita ao contratar o serviço;
+- **(b)** à **aprovação cadastral pelo Asaas**, que inclui a verificação de identidade e o envio de documentos do titular diretamente ao Asaas.
+
+A V3RTECH não decide sobre a aprovação, a recusa ou o encerramento de contas de pagamento, nem tem ingerência sobre prazos de liquidação, limites operacionais ou bloqueios determinados pelo Asaas ou pela regulação aplicável.
+
+**10.7. O que pode ser cobrado por aqui.**
+A cobrança pela plataforma não se limita à cota condominial. Pode alcançar qualquer valor devido pelo condômino ao condomínio e lançado no financeiro — por exemplo **taxa de reserva de ambiente comum, multa, rateio extraordinário e parcela de acordo de inadimplência**. Tudo o que está nesta seção 10 vale igualmente para esses valores.
+
+O condômino escolhe a forma de pagamento entre as disponíveis na cobrança — **boleto, Pix ou cartão** —, conforme as opções habilitadas pelo Asaas para a conta do condomínio.
+
+**10.8. Quanto a V3RTECH cobra por isso.**
+Pelo uso dos recursos de cobrança da plataforma, a V3RTECH cobra **R$ 1,00 (um real) por cobrança efetivamente paga** — seja ela de cota ou de qualquer outro valor previsto no item 10.7. A quantia é retida automaticamente no momento da liquidação do pagamento (repartição automática de valores), de forma que o condomínio recebe o valor já líquido dela. Esse valor remunera **o uso da plataforma V3RCondo**, e é apresentado de forma destacada nos relatórios financeiros do condomínio.
+
+**10.9.** As tarifas cobradas pelo Asaas pelo serviço financeiro em si — como tarifa por boleto pago, por Pix recebido ou por transação em cartão — são definidas pelo Asaas, incidem sobre a conta de pagamento do condomínio e são informadas ao síndico antes da adesão. ⚠️ No cartão, o prazo de disponibilização do valor na conta do condomínio é maior que no boleto e no Pix, conforme as regras do Asaas e das bandeiras.
+
+**10.10. Suporte sobre a operação financeira.**
+Para dúvidas, reclamações ou solicitações relativas às **operações financeiras de pagamento** — liquidação, estorno, bloqueio, dados da conta de pagamento, documentos de cadastro —, o cliente pode acionar diretamente o [Asaas](https://www.asaas.com){: target="_blank" rel="noopener"}:
+
+- **Telefone:** 0800 009 0037
+- **E-mail:** [contato@asaas.com.br](mailto:contato@asaas.com.br)
+
+O suporte da V3RTECH permanece disponível para questões relativas ao **uso da plataforma V3RCondo**, pelos canais indicados na seção 15.
 
 ---
 
-## 11. Da Suspensão e Encerramento
+## 11. Da Propriedade Intelectual
 
-**11.1.** A V3RTECH pode suspender ou encerrar o acesso de um usuário ou condomínio nas seguintes situações:
+**11.1.** O V3RCondo, incluindo seu código-fonte, design, marca, logotipo e conteúdo editorial, é propriedade exclusiva da V3RTECH.
+
+**11.2.** Os dados inseridos pelos usuários permanecem de propriedade dos usuários. A V3RTECH não reivindica qualquer direito sobre o conteúdo gerado pelos condomínios.
+
+**11.3.** É vedada a reprodução, distribuição ou uso comercial de qualquer elemento da plataforma sem autorização expressa da V3RTECH.
+
+---
+
+## 12. Da Suspensão e Encerramento
+
+**12.1.** A V3RTECH pode suspender ou encerrar o acesso de um usuário ou condomínio nas seguintes situações:
 
 - Inadimplência por mais de 30 dias após falha no pagamento;
 - Violação dos presentes Termos;
 - Uso da plataforma para fins ilícitos ou fraudulentos.
 
-**11.2.** Em caso de encerramento por inadimplência, o acesso é suspenso após notificação prévia. Após **30 dias contados da suspensão** sem regularização, a conta poderá ser permanentemente desativada e os dados excluídos, conforme descrito na Política de Privacidade.
+**12.2.** Em caso de encerramento por inadimplência, o acesso é suspenso após notificação prévia. Após **30 dias contados da suspensão** sem regularização, a conta poderá ser permanentemente desativada e os dados excluídos, conforme descrito na Política de Privacidade.
 
 ---
 
-## 12. Das Alterações nos Termos
+## 13. Das Alterações nos Termos
 
-**12.1.** A V3RTECH pode atualizar estes Termos a qualquer momento. Alterações relevantes serão comunicadas por e-mail com antecedência mínima de 15 dias.
+**13.1.** A V3RTECH pode atualizar estes Termos a qualquer momento. Alterações relevantes serão comunicadas por e-mail com antecedência mínima de 15 dias.
 
-**12.2.** O uso continuado da plataforma após a entrada em vigor das alterações implica aceitação dos novos Termos.
+**13.2.** O uso continuado da plataforma após a entrada em vigor das alterações implica aceitação dos novos Termos.
 
-**12.3.** A versão vigente estará sempre disponível em [docs.v3rcondo.com.br/legal/termos](https://docs.v3rcondo.com.br/legal/termos).
+**13.3.** A versão vigente estará sempre disponível em [docs.v3rcondo.com.br/legal/termos](https://docs.v3rcondo.com.br/legal/termos).
 
 ---
 
-## 13. Do Foro e Legislação Aplicável
+## 14. Do Foro e Legislação Aplicável
 
 Estes Termos são regidos pelas leis brasileiras. Quaisquer disputas serão resolvidas no foro da comarca de **Brasília, Distrito Federal**, com renúncia expressa a qualquer outro, por mais privilegiado que seja.
 
 ---
 
-## 14. Do Contato
+## 15. Do Contato
 
 Para dúvidas, solicitações ou notificações relacionadas a estes Termos:
 
@@ -236,5 +288,5 @@ Para dúvidas, solicitações ou notificações relacionadas a estes Termos:
 
 ---
 
-*Versão 1.1 — Atualizado em maio de 2026.*
+*Versão 1.3 — Atualizado em agosto de 2026.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços.*

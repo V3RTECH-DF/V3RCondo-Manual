@@ -8,7 +8,7 @@ nav_order: 2
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.1 — Maio de 2026 (revisado em junho de 2026)
+Versão 1.2 — Maio de 2026 (revisado em agosto de 2026)
 
 ---
 
@@ -80,6 +80,43 @@ O legítimo interesse que fundamenta esse tratamento é a **segurança dos morad
 
 Os dados de visitantes são de uso exclusivamente interno do condomínio e não são compartilhados com terceiros pela V3RTECH além dos fornecedores de infraestrutura listados na seção 3. Titulares que queiram exercer seus direitos em relação a esses dados podem entrar em contato com o DPO pelo e-mail [dpo@v3rtech.com.br](mailto:dpo@v3rtech.com.br).
 
+### 2.5. Dados da cobrança de valores condominiais (boleto, Pix e cartão)
+
+O V3RCondo permite que o condomínio cobre do condômino, por boleto, Pix ou cartão, a cota condominial e demais valores devidos — taxa de reserva de ambiente comum, multa, rateio extraordinário e parcela de acordo de inadimplência. Esse serviço financeiro é prestado pelo **ASAAS GESTÃO FINANCEIRA S.A.**, instituição de pagamento autorizada a funcionar pelo Banco Central do Brasil, conforme a seção 10 dos [Termos de Uso](https://docs.v3rcondo.com.br/legal/termos). A V3RTECH não custodia, não retém e não movimenta em nome próprio os valores arrecadados.
+
+Para viabilizar a cobrança, dados pessoais são enviados ao Asaas em duas situações distintas.
+
+**(a) Dados do condômino que vai pagar** — enviados quando o condomínio emite uma cobrança:
+
+| Dado | Finalidade | Base Legal (LGPD) |
+|---|---|---|
+| Nome completo | Identificação do pagador no boleto, no Pix e no comprovante | Execução de contrato e cumprimento de obrigação legal — Art. 7º, II e V |
+| CPF ou CNPJ | Identificação formal do pagador, exigida para emissão de boleto e cobrança por Pix | Cumprimento de obrigação legal e regulatória — Art. 7º, II |
+| E-mail e telefone | Envio da cobrança e dos avisos de vencimento pelo Asaas | Execução de contrato — Art. 7º, V |
+| Unidade (apartamento, bloco ou casa) | Identificação do que está sendo cobrado, na descrição da cobrança | Execução de contrato — Art. 7º, V |
+| Valor, vencimento e descrição da cobrança | Emissão e liquidação da cobrança | Execução de contrato — Art. 7º, V |
+
+O tratamento se justifica porque a cota e os demais valores condominiais são obrigação do condômino perante o condomínio, decorrente da convenção condominial e da legislação aplicável. A V3RTECH opera a plataforma que emite a cobrança em nome do condomínio; não é credora desses valores e não decide sobre eles.
+
+**(b) Dados do titular da conta de cobrança** — enviados uma única vez, na abertura da conta de pagamento do condomínio no Asaas. O titular é o próprio cliente: o síndico (pessoa física) ou o condomínio (pessoa jurídica), conforme o caso.
+
+| Dado | Finalidade | Base Legal (LGPD) |
+|---|---|---|
+| Nome completo ou razão social | Abertura e manutenção da conta de pagamento | Execução de contrato — Art. 7º, V |
+| CPF ou CNPJ | Verificação de identidade e cadastro perante instituição de pagamento | Cumprimento de obrigação legal e regulatória — Art. 7º, II |
+| E-mail e telefone | Comunicação do Asaas com o titular sobre a conta | Execução de contrato — Art. 7º, V |
+| Data de nascimento | Verificação de identidade do titular pessoa física | Cumprimento de obrigação legal e regulatória — Art. 7º, II |
+| Tipo de empresa (quando o titular é pessoa jurídica) | Enquadramento cadastral perante instituição de pagamento | Cumprimento de obrigação legal e regulatória — Art. 7º, II |
+| Endereço | Cadastro do titular perante instituição de pagamento | Cumprimento de obrigação legal e regulatória — Art. 7º, II |
+| Faturamento mensal estimado | Definição de limites operacionais e análise cadastral pelo Asaas | Cumprimento de obrigação legal e regulatória — Art. 7º, II |
+
+Documentos de identidade e comprovantes solicitados na aprovação cadastral são enviados pelo titular **diretamente ao Asaas**, não trafegam pela V3RTECH e não são armazenados por ela.
+
+{: .note }
+> **O Asaas também é controlador dos seus próprios dados**
+>
+> Em relação à cobrança em si, o Asaas atua como operador, tratando os dados por conta do condomínio. Para as finalidades próprias dele — prevenção à fraude e à lavagem de dinheiro, verificação de identidade, controles internos e cumprimento das obrigações impostas pelo Banco Central e pela demais regulação do sistema financeiro —, o Asaas é **controlador independente** e responde pelas próprias práticas de tratamento, que não são definidas nem controladas pela V3RTECH. Essas práticas estão descritas na [Política de Privacidade do Asaas](https://central.ajuda.asaas.com/hc/pt-br/articles/32098003163035-Pol%C3%ADtica-de-Privacidade){: target="_blank" rel="noopener"}.
+
 ---
 
 ## 3. Compartilhamento de Dados
@@ -90,6 +127,7 @@ Os dados dos usuários podem ser compartilhados com os seguintes terceiros, estr
 |---|---|---|
 | **Supabase** (EUA) | Todos os dados da plataforma | Banco de dados, autenticação e armazenamento de arquivos |
 | **Stripe** (EUA) | E-mail, identificador do condomínio | Processamento de pagamentos e gestão de assinaturas |
+| **Asaas** — ASAAS GESTÃO FINANCEIRA S.A. (Brasil) | Do condômino pagador: nome, CPF ou CNPJ, e-mail, telefone, unidade, valor e vencimento da cobrança. Do titular da conta de cobrança: nome ou razão social, CPF ou CNPJ, e-mail, telefone, data de nascimento, tipo de empresa, endereço e faturamento estimado | Emissão, envio e liquidação das cobranças de cota e demais valores condominiais (boleto, Pix e cartão), e abertura e manutenção da conta de pagamento do condomínio — detalhado na seção 2.5 |
 | **Google** (EUA) | E-mail (apenas para usuários que optarem pelo login com Google) | Autenticação OAuth |
 | **Google — Gemini** (EUA) | Apenas indicadores **agregados** do Relatório de Gestão (KPIs, totais por categoria, contagens) — **sem nomes, sem identificação de unidade e sem dados pessoais** | Análise por IA no Relatório de Gestão (resumo executivo e comentários), best-effort |
 | **OpenAI** (EUA) | Idem — apenas indicadores **agregados**, sem dados pessoais | Análise por IA no Relatório de Gestão (provedor alternativo, conforme configuração do administrador) |
@@ -100,6 +138,8 @@ Os dados dos usuários podem ser compartilhados com os seguintes terceiros, estr
 > **Transferência internacional de dados**
 >
 > Supabase, Stripe, Google, OpenAI, Anthropic e Telegram operam fora do Brasil. A V3RTECH adota cláusulas contratuais e boas práticas reconhecidas pela ANPD para assegurar nível adequado de proteção, conforme Art. 33 da LGPD. Aos provedores de IA são enviados apenas indicadores agregados, sem dados pessoais.
+>
+> O **Asaas** é empresa brasileira, sujeita à LGPD e à regulação do Banco Central do Brasil. O próprio Asaas informa, em sua política de privacidade, que pode tratar parte dos dados em provedores de nuvem no exterior, sempre nas hipóteses admitidas pela legislação brasileira.
 
 A V3RTECH **não vende, aluga ou compartilha** dados pessoais com terceiros para fins comerciais ou publicitários.
 
@@ -198,5 +238,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 
 ---
 
-*Versão 1.1 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais).*
+*Versão 1.2 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais) e em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5).*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*
