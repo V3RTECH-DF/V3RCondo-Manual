@@ -8,7 +8,7 @@ nav_order: 1
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.1 — Agosto de 2026
+Versão 1.2 — Agosto de 2026
 
 ---
 
@@ -140,13 +140,24 @@ O condômino escolhe a forma de pagamento entre as disponíveis na cobrança —
 **5.8. Quanto a V3RTECH cobra por isso.**
 Pelo uso dos recursos de cobrança da plataforma, a V3RTECH cobra um **valor fixo por cobrança efetivamente paga** — seja ela de cota ou de qualquer outro valor previsto no item 5.7. Cobrança emitida e não paga **não gera remuneração alguma** para a V3RTECH.
 
-**5.8.1. Qual é o valor.** O valor aplicável **a este condomínio** é o acordado com ele e configurado na plataforma, e fica **visível ao síndico na própria área de cobrança automática do aplicativo**, antes da adesão e a qualquer tempo depois. O valor pode variar de um condomínio para outro, conforme as condições comerciais de cada contratação.
+**5.8.1. O valor aparece na tela antes de você aderir.** O valor aplicável a este condomínio é exibido na **área de cobrança automática do aplicativo**, com destaque, **antes da adesão** — e continua visível ali a qualquer momento, para conferência. Nenhuma cobrança é emitida sem que o valor tenha sido apresentado ao síndico.
 
-**5.8.2. Como é cobrado.** A quantia é retida automaticamente no momento da liquidação do pagamento (repartição automática de valores), de forma que o condomínio recebe o valor já líquido dela. Ela remunera **o uso da plataforma V3RCondo**, é distinta das tarifas da instituição de pagamento (item 5.9), e é apresentada de forma destacada nos relatórios financeiros do condomínio.
+**5.8.2. Há um valor padrão, e ele vale para a generalidade dos condomínios.** A V3RTECH pratica um valor padrão, igual para todos. Condições distintas são **excepcionais** e decorrem de negociação específica — tipicamente condomínios de grande porte, nas faixas superiores da tabela de planos. Havendo condição negociada, é ela que aparece na tela, pelo mesmo caminho do item 5.8.1.
 
-**5.8.3. Alteração.** A alteração desse valor observa a mesma regra do item 3.4: aviso prévio de **30 dias** ao síndico, sem efeito sobre cobranças já emitidas, sem retroagir, e facultado ao condomínio cancelar sem penalidade antes da vigência.
+**5.8.3. Como é cobrado.** A quantia é retida automaticamente no momento da liquidação do pagamento (repartição automática de valores), de forma que o condomínio recebe o valor já líquido dela. Ela remunera **o uso da plataforma V3RCondo**, é distinta das tarifas da instituição de pagamento (item 5.9), e é apresentada de forma destacada nos relatórios financeiros do condomínio.
 
-**5.9.** As tarifas cobradas pelo Asaas pelo serviço financeiro em si — como tarifa por boleto pago, por Pix recebido ou por transação em cartão — são definidas pelo Asaas, incidem sobre a conta de pagamento do condomínio e são informadas ao síndico antes da adesão. ⚠️ No cartão, o prazo de disponibilização do valor na conta do condomínio é maior que no boleto e no Pix, conforme as regras do Asaas e das bandeiras.
+**5.8.4. O valor não muda de surpresa.** A alteração observa a mesma regra do item 3.4: aviso prévio de **30 dias** ao síndico, **sem efeito sobre cobranças já emitidas**, sem retroagir a período algum, e facultado ao condomínio **cancelar sem qualquer penalidade** antes de a alteração entrar em vigor.
+
+**5.9. As tarifas do serviço financeiro são do Asaas — e é ele quem informa.**
+As tarifas cobradas pelo serviço financeiro em si — como tarifa por boleto pago, por Pix recebido ou por transação em cartão — são **definidas pelo Asaas**, incidem sobre a conta de pagamento do condomínio e **não constituem receita da V3RTECH**.
+
+**5.9.1. O dever de informar é da instituição de pagamento.** Divulgar essas tarifas e mantê-las atualizadas é obrigação do Asaas, na relação dele com o titular da conta. Os valores oficiais e vigentes estão em [asaas.com/precos](https://www.asaas.com/precos){: target="_blank" rel="noopener"}.
+
+**5.9.2. O papel do V3RCondo é de mera reprodução.** Quando o aplicativo apresenta ou resume essas tarifas, ele apenas **reproduz, por conveniência, informação divulgada pelo Asaas**. A V3RTECH não define, não negocia, não altera e não garante esses valores.
+
+**5.9.3. Havendo divergência, prevalece o Asaas.** Qualquer diferença entre o que o aplicativo apresenta e o que o Asaas divulga ou pratica **resolve-se pelo do Asaas**. Em caso de dúvida sobre tarifa, prazo ou cobrança do serviço financeiro, o síndico deve procurar o Asaas diretamente, pelos canais do item 5.10.
+
+**5.9.4. Prazo no cartão.** ⚠️ No cartão, o prazo de disponibilização do valor na conta do condomínio é maior que no boleto e no Pix, conforme as regras do Asaas e das bandeiras.
 
 **5.10. Suporte sobre a operação financeira.**
 Para dúvidas, reclamações ou solicitações relativas às **operações financeiras de pagamento** — liquidação, estorno, bloqueio, dados da conta de pagamento, documentos de cadastro —, o cliente pode acionar diretamente o [Asaas](https://www.asaas.com){: target="_blank" rel="noopener"}:
@@ -216,6 +227,8 @@ Para dúvidas, solicitações ou notificações relacionadas a este Contrato:
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)
 
 ---
+
+*Versão 1.2 — Agosto de 2026. Revisão da 1.1, em dois pontos, sem mudança de efeito. (a) A cláusula sobre a remuneração da V3RTECH (item 5.8) foi reescrita para deixar claro, de saída, que o valor é exibido na tela antes da adesão e que existe um valor padrão válido para a generalidade dos condomínios — condições distintas são excepcionais e negociadas. (b) A cláusula sobre as tarifas do serviço financeiro (item 5.9) passou a explicitar que o dever de informá-las é da instituição de pagamento, que o aplicativo apenas reproduz por conveniência o que ela divulga, e que qualquer divergência se resolve pelo valor dela.*
 
 *Versão 1.1 — Agosto de 2026. Revisão da versão 1.0: a remuneração da V3RTECH pelo uso dos recursos de cobrança deixou de constar como valor fixo no texto e passou a ser o valor acordado com cada condomínio, visível ao síndico na área de cobrança automática do aplicativo (item 5.8) — pode variar de um condomínio para outro. Retirada também a cláusula que justificava a não reprodução da tabela de preços.*
 
