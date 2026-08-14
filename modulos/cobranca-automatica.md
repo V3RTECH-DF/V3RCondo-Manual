@@ -198,6 +198,31 @@ A aba **Cobranças** abre no cartão **Como estão as cobranças**, com um **con
 >
 > Aqui você acompanha quantas cobranças saíram, quais falharam e quais venceram. **Quanto entrou no caixa continua sendo no [Financeiro](/modulos/financeiro/)**, e quem está devendo, na [Inadimplência](/modulos/inadimplencia/) — por isso esta tela não exibe soma nem saldo.
 
+### Quando o dinheiro fica disponível
+
+Na coluna **Pagamento**, abaixo da data em que o morador pagou, a cobrança informa **quando aquele valor fica disponível na conta do condomínio**.
+
+![Lista de cobranças com a data de pagamento e, abaixo, a indicação de quando o valor fica disponível](/assets/screenshots/cobrancas-disponibilidade.png)
+
+*Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
+
+- Quando o Asaas informa a **data exata**, ela aparece: *Disponível em 14/09/2026*
+- Quando ainda não há data e o prazo é estimado pelo meio de pagamento, aparece o prazo aproximado, **marcado como estimativa**: *Disponível em cerca de 30 dias (estimativa)*
+- Quando a cobrança já foi paga e o valor já está disponível, não há nada a avisar — a linha mostra só a data do pagamento
+
+Os prazos típicos, por meio de pagamento:
+
+| Meio | Quando o valor fica disponível |
+|---|---|
+| **Pix** | Praticamente na hora |
+| **Boleto** | No próximo dia útil |
+| **Cartão de crédito** | Cerca de **30 dias** |
+
+{: .warning }
+> **"Pagamento confirmado" e "dinheiro disponível" são coisas diferentes**
+>
+> A cota é baixada no Financeiro assim que o pagamento é confirmado — em minutos. Isso significa que o **morador pagou**, não que o dinheiro **já pode ser usado**. No cartão de crédito a diferença chega a um mês: a cota aparece paga hoje e o valor entra na conta só no mês que vem. Leve isso em conta antes de programar um pagamento contando com aquela entrada.
+
 ### Quando o Asaas discorda do que está aqui
 
 Uma cobrança pode ser paga, cancelada ou apagada **direto no painel do Asaas**, sem passar pelo V3RCondo. Quando isso acontece, vale sempre o que o Asaas diz — é lá que a cobrança mora —, e a lista deixa isso explícito com um rótulo próprio: **Paga no Asaas**, **Cancelada no Asaas** ou **Removida no Asaas**.
@@ -379,7 +404,7 @@ Na lista do Financeiro, esses lançamentos automáticos aparecem **recolhidos de
 
 ## O resumo diário
 
-Uma vez por dia, no fim do dia, **cada síndico ativo do condomínio** recebe **um único e-mail** com os pagamentos que entraram:
+Todo dia às **7h (horário de Brasília)**, **cada síndico ativo do condomínio** recebe **um único e-mail** com os pagamentos que entraram desde o resumo anterior:
 
 - Quantos pagamentos e o **total recebido**
 - A lista **por unidade**, com o morador, o valor pago e a data
