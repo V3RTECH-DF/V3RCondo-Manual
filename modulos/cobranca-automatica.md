@@ -46,6 +46,47 @@ Preencha:
 >
 > O formulário pede apenas dados de cadastro. **Nenhum documento, foto ou selfie é enviado pelo aplicativo.** Quando o Asaas exigir documentação, o V3RCondo mostra o que falta e o endereço seguro do próprio Asaas para o envio — o arquivo vai direto de você para eles.
 
+### Autorizar a abertura da conta
+
+Depois de preencher o formulário e antes de a conta ser aberta, aparece o **Termo de Autorização — Conta de Pagamento**, já preenchido com o que você acabou de digitar: o condomínio, o nome do titular e o CNPJ (ou CPF) informado.
+
+<!-- PRINT: cobranca-18-termo-autorizacao — ver roteiro de capturas -->
+
+O termo existe por exigência da instituição de pagamento: para que a V3RTECH possa abrir e operar a conta em nome do condomínio, o Asaas precisa da **autorização expressa do titular**. Sem ela, ninguém pode agir pela conta de outra pessoa.
+
+O texto diz, em três blocos, o que você está autorizando e o que **não** está:
+
+| Bloco | O que traz |
+|---|---|
+| **Você autoriza a V3RTECH a…** | Abrir a conta junto ao Asaas, emitir as cobranças a partir dos lançamentos que você registrar, consultar a situação cadastral e as cobranças para exibir aqui, e receber os avisos de pagamento |
+| **Consentimento específico — chave Pix** | A criação de uma chave Pix aleatória da conta, sem a qual ela não emite nem recebe por Pix. A chave é da conta do titular, não da V3RTECH |
+| **O que a V3RTECH não faz** | Não guarda o dinheiro, não movimenta saldo, não transfere, não saca, não encerra a conta por conta própria e não usa a conta para outra finalidade |
+
+São **dois consentimentos separados**, cada um com sua caixa de seleção:
+
+1. **Autorizo a abertura e a operação da conta de pagamento nos termos acima**
+2. **Consinto com a criação da chave Pix aleatória da conta**
+
+O botão **Aceitar e abrir a conta** só é liberado com **as duas** marcadas. Marcar uma só não vale — são autorizações de coisas diferentes.
+
+{: .note }
+> **Recusar não trava nada**
+>
+> O botão **Agora não** fecha o termo e volta para a tela. A conta simplesmente **não é aberta**, e o condomínio continua lançando e recebendo a cota exatamente como faz hoje, sem cobrança automática. Você pode voltar e aceitar quando quiser.
+
+{: .warning }
+> **Sem termo registrado, a conta não é aberta**
+>
+> O aceite é gravado **antes** da abertura, nunca depois. Se a gravação falhar, a tela avisa e a conta **não** é aberta — não existe conta aberta sem autorização registrada. E se você já aceitou a versão vigente do termo, ele não é pedido de novo, mesmo que uma tentativa anterior de abrir a conta tenha falhado.
+
+### O registro do aceite vira documento
+
+Ao confirmar, ficam registrados **a data e a hora**, **a versão do termo** e dados técnicos da sua conexão — o mesmo tipo de prova que qualquer aceite eletrônico exige.
+
+Esse registro gera o **Termo de Autorização — Conta de Pagamento** como documento formal, com o mesmo tratamento dos demais documentos emitidos pelo V3RCondo: **código de verificação** e **QR Code**, que qualquer pessoa pode conferir na página pública de verificação sem precisar de senha. Como o termo é um documento do síndico, a verificação confirma a autenticidade **sem exibir dados da unidade**.
+
+Uma vez emitido, o documento aparece em **Minha Área → Meus documentos e pedidos**, identificado como *Termo de Autorização — Conta de Pagamento*, com o código à vista e o botão de baixar em PDF — ver [Minha Área](/modulos/minha-area/). Ele é do síndico que aceitou: nenhum condômino o vê, e ele não está entre os documentos que se podem solicitar.
+
 ### Acompanhar a aprovação
 
 Depois de enviar, a tela passa a exibir o cartão **Situação da conta**, com três indicadores:
@@ -432,6 +473,28 @@ No Financeiro, os dois entram numa **única despesa** cuja descrição discrimin
 > **Por que não repetimos a tabela de tarifas do Asaas aqui**
 >
 > Tarifa de terceiro muda quando eles quiserem, e número copiado vira informação errada sem aviso. Confira sempre na fonte.
+
+## Com quem falar: Asaas ou V3RTECH
+
+Quem processa o pagamento é o Asaas, e isso aparece de forma explícita: o **selo do Asaas** acompanha as telas da cobrança — o painel de apresentação, o cadastro da conta, a situação da conta, os documentos, o detalhe da cobrança e a área do morador — e também os **e-mails da operação financeira**. Clicar no selo abre o site oficial deles.
+
+<!-- PRINT: cobranca-19-selo-e-suporte — ver roteiro de capturas -->
+
+Junto do selo fica o bloco **Suporte sobre a operação financeira**, com os canais do Asaas alcançáveis direto da tela: **0800 009 0037** e **contato@asaas.com.br**. No celular, tocar no telefone abre a discagem e tocar no e-mail abre o aplicativo de e-mail.
+
+A divisão é esta, e vale a pena guardá-la:
+
+| Assunto | Com quem falar |
+|---|---|
+| **Operação financeira** — liquidação, quando o dinheiro cai, estorno, bloqueio, dados da conta de pagamento, documentos do cadastro | **Asaas** — 0800 009 0037 ou contato@asaas.com.br |
+| **Uso do aplicativo** — como emitir, o que a tela mostra, lançamento, relatório, morador, configuração | **Suporte da V3RTECH** |
+
+{: .note }
+> **Por que não somos nós no assunto do dinheiro**
+>
+> A conta de pagamento é do condomínio e quem a opera é a instituição de pagamento. Estorno, bloqueio e prazo de liquidação são decisões e prazos **deles** — repassar o pedido por nós só acrescentaria um intermediário e um dia de espera. O caminho mais curto é falar direto com quem resolve.
+
+Os mesmos canais aparecem nos e-mails de cobrança, de conta de pagamento e no resumo diário, no rodapé, para você não precisar voltar ao aplicativo só para achar um telefone.
 
 ## O que ainda não existe
 

@@ -153,6 +153,11 @@ Cada acordo aparece em um card com as informações principais: valor total, nú
 
 Lista todos os documentos da sua unidade para baixar — tanto os **automáticos** que você emitiu quanto os **manuais** que o síndico entregou. Cada item mostra o tipo, a data, o **código de verificação** e um botão para **baixar** (ou re-baixar) o PDF. Pedidos ainda em andamento aparecem com o status: *aguardando síndico*, *em análise*, *concluído* ou *recusado* (com o motivo).
 
+{: .note }
+> **Para o síndico, entra aqui também o termo da conta de cobrança**
+>
+> O **Termo de Autorização — Conta de Pagamento**, aceito na abertura da conta de cobrança, aparece nesta lista com o mesmo código de verificação e o mesmo botão de baixar dos demais documentos. Ele é do síndico que aceitou — nenhum condômino o vê, e ele não está entre os documentos que se podem solicitar. Ver [Cobrança Automática](/modulos/cobranca-automatica/).
+
 <!-- TODO captura: aba "Meus Documentos" com o histórico de emissões/solicitações -->
 
 ---

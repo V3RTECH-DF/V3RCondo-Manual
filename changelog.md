@@ -9,6 +9,18 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.134 — Agosto 2026
+
+### Adicionado
+
+- **O selo de conta homologada do Asaas passou a aparecer nos principais pontos financeiros do app** — na conta de cobrança, no formulário de abertura, na área de documentos, na sua lista de cobranças, nas formas de pagamento, no detalhe de uma cobrança, no extrato (quando a conta já está aprovada) e nos e-mails financeiros. Junto, um bloco de suporte indica os canais oficiais do Asaas para dúvidas sobre pagamento.
+
+### Corrigido
+
+- **Uma das variantes do selo (a versão em preto e branco) estava apontando para um endereço que não existia** e não aparecia em lugar nenhum. Corrigido para o endereço oficial.
+
+---
+
 ## v7.131 / v7.133 — Agosto 2026
 
 ### Adicionado
