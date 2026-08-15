@@ -52,7 +52,7 @@ Ao expandir uma unidade, você vê os débitos individuais e pode emitir uma **n
 | E-mail + Telegram | PDF por e-mail e aviso no Telegram |
 | Apenas baixar PDF | PDF gerado para download — nada é enviado ao condômino |
 
-O **PDF** traz o cabeçalho com logo e dados do condomínio, os dados do notificado, a tabela de débitos (descrição, vencimento, valor, dias em atraso), o prazo para regularização, a cláusula legal e um **código de referência** para rastreio. Todas as notificações emitidas ficam no **Histórico**, ao fim da lista, com botão de download.
+O **PDF** traz o cabeçalho com logo e dados do condomínio, os dados do notificado — com o rótulo **CPF ou CNPJ** conforme o documento cadastrado para o responsável —, a tabela de débitos (descrição, vencimento, valor, dias em atraso), o prazo para regularização, a cláusula legal e um **código de referência** para rastreio. Todas as notificações emitidas ficam no **Histórico**, ao fim da lista, com botão de download.
 
 {: .note }
 > **Responsável pela unidade.** Só o condômino designado **responsável** pela unidade recebe a notificação. O responsável é definido ao expandir a unidade ou em **Configurações → Condôminos** — sempre um único por unidade.
@@ -74,7 +74,7 @@ Um acordo transforma uma ou mais dívidas vencidas de uma unidade em um parcelam
 
 - As dívidas originais **não são apagadas nem quitadas** — passam para o estado "em acordo" e **saem da lista de inadimplência**.
 - São criadas as **parcelas novas** (já com o desconto), que passam a ser o que o condômino deve pagar.
-- É gerado um **PDF do acordo** com **atestação eletrônica** (quem fez o acordo, o vínculo com a unidade e a data).
+- É gerado um **PDF do acordo** com **atestação eletrônica** (quem fez o acordo, o vínculo com a unidade e a data) e o documento do condômino identificado como **CPF** ou **CNPJ**, conforme o que está cadastrado.
 
 {: .tip }
 > Um acordo pode ser iniciado por você (síndico) ou pelo **próprio condômino**, pela negociação self-service — veja "Negociação pelo próprio condômino".

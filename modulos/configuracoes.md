@@ -151,12 +151,16 @@ instruções para definir a senha ou entrar com o Google.
 
 **Editar dados de um membro:** clique no ícone de lápis (✎) ao lado do membro para abrir o drawer **Editar Membro**. O síndico pode editar:
 
-![Drawer Editar Membro com campos de Nome, Unidade, Título e dados pessoais incluindo CPF, RG, Telefone, Profissão, Instagram, LinkedIn e aniversário](/assets/screenshots/config-editar-membro-drawer.png)
+![Drawer Editar Membro com campos de Nome, Unidade, Título e dados pessoais incluindo CPF ou CNPJ, RG, Telefone, Profissão, Instagram, LinkedIn e aniversário — o campo CPF ou CNPJ preenchido com um CNPJ alfanumérico fictício mostra a máscara aplicada](/assets/screenshots/config-editar-membro-cpf-cnpj-01.png)
 
 - **Nome** — nome completo do membro
 - **Unidade** — unidade à qual o membro pertence
 - **Título** — Síndico, Subsíndico, Contador, Conselho Fiscal ou Condômino
-- **CPF** — com formatação automática (000.000.000-00)
+- **CPF ou CNPJ** — use CPF quando a unidade estiver em nome de uma pessoa, e
+  CNPJ quando estiver em nome de uma empresa. A máscara acompanha o que você
+  digita e aceita o **CNPJ alfanumérico** (formato novo da Receita, com letras).
+  É o documento que aparece na cobrança e nos documentos gerados para essa
+  unidade
 - **RG**
 - **Telefone**
 - **Profissão**

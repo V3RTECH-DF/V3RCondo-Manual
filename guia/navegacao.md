@@ -15,8 +15,15 @@ Após o login, a barra lateral à esquerda é o ponto central de navegação. El
 - **Trocar condomínio** — se você for membro de mais de um condomínio, clique em **Trocar** ao lado do nome para alternar entre eles
 - **Manual do usuário** — link direto para esta documentação
 - **Nome e avatar** no rodapé — clique para acessar seu perfil ou sair
+- **Termos de Uso · Privacidade · Contrato** — no rodapé, abaixo da versão
+  instalada, os três documentos legais ficam sempre a um clique: os
+  [Termos de Uso](/legal/termos/) e a [Política de Privacidade](/legal/privacidade/)
+  abrem em nova aba; **Contrato** leva ao
+  [Contrato de Prestação de Serviços](/legal/contrato/)
 
 ![Sidebar completa do síndico com todos os módulos visíveis](/assets/screenshots/06-sidebar-sindico.png)
+
+![Rodapé do menu lateral com nome, versão instalada e os links Termos de Uso, Privacidade e Contrato](/assets/screenshots/sidebar-rodape-legal-v7138.png)
 
 ## Barra do topo
 
