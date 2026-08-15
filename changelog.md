@@ -9,6 +9,14 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.137 — Agosto 2026
+
+### Adicionado
+
+- **O Contrato de Prestação de Serviços passou a ter um aceite próprio, separado dos Termos de Uso.** Antes, a relação entre o condomínio e a V3RTECH ficava misturada com o aceite individual de cada pessoa. Agora o síndico aceita o contrato **uma vez, em nome do condomínio**, num cartão dedicado em Configurações → Condomínio — com data, hora, versão e autor do aceite registrados, PDF verificável para baixar a qualquer momento e cópia enviada por e-mail. Enquanto o aceite estiver pendente, o síndico vê um aviso no topo do Painel (com a opção de ocultá-lo por 30 dias, que apenas adia o lembrete) e, na tela de Cobrança automática, a abertura da conta fica bloqueada até o aceite — o restante do aplicativo, incluindo o uso pelos condôminos, continua funcionando normalmente.
+
+---
+
 ## v7.136 — Agosto 2026
 
 ### Adicionado

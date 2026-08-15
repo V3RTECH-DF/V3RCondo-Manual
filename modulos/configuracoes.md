@@ -40,6 +40,41 @@ Exibe e permite editar os dados cadastrais:
 
 Clique em **Salvar alterações** para confirmar.
 
+### Contrato de Prestação de Serviços
+
+Logo abaixo dos dados cadastrais, um cartão mostra a situação do **Contrato de Prestação de Serviços** — o instrumento entre o condomínio e a V3RTECH, aceito pelo **síndico em nome do condomínio**.
+
+{: .note }
+> **Não confunda com os Termos de Uso**
+>
+> São dois aceites diferentes. Os **Termos de Uso** e a **Política de Privacidade** são aceitos por **cada pessoa** que usa o aplicativo — síndico, condômino ou porteiro —, no primeiro acesso e sempre que a versão muda. Já o **Contrato de Prestação de Serviços** é aceito **uma única vez**, pelo síndico, em nome do condomínio. O condômino nunca vê esse aceite nem precisa fazer nada a respeito. Veja [Primeiros Passos](/guia/primeiros-passos/) para o aceite individual.
+
+**Quando o contrato já foi aceito**, o cartão mostra o selo **Aceito**, a versão do contrato, a data e a hora do aceite e o nome de quem aceitou, além do botão **Baixar o contrato em PDF** — disponível a qualquer momento.
+
+![Cartão do Contrato de Prestação de Serviços com status Aceito, versão, data e botão de baixar em PDF](/assets/screenshots/config-contrato-aceito.png)
+
+**Enquanto o contrato ainda não foi aceito**, o cartão explica o que está pendente e mostra o botão **Ler e aceitar o contrato**:
+
+![Cartão do Contrato de Prestação de Serviços pendente, com aviso e botão Ler e aceitar](/assets/screenshots/config-contrato-pendente.png)
+
+{: .warning }
+> **O que fica bloqueado até o aceite — e o que não fica**
+>
+> Sem o contrato aceito, a única coisa indisponível é **abrir a conta de cobrança automática** no módulo [Cobrança automática](/modulos/cobranca-automatica/). Todo o resto continua funcionando normalmente: os condôminos seguem usando o aplicativo sem qualquer restrição, e um condomínio que já tenha a conta de cobrança aberta continua operando. O motivo do bloqueio: é esse contrato que autoriza a V3RTECH a tratar os dados do condomínio e a operar a cobrança automática em nome dele — sem ele, essa autorização não existe.
+
+Clicando em **Ler e aceitar o contrato**, abre uma janela com o resumo do que está sendo aceito e um link para ler o contrato na íntegra. Marque a declaração de que você é o síndico e aceita o contrato em nome do condomínio, e confirme.
+
+![Janela de aceite do Contrato de Prestação de Serviços, com o resumo, o link para o texto completo e a declaração a marcar](/assets/screenshots/config-contrato-dialogo-aceite.png)
+
+Ao confirmar, ficam registrados a **data e a hora**, a **versão do contrato**, **quem aceitou** e o **endereço de rede apurado pelo nosso servidor**. O sistema gera um **PDF verificável**, com código e QR Code, conferível a qualquer momento na página pública de verificação — e envia uma cópia por **e-mail ao síndico**. O documento fica disponível para download neste mesmo cartão, a qualquer momento.
+
+{: .tip }
+> **Se algo falhar no meio do caminho**
+>
+> A tela avisa na hora, e **nada fica registrado pela metade** — não existe um aceite "meio feito". Basta tentar de novo, ali mesmo ou depois, pela pendência.
+
+Enquanto o contrato estiver pendente, o síndico também vê um aviso no topo do [Painel](/modulos/dashboard/), com o atalho **Ocultar por 30 dias** — que apenas adia o lembrete, sem resolver a pendência: ele volta a aparecer depois desse prazo.
+
 ### Plano e assinatura
 
 Na coluna direita da aba Condomínio, o card **Seu Plano** exibe o plano atual,

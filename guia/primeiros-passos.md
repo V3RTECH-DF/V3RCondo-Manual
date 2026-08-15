@@ -44,6 +44,11 @@ O aviso **não fecha sem o aceite** — não dá para dispensá-lo clicando fora
 
 Os documentos ficam sempre disponíveis, para consulta a qualquer momento, em [Contrato de Prestação de Serviços](/legal/contrato/), [Termos de Uso](/legal/termos/) e [Política de Privacidade](/legal/privacidade/).
 
+{: .note }
+> **Isto não é o Contrato de Prestação de Serviços**
+>
+> São **dois aceites diferentes**, e vale saber qual é qual. Os **Termos de Uso** e a **Política de Privacidade**, deste passo, são aceitos por **cada pessoa** que usa o aplicativo — síndico, condômino ou porteiro — e é o que acabamos de descrever aqui. Já o **Contrato de Prestação de Serviços** é aceito **uma única vez, só pelo síndico**, em nome do condomínio, em [Configurações → Condomínio](/modulos/configuracoes/). O condômino nunca vê esse segundo aceite nem precisa fazer nada a respeito dele.
+
 ## Selecionar o condomínio
 
 Se você pertence a mais de um condomínio, após o login o sistema exibe uma tela de seleção. Clique no condomínio que deseja acessar. Você pode trocar de condomínio a qualquer momento clicando em **Trocar** no cabeçalho do aplicativo.
