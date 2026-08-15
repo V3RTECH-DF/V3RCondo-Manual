@@ -9,6 +9,19 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.138 — Agosto 2026
+
+### Adicionado
+
+- **O documento do condômino agora aceita CPF ou CNPJ.** Uma unidade pode estar em nome de uma empresa — sala comercial, imóvel de construtora, apartamento de pessoa jurídica — e antes o cadastro só aceitava CPF, recusando CNPJ. O campo passou a se chamar "CPF ou CNPJ", aceita as duas naturezas com a máscara acompanhando o que você digita, e reconhece também o **CNPJ alfanumérico** (o formato novo da Receita, que pode ter letras). Vale no seu próprio perfil e na edição de um condômino pelo síndico. Nos documentos gerados — acordo de parcelamento, extrato do morador, aviso de inadimplência — o rótulo agora acompanha a natureza do documento, mostrando "CPF" ou "CNPJ" conforme o caso. Quem já tem CPF cadastrado não precisa fazer nada.
+- **Os três documentos legais ficaram um clique mais perto.** O rodapé do menu lateral passou a listar Termos de Uso, Privacidade e Contrato, além da versão instalada.
+
+### Corrigido
+
+- **O aviso de cobrança de reserva não gerada agora mostra o motivo certo.** Quando o lançamento de uma reserva com taxa não sai, a tela de detalhes deixou de arriscar um palpite (que às vezes apontava para o cadastro do morador quando o problema era outro) e passou a mostrar a causa real — cadastro sem unidade, categoria de Reservas indisponível, falha ao lançar — ou, quando não é possível identificar, avisa isso claramente em vez de chutar.
+
+---
+
 ## v7.137 — Agosto 2026
 
 ### Adicionado

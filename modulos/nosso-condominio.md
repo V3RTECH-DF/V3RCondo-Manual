@@ -171,6 +171,19 @@ Após a confirmação, a reserva pode ter dois caminhos:
 - **Aguarda aprovação** — reserva aparece no calendário em cinza até o síndico
   aprovar ou rejeitar
 
+##### Quando a cobrança da reserva não é gerada
+
+Num espaço **com taxa**, pode acontecer de a reserva ser confirmada mas o
+lançamento financeiro correspondente não sair. Nesse caso, a tela de detalhes da
+reserva mostra um aviso explicando **o motivo real** — por exemplo, o cadastro
+do morador sem unidade vinculada, a categoria financeira de Reservas
+indisponível, ou uma falha ao lançar. Quando o motivo não pode ser identificado,
+o aviso diz isso explicitamente, em vez de arriscar um palpite.
+
+- Para o **condômino**, o aviso informa que o síndico já foi avisado.
+- Para o **síndico**, o aviso vem com a ação necessária — onde ajustar o que
+  falta e como lançar a cobrança manualmente, se for o caso.
+
 #### Cancelar uma reserva
 
 Clique em **Cancelar** na reserva desejada (respeitando a antecedência mínima

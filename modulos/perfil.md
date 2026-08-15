@@ -33,7 +33,7 @@ lateral ou no canto superior direito da tela.
 Exibe seu avatar, nome e e-mail no topo. Para atualizar o avatar, clique no
 ícone de câmera sobre a foto.
 
-![Cartão de dados pessoais com os campos do cadastro](/assets/screenshots/perfil-dados-01.png)
+![Cartão de dados pessoais com os campos do cadastro, incluindo o campo CPF ou CNPJ](/assets/screenshots/perfil-dados-cpf-cnpj-01.png)
 
 *Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
@@ -42,7 +42,11 @@ Campos editáveis:
 - **Nome completo** *(obrigatório)* — nome exibido no sistema e nas publicações do mural
 - **E-mail** — somente leitura, não pode ser alterado
 - **Telefone / WhatsApp** *(obrigatório)* — informe o número que você usa no WhatsApp
-- **CPF** *(obrigatório)* — no formato ###.###.###-##
+- **CPF ou CNPJ** *(obrigatório)* — use CPF quando a unidade estiver em nome de uma
+  pessoa, e CNPJ quando estiver em nome de uma empresa (sala comercial, imóvel de
+  construtora, apartamento de pessoa jurídica). A máscara acompanha o que você
+  digita, e o campo aceita o **CNPJ alfanumérico** (o formato novo da Receita, que
+  pode ter letras)
 - **RG** — número do documento de identidade
 - **Profissão**
 - **Instagram** e **LinkedIn**
@@ -51,11 +55,14 @@ Campos editáveis:
 Clique em **Salvar dados** para confirmar as alterações.
 
 {: .warning }
-> **CPF obrigatório**
+> **CPF ou CNPJ obrigatório**
 >
-> O CPF é necessário para emissão de notificações extrajudiciais e identificação
-> em documentos gerados pelo sistema. Enquanto não estiver preenchido, um aviso
-> é exibido no perfil.
+> O documento é necessário para emissão de notificações extrajudiciais e
+> identificação em documentos gerados pelo sistema. Enquanto não estiver
+> preenchido, um aviso é exibido no perfil. Nos documentos gerados — acordo de
+> parcelamento, extrato do morador, aviso de inadimplência — o rótulo acompanha
+> a natureza do documento: aparece "CPF" ou "CNPJ", conforme o que você
+> cadastrou.
 
 ## Como sou avisado
 
@@ -128,8 +135,8 @@ linha própria — clique para abrir e ajustar. Os campos disponíveis variam po
 condomínio.
 
 {: .note }
-> Síndicos sempre veem nome, unidade, e-mail, telefone e CPF, para fins de
-> gestão — isso não depende dessas escolhas.
+> Síndicos sempre veem nome, unidade, e-mail, telefone e CPF ou CNPJ, para fins
+> de gestão — isso não depende dessas escolhas.
 
 ## Alterar senha
 

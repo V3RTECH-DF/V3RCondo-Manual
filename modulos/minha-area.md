@@ -58,7 +58,11 @@ Consulte o histórico completo de cobranças da sua unidade — taxas de condom�
 
 *Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
-O cabeçalho da página exibe o nome e o CPF do condômino designado como **responsável pela unidade** (quando configurado pelo síndico). Essa informação também aparece no PDF exportado, facilitando o uso como comprovante formal ou para a declaração de imposto de renda.
+O cabeçalho da página exibe o nome e o documento — **CPF ou CNPJ**, conforme o que
+está cadastrado — do condômino designado como **responsável pela unidade** (quando
+configurado pelo síndico). Essa informação também aparece no PDF exportado, com o
+rótulo certo ("CPF" ou "CNPJ") para cada caso, facilitando o uso como comprovante
+formal ou para a declaração de imposto de renda.
 
 **O que você encontra:**
 
