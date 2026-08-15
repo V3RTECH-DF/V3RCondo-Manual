@@ -24,6 +24,19 @@ A Cobrança Automática permite que o condomínio **cobre a cota por boleto, Pix
 - A cobrança **sempre parte de um lançamento que já existe no Financeiro**. Nada é lançado em dobro.
 - Enquanto a conta não estiver aprovada, **nada muda**: o síndico segue lançando a cota como faz hoje.
 
+### Antes de abrir a conta: o Contrato de Prestação de Serviços precisa estar aceito
+
+A conta de cobrança só pode ser aberta depois que o síndico aceitar, em nome do condomínio, o **Contrato de Prestação de Serviços** — o instrumento que autoriza a V3RTECH a operar a cobrança e a tratar os dados do condomínio para isso. Sem ele, a tela mostra o aviso abaixo no lugar do formulário de abertura:
+
+![Aviso "Falta o Contrato de Prestação de Serviços" na tela de Cobrança automática, com botão para ler e aceitar](/assets/screenshots/cobranca-contrato-bloqueio.png)
+
+{: .note }
+> **Esse contrato é diferente do Termo de Autorização — Conta de Pagamento**
+>
+> Mais adiante nesta página, ao preencher os dados e confirmar a abertura, você vai encontrar um segundo aceite: o [Termo de Autorização — Conta de Pagamento](#autorizar-a-abertura-da-conta), específico da instituição de pagamento (Asaas). São dois documentos diferentes, para autorizações diferentes — o Contrato de Prestação de Serviços vem primeiro e é pré-requisito para chegar a este formulário.
+
+O aceite do contrato se resolve em [Configurações → Condomínio](/modulos/configuracoes/), pelo cartão **Contrato de Prestação de Serviços** — clique em **Ler e aceitar o contrato** ali mesmo ou pelo atalho desta tela.
+
 ## Abrir a conta de cobrança *(síndico — plano Pro)*
 
 No menu lateral, abra **Cobrança automática**. Na primeira vez, a tela explica o que vai acontecer e mostra o formulário **Dados para abrir a conta**.

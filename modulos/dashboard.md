@@ -10,6 +10,19 @@ O Dashboard é a tela inicial do V3RCondo. Ao fazer login, você encontra aqui u
 
 ![Dashboard do síndico com cards financeiros, gráfico de barras e tarefas urgentes](/assets/screenshots/10-dashboard-sindico.png)
 
+## Aviso de contrato pendente *(síndico)*
+
+Enquanto o condomínio não tiver o **Contrato de Prestação de Serviços** aceito, o síndico vê uma faixa no topo do Painel, acima de qualquer outro conteúdo.
+
+![Faixa no topo do Painel avisando que o contrato de serviço ainda não foi aceito, com os botões Ler e aceitar e Ocultar por 30 dias](/assets/screenshots/painel-contrato-pendente.png)
+
+A faixa deixa claro que **nada expira e nada é cobrado** por causa disso — só a abertura da conta de cobrança automática fica indisponível até o aceite. Dois botões:
+
+- **Ler e aceitar** — abre a janela de aceite do contrato, a mesma do cartão **Contrato de Prestação de Serviços** em [Configurações → Condomínio](/modulos/configuracoes/), onde a pendência é resolvida de fato;
+- **Ocultar por 30 dias** — apenas **adia** a faixa; não resolve a pendência, e ela volta a aparecer sozinha depois desse prazo.
+
+Esse aviso é só para o síndico. O condômino não vê nada a respeito — o contrato é assunto entre o síndico e a V3RTECH, em nome do condomínio.
+
 ## Configuração inicial *(síndico — condomínio novo)*
 
 Quem acabou de criar o condomínio encontra no topo do Dashboard o cartão **Configuração inicial**: a lista do que ainda falta para o condomínio operar, cada item com o atalho que leva direto ao lugar de resolver.
