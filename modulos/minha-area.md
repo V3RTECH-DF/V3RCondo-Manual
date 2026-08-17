@@ -214,9 +214,11 @@ No celular, o mesmo painel:
 
 *Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
-**Fatura** — o botão **Abrir fatura**, que reúne as formas de pagamento liberadas pelo condomínio.
+**Cartão** — o botão **Abrir fatura** abre, numa nova guia do navegador, uma página do Asaas com todas as formas de pagamento desta cobrança, incluindo **cartão de crédito** e **cartão de débito**.
 
-<!-- PENDENTE (issue #267): a aba "Fatura" vai passar a se chamar "Cartão" e a dizer explicitamente que aceita crédito e débito. Hoje o cartão só existe dentro da fatura do Asaas, atrás do botão "Abrir fatura" — nenhuma tela da Cobrança Automática nomeia "cartão". Quando a #267 for entregue: (1) atualizar o nome da aba acima, (2) escrever o passo a passo do cartão, (3) capturar a nova tela e substituir esta nota. Até lá, não detalhar o cartão nem usar a captura minha-area-cobrancas-pagar-fatura.png, que fica obsoleta assim que a aba mudar de nome. -->
+![Painel de pagamento, aba Cartão, explicando que o botão abre uma página do Asaas com todas as formas de pagamento desta cobrança, incluindo cartão de crédito e cartão de débito](/assets/screenshots/minha-area-cobrancas-pagar-cartao.png)
+
+*Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
 No rodapé do painel, o mesmo prazo de reconhecimento aparece nas três abas: **"Assim que o pagamento é reconhecido, esta cobrança passa a constar como paga aqui. Pix e cartão costumam ser reconhecidos em minutos; boleto depende do banco processar e pode levar até o dia útil seguinte. Não pague de novo antes disso."**
 
@@ -226,9 +228,11 @@ No rodapé do painel, o mesmo prazo de reconhecimento aparece nas três abas: **
 > É disso que o prazo acima fala: o momento em que a cobrança aparece como quitada para você e para o síndico. Assim que isso acontece, você recebe o e-mail de **pagamento confirmado** e a cobrança passa para o **Histórico**.
 
 {: .important }
-> **Antes de pagar, confira aqui dentro do aplicativo**
+> **O V3RCondo nunca manda código de pagamento por e-mail ou mensagem**
 >
-> A cobrança que vale é sempre a que você confere em **Minhas cobranças** ou no [Extrato da Unidade](#extrato-da-unidade), entrando no aplicativo com a sua própria senha — o valor, o vencimento e a unidade têm de bater com o que está aqui. Recebeu um Pix, uma linha digitável ou um link de pagamento por WhatsApp, SMS, ligação, ou um e-mail cujo valor ou unidade não conferem com o que você vê aqui? Desconfie e fale com o síndico antes de pagar. O **link de fatura**, em especial, abre **sem senha** — não repasse esse link adiante: quem o abrir vê seu nome, seu documento e o valor devido.
+> Nem na emissão, nem em nenhum lembrete — por e-mail ou por Telegram. Chegou uma cobrança do condomínio por WhatsApp, SMS, ligação ou e-mail já com um **Pix, uma linha digitável ou um link pronto para pagar**? Ela não é nossa: desconfie e avise o síndico antes de pagar. A cobrança que vale é sempre a que você confere aqui dentro do aplicativo — em **Minhas cobranças** ou no [Extrato da Unidade](#extrato-da-unidade), entrando com a sua própria senha.
+>
+> Há também um motivo de privacidade: o **link de fatura** do Asaas abre **sem senha**. Não repasse esse link adiante — quem o abrir, mesmo por engano, vê seu nome, seu documento e o valor devido.
 
 Nas três abas, o painel traz também o bloco **Suporte sobre a operação financeira**: "Para dúvidas, reclamações ou solicitações relativas às operações financeiras de pagamento — liquidação, estorno, bloqueio, dados da conta de pagamento, documentos de cadastro —, o cliente pode acionar diretamente o Asaas", com telefone (**0800 009 0037**) e e-mail (**contato@asaas.com.br**), seguido de "o suporte da V3RTECH permanece disponível para questões relativas ao uso da plataforma V3RCondo". Ou seja: **liquidação, estorno, bloqueio e dados da conta são com o Asaas; dúvida sobre usar o aplicativo é com a V3RTECH.** Mais sobre essa divisão em [Cobrança Automática](/modulos/cobranca-automatica/).
 
