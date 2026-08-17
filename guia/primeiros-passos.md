@@ -25,7 +25,7 @@ Você pode entrar de duas formas:
 
 Logo depois de entrar, pode aparecer um aviso pedindo que você **leia e aceite** os documentos do V3RCondo. Ele aparece em duas situações: no seu **primeiro acesso** e sempre que os documentos forem **atualizados**.
 
-<!-- PRINT: legal-aceite-documentos-01 — ver roteiro de capturas -->
+![Diálogo "Atualizamos nossos documentos", com os links para Termos de Uso e Política de Privacidade, a marcação "Li e aceito" e os botões Sair da conta e Continuar](/assets/screenshots/aceite-documentos-atualizados.png)
 
 **É agora o caso de todo mundo.** Publicamos os **Termos de Uso 1.3** e a **Política de Privacidade 1.2**, e por isso todo usuário vê o aviso no próximo acesso, ainda que já tivesse aceitado antes. **Não é erro nem problema na sua conta** — é o re-aceite da versão nova, e acontece uma vez só.
 

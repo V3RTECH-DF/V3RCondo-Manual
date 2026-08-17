@@ -9,6 +9,28 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.141 — Agosto 2026
+
+### Removido
+
+- **Desligamos a última notificação automática que o Asaas ainda enviava por conta própria.** Era um e-mail com o código do boleto, enviado no dia do vencimento para quem ainda não tinha aberto a fatura — e ele contradizia o nosso próprio aviso de segurança, que diz para desconfiar de qualquer cobrança com código de pagamento vinda por fora do aplicativo. Agora não sobra exceção nenhuma: nenhuma notificação automática do Asaas chega mais a você por e-mail, SMS, ligação ou WhatsApp. Continue acompanhando suas cobranças sempre pelo aplicativo, em Minha Área → Cobranças.
+
+## v7.140 — Agosto 2026
+
+### Removido
+
+- **Os avisos de cobrança pararam de trazer código Pix, linha digitável de boleto ou link da fatura.** Antes, um e-mail ou mensagem de cobrança já vinha com o que era preciso para pagar. Agora, todo aviso — por e-mail ou Telegram — leva você direto para o aplicativo, em Minha Área → Cobranças, onde estão o Pix, o boleto e o cartão dessa cota. É uma proteção contra golpe: como nunca mandamos código de pagamento fora do aplicativo, qualquer mensagem do seu condomínio que chegar com um código para pagar **não é nossa** — desconfie e avise o síndico.
+
+### Corrigido
+
+- **A aba de pagamento por cartão ficou mais clara.** Ela se chamava "Fatura" e não deixava claro que era ali que se pagava no cartão de crédito ou débito. Agora se chama **"Cartão"**, e antes de você clicar o aplicativo já avisa que vai abrir, numa nova guia, uma página do Asaas com todas as formas de pagamento dessa cobrança.
+
+## v7.139 — Agosto 2026
+
+### Adicionado
+
+- **A conta de cobrança do condomínio passou a avisar quando algo está errado com ela.** Se a conexão com o Asaas for interrompida — por exemplo, se a chave de acesso for revogada ou o canal de avisos for desconectado no painel do Asaas —, o aplicativo agora percebe sozinho, avisa o síndico na tela e por e-mail, e pausa a emissão de novas cobranças até o problema ser resolvido, para nenhuma cobrança ficar "perdida" sem que ninguém perceba. E quando a conta tem alguma pendência de cadastro no Asaas — documentação, dados comerciais ou bancários —, o síndico agora vê exatamente **o que falta**, mesmo numa conta que já estava aprovada.
+
 ## v7.138 — Agosto 2026
 
 ### Adicionado
