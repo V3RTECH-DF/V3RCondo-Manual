@@ -11,8 +11,13 @@ Registro de versões e novidades do V3RCondo.
 
 ## v7.141 — Agosto 2026
 
+### Corrigido
+
+- **A tela de Cobrança automática, para o síndico, passou a explicar direito o que acontece depois de abrir a conta no Asaas.** Ela dizia que o próximo passo — enviar os documentos pedidos — acontecia aqui mesmo no aplicativo, sem precisar de conta nem senha no Asaas. Isso estava errado: o envio dos documentos acontece no site do Asaas, com conta e senha próprias. Agora a tela conta o caminho real — um e-mail do Asaas com o link para criar a senha (que expira em 10 minutos), depois um código por SMS, e só então a tela de envio dos documentos, com reconhecimento facial. Um aviso novo, antes de enviar o cadastro, lembra que é preciso ter acesso à caixa de e-mail informada. Continua valendo, sem mudar: os documentos vão direto para o Asaas, e nós não recebemos nem guardamos nada deles.
+
 ### Removido
 
+- **A tela de Cobrança automática deixou de mostrar a lista de documentos que o Asaas está esperando.** Esse quadro repetia o texto do próprio Asaas e às vezes ficava desatualizado por alguns minutos depois de você enviar os documentos, dando a entender que o envio não tinha funcionado. A situação geral da conta continua visível normalmente. Se algum documento for recusado, é o Asaas quem vai avisar e explicar o motivo — é ele quem pode resolver esse tipo de pendência.
 - **Desligamos a última notificação automática que o Asaas ainda enviava por conta própria.** Era um e-mail com o código do boleto, enviado no dia do vencimento para quem ainda não tinha aberto a fatura — e ele contradizia o nosso próprio aviso de segurança, que diz para desconfiar de qualquer cobrança com código de pagamento vinda por fora do aplicativo. Agora não sobra exceção nenhuma: nenhuma notificação automática do Asaas chega mais a você por e-mail, SMS, ligação ou WhatsApp. Continue acompanhando suas cobranças sempre pelo aplicativo, em Minha Área → Cobranças.
 
 ## v7.140 — Agosto 2026

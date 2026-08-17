@@ -84,7 +84,7 @@ conferir que está funcionando.
 
 ### Assuntos
 
-- **Cobranças** — aviso de cobrança emitida, com Pix, boleto e link da fatura.
+- **Cobranças** — aviso de cobrança emitida, com valor, vencimento e um link para o aplicativo (nunca um código de pagamento pronto).
     - **E-mail** — fica **sempre ligado** e não pode ser desmarcado. Sem ele
       você pode perder o vencimento da sua cota.
     - **Push** — o aviso no celular é opcional; ligue ou desligue à vontade.

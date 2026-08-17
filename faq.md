@@ -662,8 +662,9 @@ estado real, e a régua de lembretes para de avisar aquele morador.
 
 Não. O síndico não é copiado nos avisos do Asaas. O pagamento aparece para você **no
 Financeiro, assim que é conciliado**, e no **resumo diário por e-mail** com os
-pagamentos do dia. Do lado do morador, o Asaas manda uma única mensagem por conta
-própria: o e-mail com a linha digitável, no dia do vencimento.
+pagamentos do dia. Do lado do morador, o Asaas não manda mais nenhuma mensagem por
+conta própria — todos os avisos de cobrança, inclusive os lembretes, saem pelo
+V3RCondo, e nenhum deles traz código de pagamento.
 </details>
 
 <details markdown="1">
@@ -958,6 +959,18 @@ registrado no sistema. Disponível no plano Pro.
 
 Apenas você e os síndicos do condomínio têm acesso ao extrato da sua
 unidade. Outros condôminos não visualizam seus dados financeiros.
+</details>
+
+<details markdown="1">
+<summary>Recebi uma cobrança do condomínio por WhatsApp, SMS ou e-mail, já com um Pix ou um boleto pronto para pagar. É confiável?</summary>
+
+Não é do V3RCondo. Nem na emissão, nem em nenhum lembrete, por e-mail ou por
+Telegram, o V3RCondo **nunca** envia código Pix, linha digitável de boleto ou
+link de fatura pronto para pagar — só um link que leva ao aplicativo. Qualquer
+mensagem que chegue com um código de pagamento embutido não é nossa:
+desconfie e avise o síndico antes de pagar. A cobrança que vale é sempre a
+que você confere em **Minha Área → Minhas cobranças**, entrando com a sua
+própria senha.
 </details>
 
 ---

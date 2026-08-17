@@ -57,7 +57,7 @@ Preencha:
 {: .note }
 > **Documento não passa pelo V3RCondo**
 >
-> O formulário pede apenas dados de cadastro. **Nenhum documento, foto ou selfie é enviado pelo aplicativo.** Quando o Asaas exigir documentação, o V3RCondo mostra o que falta e o endereço seguro do próprio Asaas para o envio — o arquivo vai direto de você para eles.
+> O formulário pede apenas dados de cadastro. **Nenhum documento, foto ou selfie é enviado pelo aplicativo.** O envio da documentação acontece depois, direto no painel do Asaas — ver o próximo passo.
 
 ### Autorizar a abertura da conta
 
@@ -100,6 +100,24 @@ Esse registro gera o **Termo de Autorização — Conta de Pagamento** como docu
 
 Uma vez emitido, o documento aparece em **Minha Área → Meus documentos e pedidos**, identificado como *Termo de Autorização — Conta de Pagamento*, com o código à vista e o botão de baixar em PDF — ver [Minha Área](/modulos/minha-area/). Ele é do síndico que aceitou: nenhum condômino o vê, e ele não está entre os documentos que se podem solicitar.
 
+### Criar a senha no Asaas e enviar os documentos
+
+Enviado o cadastro, o que falta acontece **do lado do Asaas**, fora do V3RCondo:
+
+1. O Asaas escreve para o **e-mail cadastrado do condomínio** — o mesmo informado no formulário —, com um link para **criar a senha de acesso**. Esse link **expira em 10 minutos**; se o prazo passar, use **"Esqueci minha senha"** na tela de login do Asaas para gerar um novo
+2. Com a senha criada, o acesso pede um **código enviado por SMS**
+3. Já dentro do **painel do Asaas**, envie a documentação pedida — o envio inclui **reconhecimento facial**, feito lá
+
+{: .warning }
+> **Quem abre a conta precisa acessar a caixa de e-mail cadastrada**
+>
+> É para esse endereço que o Asaas manda o link de criação de senha. Sem acesso a ele, o cadastro trava depois de enviado — combine com quem cuida do e-mail do condomínio antes de começar.
+
+{: .note }
+> **Documento societário pode ser pedido**
+>
+> No cadastro de um condomínio, o Asaas pediu a **ata de eleição da última diretoria**. Separar os documentos societários do condomínio com antecedência evita ida e volta. Ainda não sabemos se é exigida a ata **registrada em cartório** — trate como possível até termos confirmação.
+
 ### Acompanhar a aprovação
 
 Depois de enviar, a tela passa a exibir o cartão **Situação da conta**, com três indicadores:
@@ -122,9 +140,9 @@ Não é preciso ficar voltando à tela para saber como anda a análise. O síndi
 
 | Aviso | Quando | O que ele diz |
 |---|---|---|
-| **Cadastro enviado** | Assim que o cadastro vai para o Asaas | Que a análise costuma levar alguns dias e depende deles; e que conferir se todos os documentos pedidos já foram enviados é o que mais costuma destravar |
+| **Cadastro enviado** | Assim que o cadastro vai para o Asaas | Que a análise depende deles, sem prazo prometido; e que criar a senha e enviar os documentos no painel do Asaas é o que mais costuma destravar |
 | **Conta aprovada** | Quando o Asaas aprova | Que já dá para emitir a primeira cobrança e que a baixa no Financeiro passa a ser automática. Lembra também de **conferir o valor da cota das unidades antes de emitir** — unidade sem valor é pulada na geração mensal |
-| **Cadastro recusado** | Quando o Asaas recusa | O motivo informado por eles, quando informam. Enquanto o cadastro não for corrigido e reenviado, o condomínio não emite cobrança — e reenviar o mesmo documento sem mudar nada tende a ser recusado de novo |
+| **Cadastro recusado** | Quando o Asaas recusa | Que o cadastro foi recusado e que, enquanto não for corrigido e reenviado, o condomínio não emite cobrança. O **motivo** é informado pelo Asaas diretamente — o V3RCondo não o repassa |
 
 Cada aviso traz um botão que leva direto à tela da Cobrança automática. A situação continua visível no painel a qualquer momento, e o cartão **Configuração inicial** do [Dashboard](/modulos/dashboard/) também acompanha essa linha.
 
@@ -136,11 +154,12 @@ Cada aviso traz um botão que leva direto à tela da Cobrança automática. A si
 {: .note }
 > **Assim que a conta é aprovada, o canal de avisos se conecta sozinho**
 >
-> É esse canal que avisa o V3RCondo quando um morador paga — é o que permite a baixa automática no Financeiro. Você não precisa fazer nada: a conexão acontece na hora da aprovação e, se por algum motivo ela não completar de primeira, uma verificação diária tenta de novo até dar certo.
+> É esse canal que avisa o V3RCondo quando um morador paga — é o que permite a baixa automática no Financeiro. Você não precisa fazer nada: a conexão é feita assim que a conta existe — sem esperar a aprovação, porque é por esse mesmo canal que a aprovação chega — e, se por algum motivo ela não completar de primeira, uma verificação diária tenta de novo até dar certo.
 
-Quando o Asaas pedir documentos, aparece o cartão **Documentos que o Asaas precisa**, com a lista do que falta e o link de envio deles (o envio inclui reconhecimento facial, feito no site do Asaas).
-
-<!-- PRINT: cobranca-05-documentos — ver roteiro de capturas -->
+{: .note }
+> **Documento pendente ou recusado: quem avisa é o Asaas**
+>
+> O V3RCondo não lista documento a documento nem repassa o motivo de uma recusa — esse acompanhamento acontece direto no painel do Asaas, que é quem pede, recebe e avalia cada documento. Aqui você acompanha o resultado, pelo indicador **Documentação** acima.
 
 {: .warning }
 > **Enquanto a conta não estiver aprovada**
@@ -221,7 +240,12 @@ Define com quantos dias de antecedência sai o **primeiro lembrete** — **2, 3 
 
 ### Avisos automáticos do Asaas
 
-Quem avisa o morador é o V3RCondo — os avisos que o Asaas manda por conta própria ficam desligados para não chegar tudo em dobro, **com uma única exceção: o e-mail com a linha digitável do boleto, enviado ao morador no dia do vencimento**.
+Quem avisa o morador é o V3RCondo — todos os avisos que o Asaas manda por conta própria ficam **desligados**, sem exceção.
+
+{: .note }
+> **Não existe mais e-mail do Asaas com a linha digitável**
+>
+> Até pouco tempo havia uma exceção: o Asaas enviava, por conta própria, um e-mail com a linha digitável do boleto no dia do vencimento. Essa mensagem foi desligada. Hoje nenhum e-mail de cobrança — nosso ou do Asaas — sai com código de pagamento pronto.
 
 {: .note }
 > **Você não recebe recibo do Asaas**
@@ -361,13 +385,13 @@ O que acontece:
 
 ## O que o morador recebe
 
-O morador **não precisa fazer nada no V3RCondo** para pagar. Ele recebe uma **página de cobrança** onde escolhe como quer pagar: **boleto, Pix ou cartão**. A escolha é dele, na hora de pagar.
+Para pagar, o morador entra no V3RCondo com a própria senha e vai a **Minha Área → Minhas cobranças**, onde escolhe como quer pagar: **boleto, Pix ou cartão**. A escolha é dele, na hora de pagar.
 
 Além disso, o responsável pela unidade recebe **avisos por e-mail**:
 
 | Aviso | Quando |
 |---|---|
-| **Cobrança emitida** | Assim que a cobrança sai, com valor, vencimento, **código Pix copia-e-cola**, **linha digitável** do boleto e o link da página de cobrança |
+| **Cobrança emitida** | Assim que a cobrança sai, com **valor**, **vencimento** e um link que leva ao aplicativo — nunca um código de pagamento pronto |
 | **Vence em breve** | Com a antecedência configurada pelo condomínio |
 | **Vence hoje** | No dia do vencimento |
 | **Venceu** | No dia seguinte ao vencimento |
@@ -375,7 +399,12 @@ Além disso, o responsável pela unidade recebe **avisos por e-mail**:
 | **Pagamento confirmado** | Assim que o pagamento é reconhecido. Traz unidade, valor pago, vencimento, data do pagamento e a **forma de pagamento** usada, e diz que não há mais nada a pagar naquela cobrança |
 | **Cobrança cancelada** | Quando a cobrança deixa de valer. O texto muda conforme o motivo (ver abaixo) |
 
-Todos os avisos de cobrança trazem o Pix, a linha digitável e o link da fatura, para a pessoa conseguir pagar no momento em que lê. Os avisos de confirmação e de cancelamento trazem o botão **Ver minhas cobranças**, que leva à aba do morador em Minha Área.
+**Nenhum aviso de cobrança traz código Pix, linha digitável de boleto ou link de fatura.** O único link que os avisos carregam é o que leva ao aplicativo — a pessoa entra com a própria senha, confere a cobrança em **Minhas cobranças** e escolhe ali como pagar. Os avisos de confirmação e de cancelamento trazem o mesmo tipo de botão, **Ver minhas cobranças**.
+
+{: .important }
+> **Nenhum aviso do V3RCondo leva código de pagamento**
+>
+> Nem por e-mail, nem por Telegram, na emissão ou em qualquer lembrete: o V3RCondo nunca envia código Pix, linha digitável de boleto ou link de fatura pronto para pagar. Chegou uma cobrança do condomínio com um código desses embutido? Não é nossa — desconfie e avise o síndico antes de pagar. Além do risco de fraude, é uma questão de privacidade: o link de fatura do Asaas abre **sem senha**, e quem o receber — mesmo por engano — vê nome, documento e valor devido de outra pessoa.
 
 ### Quando uma cobrança deixa de valer
 
@@ -523,8 +552,8 @@ Para não haver surpresa, o que **não** está disponível nesta versão:
 
 O condômino **não acessa** a tela de Cobrança Automática — ela é exclusiva de quem administra o condomínio. O que ele tem é a aba **Minhas cobranças**, em [Minha Área](/modulos/minha-area/), mais os avisos por e-mail:
 
-1. Ele recebe o e-mail com o Pix copia-e-cola, a linha digitável e o link
-2. Abre a página de cobrança — ou a aba **Minhas cobranças** — e escolhe **boleto, Pix ou cartão**
+1. Ele recebe o e-mail com o valor, o vencimento e um link para o aplicativo — nunca um código de pagamento pronto
+2. Entra com a própria senha, abre a aba **Minhas cobranças** e escolhe **boleto, Pix ou cartão**
 3. Paga; em poucos minutos a cota aparece baixada no extrato da unidade, e ele recebe o aviso de **pagamento confirmado**
 
 {: .note }

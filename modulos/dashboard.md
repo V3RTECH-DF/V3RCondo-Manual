@@ -71,7 +71,7 @@ O que foi tirado da lista não desaparece: no rodapé do cartão aparece o conta
 |---|---|---|
 | Conta ainda não aberta | **Cobrança automática** | Conhecer e abrir conta |
 | Cadastro enviado, em análise | **Cobrança automática — em análise no Asaas**, com a data do envio | Nenhuma. O botão aparece como **Aguardando**, desabilitado, com a etiqueta **Com o Asaas** |
-| Cadastro recusado | **Cobrança automática — cadastro recusado**, com o motivo informado por eles | Corrigir e reenviar |
+| Cadastro recusado | **Cobrança automática — cadastro recusado**. O motivo é informado pelo Asaas diretamente — o cartão não o repassa | Corrigir e reenviar |
 | Falta reconectar a chave de acesso | **Cobrança automática — falta reconectar a chave** | Reconectar |
 | Conta aprovada | A linha desaparece | — |
 
