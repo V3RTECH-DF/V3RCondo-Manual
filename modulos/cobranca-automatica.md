@@ -120,17 +120,18 @@ Enviado o cadastro, o que falta acontece **do lado do Asaas**, fora do V3RCondo:
 
 ### Acompanhar a aprovação
 
-Depois de enviar, a tela passa a exibir o cartão **Situação da conta**, com três indicadores:
+Depois de enviar, a tela passa a exibir o cartão **Situação da conta**, com dois indicadores:
 
 | Indicador | O que significa |
 |---|---|
 | **Dados comerciais** | As informações do cadastro foram aceitas |
 | **Documentação** | Os documentos exigidos pelo Asaas foram enviados e aprovados |
-| **Conta bancária** | Situação que o Asaas reporta. É apenas informativo — esse dado não é enviado pelo V3RCondo |
 
-![Cartão "Situação da conta" com os três indicadores — Dados comerciais, Documentação e Conta bancária — e o botão Verificar agora](/assets/screenshots/cobranca-04-situacao-da-conta.png)
+O cartão também mostra **desde quando o cadastro está com o Asaas** — a data e a hora do envio. É por ela que você avalia se a análise passou do razoável e vale procurar o Asaas.
 
-*Exemplo de um condomínio com a conta já aprovada: os três indicadores aparecem como Aprovado.*
+![Cartão "Situação da conta" de uma conta em análise, com a data de envio do cadastro, os indicadores Dados comerciais e Documentação, e o botão Verificar agora](/assets/screenshots/cobranca-situacao-da-conta.png)
+
+*Exemplo de uma conta em análise: os dados comerciais já foram aprovados e a documentação está com o Asaas.*
 
 Cada indicador aparece como **Pendente**, **Em análise**, **Aprovado** ou **Reprovado**. Use o botão **Verificar agora** para consultar o Asaas e atualizar a situação na hora.
 
