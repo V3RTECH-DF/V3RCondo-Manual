@@ -131,7 +131,7 @@ O cartão também mostra **desde quando o cadastro está com o Asaas** — a dat
 
 ![Cartão "Situação da conta" de uma conta em análise, com a data de envio do cadastro, os indicadores Dados comerciais e Documentação, e o botão Verificar agora](/assets/screenshots/cobranca-situacao-da-conta.png)
 
-*Exemplo de uma conta em análise: os dados comerciais já foram aprovados e a documentação está com o Asaas.*
+*Exemplo de uma conta em análise: os dados comerciais já foram aprovados e a documentação está com o Asaas. O identificador da conta exibido na imagem é fictício.*
 
 Cada indicador aparece como **Pendente**, **Em análise**, **Aprovado** ou **Reprovado**. Use o botão **Verificar agora** para consultar o Asaas e atualizar a situação na hora.
 
