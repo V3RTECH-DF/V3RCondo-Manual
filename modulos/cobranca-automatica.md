@@ -17,6 +17,11 @@ A Cobrança Automática permite que o condomínio **cobre a cota por boleto, Pix
 >
 > A Cobrança Automática faz parte do **plano Pro** e está sendo **liberada aos poucos**, condomínio a condomínio. Para usá-la, o condomínio precisa ter a **conta de cobrança aberta e aprovada** (o passo a passo está logo abaixo). Se o item **Cobrança automática** ainda não aparece no menu do seu condomínio, fale com a nossa equipe.
 
+{: .warning }
+> **Pix temporariamente instável em contas novas**
+>
+> O código Pix é gerado normalmente, mas bancos têm recusado a leitura na hora de pagar. O caso está em apuração com o Asaas, e ainda não sabemos a causa nem o prazo. **Boleto e cartão continuam funcionando normalmente.** Se um morador relatar que o Pix não é aceito pelo banco dele, oriente a pagar por boleto ou cartão enquanto o caso não é resolvido.
+
 ## Como funciona, em uma página
 
 - Quem processa o pagamento é o **Asaas**, uma instituição de pagamento autorizada pelo Banco Central. É ele que emite o boleto e o Pix.
@@ -58,6 +63,17 @@ Preencha:
 > **Documento não passa pelo V3RCondo**
 >
 > O formulário pede apenas dados de cadastro. **Nenhum documento, foto ou selfie é enviado pelo aplicativo.** O envio da documentação acontece depois, direto no painel do Asaas — ver o próximo passo.
+
+{: .tip }
+> **O que separar antes de começar**
+>
+> Antes de confirmar o cadastro, a tela agora avisa quais documentos o Asaas vai pedir na sequência, para você já ter em mãos:
+>
+> - **Ata de eleição da diretoria vigente, registrada em cartório** — é o item que mais atrasa a aprovação. Ata sem registro em cartório é recusada, e registrar leva dias ou semanas
+> - **Documento de identidade do síndico**, frente e verso
+> - Uma **selfie** tirada na hora, para o reconhecimento facial — feito no painel do Asaas, não aqui
+>
+> Você pode confirmar o cadastro sem nada disso em mãos — o aviso é só para adiantar a providência. Ele continua visível enquanto a conta está em análise e some quando ela é aprovada.
 
 ### Autorizar a abertura da conta
 
@@ -113,10 +129,15 @@ Enviado o cadastro, o que falta acontece **do lado do Asaas**, fora do V3RCondo:
 >
 > É para esse endereço que o Asaas manda o link de criação de senha. Sem acesso a ele, o cadastro trava depois de enviado — combine com quem cuida do e-mail do condomínio antes de começar.
 
-{: .note }
-> **Documento societário pode ser pedido**
+{: .warning }
+> **A ata precisa estar registrada em cartório**
 >
-> No cadastro de um condomínio, o Asaas pediu a **ata de eleição da última diretoria**. Separar os documentos societários do condomínio com antecedência evita ida e volta. Ainda não sabemos se é exigida a ata **registrada em cartório** — trate como possível até termos confirmação.
+> O Asaas exige a **ata de eleição da diretoria vigente, com registro em cartório**. Ata sem esse registro é recusada — e como registrar leva dias ou semanas, é o item que mais atrasa a aprovação. Providencie o registro com antecedência, antes mesmo de abrir a conta.
+
+{: .warning }
+> **Um documento recusado, todos de novo**
+>
+> Se qualquer documento for recusado, o Asaas pede **o envio de todos novamente** — não só o que foi recusado. Confira cada arquivo (nitidez, validade, dados legíveis) antes de enviar, para não ter que reenviar o que já estava certo.
 
 ### Acompanhar a aprovação
 
@@ -213,6 +234,11 @@ Alguns pontos importantes:
 - **O lançamento existe de qualquer jeito.** A cota do mês continua no Financeiro mesmo que a cobrança não tenha saído
 - **Rodar o ciclo de novo não gera cobrança duplicada**
 - O aviso que o síndico já recebe ao fim do ciclo passa a dizer **quantas cobranças saíram, quantas não saíram e por quê**, com a unidade de cada falha
+
+{: .note }
+> **Unidade sem valor de cota cadastrado é pulada, e a tela avisa na hora**
+>
+> Ao gerar a cota do mês, uma unidade sem **valor de cota configurado** em **Configurações → Unidades** não entra na geração. A tela informa, no momento, **quantas e quais unidades** ficaram de fora, com o caminho para cadastrar o valor que falta. O e-mail que chega depois ao síndico também nomeia as unidades — não é preciso caçar qual ficou sem cobrança.
 
 ## Ajustes *(síndico)*
 
@@ -392,7 +418,7 @@ Além disso, o responsável pela unidade recebe **avisos por e-mail**:
 
 | Aviso | Quando |
 |---|---|
-| **Cobrança emitida** | Assim que a cobrança sai, com **valor**, **vencimento** e um link que leva ao aplicativo — nunca um código de pagamento pronto |
+| **Cobrança emitida** | Assim que a cobrança sai, no formato "Sua cota da unidade [nome] **com vencimento em** [data]" — a data já vem identificada como vencimento, não solta — mais um link que leva ao aplicativo, nunca um código de pagamento pronto |
 | **Vence em breve** | Com a antecedência configurada pelo condomínio |
 | **Vence hoje** | No dia do vencimento |
 | **Venceu** | No dia seguinte ao vencimento |

@@ -198,6 +198,11 @@ Clique em **Pagar**. Abre um painel já com o valor no título — por exemplo, 
 
 **Pix** — mostra o **QR Code** para escanear no aplicativo do seu banco e, logo abaixo, o código **copia-e-cola**, com o botão **Copiar código pix**.
 
+{: .warning }
+> **Pix pode ser recusado pelo banco em contas novas**
+>
+> Bancos têm recusado a leitura do código Pix — o código é gerado normalmente, mas o pagamento não completa. O caso está em apuração com o Asaas. Se isso acontecer, pague por **boleto** ou **cartão**, que continuam funcionando normalmente.
+
 ![Painel "Pagar R$ 528,50", aba Pix, com o QR Code, o código copia-e-cola e o botão Copiar código pix](/assets/screenshots/minha-area-cobrancas-pagar-pix.png)
 
 *Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
@@ -214,7 +219,7 @@ No celular, o mesmo painel:
 
 *Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
-**Cartão** — o botão **Abrir fatura** abre, numa nova guia do navegador, uma página do Asaas com todas as formas de pagamento desta cobrança, incluindo **cartão de crédito** e **cartão de débito**.
+**Cartão** — o botão **Pagar com cartão** abre, numa nova guia do navegador, uma página do Asaas com todas as formas de pagamento desta cobrança, incluindo **cartão de crédito** e **cartão de débito**.
 
 ![Painel de pagamento, aba Cartão, explicando que o botão abre uma página do Asaas com todas as formas de pagamento desta cobrança, incluindo cartão de crédito e cartão de débito](/assets/screenshots/minha-area-cobrancas-pagar-cartao.png)
 
