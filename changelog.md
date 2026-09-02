@@ -9,7 +9,43 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.145 — Setembro 2026
+
+### Adicionado
+
+- **O cadastro público de novos condomínios ganhou proteção contra abuso.** A administração passa a ser avisada sempre que um condomínio é criado ou que uma tentativa é barrada; endereços de e-mail descartáveis deixam de ser aceitos; e há um limite de quantas contas e condomínios podem ser criados num curto intervalo de tempo. Essas regras são ajustáveis pela administração conforme a necessidade.
+- **Novo botão "Pagar com cartão" na aba de pagamento por cartão da cobrança do morador.**
+
+## v7.144 — Setembro 2026
+
+### Adicionado
+
+- **O fuso horário do condomínio agora é perguntado já na criação, pré-selecionado de acordo com o estado informado** — antes só dava para ajustar depois, em Configurações.
+- **A geração mensal de cobranças passou a dizer exatamente quais unidades foram puladas por não terem valor de cota definido**, tanto na hora quanto na mensagem que fica registrada depois.
+
+### Corrigido
+
+- Corrigido um registro de auditoria do aceite do termo de autorização do síndico, que nunca estava sendo gravado.
+- Uma conta de cobrança em situação desconhecida deixou de apagar, por engano, a marca de que havia pendência a resolver.
+
+## v7.143 — Setembro 2026
+
+### Adicionado
+
+- **Arquivos de Relatórios, Compras e Serviços, Manutenção e Outros agora podem ser apagados de verdade**, com confirmação em dois passos e aviso claro de que não há como recuperar depois de apagado. **Atas de assembleia e comprovantes financeiros continuam sempre preservados**, e nenhum documento com código de verificação público é apagado.
+
+## v7.142 — Setembro 2026
+
+### Adicionado
+
+- **A situação da conta de cobrança no Asaas passou a ser acompanhada com muito mais detalhe** — o aplicativo agora reconhece 18 tipos de aviso do Asaas sobre a conta (antes eram só 4), e os indicadores de pendência ficam sempre atualizados, não só uma vez por dia.
+- **Avisos de vencimento dos dados cadastrais da conta de cobrança passaram a chegar ao síndico**, um por vencimento.
+
 ## v7.141 — Agosto 2026
+
+### Adicionado
+
+- **A tela de abertura da conta de cobrança passou a avisar, antes de você enviar o cadastro, quais documentos o Asaas vai pedir depois** — ata de eleição da diretoria registrada em cartório, documento de identidade (frente e verso) e uma selfie para reconhecimento facial — e que, se algum documento for recusado, é preciso reenviar todos, não só o recusado. O aviso desaparece assim que a conta é aprovada.
 
 ### Corrigido
 

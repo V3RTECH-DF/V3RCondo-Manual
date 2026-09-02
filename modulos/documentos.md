@@ -33,7 +33,14 @@ Clique em **+ Fazer Upload** e preencha:
 {: .tip }
 > **Editar metadados**
 >
-> Para editar o nome, categoria ou mês/ano de referência de um arquivo já enviado, clique no ícone de lápis no card. Para excluir, clique no ícone de lixeira e confirme — o arquivo sai da lista e ninguém mais consegue baixá-lo, mas **fica guardado**: se tiver sido engano, dá para recuperar com a nossa ajuda.
+> Para editar o nome, categoria ou mês/ano de referência de um arquivo já enviado, clique no ícone de lápis no card.
+
+{: .warning }
+> **Excluir um arquivo das categorias Relatórios, Compras e Serviços, Manutenção ou Outros é definitivo**
+>
+> Para essas quatro categorias, excluir pede confirmação em dois passos e avisa que **não há como recuperar — nem com a nossa ajuda**. Antes, qualquer exclusão de documento era reversível; agora não é mais, nessas categorias. Confira o arquivo antes de confirmar.
+>
+> **Atas de assembleia e comprovantes financeiros continuam preservados** ao excluir — saem da lista, mas ficam guardados e dá para recuperar com a nossa ajuda, se tiver sido engano. E documentos emitidos pelo próprio V3RCondo com **código de verificação público** (como o Termo de Autorização da Cobrança Automática) nunca podem ser excluídos.
 
 {: .note }
 > **Quem é avisado do documento novo**

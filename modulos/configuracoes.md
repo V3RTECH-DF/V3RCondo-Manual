@@ -384,7 +384,9 @@ Não é igual em todas as sub-abas, e a caixa de confirmação agora diz exatame
 {: .tip }
 > **E se eu excluir alguma coisa por engano?**
 >
-> Fora dessas cinco listas de categoria, quase tudo no V3RCondo é guardado quando você exclui — lançamento financeiro, aviso do mural, documento, tarefa, compra, item do condômino, parceiro. O registro sai das listas e dos relatórios, mas continua lá, e **dá para recuperar com a nossa ajuda** se tiver sido engano. Fale com o suporte informando o que foi excluído e quando.
+> Fora dessas cinco listas de categoria, quase tudo no V3RCondo é guardado quando você exclui — lançamento financeiro, aviso do mural, tarefa, compra, item do condômino, parceiro. O registro sai das listas e dos relatórios, mas continua lá, e **dá para recuperar com a nossa ajuda** se tiver sido engano. Fale com o suporte informando o que foi excluído e quando.
+>
+> **Exceção: documentos das categorias Relatórios, Compras e Serviços, Manutenção e Outros.** Nessas quatro, excluir um arquivo é definitivo — ver [Documentos](/modulos/documentos/). Atas de assembleia e comprovantes financeiros continuam recuperáveis.
 
 {: .tip }
 > **Categorias financeiras**

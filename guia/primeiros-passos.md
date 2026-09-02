@@ -68,6 +68,11 @@ Para síndicos que ainda não cadastraram o condomínio na plataforma. Preencha 
 >
 > O formulário de criação **não pede o número de unidades**. Depois de criar o condomínio, cadastre as unidades em **Configurações → Unidades** — é esse cadastro que alimenta o painel, o cálculo do plano e tudo que depende de "quantas unidades o condomínio tem".
 
+{: .tip }
+> **Confira o fuso horário**
+>
+> O formulário sugere um fuso a partir do estado informado, mas o campo é **visível e pode ser trocado**. É esse fuso que define o dia de vencimento das cotas e as datas de assembleia — confira se o condomínio fica fora do fuso de Brasília antes de confirmar.
+
 #### Solicitar vínculo
 
 Para condôminos cujo condomínio já está cadastrado. Busque o condomínio pelo nome, informe sua unidade e envie a solicitação. O síndico receberá a solicitação e poderá aprová-la em **Configurações → Condôminos**.

@@ -100,6 +100,18 @@ Clique no seu nome no canto inferior esquerdo da sidebar e em seguida em
 **Sair**.
 </details>
 
+<details markdown="1">
+<summary>Por que meu e-mail foi recusado ao criar uma conta?</summary>
+
+O V3RCondo não aceita endereços de e-mail de caixa temporária (os de
+serviços de "e-mail descartável"), porque eles não recebem os avisos que
+sua conta precisa — de cobrança, de acesso e de segurança. Use um e-mail
+que você acesse normalmente. Há também um limite de contas criadas pela
+mesma conexão e de condomínios por conta em um mesmo período, para conter
+cadastros abusivos; se você esbarrar nesse limite por engano, fale com a
+nossa equipe.
+</details>
+
 ---
 
 ## Navegação e módulos
