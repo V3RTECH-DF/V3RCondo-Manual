@@ -9,6 +9,35 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.148 — Setembro 2026
+
+### Adicionado
+
+- **A tela de entrada agora pergunta se você vai criar um condomínio ou entrar em um que já existe.** Quem cria acompanha o caminho até a criação do condomínio sem passar de novo pela mesma pergunta, e dá para voltar e trocar de caminho sem perder o que já foi digitado.
+- **Quem cria um condomínio passa a aceitar o Termo de Responsabilidade do Síndico**, documento próprio (distinto do Contrato de Prestação de Serviços e dos Termos de Uso pessoais), que vira um documento com código de verificação e disponível para download a qualquer momento.
+- **Todo condomínio nasce com 30 dias de plano completo, garantidos.**
+
+## v7.147 — Setembro 2026
+
+### Adicionado
+
+- **A emissão avulsa de cobrança passou a permitir escolher vários lançamentos de uma vez**, com busca, filtro por unidade e uma conferência completa do que vai ser emitido antes de confirmar.
+
+### Corrigido
+
+- **Editar um lançamento financeiro deixou de apagar a unidade vinculada** quando a edição não mexia nesse campo.
+
+## v7.146 — Setembro 2026
+
+### Adicionado
+
+- **Cobranças agora dizem de que mês é a cota, avisam quando o Pix ou o boleto não veio, e usam sempre a conta bancária padrão do condomínio.**
+- A lista de emissão avulsa de cobrança passou a mostrar a categoria e o mês de referência do lançamento.
+
+### Corrigido
+
+- Corrigidos erros internos de tipo no módulo que gera as cobranças, sem efeito visível para quem usa o sistema.
+
 ## v7.145 — Setembro 2026
 
 ### Adicionado
