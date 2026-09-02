@@ -198,11 +198,6 @@ Clique em **Pagar**. Abre um painel já com o valor no título — por exemplo, 
 
 **Pix** — mostra o **QR Code** para escanear no aplicativo do seu banco e, logo abaixo, o código **copia-e-cola**, com o botão **Copiar código pix**.
 
-{: .warning }
-> **Pix pode ser recusado pelo banco em contas novas**
->
-> Bancos têm recusado a leitura do código Pix — o código é gerado normalmente, mas o pagamento não completa. O caso está em apuração com o Asaas. Se isso acontecer, pague por **boleto** ou **cartão**, que continuam funcionando normalmente.
-
 ![Painel "Pagar R$ 528,50", aba Pix, com o QR Code, o código copia-e-cola e o botão Copiar código pix](/assets/screenshots/minha-area-cobrancas-pagar-pix.png)
 
 *Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
