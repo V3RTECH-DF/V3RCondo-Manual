@@ -17,11 +17,6 @@ A Cobrança Automática permite que o condomínio **cobre a cota por boleto, Pix
 >
 > A Cobrança Automática faz parte do **plano Pro** e está sendo **liberada aos poucos**, condomínio a condomínio. Para usá-la, o condomínio precisa ter a **conta de cobrança aberta e aprovada** (o passo a passo está logo abaixo). Se o item **Cobrança automática** ainda não aparece no menu do seu condomínio, fale com a nossa equipe.
 
-{: .warning }
-> **Pix temporariamente instável em contas novas**
->
-> O código Pix é gerado normalmente, mas bancos têm recusado a leitura na hora de pagar. O caso está em apuração com o Asaas, e ainda não sabemos a causa nem o prazo. **Boleto e cartão continuam funcionando normalmente.** Se um morador relatar que o Pix não é aceito pelo banco dele, oriente a pagar por boleto ou cartão enquanto o caso não é resolvido.
-
 ## Como funciona, em uma página
 
 - Quem processa o pagamento é o **Asaas**, uma instituição de pagamento autorizada pelo Banco Central. É ele que emite o boleto e o Pix.
