@@ -37,10 +37,11 @@ clicando no botão de reenvio ao lado do seu nome. O link expira após 7 dias
 <details markdown="1">
 <summary>Como solicitar vínculo a um condomínio sem ter recebido convite?</summary>
 
-Acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br), faça login e clique em
-**Solicitar vínculo** na tela de boas-vindas. Busque o condomínio pelo
-nome, informe sua unidade e envie a solicitação. O síndico poderá aprová-la
-em **Configurações → Condôminos**.
+Acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br) e, no cartão
+**Primeira vez por aqui?**, escolha **Fui convidado para um condomínio**.
+Depois de criar a conta, busque o condomínio pelo nome, informe sua unidade
+e envie a solicitação. O síndico poderá aprová-la em **Configurações →
+Condôminos**.
 </details>
 
 <details markdown="1">
@@ -1445,18 +1446,18 @@ comprovantes.
 O síndico recebe um **e-mail avisando da falha** e o caminho para
 regularizar: **Configurações → Gerenciar assinatura**, atualizando o cartão
 no portal do cliente. Se a pendência continuar, o sistema envia **lembretes
-aos 7 e aos 20 dias** de atraso. O aplicativo **não corta o acesso sozinho**
-nem em prazo predefinido — nada é apagado e o condomínio segue funcionando
-enquanto a situação é resolvida.
+aos 7, aos 20 e aos 27 dias** de atraso — o último já com a data em que o
+acesso passa a somente leitura. Nada é apagado nesse período, e regularizar
+o pagamento a qualquer momento interrompe a régua de avisos.
 </details>
 
 <details markdown="1">
 <summary>O que é o status 'Suspenso'?</summary>
 
-É um estado em que os membros não conseguem acessar o condomínio. Ele
-**não é aplicado automaticamente pelo sistema**: a suspensão é uma decisão
-da nossa equipe, tomada caso a caso e sempre precedida de aviso — por
-exemplo, uma pendência de pagamento que permanece sem solução mesmo após os
-lembretes. Para sair da suspensão, regularize o pagamento em
-**Configurações → Gerenciar assinatura** e fale com a gente.
+É um estado em que só é possível **ler**, não criar nem alterar registros —
+os dados continuam lá, ninguém perde nada. Acontece **automaticamente**
+quando a assinatura Pro segue com o pagamento em falha por **30 dias
+corridos**, depois dos avisos aos 7, 20 e 27 dias. Para sair da suspensão,
+regularize o pagamento em **Configurações → Gerenciar assinatura** e fale
+com o suporte para reativar o acesso — a reativação não é automática.
 </details>

@@ -75,12 +75,17 @@ Clique em **Gerenciar assinatura** na aba Condomínio de Configurações para ac
 
 ## Se o pagamento falhar
 
-Quando uma cobrança não é aprovada (cartão vencido, limite insuficiente, cartão cancelado), o síndico recebe um **e-mail avisando da falha**, com o caminho para regularizar: **Configurações → Gerenciar assinatura**, atualizando o cartão no portal do cliente. Se a pendência continuar, o sistema envia **lembretes aos 7 e aos 20 dias** de atraso.
+Quando uma cobrança não é aprovada (cartão vencido, limite insuficiente, cartão cancelado), o síndico recebe um **e-mail avisando da falha**, com o caminho para regularizar: **Configurações → Gerenciar assinatura**, atualizando o cartão no portal do cliente. Se a pendência continuar, o sistema envia mais três lembretes por e-mail, aos **7, aos 20 e aos 27 dias** de atraso — este último já informando a **data exata** em que o acesso passa a somente leitura, caso o pagamento não seja regularizado antes.
+
+{: .warning }
+> **Aos 30 dias, o acesso passa a somente leitura**
+>
+> Se a assinatura seguir em falha por **30 dias corridos** a partir da primeira cobrança recusada, o condomínio é suspenso **automaticamente**: ninguém perde dado, mas deixa de ser possível criar ou alterar registros até a assinatura ser regularizada. Regularizado o pagamento, fale com o suporte da V3RTECH para reativar o acesso — a reativação não é automática.
 
 {: .note }
-> **Não existe corte automático de acesso**
+> **Regularizar interrompe os avisos**
 >
-> O aplicativo **não suspende o condomínio sozinho** por falta de pagamento, nem em um prazo predefinido. A suspensão, quando acontece, é uma **decisão da nossa equipe**, tomada caso a caso e sempre precedida de aviso. Regularizado o pagamento, a assinatura volta ao normal.
+> Assim que o pagamento é confirmado, a régua de lembretes é zerada — se uma nova falha acontecer depois, a contagem recomeça do zero.
 
 {: .note }
 > **Cancelamento**

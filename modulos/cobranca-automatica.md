@@ -187,22 +187,29 @@ Com a conta aprovada, a tela passa a exibir três abas: **Cobranças**, **Emitir
 
 ## Emitir uma cobrança *(síndico)*
 
-A emissão **parte de um lançamento que já existe no Financeiro** — a cota do mês ou uma taxa avulsa. Se o lançamento ainda não existe, crie-o primeiro no [Financeiro](/modulos/financeiro/).
+A emissão **parte de lançamentos que já existem no Financeiro** — a cota do mês, uma taxa avulsa, ou várias unidades de uma vez. Se o lançamento ainda não existe, crie-o primeiro no [Financeiro](/modulos/financeiro/).
 
 Na aba **Emitir**, clique em **Emitir cobrança**:
 
 ![Aba Emitir, com o botão Emitir cobrança em destaque](/assets/screenshots/cobranca-06-aba-emitir.png)
 
-1. Informe o **vencimento da cobrança**. É a data que o morador vai ver. O vencimento do lançamento no Financeiro **não muda**. O campo só aceita **hoje ou uma data futura**: se você digitar uma data já passada, o aviso aparece na hora e o botão de confirmar fica bloqueado até corrigir — o Asaas não emite cobrança com vencimento no passado. Para uma cota que já venceu, use a data de hoje ou a data-limite que você quer dar ao morador
-2. Escolha um lançamento na lista **Lançamentos em aberto** — cada linha mostra unidade, morador, descrição, vencimento e valor
-3. Confira o quadro **O que vai acontecer**, que resume quem vai receber a cobrança, de quanto, com que vencimento e quais são os custos
-4. Clique em **Confirmar emissão**
+1. **Busque e filtre** os lançamentos em aberto — pelo campo de busca (unidade, morador, descrição ou categoria) ou pelo filtro **Unidade**. Dá para marcar **Selecionar todos** para pegar de uma vez tudo o que o filtro está mostrando
+2. **Marque um ou vários lançamentos.** Cada linha mostra unidade, morador, descrição, referência, vencimento e valor. O total escolhido aparece embaixo, e considera tudo o que está marcado — inclusive o que o filtro atual está escondendo no momento
+3. **Lançamento já vencido pede uma data nova.** A cobrança não pode nascer vencida, então cada linha vencida marcada abre um campo para você informar o novo vencimento — o do lançamento no Financeiro não muda
+4. Clique em **Ver o que será emitido** para abrir a **revisão**: uma tela de ensaio, que mostra exatamente quais cobranças serão criadas, para quem, com que vencimento e valor — **nada é emitido ainda** nesta etapa
+5. Confira a revisão e clique em **Emitir N cobranças** para confirmar
 
-![Painel de emissão com um lançamento selecionado na lista e o quadro "O que vai acontecer", que resume quem recebe a cobrança, de quanto e quais são os custos](/assets/screenshots/cobranca-07-drawer-emitir.png)
+{: .warning }
+> **Captura pendente**
+>
+> A imagem `cobranca-07-drawer-emitir.png` ainda mostra a tela **anterior** à emissão em lote (um lançamento por vez, sem busca nem filtro). Precisa ser recapturada mostrando a busca, o filtro por unidade, vários lançamentos marcados e a tela de revisão — exige sessão de síndico com a conta de cobrança aprovada, então fica para a rodada de capturas autenticadas.
 
-*Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
+{: .note }
+> **Teto de 30 cobranças por vez**
+>
+> Escolheu mais de 30? A revisão emite as 30 primeiras e avisa quantas ficaram de fora — repita a emissão para pegar o restante numa próxima leva.
 
-Emitida a cobrança, ela aparece na aba **Cobranças** no estado **Emitida**, com o endereço da fatura, que o síndico pode abrir e repassar ao morador se quiser.
+Emitidas, as cobranças aparecem na aba **Cobranças** no estado **Emitida**, com o endereço da fatura, que o síndico pode abrir e repassar ao morador se quiser. A revisão também aponta, separadamente, os lançamentos que **não puderam** ser emitidos e o motivo de cada um (veja a tabela abaixo).
 
 ### O que impede uma emissão
 
@@ -357,6 +364,12 @@ Clique na linha (ou no ícone de olho, na coluna **Ações**) para abrir o detal
 O detalhe traz:
 
 - **Onde o morador paga** — para uma cobrança viva: a página de pagamento (que oferece boleto, Pix e cartão) e o boleto em PDF
+
+{: .note }
+> **Quando o Pix não vem**
+>
+> Em raras vezes o Asaas emite a cobrança mas não devolve o código Pix na hora. Antes, isso passava despercebido: a tela parecia completa e só o morador descobria, na hora de tentar pagar. Agora o detalhe da cobrança **avisa o síndico** quando o Pix (ou a linha digitável do boleto) não veio — o boleto e o cartão continuam funcionando normalmente, e o aviso ao morador deixa de prometer um meio de pagamento que não existe.
+
 - **Comprovante da cobrança** — para uma cobrança **já paga**: só a fatura, que passa a servir de comprovante. O boleto em PDF não aparece, porque para cota quitada ele não tem função
 - **Não há onde pagar** — para uma cobrança **cancelada, removida no Asaas ou com falha na emissão**: em vez de um botão que levaria a uma página de erro, a tela explica o que houve e orienta **emitir uma nova cobrança a partir do lançamento no Financeiro**
 - **Valores** — valor cobrado, uso da plataforma e o líquido estimado
@@ -413,7 +426,7 @@ Além disso, o responsável pela unidade recebe **avisos por e-mail**:
 
 | Aviso | Quando |
 |---|---|
-| **Cobrança emitida** | Assim que a cobrança sai, no formato "Sua cota da unidade [nome] **com vencimento em** [data]" — a data já vem identificada como vencimento, não solta — mais um link que leva ao aplicativo, nunca um código de pagamento pronto |
+| **Cobrança emitida** | Assim que a cobrança sai, no formato "Sua cota **de [mês de referência]** da unidade [nome] está disponível" (quando o lançamento tem competência registrada) ou, sem ela, "Sua cota da unidade [nome] **com vencimento em** [data]" — mais um link que leva ao aplicativo, nunca um código de pagamento pronto |
 | **Vence em breve** | Com a antecedência configurada pelo condomínio |
 | **Vence hoje** | No dia do vencimento |
 | **Venceu** | No dia seguinte ao vencimento |
