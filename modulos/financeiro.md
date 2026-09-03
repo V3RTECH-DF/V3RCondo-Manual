@@ -6,6 +6,10 @@ nav_order: 3
 
 # Financeiro
 
+{% include video.html id="fechar-o-mes"
+                      titulo="Fechar o mês e prestar contas"
+                      descricao="Do lançamento à prestação de contas, passando pela importação do extrato e pelo fluxo de caixa do período." %}
+
 O módulo Financeiro centraliza toda a gestão financeira do condomínio — receitas, despesas, contas bancárias e conciliação com extratos.
 
 ![Módulo Financeiro com cards de resumo, saldos por conta e lista de lançamentos](/assets/screenshots/13-financeiro-lista.png)

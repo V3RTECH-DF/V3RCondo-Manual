@@ -1,0 +1,39 @@
+{%- comment -%}
+Vídeo de demonstração, produzido por roteiro (ver o repositório do projeto).
+
+Os arquivos são servidos do nosso próprio armazenamento, não de um serviço de
+vídeo: são curtos, mudos e legendados na imagem, então o que um player de
+terceiro traria — busca, sugestões no fim, rastreio de quem assiste — não nos
+serve e ainda apareceria dentro do manual.
+
+⚠️ O mesmo arquivo alimenta o manual e a página de vendas. Isso é deliberado:
+o ativo é o roteiro, e regravar precisa atualizar os dois de uma vez — vídeo
+que ensina o caminho antigo é pior que vídeo nenhum.
+
+Uso:
+  {% include video.html id="assembleia"
+                        titulo="Da convocação à ata"
+                        descricao="O que o síndico faz numa assembleia, do edital à ata publicada." %}
+{%- endcomment -%}
+<figure class="v3r-video">
+  <video
+    controls
+    preload="none"
+    playsinline
+    poster="/assets/videos/{{ include.id }}.jpg"
+    width="1280"
+    aria-label="{{ include.titulo }}">
+    <source src="https://assets.v3rcondo.com.br/videos/{{ include.id }}.mp4" type="video/mp4">
+    <p>
+      Seu navegador não reproduz este vídeo.
+      <a href="https://assets.v3rcondo.com.br/videos/{{ include.id }}.mp4">Baixe o arquivo</a>
+      para assistir.
+    </p>
+  </video>
+  <figcaption>
+    <strong>{{ include.titulo }}</strong>
+    {%- if include.descricao %} — {{ include.descricao }}{% endif %}
+    <br>
+    <small>Vídeo sem áudio, com legendas na tela.</small>
+  </figcaption>
+</figure>

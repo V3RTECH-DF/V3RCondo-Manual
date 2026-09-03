@@ -6,6 +6,10 @@ nav_order: 3.5
 
 # Inadimplência e Acordos
 
+{% include video.html id="inadimplencia-e-acordo"
+                      titulo="Inadimplência e acordo de parcelamento"
+                      descricao="Quem deve e quanto deve, a notificação em lote, e o acompanhamento dos acordos — inclusive os que quebraram." %}
+
 O módulo de **Inadimplência** reúne, por unidade, tudo o que está em atraso no condomínio e as ferramentas para recuperar esses valores — **acordos de parcelamento** e **notificação extrajudicial**.
 
 {: .note }

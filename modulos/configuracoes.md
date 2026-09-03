@@ -11,6 +11,10 @@ nav_order: 14
 >
 > O módulo de Configurações é exclusivo para **síndicos**.
 
+{% include video.html id="configurar-o-condominio"
+                      titulo="Configurar o condomínio"
+                      descricao="As seis abas de configuração: unidades geradas em lote, condôminos importados por planilha, categorias e conta bancária." %}
+
 O módulo reúne todas as opções de gestão do condomínio, organizadas em
 seis abas.
 
