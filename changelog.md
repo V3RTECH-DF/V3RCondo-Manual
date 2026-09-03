@@ -9,6 +9,20 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.154 — Setembro 2026
+
+### Melhorado
+
+- **A tela de entrada ganhou um novo visual no computador**: o login aparece de um lado e as duas opções de acesso (criar um condomínio ou entrar em um que já existe) aparecem do outro, lado a lado. No celular, o login continua vindo primeiro.
+- Um botão **"Voltar ao início"** foi adicionado ao lado do "Trocar", para facilitar quem quer mudar de caminho.
+
+## v7.153 — Setembro 2026
+
+### Alterado
+
+- **Encerrar a conta deixou de apagar seus dados e passou a torná-los anônimos.** O histórico do condomínio (cobranças, presenças em assembleia, registros de portaria feitos por você) continua íntegro, mas sem identificar quem foi. Documentos já emitidos, como comprovantes e atas, continuam valendo e disponíveis para conferência — isso é avisado antes de você confirmar o encerramento.
+- Depois de encerrar a conta, o e-mail usado fica livre para um cadastro novo — que começa do zero, sem histórico nem vínculo com o condomínio anterior.
+
 ## v7.152 — Setembro 2026
 
 ### Corrigido
