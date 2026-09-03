@@ -519,17 +519,6 @@ simultaneamente.
 </details>
 
 <details markdown="1">
-<summary>Como importar um arquivo de retorno bancário CNAB?</summary>
-
-Acesse **Financeiro → Importar → Retorno CNAB** e faça upload do arquivo
-`.ret` gerado pelo banco (formato CNAB 400). O sistema identifica os
-pagamentos, concilia automaticamente com os lançamentos existentes por número
-de referência ou por CPF/unidade/competência e exibe um relatório de
-pré-visualização antes de confirmar a importação. Banco Inter homologado;
-outros bancos em validação.
-</details>
-
-<details markdown="1">
 <summary>Posso anexar mais de um comprovante a um lançamento?</summary>
 
 Sim. Cada lançamento financeiro (e cada compra) aceita **vários anexos** — por
