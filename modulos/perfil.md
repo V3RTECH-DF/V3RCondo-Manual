@@ -154,14 +154,31 @@ O botão **Exportar XLSX** gera uma planilha com todas as informações do seu
 perfil guardadas no V3RCondo: dados pessoais, condomínios vinculados e
 consentimentos de visibilidade.
 
-## Excluir minha conta
+## Encerrar minha conta
 
 Inicia um assistente com confirmação por digitação do e-mail. A ação é
-permanente: seu cadastro é anonimizado e você perde o acesso a todos os
-condomínios.
+**permanente e não tem desfazer**: seu cadastro é **anonimizado** (nunca
+apagado) e você perde o acesso a todos os condomínios.
+
+O que acontece, na prática:
+
+- **Você deixa de ser identificável.** Seu nome e demais dados pessoais saem
+  do cadastro. O que ficar visível para outras pessoas — numa ata de
+  assembleia, num registro de portaria — deixa de trazer seu nome
+- **O histórico do condomínio é preservado.** Lançamentos, cobranças,
+  registros de presença e demais dados **do condomínio** continuam existindo;
+  é só a sua identificação pessoal que sai deles
+- **Documentos já emitidos não mudam.** Um comprovante, uma ata ou um boleto
+  já gerado antes do encerramento mantêm o texto de quando foram emitidos
+- **O e-mail volta a ficar livre.** Alguém — inclusive você mesmo, se encerrar
+  por engano — pode se cadastrar de novo com o mesmo endereço
+- **Conta nova começa do zero.** Um cadastro novo no mesmo e-mail não herda
+  nada do anterior: sem vínculo com o condomínio, sem histórico, sem os
+  aceites de documentos já feitos. O síndico precisa **incluir a pessoa de
+  novo** para que ela volte a acessar o condomínio
 
 {: .warning }
 > **Síndico único**
 >
-> Se você for o único síndico de um condomínio, a exclusão fica bloqueada até
-> que outro membro assuma o papel de síndico.
+> Se você for o único síndico de um condomínio, o encerramento fica bloqueado
+> até que outro membro assuma o papel de síndico.

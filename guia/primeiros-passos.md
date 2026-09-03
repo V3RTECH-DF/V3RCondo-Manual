@@ -8,18 +8,41 @@ nav_order: 1
 
 ## Acessar o V3RCondo
 
-Abra o navegador e acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br). Você cai direto na tela de login.
+Abra o navegador e acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br). A tela mostra, lado a lado, o formulário de **entrar** e um segundo cartão, **Primeira vez por aqui?**, com duas portas de entrada.
 
-![Tela de login do V3RCondo](/assets/screenshots/01-login.png)
+![Tela de entrada do V3RCondo, com o formulário de entrar à esquerda e as duas portas de entrada à direita](/assets/screenshots/01-login.png)
+
+No celular, a mesma tela empilha em vez de dividir em colunas — o formulário de entrar primeiro, as portas logo abaixo:
+
+![A mesma tela de entrada no celular, com o formulário de entrar empilhado acima das duas portas](/assets/screenshots/01-login-mobile.png)
 
 ## Fazer login
 
-Você pode entrar de duas formas:
+Se você já tem conta, use o cartão **Entrar**:
 
 - **E-mail e senha** — informe seu e-mail e senha cadastrados
-- **Conta Google** — clique em "Entrar com Google" para autenticação rápida
+- **Continuar com Google** — autenticação rápida com a sua conta Google
 
 ![Opção de login com Google](/assets/screenshots/03-login-google.png)
+
+## Criar conta: escolha a porta certa
+
+Se você ainda não tem conta, o cartão **Primeira vez por aqui?** oferece duas portas — escolha a que descreve a sua situação:
+
+- **Vou criar um condomínio** — você vai ser o síndico e cadastrar o condomínio do zero. São **30 dias com tudo liberado**, sem cartão de crédito
+- **Fui convidado para um condomínio** — o síndico já cadastrou você. Crie sua conta com o **mesmo e-mail** que ele usou ao te cadastrar
+
+{: .tip }
+> **A escolha é reversível**
+>
+> Depois de escolher, o formulário de cadastro mostra um selo com a porta escolhida e o botão **Trocar**, para mudar de porta sem perder o que você já digitou. **Voltar ao início** leva de volta ao formulário de entrar, se você perceber que já tem conta.
+
+![Formulário de cadastro com a porta "Vou criar um condomínio" escolhida, e os botões Trocar e Voltar ao início](/assets/screenshots/01c-cadastro-porta-escolhida.png)
+
+{: .note }
+> **O que você digitou não se perde**
+>
+> Nome e e-mail já preenchidos no cadastro ficam guardados neste navegador por algumas horas — se a página recarregar sem querer, você não começa do zero. O rascunho **nunca guarda senha** e some sozinho depois de um tempo ou assim que o cadastro é concluído. Em navegador de uso compartilhado (portaria, computador da administração), isso significa que o rascunho de quem usou antes de você já não estará mais lá depois de algumas horas.
 
 ## Aceitar os Termos de Uso e a Política de Privacidade
 
@@ -55,13 +78,11 @@ Se você pertence a mais de um condomínio, após o login o sistema exibe uma te
 
 ![Tela de seleção de condomínio exibida após o login para usuários com mais de um vínculo](/assets/screenshots/90-login-selecione-condominio.png)
 
-## Vincular-se a um condomínio
+## Depois de escolher "Vou criar um condomínio"
 
-No primeiro acesso, você verá uma tela de boas-vindas com duas opções:
+Preencha os dados básicos e o condomínio estará pronto em instantes. Você terá **30 dias com tudo liberado** (plano Pro completo) antes de precisar assinar — sem cartão de crédito.
 
-#### Criar meu condomínio
-
-Para síndicos que ainda não cadastraram o condomínio na plataforma. Preencha os dados básicos e o condomínio estará pronto em instantes. Você terá **30 dias de trial gratuito** do plano Pro ao criar o condomínio.
+Faz parte da criação aceitar o **Termo de Responsabilidade do Síndico**, que trata da sua responsabilidade como administrador do condomínio na plataforma. É um aceite diferente dos Termos de Uso: veja [Termo de Responsabilidade do Síndico](/legal/termo-sindico/) para o texto completo e o que ele cobre.
 
 {: .note }
 > **As unidades são cadastradas depois, não na criação**
@@ -73,7 +94,7 @@ Para síndicos que ainda não cadastraram o condomínio na plataforma. Preencha 
 >
 > O formulário sugere um fuso a partir do estado informado, mas o campo é **visível e pode ser trocado**. É esse fuso que define o dia de vencimento das cotas e as datas de assembleia — confira se o condomínio fica fora do fuso de Brasília antes de confirmar.
 
-#### Solicitar vínculo
+## Depois de escolher "Fui convidado para um condomínio"
 
 Para condôminos cujo condomínio já está cadastrado. Busque o condomínio pelo nome, informe sua unidade e envie a solicitação. O síndico receberá a solicitação e poderá aprová-la em **Configurações → Condôminos**.
 
