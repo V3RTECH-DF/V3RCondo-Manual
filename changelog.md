@@ -9,6 +9,21 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.152 — Setembro 2026
+
+### Corrigido
+
+- Movimentações financeiras (lançamentos e contas bancárias) agora aparecem na trilha de auditoria junto das cobranças, e não mais misturadas com os registros de acesso a dados pessoais.
+- **Os avisos de assinatura em atraso passam a chegar também pelo Telegram**, para quem tem a conta vinculada — antes só saíam por e-mail, mesmo quando a preferência era outra.
+
+## v7.151 — Setembro 2026
+
+### Adicionado
+
+- Registros de visita passam a ser apagados automaticamente após 12 meses.
+- Registros de envio de avisos por e-mail e Telegram passam a ser apagados automaticamente após 24 meses. O conteúdo que você lê no aplicativo não é afetado.
+- **O síndico passa a ser avisado da assinatura em atraso em três momentos** — aos 7, 20 e 27 dias — e o último aviso diz a data em que o acesso passa a ser somente leitura e lembra que nenhum dado é apagado. Assim que o pagamento é regularizado, os avisos param na hora.
+
 ## v7.148 — Setembro 2026
 
 ### Adicionado
