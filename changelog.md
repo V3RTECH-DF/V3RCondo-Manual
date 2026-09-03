@@ -9,6 +9,12 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.157 — Setembro 2026
+
+### Novidade
+
+- **Vídeos de ajuda dentro do app.** Agora cada módulo tem um vídeo curto de demonstração: um ícone discreto no cabeçalho e, quando a tela ainda está vazia, o vídeo aparece junto da mensagem. Os vídeos não têm som — as legendas aparecem na própria imagem.
+
 ## v7.156 — Setembro 2026
 
 ### Segurança
