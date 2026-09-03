@@ -9,6 +9,12 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.158 — Setembro 2026
+
+### Alterado
+
+- **A importação de retorno CNAB saiu do Financeiro.** Com a cobrança integrada, a baixa dos pagamentos chega sozinha. As importações de **extrato bancário** e de **lançamentos por planilha** continuam iguais.
+
 ## v7.157 — Setembro 2026
 
 ### Novidade

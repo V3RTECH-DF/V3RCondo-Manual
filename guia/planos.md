@@ -39,7 +39,6 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 | **Tarefas** | 🔒 Pro | ✅ |
 | **Recorrências financeiras** | 🔒 Pro | ✅ |
 | **Importação de extrato OFX/CSV** | 🔒 Pro | ✅ |
-| **Importação de retorno CNAB400 (Banco Inter)** | 🔒 Pro | ✅ |
 | **Cobrança automática (boleto, Pix e cartão, com baixa automática)** | 🔒 Pro | ✅ |
 | **Notificações por e-mail** | 🔒 Pro | ✅ |
 | **Documentos ilimitados** | 🔒 Pro | ✅ |

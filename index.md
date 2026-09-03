@@ -17,7 +17,7 @@ O V3RCondo é uma plataforma moderna que centraliza tudo o que síndicos e cond�
 
 O V3RCondo é o seu painel de controle completo:
 
-- **Financeiro** — lançamentos, contas bancárias, importação de extratos e retornos bancários CNAB, cobranças automáticas mensais e lançamentos em lote por unidade
+- **Financeiro** — lançamentos, contas bancárias, importação de extratos e de lançamentos por planilha, cobranças automáticas mensais e lançamentos em lote por unidade
 - **Inadimplência** — acompanhe inadimplentes por unidade, envie notificações extrajudiciais individuais ou em lote e gerencie acordos de parcelamento
 - **Compras e fornecedores** — cotações, aprovação de despesas, controle de fases e relatório de compras gerado por IA
 - **Assembleias** — convocações com edital em PDF, registro de presença e geração de ata por inteligência artificial
@@ -45,7 +45,7 @@ Acompanhe e gerencie a sua vida no condomínio com autonomia:
 
 - [**Dashboard**](/modulos/dashboard/) — Visão geral do condomínio: inadimplência, tarefas pendentes, últimas notificações e resumo financeiro do mês.
 - [**Minha Área**](/modulos/minha-area/) — Painel pessoal do condômino: extrato financeiro da unidade, exportação em PDF e acesso a serviços de autoatendimento.
-- [**Financeiro**](/modulos/financeiro/) — Lançamentos, contas bancárias, importação de extratos OFX/CSV e retornos CNAB, cobranças automáticas e relatórios.
+- [**Financeiro**](/modulos/financeiro/) — Lançamentos, contas bancárias, importação de extratos OFX/CSV e de lançamentos por planilha, cobranças automáticas e relatórios.
 - [**Inadimplência e Acordos**](/modulos/inadimplencia/) — Devedores por unidade, notificação extrajudicial e acordos de parcelamento (abas Inadimplentes e Acordos). Área de gestão do síndico.
 - [**Compras e Serviços**](/modulos/compras/) — Cotações, aprovação de despesas por fase, controle de fornecedores e relatório de compras gerado por IA.
 - [**Nosso Condomínio**](/modulos/nosso-condominio/) — Diretório de moradores, inventário de bens, controle de visitantes e reservas de áreas comuns.
@@ -72,7 +72,6 @@ O V3RCondo está disponível em dois planos. Veja a comparação completa na pá
 | Assembleias com ata por IA | ✅ | ✅ |
 | Relatório de Gestão com análise por IA | ✅ | ✅ |
 | Inadimplência e notificação extrajudicial | ✅ | ✅ |
-| Importação bancária CNAB | ✅ | ✅ |
 | Minha Área (extrato por unidade) | ✅ | ✅ |
 | Acordos de parcelamento de débitos | — | ✅ |
 | Projeção financeira | — | ✅ |

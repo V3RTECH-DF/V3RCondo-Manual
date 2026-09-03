@@ -338,44 +338,6 @@ Exibe quantos lançamentos foram importados, quais erros adicionais ocorreram e 
 >
 > Use a coluna `competencia` (MM/AAAA) para indicar o mês de referência quando ele for diferente do mês de vencimento. Se não preenchida, o sistema usa o mês de vencimento. Para categorias de inadimplência, a competência é obrigatória.
 
-## Importar retorno CNAB400 *(síndico — plano Pro)*
-
-Após os boletos do mês serem processados pelo banco, importe o arquivo de retorno (.ret) para marcar automaticamente os lançamentos correspondentes como pagos.
-
-Clique em **Importar retorno CNAB** e siga as quatro etapas:
-
-![Wizard de importação de retorno CNAB400 mostrando pré-visualização com badges de correspondência por Nosso Número e CPF](/assets/screenshots/100-financeiro-cnab-retorno.png)
-
-**1. Upload**
-Selecione ou arraste o arquivo `.ret` gerado pelo Banco Inter (também aceito: `.txt`).
-
-**2. Pré-visualização**
-O sistema analisa os boletos liquidados (código de ocorrência 06) e busca os lançamentos correspondentes por dois critérios:
-
-| Badge | Critério |
-|---|---|
-| ✅ Nosso Número | Lançamento encontrado pela referência do boleto. Disponível quando a remessa foi importada previamente via FIN-10a |
-| ✅ CPF | Lançamento encontrado pelo CPF do pagador, unidade e competência — funciona sem a remessa |
-| ❌ Sem correspondência | Boleto pago no banco mas sem lançamento correspondente no sistema |
-
-Um resumo acima da tabela indica quantos registros foram encontrados por cada critério.
-
-**3. Confirmação**
-Revise a lista de lançamentos que serão marcados como pagos e confirme a importação.
-
-**4. Resultado**
-Exibe quantos lançamentos foram atualizados. Registros sem correspondência são listados para revisão manual.
-
-{: .note }
-> **Banco suportado**
->
-> Nesta versão, o importador de retorno CNAB400 suporta exclusivamente o **Banco Inter (077)**. Suporte a outros bancos será adicionado em versões futuras.
-
-{: .tip }
-> **Conciliação sem remessa**
->
-> Mesmo sem ter importado a remessa, é possível conciliar pagamentos: o sistema usa o CPF do pagador informado no arquivo de retorno para localizar a unidade e o lançamento na competência do mês. Se houver mais de um lançamento em aberto para a mesma unidade e mês, o registro ficará como "Sem correspondência" para revisão manual.
-
 ## Visão do condômino
 
 Condôminos têm acesso de **leitura** ao módulo Financeiro — visualizam lançamentos, filtros e saldos, mas não podem criar, editar, excluir ou importar extratos. Também podem **abrir o detalhe de um lançamento** clicando na linha (ou no cartão, no celular), que é um painel de consulta sem botões de ação. Transferências entre contas também são visíveis na listagem, identificadas pelo badge **Transferência**.
