@@ -84,6 +84,8 @@ Preencha os dados básicos e o condomínio estará pronto em instantes. Você te
 
 Faz parte da criação aceitar o **Termo de Responsabilidade do Síndico**, que trata da sua responsabilidade como administrador do condomínio na plataforma. É um aceite diferente dos Termos de Uso: veja [Termo de Responsabilidade do Síndico](/legal/termo-sindico/) para o texto completo e o que ele cobre.
 
+![Formulário de criação de condomínio com o Termo de Responsabilidade do Síndico, a declaração de aceite e o botão Aceitar e criar o condomínio](/assets/screenshots/criar-condominio-termo-checkbox.png)
+
 {: .note }
 > **As unidades são cadastradas depois, não na criação**
 >

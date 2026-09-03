@@ -199,10 +199,11 @@ Na aba **Emitir**, clique em **Emitir cobrança**:
 4. Clique em **Ver o que será emitido** para abrir a **revisão**: uma tela de ensaio, que mostra exatamente quais cobranças serão criadas, para quem, com que vencimento e valor — **nada é emitido ainda** nesta etapa
 5. Confira a revisão e clique em **Emitir N cobranças** para confirmar
 
-{: .warning }
-> **Captura pendente**
->
-> A imagem `cobranca-07-drawer-emitir.png` ainda mostra a tela **anterior** à emissão em lote (um lançamento por vez, sem busca nem filtro). Precisa ser recapturada mostrando a busca, o filtro por unidade, vários lançamentos marcados e a tela de revisão — exige sessão de síndico com a conta de cobrança aprovada, então fica para a rodada de capturas autenticadas.
+![Painel de emissão com a busca, o filtro por unidade, vários lançamentos marcados e o campo de nova data para os que já venceram](/assets/screenshots/cobranca-07-drawer-emitir.png)
+
+*Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
+
+![Tela de revisão antes de emitir, mostrando quantas cobranças serão criadas, o limite de 30 por vez, e a lista do que não será emitido com o motivo de cada recusa](/assets/screenshots/cobranca-07c-revisao-emitir.png)
 
 {: .note }
 > **Teto de 30 cobranças por vez**
