@@ -6,6 +6,10 @@ nav_order: 2
 
 # Minha Área
 
+{% include video.html id="o-que-o-morador-ve"
+                      titulo="O que o morador vê"
+                      descricao="O V3RCondo pelos olhos de quem mora: a cota com o botão de pagar, os documentos que ele emite sozinho e o canal com o síndico." %}
+
 A **Minha Área** é o espaço de autoatendimento para condôminos e síndicos. Os serviços da sua unidade ficam organizados em abas: **Solicitar Documentos e Serviços** (emitir e solicitar documentos, extrato da unidade e negociação de dívida), **Meus Documentos** (baixar os documentos que você emitiu ou recebeu) e, nos condomínios que usam a Cobrança Automática, **Minhas cobranças** (pagar as cobranças da sua unidade).
 
 > Porteiros não têm acesso a este módulo.

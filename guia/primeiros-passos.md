@@ -6,6 +6,10 @@ nav_order: 1
 
 # Primeiros Passos
 
+{% include video.html id="porta-de-entrada"
+                      titulo="Como começar no V3RCondo"
+                      descricao="A tela de chegada, as duas portas de entrada e a troca de caminho sem perder o que já foi digitado." %}
+
 ## Acessar o V3RCondo
 
 Abra o navegador e acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br). A tela mostra, lado a lado, o formulário de **entrar** e um segundo cartão, **Primeira vez por aqui?**, com duas portas de entrada.

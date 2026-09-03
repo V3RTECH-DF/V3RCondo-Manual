@@ -7,3 +7,25 @@ $nav-child-link-color: #57606a;
 $sidebar-color: #fbfaf9;
 $border-color: #eceae8;
 $code-background-color: #f6f5f4;
+
+// Vídeos de demonstração (include video.html). A moldura acompanha a das
+// capturas de tela do manual, para o vídeo não parecer corpo estranho.
+.v3r-video {
+  margin: 1.5rem 0 2rem;
+
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    background: #1f2933;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    color: $nav-child-link-color;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}

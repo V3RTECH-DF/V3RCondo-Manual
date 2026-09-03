@@ -12,6 +12,10 @@ nav_order: 12
 > Este módulo é exclusivo para condomínios com **plano Pro**. No plano Básico,
 > o módulo aparece na sidebar com cadeado — clique para conhecer o plano Pro.
 
+{% include video.html id="assembleia"
+                      titulo="Da convocação à ata"
+                      descricao="A pauta que vira edital, o quórum contado no dia, a lista de presença e a ata publicada no fim." %}
+
 O módulo Assembleias digitaliza todo o ciclo de vida de uma assembleia
 condominial: da convocação formal até a publicação da ata gerada por
 inteligência artificial. O módulo é organizado em três fases —
