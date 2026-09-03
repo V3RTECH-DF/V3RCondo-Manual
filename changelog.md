@@ -9,6 +9,27 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.156 — Setembro 2026
+
+### Segurança
+
+- **Assembleias: reforçamos a proteção para que nenhuma ação altere registros de outro condomínio.**
+
+### Melhorado
+
+- **Relatórios:** números de nota fiscal não são mais confundidos com telefone, e quando a análise automática não puder ser gerada, o relatório passa a explicar o motivo.
+
+## v7.155 — Setembro 2026
+
+### Corrigido
+
+- Quem já pertence a um condomínio deixa de cair na tela de criação de condomínio depois de entrar.
+- Mensagens enviadas pelo Telegram deixam de falhar quando o nome do condomínio, da pessoa ou da unidade tem caracteres especiais.
+
+### Melhorado
+
+- O sistema que evita o envio de dados pessoais aos relatórios passou a reconhecer também CNPJ, além de CPF.
+
 ## v7.154 — Setembro 2026
 
 ### Melhorado
