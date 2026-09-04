@@ -23,6 +23,11 @@ O módulo de **Inadimplência** reúne, por unidade, tudo o que está em atraso 
 
 ![Módulo Inadimplência com as abas Inadimplentes e Acordos, e a lista de unidades devedoras](/assets/screenshots/inad-visao-01.png)
 
+{: .warning }
+> **Sem a categoria da cota configurada, esta tela não apura nada — e diz isso**
+>
+> A Inadimplência precisa saber qual categoria financeira é a taxa condominial (marcada em **Configurações → Categorias → Financeiro**, ver [Configurações](/modulos/configuracoes/)). Faltando essa configuração, a tela avisa que **a inadimplência não pôde ser apurada**, em vez de mostrar que está tudo em dia — um "zero" ali seria falso, não uma resposta. Marque a categoria em Configurações para a apuração voltar a funcionar; a mesma falta de configuração também bloqueia a emissão de Nada Consta e Certidão de Quitação (ver [Minha Área](/modulos/minha-area/)) e aparece como "não apurada" na Prestação de Contas e no Relatório de Gestão.
+
 ## Aba Inadimplentes
 
 ### Como a dívida aparece

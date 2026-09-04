@@ -316,6 +316,11 @@ Clique em **Salvar configurações** para confirmar.
 >
 > Mesmo com a geração automática desativada, o botão **Gerar agora** permite disparar a criação das cobranças manualmente. Ao clicar, um diálogo apresenta três opções de mês antes de confirmar: **Mês atual** (padrão), **Próximo mês** e **Escolher mês** (seletor livre). O mês selecionado define a competência e o vencimento dos lançamentos gerados.
 
+{: .warning }
+> **Sem a categoria de cobrança escolhida, o botão fica indisponível**
+>
+> Enquanto o campo **Categoria de cobrança** acima não estiver preenchido, o botão **Gerar agora** aparece desabilitado, com o motivo explicado — sem categoria, não há em que lançamento basear a cobrança. E, depois de gerar, a tela só confirma sucesso quando cobranças foram de fato criadas: se nada foi gerado (por exemplo, porque já existiam cobranças daquele mês), ela não finge que gerou.
+
 {: .tip }
 > **Sem duplicatas**
 >

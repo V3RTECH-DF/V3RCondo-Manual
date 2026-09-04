@@ -153,6 +153,11 @@ A Prestação de Contas é o **documento financeiro formal** do condomínio, em 
 >
 > Quando há comprovantes vinculados aos lançamentos do período, eles são reunidos em um único PDF junto com a prestação, cada um identificado por descrição, data e valor.
 
+{: .warning }
+> **Sem a categoria da cota configurada, a inadimplência entra como "não apurada"**
+>
+> Se o condomínio ainda não marcou qual categoria financeira é a taxa condominial (**Configurações → Categorias → Financeiro**), a Prestação de Contas não tem como saber quem está em dia — e o documento diz que a inadimplência **não pôde ser apurada** naquele período, em vez de mostrar zero. Marque a categoria em Configurações e gere o documento de novo.
+
 **Origem do pagamento:** os lançamentos pagos por [Cobrança Automática](/modulos/cobranca-automatica/) trazem, no documento, **como** foram liquidados — a frase *Liquidado pelo Asaas · Pix* (ou boleto, cartão, transferência), a data e o identificador da cobrança. É o que permite a quem confere a prestação amarrar cada entrada ao extrato da conta de cobrança, sem precisar pedir nada ao síndico. Lançamentos pagos à mão continuam sem essa menção, porque não há meio eletrônico a informar.
 
 ## Relatório de Gestão *(síndico)*
@@ -162,6 +167,11 @@ O Relatório de Gestão é um documento **gerencial, exclusivo do síndico**, co
 **Geração:** escolha o período — **Mês**, **Ano** ou **Intervalo personalizado** — e clique em **Gerar relatório**. O documento é montado em segundo plano e o síndico é avisado por e-mail quando o PDF fica pronto; ele aparece na lista **Relatórios gerados** com o botão **Baixar PDF**.
 
 ![Aba Relatório de Gestão com seletor de período e lista de relatórios gerados](/assets/screenshots/77-relatorio-gestao-aba.png)
+
+{: .warning }
+> **Mesma regra da Prestação de Contas para a inadimplência**
+>
+> Sem a categoria da cota configurada em **Configurações → Categorias → Financeiro**, o indicador de inadimplência e a seção de inadimplência por unidade vêm marcados como **não apurados** — nunca como zero.
 
 ### Análise por IA
 
