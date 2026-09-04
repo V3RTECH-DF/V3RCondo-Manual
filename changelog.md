@@ -11,6 +11,10 @@ Registro de versões e novidades do V3RCondo.
 
 ## v7.158 — Setembro 2026
 
+### Corrigido
+
+- **O Financeiro agora avisa quando não conseguiu carregar os períodos**, em vez de dar a entender que o condomínio não tem lançamento. E o telefone informado pelo síndico passa a constar também como telefone de contato na conta de cobrança.
+
 ### Novidade
 
 - **Mais cinco vídeos de ajuda para quem administra.** Tarefas, Compras e Serviços, Relatórios e Nosso Condomínio agora têm o próprio vídeo curto — sem som, com legenda na imagem — no mesmo ícone discreto do cabeçalho. Em Assembleias, o condômino também ganhou um vídeo próprio, mostrando o que ele vê ao acompanhar uma assembleia.
