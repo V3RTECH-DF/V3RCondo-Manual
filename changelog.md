@@ -14,6 +14,7 @@ Registro de versões e novidades do V3RCondo.
 ### Corrigido
 
 - **Quando alguma informação não puder ser carregada, o app passa a dizer isso, com a opção de tentar de novo** — antes, várias telas davam a entender que não havia nada cadastrado quando na verdade houve uma falha ao buscar os dados. Vale para inadimplência, financeiro, acordos, extrato, assembleias, documentos, notificações, tarefas, arquivos, mural, reservas, visitantes e outras áreas do app.
+- **Quando alguma lista não carrega, o app agora avisa e oferece tentar de novo, em vez de dizer que não há nada ou ficar carregando para sempre.** Últimos casos ajustados: itens do condômino, lista de condôminos, relatório de gestão, contas bancárias, solicitações do condômino e fornecedores (próprios e compartilhados).
 
 ## v7.158 — Setembro 2026
 
