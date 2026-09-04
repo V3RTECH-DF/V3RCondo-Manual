@@ -9,6 +9,12 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.159 — Setembro 2026
+
+### Corrigido
+
+- **Quando alguma informação não puder ser carregada, o app passa a dizer isso, com a opção de tentar de novo** — antes, várias telas davam a entender que não havia nada cadastrado quando na verdade houve uma falha ao buscar os dados. Vale para inadimplência, financeiro, acordos, extrato, assembleias, documentos, notificações, tarefas, arquivos, mural, reservas, visitantes e outras áreas do app.
+
 ## v7.158 — Setembro 2026
 
 ### Corrigido
