@@ -9,11 +9,18 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.163 — Setembro 2026
+
+### Corrigido
+
+- **A conferência pública de documentos passou a distinguir um documento realmente inválido de uma falha momentânea do sistema.** E os avisos automáticos passaram a registrar quando não conseguem chegar a alguém, em vez de falhar em silêncio.
+
 ## v7.162 — Setembro 2026
 
 ### Corrigido
 
 - **A tela de Cobrança Automática agora mostra exatamente o que falta na conta de cobrança do condomínio** — documentação, dados comerciais ou dados bancários — desde quando está pendente e quando foi a última conferência.
+- **Quando um acordo é quebrado por atraso e não foi possível avisar o responsável pelo condomínio, ou quando um aviso automático não encontra para quem enviar, o sistema passa a registrar isso** — antes, esses casos não deixavam nenhum rastro.
 
 ## v7.161 — Setembro 2026
 
