@@ -48,6 +48,8 @@ Clique em **+ Fazer Upload** e preencha:
 > Ao publicar um arquivo, os moradores recebem um aviso — respeitando o assunto
 > **Documentos** que cada um mantém em [Meu Perfil](/modulos/perfil/) → **Como sou
 > avisado**. Quem desligou esse assunto não recebe, nem por e-mail nem pelo Telegram.
+>
+> Se o envio falhar para parte dos moradores, a tela avisa disso ao confirmar a publicação — em vez de dar como certo que todo mundo foi avisado.
 
 ## Baixar um documento
 

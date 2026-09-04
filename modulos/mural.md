@@ -37,6 +37,8 @@ Clique em **Publicar** para tornar o aviso visível a todos.
 > **Notificação automática**
 >
 > Ao publicar um aviso, uma notificação por e-mail é enviada automaticamente para os moradores do condomínio — exceto para quem desligou **Mural de avisos** em [Meu Perfil](/modulos/perfil/). Quem tem o Telegram conectado também recebe por lá, respeitando a mesma escolha.
+>
+> Se o envio falhar para parte dos moradores, a confirmação de publicação avisa disso — em vez de dizer sucesso para todo mundo quando nem todo mundo recebeu.
 
 {: .tip }
 > **Excluir um aviso**

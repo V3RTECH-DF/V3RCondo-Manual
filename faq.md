@@ -843,6 +843,12 @@ Code**. Qualquer pessoa (um banco ou um comprador, por exemplo) confere a
 autenticidade na página pública **/verificar**, informando o código ou lendo o
 QR — **sem precisar de login**. A página mostra os dados essenciais e confirma
 se o documento é válido e foi realmente emitido pela plataforma.
+
+Se a consulta não conseguir responder no momento (uma instabilidade passageira,
+por exemplo), a página avisa que **não foi possível confirmar agora** e sugere
+tentar de novo em instantes — ela não diz mais que o documento é inválido nesse
+caso. "Inválido" na página de verificação significa hoje o que sempre deveria
+ter significado: o código não confere.
 </details>
 
 <details markdown="1">
