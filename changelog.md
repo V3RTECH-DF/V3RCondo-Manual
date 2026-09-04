@@ -9,6 +9,12 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.161 — Setembro 2026
+
+### Corrigido
+
+- **Quando o condomínio ainda não indicou qual categoria financeira corresponde à cota, o sistema passa a avisar que a inadimplência não pode ser apurada — em vez de mostrar que está tudo em dia.** Isso vale nas telas, nos relatórios e na emissão de declarações de quitação.
+
 ## v7.160 — Setembro 2026
 
 ### Novidade
