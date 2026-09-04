@@ -13,6 +13,7 @@ Registro de versões e novidades do V3RCondo.
 
 ### Novidade
 
+- **Mais cinco vídeos de ajuda para quem administra.** Tarefas, Compras e Serviços, Relatórios e Nosso Condomínio agora têm o próprio vídeo curto — sem som, com legenda na imagem — no mesmo ícone discreto do cabeçalho. Em Assembleias, o condômino também ganhou um vídeo próprio, mostrando o que ele vê ao acompanhar uma assembleia.
 - **Mais seis vídeos de ajuda, um para cada tela do condômino.** Minha Área, Fale com o Síndico, Perfil, Mural, Documentos e Nosso Condomínio agora têm o próprio vídeo curto, sem som, com legenda na imagem — no mesmo ícone discreto do cabeçalho que os outros módulos já tinham.
 
 ### Alterado
