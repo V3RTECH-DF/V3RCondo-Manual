@@ -136,20 +136,24 @@ Enviado o cadastro, o que falta acontece **do lado do Asaas**, fora do V3RCondo:
 
 ### Acompanhar a aprovação
 
-Depois de enviar, a tela passa a exibir o cartão **Situação da conta**, com dois indicadores:
+Depois de enviar, a tela passa a exibir o cartão **Situação da conta**, com três indicadores:
 
 | Indicador | O que significa |
 |---|---|
 | **Dados comerciais** | As informações do cadastro foram aceitas |
 | **Documentação** | Os documentos exigidos pelo Asaas foram enviados e aprovados |
+| **Dados bancários** | A conta do condomínio para onde o dinheiro é transferido depois. Este item pode ficar em aberto sem impedir a cobrança |
 
-O cartão também mostra **desde quando o cadastro está com o Asaas** — a data e a hora do envio. É por ela que você avalia se a análise passou do razoável e vale procurar o Asaas.
+Os três já aparecem **ao abrir a tela**, sem precisar clicar em nada — o botão **Verificar agora** continua existindo, mas só é preciso quando você quer forçar uma conferência na hora. O cartão mostra **de quando é a informação exibida** (a última vez que foi conferida) e, havendo algum item pendente, **desde quando** ele está assim — é o que ajuda a avaliar se vale procurar o Asaas.
 
-![Cartão "Situação da conta" de uma conta em análise, com a data de envio do cadastro, os indicadores Dados comerciais e Documentação, e o botão Verificar agora](/assets/screenshots/cobranca-situacao-da-conta.png)
+*Exemplo de uma conta em análise: os dados comerciais já foram aprovados e a documentação está com o Asaas.*
 
-*Exemplo de uma conta em análise: os dados comerciais já foram aprovados e a documentação está com o Asaas. O identificador da conta exibido na imagem é fictício.*
+Cada indicador aparece como **Pendente**, **Em análise**, **Aprovado** ou **Reprovado**. Item sobre o qual ainda não há informação aparece como **Sem informação ainda** — nunca como aprovado.
 
-Cada indicador aparece como **Pendente**, **Em análise**, **Aprovado** ou **Reprovado**. Use o botão **Verificar agora** para consultar o Asaas e atualizar a situação na hora.
+{: .note }
+> **Dados comerciais vencidos aparecem na hora**
+>
+> As informações comerciais do cadastro vencem por tempo. Quando isso acontece, além do aviso que você recebe uma vez, a tela passa a mostrar esse estado junto dos demais indicadores, enquanto durar.
 
 ### Você é avisado por e-mail a cada virada
 

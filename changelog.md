@@ -9,6 +9,12 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.162 — Setembro 2026
+
+### Corrigido
+
+- **A tela de Cobrança Automática agora mostra exatamente o que falta na conta de cobrança do condomínio** — documentação, dados comerciais ou dados bancários — desde quando está pendente e quando foi a última conferência.
+
 ## v7.161 — Setembro 2026
 
 ### Corrigido
