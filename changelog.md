@@ -9,6 +9,12 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.160 — Setembro 2026
+
+### Novidade
+
+- **As rotinas que apagam dados antigos, cumprindo os prazos da Política de Privacidade, passaram a registrar o que foi apagado** — o que permite comprovar o cumprimento desses prazos.
+
 ## v7.159 — Setembro 2026
 
 ### Corrigido
