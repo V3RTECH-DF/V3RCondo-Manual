@@ -8,7 +8,7 @@ nav_order: 3
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.3 — Maio de 2026 (revisado em agosto de 2026)
+Versão 1.3 — Maio de 2026 (revisado em setembro de 2026)
 
 ---
 
@@ -182,7 +182,8 @@ A V3RTECH **não vende, aluga ou compartilha** dados pessoais com terceiros para
 | Dados financeiros | 5 anos após o encerramento (obrigação fiscal) |
 | Logs de acesso | 6 meses |
 | Dados de visitantes | 12 meses após a visita |
-| Dados de conta suspensa por inadimplência | 30 dias após a suspensão |
+| Registro de auditoria (o que cada usuário fez no sistema) | Endereço de IP e identificação do navegador anonimizados em 30 dias; o registro do evento é excluído em 400 dias |
+| Dados de condomínio com plano suspenso por inadimplência | Preservados durante a suspensão: o acesso é bloqueado, os dados não são apagados |
 | Notificações antigas | 24 meses após o envio |
 
 **4.3.** Após o encerramento da conta, os dados pessoais identificáveis (nome, e-mail, telefone, avatar) são anonimizados. Dados financeiros são preservados de forma anonimizada para fins de integridade histórica.
@@ -263,5 +264,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 
 ---
 
-*Versão 1.3 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais), em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5) e, ainda em agosto de 2026, com a definição dos papéis de tratamento: o condomínio passa a constar expressamente como controlador e a V3RTECH como operadora, com a V3RTECH atuando como controladora apenas para prevenção à fraude, verificação de identidade e obrigações legais e regulatórias — seção 1 reescrita.*
+*Versão 1.3 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais), em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5) e, ainda em agosto de 2026, com a definição dos papéis de tratamento: o condomínio passa a constar expressamente como controlador e a V3RTECH como operadora, com a V3RTECH atuando como controladora apenas para prevenção à fraude, verificação de identidade e obrigações legais e regulatórias — seção 1 reescrita. Revisado em setembro de 2026 para descrever com precisão dois prazos da seção 4.2: o registro de auditoria, que não tinha linha própria e vinha sendo lido sob a linha dos logs de acesso, e a suspensão por inadimplência, que passa a constar como o que de fato é — bloqueio de acesso com preservação dos dados, e não exclusão em 30 dias.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*
