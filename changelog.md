@@ -11,6 +11,10 @@ Registro de versões e novidades do V3RCondo.
 
 ## v7.158 — Setembro 2026
 
+### Novidade
+
+- **Mais seis vídeos de ajuda, um para cada tela do condômino.** Minha Área, Fale com o Síndico, Perfil, Mural, Documentos e Nosso Condomínio agora têm o próprio vídeo curto, sem som, com legenda na imagem — no mesmo ícone discreto do cabeçalho que os outros módulos já tinham.
+
 ### Alterado
 
 - **A importação de retorno CNAB saiu do Financeiro.** Com a cobrança integrada, a baixa dos pagamentos chega sozinha. As importações de **extrato bancário** e de **lançamentos por planilha** continuam iguais.
