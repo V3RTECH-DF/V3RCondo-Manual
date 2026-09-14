@@ -35,10 +35,16 @@ poderia fazer pela tela.
    **consultar e gravar** informações a seu pedido. Antes de ligar, o
    aplicativo mostra um aviso explicando o que muda — leia antes de
    confirmar. Você pode desligar a qualquer momento, e o efeito é imediato.
+
+   ![Cartão de conexão com o Telegram em Meu Perfil, mostrando o status Conectado e o interruptor Permitir ações por mensagem ligado](/assets/screenshots/perfil-telegram-01.png)
+
+   *Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 3. **Confira a franquia.** Em **Configurações → Seu Plano**, o card mostra
    quantas mensagens já foram usadas no mês — por exemplo, *"7 de 50
    mensagens neste mês · renova em 01/10/2026"*. É a mesma contagem que o
    bot usa para decidir se atende ou não.
+
+   ![Card Seu Plano, em Configurações, com a linha Ações pelo Telegram mostrando quantas mensagens já foram usadas no mês e a data de renovação](/assets/screenshots/config-plano-telegram-01.png)
 
 {: .note }
 > **Nem toda conversa consome a franquia**
@@ -64,6 +70,8 @@ de trocar antes das 2 horas:
   de condomínio", "outro condomínio") mostra os botões de novo, a qualquer
   momento.
 
+![Bot perguntando em qual condomínio trabalhar, com um botão para cada condomínio que você administra](/assets/screenshots/telegram-condominio-01.png)
+
 {: .warning }
 > **Lançou no condomínio errado?**
 >
@@ -86,6 +94,10 @@ fixo. Alguns exemplos:
 | "Quais as reservas da próxima semana?" | Reservas de áreas comuns no período |
 | "Quanto entrou e saiu esse mês?" | Resumo do período — entradas, saídas e resultado |
 | "Tem tarefa atrasada?" | Tarefas em aberto, marcando as atrasadas |
+
+![Resposta do bot a "quanto tem em caixa?", mostrando o saldo de cada conta e o total](/assets/screenshots/telegram-saldos-01.png)
+
+![Resposta do bot a "o que vence nos próximos 7 dias?", listando os lançamentos em aberto no período](/assets/screenshots/telegram-vencimentos-01.png)
 
 {: .note }
 > **"O que vence" e "vencidos" não são a mesma coisa**
@@ -148,6 +160,12 @@ o valor, o vencimento e monta uma descrição a partir do documento, chega à
 mesma confirmação acima e **anexa o comprovante ao lançamento** — você não
 precisa anexar depois pelo aplicativo.
 
+![Bot perguntando a categoria do lançamento depois de ler um PDF, com a categoria sugerida pelo documento aparecendo primeiro entre os botões](/assets/screenshots/telegram-categoria-01.png)
+
+![Confirmação do lançamento com todos os campos preenchidos a partir do PDF — condomínio, valor, vencimento e categoria escolhida](/assets/screenshots/telegram-lancamento-confirmacao-01.png)
+
+![Bot confirmando que o lançamento foi criado e que o comprovante foi anexado a ele](/assets/screenshots/telegram-lancamento-criado-01.png)
+
 ### O que o bot sempre pergunta, e o que ele assume
 
 - **Categoria — sempre perguntada quando você não diz.** O bot nunca
@@ -192,6 +210,10 @@ você escolher qual:
 Depois de escolher (ou se só havia um), a confirmação mostra o lançamento e
 pede o mesmo **Confirmar / Cancelar** de qualquer gravação.
 
+![Confirmação de baixa, mostrando o lançamento encontrado, o valor e a data de pagamento informada](/assets/screenshots/telegram-baixa-confirmacao-01.png)
+
+![Bot confirmando que a baixa foi registrada](/assets/screenshots/telegram-baixa-registrada-01.png)
+
 ## Se uma pergunta aparecer no meio do caminho
 
 O bot só pergunta o que falta para completar o pedido — nunca reinicia a
@@ -204,6 +226,10 @@ Se você mandar algo que claramente é **outro pedido** no meio de uma
 pergunta pendente (por exemplo, começar com "lançar…" ou "quanto tem…"
 enquanto o bot esperava uma categoria), o bot descarta o pedido anterior,
 avisa que descartou, e atende o novo.
+
+![Confirmação de lançamento com todos os campos preenchidos, antes de tocar em Cancelar](/assets/screenshots/telegram-confirmacao-completa-01.png)
+
+![Bot confirmando que o pedido foi cancelado e que nada foi gravado](/assets/screenshots/telegram-cancelado-01.png)
 
 ## Mensagens de voz
 
@@ -220,6 +246,8 @@ ignorado em silêncio:
 
 > "Não consigo ler esse tipo de arquivo. Me mande uma foto, um PDF ou
 > escreva os dados em texto."
+
+![Bot avisando que não conseguiu ler um arquivo de texto enviado, e pedindo foto, PDF ou os dados digitados](/assets/screenshots/telegram-arquivo-nao-suportado-01.png)
 
 Essa recusa **não consome franquia** — a limitação é nossa, não sua.
 Arquivo grande demais (acima de 10 MB) recebe aviso parecido, também sem
