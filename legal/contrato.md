@@ -8,7 +8,7 @@ nav_order: 1
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.2 — Agosto de 2026
+Versão 1.3 — [DATA DE VIGÊNCIA]
 
 ---
 
@@ -46,6 +46,7 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 - Geração de relatórios analíticos com inteligência artificial
 - Gestão de acordos de inadimplência e negociação de dívidas condominiais
 - Convocação, condução e registro digital de assembleias condominiais
+- **Consultas e lançamentos por mensagem, por aplicativo de mensagem compatível — atualmente, o Telegram — (texto, foto ou voz), disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico**
 
 ---
 
@@ -87,6 +88,8 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 **3.6.4.** Corrigida a divergência ou aceita a justificativa dentro do prazo, aplica-se apenas o ajuste do plano à faixa correta e, quando cabível, a cobrança da diferença do período, sem multa. Não corrigida a divergência nem apresentada justificativa aceitável no prazo, caracterizada a má-fé, a V3RTECH poderá ajustar retroativamente o plano à faixa correta, cobrar a diferença desde o início da divergência — acrescida de juros de mora de 1% ao mês e correção monetária — e aplicar multa de 20% sobre a diferença apurada, sem prejuízo da suspensão ou rescisão do serviço.
 
 **3.6.5.** Configurada reincidência — síndico anteriormente notificado por divergência que, após regularizar, volta a apresentar divergência —, o prazo prévio de correção previsto no item 3.6.3 poderá ser dispensado, aplicando-se diretamente as sanções previstas no item 3.6.4.
+
+**3.7. Do uso do assistente por mensagem.** O plano Pro inclui uma franquia de **50 mensagens por mês, por condomínio** — somando as mensagens de todos os usuários autorizados daquele condomínio, por qualquer aplicativo de mensagem compatível (atualmente, o Telegram). Atingida a franquia, o recurso fica bloqueado até o dia 1º do mês seguinte, sem cobrança automática de excedente. Quando oferecidos, pacotes mensais adicionais e recargas avulsas seguem a tabela publicada em [v3rcondo.com.br/planos](https://v3rcondo.com.br/planos), que integra este Contrato para todos os efeitos, na forma do item 3.3.1.
 
 ---
 
@@ -171,13 +174,15 @@ O suporte da V3RTECH permanece disponível para questões relativas ao **uso da 
 
 ## 6. Da Proteção de Dados Pessoais
 
-**6.1. Papéis.** Para os dados pessoais tratados na plataforma, o **condomínio é o controlador** e a **V3RTECH é a operadora**, nos termos dos artigos 5º, VI e VII, e 39 da Lei nº 13.709/2018 (LGPD). Abrange o cadastro de condôminos e unidades, os lançamentos financeiros, as cobranças, as reservas, as ocorrências, as assembleias, os documentos, o registro de visitantes e as contas de acesso dos usuários vinculados ao condomínio.
+**6.1. Papéis.** Para os dados pessoais tratados na plataforma, o **condomínio é o controlador** e a **V3RTECH é a operadora**, nos termos dos artigos 5º, VI e VII, e 39 da Lei nº 13.709/2018 (LGPD). Abrange o cadastro de condôminos e unidades, os lançamentos financeiros, as cobranças, as reservas, as ocorrências, as assembleias, os documentos, o registro de visitantes, as contas de acesso dos usuários vinculados ao condomínio e, quando habilitado, o conteúdo das mensagens trocadas com o assistente por mensagem.
 
 **6.2. Ferramenta, não finalidade própria.** O V3RCondo é ferramenta colocada à disposição do condomínio. A abertura das contas de acesso, a contratação do plano e a guarda dos registros são realizadas **por determinação do condomínio** — ou do síndico que o representa, quando o ato exigir pessoa física. A V3RTECH tratará esses dados **exclusivamente conforme as instruções do condomínio** e as finalidades previstas neste Contrato, e **não os utilizará para finalidade própria diversa**.
 
 **6.3. Exceção.** A V3RTECH atua como controladora apenas na mesma medida e proporção que a instituição de pagamento referida na seção 5: **prevenção à fraude, verificação de identidade e cumprimento de obrigações legais e regulatórias**, inclusive as impostas por essa instituição e pela regulação do sistema financeiro.
 
 **6.4. Segurança e subprocessadores.** A V3RTECH adotará medidas técnicas e administrativas de segurança compatíveis com o risco, descritas na Política de Privacidade, e manterá inventário atualizado dos subprocessadores que utiliza.
+
+**6.4.1. Assistente por mensagem.** Quando o usuário autorizado habilita o recurso de consultas e lançamentos por mensagem, o conteúdo enviado — texto, foto ou áudio — é processado por provedor de inteligência artificial subprocessador da V3RTECH, nos termos da Política de Privacidade. O recurso funciona por aplicativo de mensagem compatível — atualmente, o Telegram. É opcional, desligado por padrão, e depende de aceite de aviso específico no momento em que a pessoa o habilita.
 
 **6.5. Incidentes.** A V3RTECH comunicará ao condomínio, sem demora injustificada, incidente de segurança que possa acarretar risco ou dano relevante aos titulares, com as informações necessárias para que o condomínio cumpra os seus deveres de comunicação à autoridade nacional e aos titulares.
 
@@ -227,6 +232,8 @@ Para dúvidas, solicitações ou notificações relacionadas a este Contrato:
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)
 
 ---
+
+*Versão 1.3 — [DATA DE VIGÊNCIA]. Adicionado o assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico): novo item na lista de recursos oferecidos (seção 2), franquia mensal de mensagens (novo item 3.7), acréscimo ao item 6.1 sobre o conteúdo das mensagens como dado pessoal tratado na plataforma, e nova subseção 6.4.1 sobre o processamento desse conteúdo por subprocessador de inteligência artificial.*
 
 *Versão 1.2 — Agosto de 2026. Revisão da 1.1, em dois pontos, sem mudança de efeito. (a) A cláusula sobre a remuneração da V3RTECH (item 5.8) foi reescrita para deixar claro, de saída, que o valor é exibido na tela antes da adesão e que existe um valor padrão válido para a generalidade dos condomínios — condições distintas são excepcionais e negociadas. (b) A cláusula sobre as tarifas do serviço financeiro (item 5.9) passou a explicitar que o dever de informá-las é da instituição de pagamento, que o aplicativo apenas reproduz por conveniência o que ela divulga, e que qualquer divergência se resolve pelo valor dela.*
 

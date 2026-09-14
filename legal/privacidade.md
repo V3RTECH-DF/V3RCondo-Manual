@@ -8,7 +8,7 @@ nav_order: 3
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.3 — Maio de 2026 (revisado em setembro de 2026)
+Versão 1.4 — [DATA DE VIGÊNCIA]
 
 ---
 
@@ -76,6 +76,12 @@ Na dúvida, escreva para o nosso Encarregado, que direcionamos.
 | Registros de assembleia (lista de presença, votos por pauta, procurações e manifestações) | Condução e documentação digital de assembleias condominiais, conforme exigência legal | Execução de contrato e cumprimento de obrigação legal — Art. 7º, II e V |
 | Documentos enviados | Armazenamento e compartilhamento interno | Execução de contrato — Art. 7º, V |
 | Telegram Chat ID | Envio de notificações sobre eventos do condomínio via Telegram, quando o usuário conecta sua conta | Consentimento — Art. 7º, I |
+| Conteúdo de mensagens enviadas ao assistente por mensagem (texto, foto e áudio), por aplicativo de mensagem compatível — atualmente, o Telegram —, quanto ao dado da própria pessoa que envia (voz, identificação da conversa) | Interpretar pedidos e executar consultas, lançamentos financeiros e baixas de pagamento enviados por mensagem, quando o usuário autorizado habilita o recurso "permitir ações por mensagem" em Perfil | Consentimento — Art. 7º, I |
+| Conteúdo de mensagens enviadas ao assistente por mensagem, quanto a dado de terceiro eventualmente citado (nome de morador, de fornecedor, CPF/CNPJ visível em foto) | Idem — a mensagem executa a mesma finalidade condominial que o dado já tem nesta tabela (lançamento financeiro, cadastro, etc.) | Mesma base da finalidade que a mensagem executa — em regra, Execução de contrato — Art. 7º, V |
+
+O conteúdo dessas mensagens é processado por provedores de inteligência artificial descritos na seção 3, e pode incluir nomes de moradores e fornecedores citados na mensagem, CPF ou CNPJ visíveis em foto de nota fiscal ou comprovante, e a voz da pessoa que enviou o áudio. Quando a mensagem traz dado de terceiro, o tratamento segue a mesma base legal que já ampara a finalidade que a mensagem executa (por exemplo, a de lançamentos financeiros, nesta tabela) — não o consentimento de quem enviou a mensagem, que não pode consentir em nome de terceiro.
+
+O interruptor "permitir ações por mensagem", em Perfil, é único por pessoa e vale para o recurso como um todo — não há um interruptor separado por aplicativo de mensagem.
 
 ### 2.2. Dados coletados automaticamente
 
@@ -154,15 +160,25 @@ Os dados dos usuários podem ser compartilhados com os seguintes terceiros, estr
 | **Stripe** (EUA) | E-mail, identificador do condomínio | Processamento de pagamentos e gestão de assinaturas |
 | **Asaas** — ASAAS GESTÃO FINANCEIRA S.A. (Brasil) | Do condômino pagador: nome, CPF ou CNPJ, e-mail, telefone, unidade, valor e vencimento da cobrança. Do titular da conta de cobrança: nome ou razão social, CPF ou CNPJ, e-mail, telefone, data de nascimento, tipo de empresa, endereço e faturamento estimado | Emissão, envio e liquidação das cobranças de cota e demais valores condominiais (boleto, Pix e cartão), e abertura e manutenção da conta de pagamento do condomínio — detalhado na seção 2.5 |
 | **Google** (EUA) | E-mail (apenas para usuários que optarem pelo login com Google) | Autenticação OAuth |
-| **Google — Gemini** (EUA) | Apenas indicadores **agregados** do Relatório de Gestão (KPIs, totais por categoria, contagens) — **sem nomes, sem identificação de unidade e sem dados pessoais** | Análise por IA no Relatório de Gestão (resumo executivo e comentários), best-effort |
-| **OpenAI** (EUA) | Idem — apenas indicadores **agregados**, sem dados pessoais | Análise por IA no Relatório de Gestão (provedor alternativo, conforme configuração do administrador) |
-| **Anthropic — Claude** (EUA) | Idem — apenas indicadores **agregados**, sem dados pessoais | Análise por IA no Relatório de Gestão (provedor alternativo, conforme configuração do administrador) |
-| **Telegram** (EAU) | Chat ID e conteúdo das notificações | Envio de notificações via Telegram, quando habilitado pelo usuário |
+| **Google — Gemini** (EUA) | (1) Apenas indicadores **agregados** do Relatório de Gestão — sem nomes, sem identificação de unidade e sem dados pessoais. (2) Quando o condomínio habilita o assistente por mensagem: o conteúdo da mensagem, foto ou áudio enviado pelo usuário autorizado, que pode incluir nomes de moradores e fornecedores, CPF/CNPJ visível em foto e a voz da pessoa | (1) Análise por IA no Relatório de Gestão (resumo executivo e comentários), best-effort. (2) Interpretação de comandos e consultas do assistente por mensagem — provedor principal, no plano pago da API —, quando habilitado |
+| **OpenAI** (EUA) | (1) Idem Google, apenas indicadores agregados. (2) Idem Google, como provedor reserva do assistente por mensagem | (1) Análise por IA no Relatório de Gestão (provedor alternativo). (2) Interpretação de comandos e consultas do assistente por mensagem — provedor reserva |
+| **Anthropic — Claude** (EUA) | (1) Idem Google, apenas indicadores agregados. (2) Idem Google, como provedor reserva do assistente por mensagem | (1) Análise por IA no Relatório de Gestão (provedor alternativo). (2) Interpretação de comandos e consultas do assistente por mensagem — provedor reserva |
+| **Telegram** (EAU) | Chat ID, conteúdo das notificações e, quando o recurso está habilitado, o conteúdo das mensagens trocadas com o bot (texto, foto e áudio) e as respostas dele | Envio de notificações via Telegram; operação do bot de consultas e lançamentos por mensagem, quando habilitado pelo usuário |
+
+Quando outro aplicativo de mensagem for oferecido como canal do assistente por mensagem, ele será incluído nesta tabela — com o que recebe e para qual finalidade — antes de ser disponibilizado aos usuários.
+
+Para o Relatório de Gestão, a promessa de enviar só indicadores agregados, sem dados pessoais, continua valendo. Ela **não** se aplica ao assistente por mensagem: ali, o conteúdo da mensagem — que pode conter dado pessoal — é enviado ao provedor de IA para ser interpretado, porque é assim que o assistente entende o pedido.
+
+Segundo a documentação oficial de cada provedor, nenhum deles usa o conteúdo enviado pela API para treinar seus modelos: o Google confirma isso para os Serviços Pagos da API Gemini — condição que a V3RTECH atende, por usar o plano pago — ([Termos Adicionais da API Gemini](https://ai.google.dev/gemini-api/terms)); a OpenAI confirma o mesmo para a API, por padrão ([guia de dados da API OpenAI](https://developers.openai.com/api/docs/guides/your-data)); e a Anthropic também, por padrão, para os produtos comerciais, incluindo a API ([central de privacidade Anthropic](https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training)).
+
+Cada provedor retém o conteúdo por um prazo limitado, para monitoramento de abuso e segurança — não para treinar modelos: o Google, por até 55 dias ([política de uso da API Gemini](https://ai.google.dev/gemini-api/docs/usage-policies)); a OpenAI, por até 30 dias ([guia de dados da API OpenAI](https://developers.openai.com/api/docs/guides/your-data)); e a Anthropic, por até 30 dias em condições normais — estendido para até 2 anos apenas quando o uso é sinalizado como violação da política dela ([central de privacidade Anthropic](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-personal-data)).
 
 {: .warning }
 > **Transferência internacional de dados**
 >
-> Supabase, Stripe, Google, OpenAI, Anthropic e Telegram operam fora do Brasil. A V3RTECH adota cláusulas contratuais e boas práticas reconhecidas pela ANPD para assegurar nível adequado de proteção, conforme Art. 33 da LGPD. Aos provedores de IA são enviados apenas indicadores agregados, sem dados pessoais.
+> Supabase, Stripe, Google, OpenAI, Anthropic e Telegram operam fora do Brasil. A V3RTECH adota cláusulas contratuais e boas práticas reconhecidas pela ANPD para assegurar nível adequado de proteção, conforme Art. 33 da LGPD.
+>
+> Ao provedor de IA que analisa o Relatório de Gestão são enviados apenas indicadores agregados, sem dados pessoais. Ao provedor de IA que interpreta as mensagens do assistente por mensagem — recurso opcional, habilitado pessoa a pessoa, hoje disponível por Telegram — pode ser enviado dado pessoal contido na própria mensagem, conforme a seção 2.1 e a tabela acima. Segundo a documentação oficial de cada provedor, nenhum deles usa esse conteúdo para treinar seus modelos, e cada um o retém por um prazo limitado — entre 30 e 55 dias, conforme o provedor — apenas para monitoramento de abuso e segurança, detalhado com as fontes na seção 3.
 >
 > O **Asaas** é empresa brasileira, sujeita à LGPD e à regulação do Banco Central do Brasil. O próprio Asaas informa, em sua política de privacidade, que pode tratar parte dos dados em provedores de nuvem no exterior, sempre nas hipóteses admitidas pela legislação brasileira.
 
@@ -185,6 +201,9 @@ A V3RTECH **não vende, aluga ou compartilha** dados pessoais com terceiros para
 | Registro de auditoria (o que cada usuário fez no sistema) | Endereço de IP e identificação do navegador anonimizados em 30 dias; o registro do evento é excluído em 400 dias |
 | Dados de condomínio com plano suspenso por inadimplência | Preservados durante a suspensão: o acesso é bloqueado, os dados não são apagados |
 | Notificações antigas | 24 meses após o envio |
+| Conteúdo das mensagens ao assistente por mensagem (texto, foto, áudio) — no V3RCondo | Não retido além do necessário para atender o pedido. Exceções: a foto anexada como comprovante a um lançamento confirmado segue o prazo de "Dados financeiros" desta mesma tabela (5 anos após o encerramento, obrigação fiscal); um pedido de gravação proposto e ainda não confirmado expira em 15 minutos |
+| Registro de uso do assistente, sem conteúdo (data, condomínio, pessoa, tipo de mensagem, provedor, custo estimado) | Mesmo prazo do "Registro de auditoria" desta mesma tabela: endereço de IP e identificação do navegador anonimizados em 30 dias; o registro do evento é excluído em 400 dias |
+| Conteúdo enviado ao provedor de IA para interpretar as mensagens do assistente — no provedor | Cada provedor retém por prazo próprio, só para monitoramento de abuso e segurança, nunca para treinar modelos — entre 30 e 55 dias conforme o provedor, detalhado com as fontes na seção 3 |
 
 **4.3.** Após o encerramento da conta, os dados pessoais identificáveis (nome, e-mail, telefone, avatar) são anonimizados. Dados financeiros são preservados de forma anonimizada para fins de integridade histórica.
 
@@ -217,6 +236,11 @@ Conforme a LGPD, você tem os seguintes direitos, exercíveis pelo e-mail [dpo@v
 | **Revogação de consentimento** | Retirar consentimentos dados, quando aplicável |
 | **Oposição** | Opor-se a tratamentos baseados em legítimo interesse |
 | **Informação sobre compartilhamento** | Saber com quais terceiros seus dados foram compartilhados |
+
+{: .tip }
+> **Desligar o assistente por mensagem**
+>
+> A autorização dada ao ligar "permitir ações por mensagem" pode ser retirada a qualquer momento em **Perfil**, desligando a mesma opção. Desligar interrompe o envio de novas mensagens à inteligência artificial; não afeta lançamentos já confirmados.
 
 {: .tip }
 > **Exportação de dados**
@@ -265,4 +289,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 ---
 
 *Versão 1.3 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais), em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5) e, ainda em agosto de 2026, com a definição dos papéis de tratamento: o condomínio passa a constar expressamente como controlador e a V3RTECH como operadora, com a V3RTECH atuando como controladora apenas para prevenção à fraude, verificação de identidade e obrigações legais e regulatórias — seção 1 reescrita. Revisado em setembro de 2026 para descrever com precisão dois prazos da seção 4.2: o registro de auditoria, que não tinha linha própria e vinha sendo lido sob a linha dos logs de acesso, e a suspensão por inadimplência, que passa a constar como o que de fato é — bloqueio de acesso com preservação dos dados, e não exclusão em 30 dias.*
+*Versão 1.4 — [DATA DE VIGÊNCIA]. Adicionado o tratamento de dados pessoais pelo assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio — inicialmente síndico e subsíndico do plano Pro — que habilitarem o recurso): nova finalidade e base legal na seção 2.1, atualização da tabela de suboperadores e do aviso de transferência internacional na seção 3, novos prazos de retenção na seção 4.2, e nota sobre como desligar a autorização na seção 6.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*

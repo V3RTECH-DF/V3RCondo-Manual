@@ -8,7 +8,7 @@ nav_order: 2
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.5 — Agosto de 2026
+Versão 1.6 — [DATA DE VIGÊNCIA]
 
 ---
 
@@ -108,6 +108,18 @@ O usuário compromete-se a:
 
 **5.6.** A disponibilidade dos recursos de inteligência artificial depende de serviços de terceiros e pode estar sujeita a interrupções ou indisponibilidades fora do controle da V3RTECH. A indisponibilidade temporária desses recursos não constitui inadimplemento contratual nem gera direito a reembolso ou compensação.
 
+**5.7. Do assistente por mensagem.**
+
+**(a)** O V3RCondo oferece, aos usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico — que habilitarem o recurso em Perfil, a possibilidade de consultar informações e propor lançamentos financeiros e baixas de pagamento por mensagem, em aplicativo de mensagem compatível — atualmente, o Telegram —, por texto, foto ou mensagem de voz. O interruptor que habilita o recurso é único por pessoa e vale para o recurso como um todo, independentemente de quantos aplicativos de mensagem estejam disponíveis.
+
+**(b)** Toda ação de gravação proposta pelo assistente depende de confirmação expressa de quem a solicitou antes de ser efetivada. Cabe a quem confirma conferir se o que o assistente entendeu corresponde ao que pretendia, antes de confirmar.
+
+**(c)** O assistente age com as mesmas permissões de acesso que a pessoa já tem na plataforma, e é restrito à conversa privada dela com o assistente — não atua em grupos, seja qual for o aplicativo de mensagem.
+
+**(d)** O assistente pode interpretar incorretamente uma mensagem, foto ou áudio. A exigência de confirmação antes de qualquer gravação é o mecanismo de proteção contra esse erro; a V3RTECH não se responsabiliza por lançamento confirmado que não correspondia ao que a pessoa pretendia.
+
+**(e)** O tratamento de dados pessoais envolvido neste recurso — inclusive de terceiro eventualmente citado na mensagem —, os provedores utilizados e as salvaguardas adotadas estão descritos na Política de Privacidade. Ao habilitar o recurso, quem o habilita declara ciência desse processamento e confirma estar autorizado a inserir, na mensagem, o dado de terceiro necessário à finalidade condominial que está executando.
+
 ---
 
 ## 6. Dos Acordos de Inadimplência
@@ -192,6 +204,8 @@ Para dúvidas, solicitações ou notificações relacionadas a estes Termos:
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)
 
 ---
+
+*Versão 1.6 — [DATA DE VIGÊNCIA]. Adicionada a subseção 5.7 (Do assistente por mensagem), cobrindo consultas e lançamentos propostos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico: como o recurso funciona, a exigência de confirmação antes de qualquer gravação, o alcance das permissões do assistente e a responsabilidade em caso de interpretação incorreta.*
 
 *Versão 1.5 — Atualizado em agosto de 2026. Desmembramento: as cláusulas que regem a relação com o condomínio contratante — objeto, planos e preços, cancelamento e reembolso, condições completas da prestação de serviços financeiros, proteção de dados e suspensão — passaram para o [Contrato de Prestação de Serviços](https://docs.v3rcondo.com.br/legal/contrato) 1.0, aceito pelo síndico em nome do condomínio. Estes Termos passam a tratar exclusivamente do uso da plataforma por cada pessoa. A redação das cláusulas mantidas foi preservada; mudaram a numeração e as remissões.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços.*
