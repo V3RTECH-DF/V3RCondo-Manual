@@ -128,4 +128,4 @@ Lista os documentos mais recentemente disponibilizados no condomínio, com nome 
 | Tarefas urgentes | ✅ Vê tarefas pendentes | ❌ Não aparece |
 | Avisos recentes | ✅ | ✅ |
 | Últimos documentos | ✅ | ✅ |
-| Menu lateral | Todos os módulos | Sem Tarefas e Configurações |
+| Menu lateral | Todos os módulos | Sem Tarefas |
