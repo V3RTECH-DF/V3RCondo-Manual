@@ -6,8 +6,8 @@ nav_order: 1.5
 
 # Instalar o V3RCondo como aplicativo
 
-O V3RCondo é um **aplicativo web instalável**: dá para colocar um ícone dele na
-tela do seu celular ou computador, como se fosse baixado de uma loja de
+O V3RCondo é um **aplicativo web instalável**: dá para instalá-lo no seu
+celular ou computador e abri-lo por um ícone, como se fosse baixado de uma loja de
 aplicativos — sem ocupar o espaço de um app nativo e sem passar por loja
 nenhuma.
 
@@ -46,8 +46,9 @@ para ativar as notificações depois de instalar.
 
    ![Painel de instalação do Chrome no Android, com o ícone e o nome do V3RCondo e o botão Instalar](/assets/screenshots/instalar-android-confirmar-01.jpg){: width="320" }
 
-4. Em alguns segundos o celular avisa que o app foi instalado, e o ícone do
-   V3RCondo aparece na tela inicial
+4. Em alguns segundos o celular avisa que o app foi instalado. Na maioria dos
+   aparelhos, o V3RCondo aparece **na gaveta de aplicativos**, junto com os
+   outros apps instalados — não necessariamente na tela inicial
 
    ![Notificação do Android avisando "V3RCondo — App instalado"](/assets/screenshots/instalar-android-instalado-01.jpg){: width="360" }
 
@@ -101,8 +102,16 @@ operacional.
 
 ## Depois de instalar
 
-- O ícone do V3RCondo fica na tela inicial (celular) ou na área de
-  trabalho/menu de aplicativos (computador)
+- **No Android**, o V3RCondo fica junto dos outros aplicativos, como um app
+  instalado pela Play Store. Onde o ícone aparece depende do aparelho: na
+  maioria, só na **gaveta de aplicativos**; alguns também colocam o ícone na
+  tela inicial; em outros, que não têm gaveta, ele vai direto para a tela
+  inicial. Para ter o atalho na tela inicial, abra a gaveta, toque e segure o
+  ícone do V3RCondo e escolha **Adicionar à tela inicial** (ou arraste-o para
+  a tela)
+- **No iPhone e no iPad**, o ícone fica na tela de início
+- **No computador**, fica na área de trabalho ou no menu de aplicativos,
+  conforme o sistema
 - Abre em **tela cheia**, sem a barra do navegador
 
 ![O V3RCondo aberto pelo ícone no Android, em tela cheia, sem a barra de endereço do navegador](/assets/screenshots/instalar-android-app-aberto-01.jpg){: width="320" }
