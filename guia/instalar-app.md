@@ -58,12 +58,12 @@ dispensa pelo **X** — veja a dica logo abaixo se isso acontecer com você.
 **Se a faixa não aparecer** (ou você já a dispensou), instale pelo menu:
 
 1. Toque no menu **⋮** (três pontinhos), no canto superior direito do Chrome
-2. Toque em **Instalar app** (ou **Adicionar à tela inicial**, dependendo da
-   versão)
+2. Toque em **Instalar app** — dependendo da versão, a opção pode se chamar
+   **Adicionar à tela inicial** ou **Instalar e criar atalho**
 3. Confirme
 
 Em outros navegadores do Android, o caminho é parecido: procure a mesma
-opção — **Instalar app** ou **Adicionar à tela inicial** — no menu do
+opção — **Instalar app**, **Adicionar à tela inicial** ou **Instalar e criar atalho** — no menu do
 navegador.
 
 ## iPhone e iPad
