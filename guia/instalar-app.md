@@ -39,11 +39,17 @@ para ativar as notificações depois de instalar.
 2. Se aparecer a faixa **Instalar V3RCondo — Acesso rápido e notificações no
    seu celular**, na parte de baixo da tela, toque em **Instalar**
 
-<!-- captura pendente: faixa "Instalar V3RCondo" no rodapé da tela, Android/Chrome -->
+   ![Tela de entrada do V3RCondo no Chrome do Android, com a faixa "Instalar V3RCondo" e o botão Instalar na parte de baixo](/assets/screenshots/instalar-android-faixa-01.jpg){: width="320" }
 
-3. Confirme no diálogo do sistema que aparece em seguida
+3. Confirme tocando em **Instalar** no painel que o Chrome abre em seguida,
+   com o nome, o ícone e uma prévia do V3RCondo
 
-<!-- captura pendente: diálogo de instalação do Android/Chrome -->
+   ![Painel de instalação do Chrome no Android, com o ícone e o nome do V3RCondo e o botão Instalar](/assets/screenshots/instalar-android-confirmar-01.jpg){: width="320" }
+
+4. Em alguns segundos o celular avisa que o app foi instalado, e o ícone do
+   V3RCondo aparece na tela inicial
+
+   ![Notificação do Android avisando "V3RCondo — App instalado"](/assets/screenshots/instalar-android-instalado-01.jpg){: width="360" }
 
 A faixa só aparece em telas de celular, e **não volta** depois que você a
 dispensa pelo **X** — veja a dica logo abaixo se isso acontecer com você.
@@ -69,16 +75,10 @@ Início", mas o caminho abaixo é o do Safari.
 1. Abra [app.v3rcondo.com.br](https://app.v3rcondo.com.br) no **Safari**
 2. Toque no ícone de **Compartilhar** (o quadrado com a seta para cima), na
    barra inferior (iPhone) ou superior (iPad)
-
-<!-- captura pendente: menu Compartilhar do Safari no iPhone -->
-
 3. Role a lista de opções e toque em **Adicionar à Tela de Início**
-
-<!-- captura pendente: opção "Adicionar à Tela de Início" no menu Compartilhar -->
-
 4. Confirme o nome e toque em **Adicionar**, no canto superior direito
 
-<!-- captura pendente: ícone do V3RCondo na tela de início do iPhone -->
+<!-- capturas pendentes (iPhone): menu Compartilhar do Safari; opção "Adicionar à Tela de Início"; ícone do V3RCondo na tela de início -->
 
 Depois de instalado, **sempre abra o V3RCondo pelo ícone** que apareceu na
 tela de início — não pelo Safari. É essa diferença que liga as notificações
@@ -104,6 +104,8 @@ operacional.
 - O ícone do V3RCondo fica na tela inicial (celular) ou na área de
   trabalho/menu de aplicativos (computador)
 - Abre em **tela cheia**, sem a barra do navegador
+
+![O V3RCondo aberto pelo ícone no Android, em tela cheia, sem a barra de endereço do navegador](/assets/screenshots/instalar-android-app-aberto-01.jpg){: width="320" }
 - **Atualiza sozinho**: você não precisa reinstalar quando lançamos uma
   versão nova
 
