@@ -113,9 +113,11 @@ Se você instalou o V3RCondo antes de agosto de 2026, o atalho antigo pode
 abrir o **site institucional** em vez do aplicativo — mudamos o endereço do
 app naquele mês. Para corrigir:
 
-1. Apague o atalho antigo (no celular, toque e segure o ícone até aparecer a
-   opção de remover; no computador, desinstale pelas configurações do
-   navegador ou do sistema)
+1. **Desinstale** o app antigo — não basta tirar o ícone da tela: no
+   Android, toque e segure o ícone e escolha **Desinstalar** (ou vá em
+   Configurações → Apps → V3RCondo → Desinstalar); no iPhone, toque e segure
+   o ícone e escolha **Remover App → Apagar da Tela de Início**; no
+   computador, desinstale pelo menu do navegador ou do sistema
 2. Acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br) diretamente e
    instale de novo, seguindo os passos acima
 
