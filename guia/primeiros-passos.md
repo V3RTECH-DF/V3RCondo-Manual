@@ -20,6 +20,12 @@ No celular, a mesma tela empilha em vez de dividir em colunas — o formulário 
 
 ![A mesma tela de entrada no celular, com o formulário de entrar empilhado acima das duas portas](/assets/screenshots/01-login-mobile.png)
 
+{: .tip }
+> **Prefere entrar direto pelo ícone, sem abrir o navegador?**
+>
+> Dá para instalar o V3RCondo como aplicativo no celular ou no computador —
+> veja [Instalar como Aplicativo](/guia/instalar-app/).
+
 ## Fazer login
 
 Se você já tem conta, use o cartão **Entrar**:
