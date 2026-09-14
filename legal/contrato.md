@@ -8,7 +8,7 @@ nav_order: 1
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.3 — [DATA DE VIGÊNCIA]
+Versão 1.3 — 14 de setembro de 2026
 
 ---
 
@@ -210,7 +210,9 @@ O suporte da V3RTECH permanece disponível para questões relativas ao **uso da 
 
 ## 8. Das Alterações neste Contrato
 
-**8.1.** A V3RTECH pode atualizar este Contrato a qualquer momento. Alterações relevantes serão comunicadas por e-mail com antecedência mínima de 15 dias.
+**8.1.** Este Contrato pode ser atualizado pela V3RTECH a qualquer momento. A nova versão entra em vigor na data indicada no próprio documento, e as alterações relevantes são comunicadas por e-mail ou no aplicativo até essa data.
+
+**8.1-A.** Quando a alteração reduzir direitos ou ampliar obrigações de quem usa a plataforma, ela só entra em vigor **15 dias** depois da comunicação — exceto se decorrer de exigência legal ou regulatória, de ordem de autoridade competente, ou for necessária para corrigir falha de segurança ou proteger dados pessoais, casos em que vale a partir da publicação.
 
 **8.2.** O uso continuado da plataforma após a entrada em vigor das alterações implica aceitação da nova versão.
 
@@ -233,7 +235,7 @@ Para dúvidas, solicitações ou notificações relacionadas a este Contrato:
 
 ---
 
-*Versão 1.3 — [DATA DE VIGÊNCIA]. Adicionado o assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico): novo item na lista de recursos oferecidos (seção 2), franquia mensal de mensagens (novo item 3.7), acréscimo ao item 6.1 sobre o conteúdo das mensagens como dado pessoal tratado na plataforma, e nova subseção 6.4.1 sobre o processamento desse conteúdo por subprocessador de inteligência artificial.*
+*Versão 1.3 — 14 de setembro de 2026. Adicionado o assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico): novo item na lista de recursos oferecidos (seção 2), franquia mensal de mensagens (novo item 3.7), acréscimo ao item 6.1 sobre o conteúdo das mensagens como dado pessoal tratado na plataforma, e nova subseção 6.4.1 sobre o processamento desse conteúdo por subprocessador de inteligência artificial. Revista também a regra de alterações (item 8.1): a nova versão vale na data indicada no documento, e o prazo de 15 dias passa a valer só para alteração que reduza direitos ou amplie obrigações, salvo exigência legal, ordem de autoridade ou segurança.*
 
 *Versão 1.2 — Agosto de 2026. Revisão da 1.1, em dois pontos, sem mudança de efeito. (a) A cláusula sobre a remuneração da V3RTECH (item 5.8) foi reescrita para deixar claro, de saída, que o valor é exibido na tela antes da adesão e que existe um valor padrão válido para a generalidade dos condomínios — condições distintas são excepcionais e negociadas. (b) A cláusula sobre as tarifas do serviço financeiro (item 5.9) passou a explicitar que o dever de informá-las é da instituição de pagamento, que o aplicativo apenas reproduz por conveniência o que ela divulga, e que qualquer divergência se resolve pelo valor dela.*
 
