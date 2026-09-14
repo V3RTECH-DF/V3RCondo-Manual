@@ -78,7 +78,7 @@ Os documentos ficam sempre disponíveis, para consulta a qualquer momento, em [C
 
 ## Selecionar o condomínio
 
-Se você pertence a mais de um condomínio, após o login o sistema exibe uma tela de seleção. Clique no condomínio que deseja acessar. Você pode trocar de condomínio a qualquer momento clicando em **Trocar** no cabeçalho do aplicativo.
+Se você pertence a mais de um condomínio, após o login o sistema exibe uma tela de seleção. Clique no condomínio que deseja acessar. Você pode trocar de condomínio a qualquer momento clicando na logo (ou no nome, se não houver logo) no cabeçalho do aplicativo — é o seletor de condomínio, com uma seta ao lado.
 
 ![Tela de seleção de condomínio exibida após o login para usuários com mais de um vínculo](/assets/screenshots/90-login-selecione-condominio.png)
 

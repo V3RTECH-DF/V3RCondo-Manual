@@ -19,10 +19,12 @@ para definir sua senha.
 <details markdown="1">
 <summary>Como faço para trocar de condomínio?</summary>
 
-Clique no nome do condomínio no topo da sidebar e em seguida em **Trocar**.
-Se você for membro de mais de um condomínio, a tela de seleção será exibida.
-Você também pode criar um novo condomínio clicando no botão **+** ao lado
-do nome do condomínio atual.
+Clique na logo do condomínio (ou no nome completo, quando não há logo
+cadastrada) no cabeçalho do aplicativo — é um seletor, com uma seta ao
+lado. Se você for membro de mais de um condomínio, a lista aparece ali,
+com o condomínio ativo marcado. É também onde ficam **Informações do
+condomínio** e **Criar novo condomínio**. O seletor funciona assim mesmo
+para quem participa de um único condomínio.
 </details>
 
 <details markdown="1">
@@ -90,8 +92,8 @@ pré-preenchidos automaticamente na lista de presença. O preenchimento
 <summary>Posso ser membro de mais de um condomínio com o mesmo e-mail?</summary>
 
 Sim. O mesmo e-mail pode ser síndico em um condomínio e condômino em outro,
-ou ter qualquer combinação de papéis. Use o seletor de condomínio na sidebar
-para alternar entre eles.
+ou ter qualquer combinação de papéis. Use o seletor de condomínio no
+cabeçalho para alternar entre eles.
 </details>
 
 <details markdown="1">
@@ -120,10 +122,12 @@ nossa equipe.
 <details markdown="1">
 <summary>Por que alguns módulos não aparecem no meu menu?</summary>
 
-O menu exibido depende do seu perfil e plano. Condôminos não têm acesso
-ao módulo de Tarefas nem a Configurações. Módulos Pro (Tarefas, Nosso
-Condomínio, Assembleias e outros) aparecem com cadeado no plano Básico —
-assine o plano Pro para desbloqueá-los.
+O menu lateral exibido depende do seu perfil e plano. Condôminos não têm
+acesso ao módulo de Tarefas. Configurações não fica mais no menu lateral —
+é o ícone de engrenagem no cabeçalho (ou no menu da foto, no celular), e
+só aparece para síndicos. Módulos Pro (Tarefas, Nosso Condomínio,
+Assembleias e outros) aparecem com cadeado no plano Básico — assine o
+plano Pro para desbloqueá-los.
 </details>
 
 <details markdown="1">
@@ -181,11 +185,13 @@ e ainda pendentes. É visível apenas para síndicos com plano Pro.
 </details>
 
 <details markdown="1">
-<summary>O que é o link 'Manual do Usuário' na sidebar?</summary>
+<summary>Onde fica o Manual do Usuário?</summary>
 
 É um atalho direto para esta documentação em
-[docs.v3rcondo.com.br](https://docs.v3rcondo.com.br). Disponível para
-todos os perfis.
+[docs.v3rcondo.com.br](https://docs.v3rcondo.com.br). No computador, é o
+ícone de livro no cabeçalho, antes dos ícones de Feedback e Configurações;
+no celular, fica dentro do menu que abre ao tocar na sua foto. Disponível
+para todos os perfis.
 </details>
 
 <details markdown="1">

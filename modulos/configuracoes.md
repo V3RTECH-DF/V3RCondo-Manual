@@ -36,9 +36,11 @@ Exibe e permite editar os dados cadastrais:
 - **Cidade e Estado**
 - **CNPJ** — cadastro nacional do condomínio
 - **Quantidade de unidades** — exibido em **modo leitura**: reflete a contagem de unidades cadastradas na aba **Unidades** e é o que define o preço do plano Pro. Use o atalho **Gerenciar unidades** para ajustar
-- **Logo do Condomínio** — PNG ou JPG até 2 MB. A logo aparece na sidebar
-  ao lado do nome e também no cabeçalho da ata gerada pelo sistema. Sem logo
-  cadastrada, a ata sai com a marca do V3RCondo
+- **Logo do Condomínio** — PNG ou JPG até 2 MB. Cadastrada, a logo passa a
+  aparecer inteira no seletor de condomínio, no cabeçalho do aplicativo —
+  sem logo, o seletor mostra o nome completo. A logo também aparece no
+  cabeçalho da ata gerada pelo sistema. Sem logo cadastrada, a ata sai com
+  a marca do V3RCondo
 
 - **Fuso horário** — selecione o fuso horário do condomínio entre os 14 fusos brasileiros disponíveis (padrão: Brasília, UTC−3). A configuração afeta como datas e horários são exibidos em todo o aplicativo — Dashboard, Financeiro, Tarefas, Assembleias, Compras e Fale com o Síndico — e também nos **documentos gerados** (edital de convocação, ata), nos **e-mails** e nas **notificações**. O horário impresso em um documento é o mesmo que aparece na tela
 

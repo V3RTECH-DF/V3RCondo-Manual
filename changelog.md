@@ -9,6 +9,17 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.165 — Setembro 2026
+
+### Melhorado
+
+- **O cabeçalho ficou mais limpo e a logo do condomínio passou a aparecer inteira, sem cortar.** Antes a logo vinha espremida num círculo pequeno, quase ilegível; agora ela aparece na mesma altura da logo do V3RCondo, sem recorte — e, quando o condomínio ainda não tem logo cadastrada, aparece o nome completo. A logo (ou o nome) e a seta ao lado formam um único botão: um clique abre a lista de condomínios (para quem administra mais de um), as informações do condomínio atual e a opção de criar um novo — mesmo para quem administra só um condomínio. O antigo botão "Trocar" e o "+" separado saíram de cena.
+- **Manual do Usuário e Configurações saíram do menu lateral e viraram ícones no topo da tela**, ao lado do avatar (no computador) ou dentro do menu do avatar (no celular). Configurações continua visível só para quem é síndico. O Manual do Usuário, que só existia no computador, passou a estar disponível também no celular.
+
+### Corrigido
+
+- Em telas de tablet, a logo do condomínio no cabeçalho podia ultrapassar o botão e sobrepor outros elementos. Corrigido.
+
 ## v7.164 — Setembro 2026
 
 ### Novidade
