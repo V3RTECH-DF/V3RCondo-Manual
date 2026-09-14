@@ -209,19 +209,16 @@ chega diretamente à equipe do V3RCondo. Passo a passo em
 <details markdown="1">
 <summary>Posso instalar o V3RCondo como aplicativo no celular ou computador?</summary>
 
-Sim. O V3RCondo é um **aplicativo web instalável (PWA)**. No celular, abra
-[app.v3rcondo.com.br](https://app.v3rcondo.com.br) no navegador e use **Adicionar à
-tela inicial**; no computador (Chrome/Edge), clique no ícone de instalar na
-barra de endereço. O app abre em tela cheia, como um aplicativo nativo, e se
-atualiza automaticamente.
+Sim. No Android, no iPhone e no computador — passo a passo de cada um em
+[Instalar como Aplicativo](/guia/instalar-app/).
 </details>
 
 <details markdown="1">
 <summary>Como recebo notificações push no celular?</summary>
 
-Com o V3RCondo instalado como app (PWA), você pode **ativar as notificações
-push** quando o navegador pedir a permissão. Assim, avisos do condomínio
-chegam direto no dispositivo, somando-se ao e-mail e ao Telegram.
+Ative em **Meu Perfil → Push neste aparelho**. No iPhone e no iPad, só
+funciona com o V3RCondo instalado e aberto pelo ícone — veja
+[Instalar como Aplicativo](/guia/instalar-app/).
 </details>
 
 ---

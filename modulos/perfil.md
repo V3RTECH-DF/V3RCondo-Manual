@@ -82,6 +82,13 @@ autorize em cada um.
 O botão **Enviar notificação de teste** dispara um aviso na hora, para você
 conferir que está funcionando.
 
+{: .note }
+> **No iPhone e no iPad, o push só funciona com o app instalado**
+>
+> O Safari sozinho não entrega notificações. É preciso instalar o V3RCondo na
+> tela de início e abri-lo pelo ícone — veja
+> [Instalar como Aplicativo](/guia/instalar-app/).
+
 ### Assuntos
 
 - **Cobranças** — aviso de cobrança emitida, com valor, vencimento e um link para o aplicativo (nunca um código de pagamento pronto).
