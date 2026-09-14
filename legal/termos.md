@@ -8,7 +8,7 @@ nav_order: 2
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.6 — [DATA DE VIGÊNCIA]
+Versão 1.6 — 14 de setembro de 2026
 
 ---
 
@@ -182,7 +182,9 @@ O suporte da V3RTECH permanece disponível para questões relativas ao **uso da 
 
 ## 10. Das Alterações nos Termos
 
-**10.1.** A V3RTECH pode atualizar estes Termos a qualquer momento. Alterações relevantes serão comunicadas por e-mail com antecedência mínima de 15 dias.
+**10.1.** Estes Termos podem ser atualizados pela V3RTECH a qualquer momento. A nova versão entra em vigor na data indicada no próprio documento, e as alterações relevantes são comunicadas por e-mail ou no aplicativo até essa data.
+
+**10.1-A.** Quando a alteração reduzir direitos ou ampliar obrigações de quem usa a plataforma, ela só entra em vigor **15 dias** depois da comunicação — exceto se decorrer de exigência legal ou regulatória, de ordem de autoridade competente, ou for necessária para corrigir falha de segurança ou proteger dados pessoais, casos em que vale a partir da publicação.
 
 **10.2.** O uso continuado da plataforma após a entrada em vigor das alterações implica aceitação dos novos Termos.
 
@@ -205,7 +207,7 @@ Para dúvidas, solicitações ou notificações relacionadas a estes Termos:
 
 ---
 
-*Versão 1.6 — [DATA DE VIGÊNCIA]. Adicionada a subseção 5.7 (Do assistente por mensagem), cobrindo consultas e lançamentos propostos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico: como o recurso funciona, a exigência de confirmação antes de qualquer gravação, o alcance das permissões do assistente e a responsabilidade em caso de interpretação incorreta.*
+*Versão 1.6 — 14 de setembro de 2026. Adicionada a subseção 5.7 (Do assistente por mensagem), cobrindo consultas e lançamentos propostos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico: como o recurso funciona, a exigência de confirmação antes de qualquer gravação, o alcance das permissões do assistente e a responsabilidade em caso de interpretação incorreta. Revista também a regra de alterações (item 10.1): a nova versão vale na data indicada no documento, e o prazo de 15 dias passa a valer só para alteração que reduza direitos ou amplie obrigações, salvo exigência legal, ordem de autoridade ou segurança.*
 
 *Versão 1.5 — Atualizado em agosto de 2026. Desmembramento: as cláusulas que regem a relação com o condomínio contratante — objeto, planos e preços, cancelamento e reembolso, condições completas da prestação de serviços financeiros, proteção de dados e suspensão — passaram para o [Contrato de Prestação de Serviços](https://docs.v3rcondo.com.br/legal/contrato) 1.0, aceito pelo síndico em nome do condomínio. Estes Termos passam a tratar exclusivamente do uso da plataforma por cada pessoa. A redação das cláusulas mantidas foi preservada; mudaram a numeração e as remissões.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços.*

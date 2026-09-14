@@ -8,7 +8,7 @@ nav_order: 3
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.4 — [DATA DE VIGÊNCIA]
+Versão 1.4 — 14 de setembro de 2026
 
 ---
 
@@ -268,7 +268,9 @@ O V3RCondo é destinado a usuários maiores de 18 anos. Não coletamos intencion
 
 ## 9. Alterações nesta Política
 
-**9.1.** Esta Política pode ser atualizada periodicamente. Alterações relevantes serão comunicadas por e-mail com antecedência mínima de 15 dias.
+**9.1.** Esta Política pode ser atualizada pela V3RTECH a qualquer momento. A nova versão entra em vigor na data indicada no próprio documento, e as alterações relevantes são comunicadas por e-mail ou no aplicativo até essa data.
+
+**9.1-A.** Quando a alteração reduzir direitos ou ampliar obrigações de quem usa a plataforma, ela só entra em vigor **15 dias** depois da comunicação — exceto se decorrer de exigência legal ou regulatória, de ordem de autoridade competente, ou for necessária para corrigir falha de segurança ou proteger dados pessoais, casos em que vale a partir da publicação.
 
 **9.2.** A versão vigente estará sempre disponível em [docs.v3rcondo.com.br/legal/privacidade](https://docs.v3rcondo.com.br/legal/privacidade).
 
@@ -289,5 +291,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 ---
 
 *Versão 1.3 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais), em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5) e, ainda em agosto de 2026, com a definição dos papéis de tratamento: o condomínio passa a constar expressamente como controlador e a V3RTECH como operadora, com a V3RTECH atuando como controladora apenas para prevenção à fraude, verificação de identidade e obrigações legais e regulatórias — seção 1 reescrita. Revisado em setembro de 2026 para descrever com precisão dois prazos da seção 4.2: o registro de auditoria, que não tinha linha própria e vinha sendo lido sob a linha dos logs de acesso, e a suspensão por inadimplência, que passa a constar como o que de fato é — bloqueio de acesso com preservação dos dados, e não exclusão em 30 dias.*
-*Versão 1.4 — [DATA DE VIGÊNCIA]. Adicionado o tratamento de dados pessoais pelo assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio — inicialmente síndico e subsíndico do plano Pro — que habilitarem o recurso): nova finalidade e base legal na seção 2.1, atualização da tabela de suboperadores e do aviso de transferência internacional na seção 3, novos prazos de retenção na seção 4.2, e nota sobre como desligar a autorização na seção 6.*
+*Versão 1.4 — 14 de setembro de 2026. Adicionado o tratamento de dados pessoais pelo assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio — inicialmente síndico e subsíndico do plano Pro — que habilitarem o recurso): nova finalidade e base legal na seção 2.1, atualização da tabela de suboperadores e do aviso de transferência internacional na seção 3, novos prazos de retenção na seção 4.2, e nota sobre como desligar a autorização na seção 6. Revista também a regra de alterações (item 9.1): a nova versão vale na data indicada no documento, e o prazo de 15 dias passa a valer só para alteração que reduza direitos ou amplie obrigações, salvo exigência legal, ordem de autoridade ou segurança.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*
