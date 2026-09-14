@@ -60,6 +60,8 @@ Eventos que geram notificação no Telegram (quando conectado):
 
 As notificações chegam em paralelo ao e-mail — quem não tiver o Telegram conectado não é afetado.
 
+Além de receber avisos, quem administra o condomínio pode ligar **Permitir ações por mensagem** e usar o mesmo Telegram para consultar e lançar informações direto pela conversa com o bot — veja [Assistente por Mensagem (Telegram)](/modulos/assistente-telegram/) *(plano Pro)*.
+
 ## O que cada pessoa escolhe receber
 
 As preferências ficam em [Meu Perfil](/modulos/perfil/), no cartão **Como sou

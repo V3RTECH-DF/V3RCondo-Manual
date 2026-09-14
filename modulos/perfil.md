@@ -119,6 +119,14 @@ Telegram.
   não interrompe o Telegram. Para parar de receber por lá, clique em
   **Desconectar**.
 
+    {: .note }
+    > **Além de avisar, o Telegram pode agir por você** *(plano Pro)*
+    >
+    > Conectado, aparece logo abaixo, no mesmo cartão, o interruptor
+    > **Permitir ações por mensagem** — ligue-o para consultar e lançar
+    > direto pela conversa com o bot. Veja como em [Assistente por Mensagem
+    > (Telegram)](/modulos/assistente-telegram/).
+
 ### Resumo por e-mail
 
 Um panorama periódico das atividades do condomínio, com a frequência que você
