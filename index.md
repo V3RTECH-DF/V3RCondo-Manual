@@ -57,6 +57,7 @@ Acompanhe e gerencie a sua vida no condomínio com autonomia:
 - [**Mural de Avisos**](/modulos/mural/) — Comunicados, informativos e avisos para todos os moradores, com notificação automática por e-mail e Telegram.
 - [**Fale com o Síndico**](/modulos/fale-com-o-sindico/) — Canal direto entre condôminos e síndico, com histórico de solicitações e anexos.
 - [**Notificações**](/modulos/notificacoes/) — Envio de alertas e comunicados por e-mail e Telegram, com histórico e configurações por usuário.
+- [**Assistente por Mensagem (Telegram)**](/modulos/assistente-telegram/) — Consulte saldos, inadimplência e agenda, ou lance despesas e dê baixas conversando com o bot no Telegram. *(plano Pro)*
 - [**Configurações**](/modulos/configuracoes/) — Dados do condomínio, unidades, taxas, categorias financeiras, contas bancárias e cobranças automáticas.
 
 ---

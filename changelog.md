@@ -9,6 +9,17 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.164 — Setembro 2026
+
+### Novidade
+
+- **Assistente por mensagem no Telegram, para quem administra o condomínio (plano Pro).** Depois de ligar "Permitir ações por mensagem" em Meu Perfil, o síndico e o subsíndico passam a conseguir perguntar pelo Telegram — por texto, foto, PDF ou áudio — coisas como quanto tem em caixa, o que vence essa semana, quem está devendo, se uma unidade já pagou, e a situação de solicitações, reservas e tarefas. Também dá para lançar uma despesa ou receita e dar baixa em um pagamento direto pela mensagem, inclusive anexando a foto ou o PDF do comprovante — o assistente lê o documento e preenche o lançamento sozinho. Nada é gravado sem confirmação: o assistente sempre mostra o que entendeu e espera o "Confirmar". Cada condomínio tem direito a 50 mensagens por mês nesse recurso; passando de 80% do limite, um aviso é enviado.
+
+### Corrigido
+
+- Pequenos ajustes na fase de testes do assistente por mensagem: respostas de saldo, "o que vence" e localização de lançamentos passaram a bater com o que a tela mostra; perguntas do assistente (por exemplo, "qual é a categoria?") passaram a lembrar a conversa em vez de recomeçar do zero; e a leitura de foto e PDF de comprovante deixou de inventar dados que o documento não trazia.
+- **O assistente deixou de escolher sozinho a categoria de um lançamento a partir do que leu numa foto ou PDF.** Agora ele sempre pergunta ao síndico, mostrando a categoria que identificou no documento como sugestão nos botões — não mais como se a pessoa tivesse dito.
+
 ## v7.163 — Setembro 2026
 
 ### Corrigido

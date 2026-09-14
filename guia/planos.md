@@ -13,6 +13,11 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 >
 > A [Cobrança Automática](/modulos/cobranca-automatica/) faz parte do Pro e está sendo **liberada aos poucos**, condomínio a condomínio. Além do plano, ela exige que o condomínio tenha a conta de cobrança aberta e aprovada.
 
+{: .note }
+> **Assistente por Mensagem (Telegram)**
+>
+> Também é recurso do Pro, com uma franquia de **50 mensagens por mês** por condomínio. Veja como funciona em [Assistente por Mensagem (Telegram)](/modulos/assistente-telegram/).
+
 ## Comparativo
 
 | Funcionalidade | Básico | Pro |
@@ -45,6 +50,7 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 | **Exportação PDF/XLSX** | 🔒 Pro | ✅ |
 | **Relatório de Gestão com análise por IA** | ✅ | ✅ |
 | **Anexos em orçamentos** | 🔒 Pro | ✅ |
+| **Assistente por Mensagem (Telegram)** — consultas e lançamentos por conversa | 🔒 Pro | ✅ (50 mensagens/mês) |
 | **Nosso Condomínio — reservas de áreas comuns** | 🔒 Pro | ✅ |
 | **Assembleias com ata por IA** | 🔒 Pro | ✅ |
 | **Projeção Financeira (Forecast)** | 🔒 Pro | ✅ |

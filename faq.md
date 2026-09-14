@@ -1355,6 +1355,69 @@ de parcelamento criados pelos condôminos.
 
 ---
 
+## Assistente por Mensagem (Telegram) *(síndico — plano Pro)*
+
+<details markdown="1">
+<summary>O bot disse que não entendeu meu pedido. O que fazer?</summary>
+
+Tente reformular numa frase mais direta — "quanto tem em caixa?", "lançar
+despesa de R$ 200, vencimento dia 10" — em vez de uma explicação longa. O
+bot entende as consultas de saldo, inadimplência, contas a vencer, resumo
+do período, situação de unidade, solicitações, reservas, tarefas e
+contatos, além de lançar e dar baixa. Fora dessas ações, ele avisa que não
+entendeu — e isso **conta na franquia**, já que a mensagem foi interpretada.
+</details>
+
+<details markdown="1">
+<summary>A confirmação do meu lançamento expirou. Perdi alguma coisa?</summary>
+
+Não. A confirmação vale **15 minutos**; passado esse prazo, nada é gravado
+e você precisa pedir de novo. O rascunho anterior é apagado de verdade, sem
+deixar marca. Consulte [Assistente por Mensagem
+(Telegram)](/modulos/assistente-telegram/) para o passo a passo completo.
+</details>
+
+<details markdown="1">
+<summary>Lancei no condomínio errado pelo Telegram. Como corrijo?</summary>
+
+A confirmação sempre mostra o nome do condomínio na primeira linha — é o
+momento de conferir antes de confirmar. Se já confirmou e o lançamento
+ficou no condomínio errado, corrija pelo aplicativo como faria com
+qualquer lançamento. Para evitar repetir o engano, use "trocar de
+condomínio" no Telegram sempre que precisar mudar, ou cite o nome do
+condomínio na própria frase.
+</details>
+
+<details markdown="1">
+<summary>Preciso ativar alguma coisa para usar o assistente do Telegram?</summary>
+
+Sim, duas coisas: conectar o Telegram em **Meu Perfil › Telegram** e ligar
+o interruptor **Permitir ações por mensagem**, que fica desligado por
+padrão. Sem esse interruptor, o Telegram continua entregando avisos
+normalmente, mas o bot não consulta nem grava nada a seu pedido.
+</details>
+
+<details markdown="1">
+<summary>O que acontece quando a franquia de 50 mensagens acaba?</summary>
+
+O bot avisa que a franquia do mês acabou e informa a data em que ela
+renova (sempre no dia 1º). Até lá, use o aplicativo normalmente — nada
+fica bloqueado por lá. Tocar em botões, responder a perguntas do bot e
+continuar uma consulta anterior não gastam franquia, então o consumo real
+costuma ser menor do que parece à primeira vista.
+</details>
+
+<details markdown="1">
+<summary>O bot pode lançar algo sem eu confirmar?</summary>
+
+Não. Toda gravação — lançamento ou baixa — mostra um resumo completo dos
+campos e só grava depois de você tocar em **Confirmar** (ou responder
+"sim"). Tudo o que o assistente grava aparece na trilha de auditoria do
+condomínio com o seu nome como autor e o canal Telegram identificado.
+</details>
+
+---
+
 ## Planos
 
 <details markdown="1">
