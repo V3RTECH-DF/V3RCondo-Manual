@@ -23,6 +23,9 @@ Registro de versões e novidades do V3RCondo.
 ### Corrigido
 
 - Aba **Condomínio**, em Configurações, reorganizada: os cartões agora têm altura própria em vez de esticar para acompanhar o vizinho, e os documentos do condomínio (Contrato de Prestação de Serviços, Termo de Responsabilidade do Síndico) passaram a ficar juntos num único cartão.
+- Quando o condomínio tem desconto de 100% na mensalidade do Pro, o card "Seu Plano" passou a mostrar **"sem cobrança"** em vez do valor.
+- O botão de visualizar o boleto, no painel "Mensalidades e pagamento", agora abre o PDF do boleto (antes abria outro documento).
+- Na administração, a lista de descontos por condomínio passou a atualizar na hora, sem precisar recarregar a página.
 
 <!-- TODO print: telas do painel "Mensalidades e pagamento" e "Cancelar plano" ainda vão mudar em pequenos ajustes (v7.166.6) — capturar só depois dessa entrega -->
 
