@@ -9,6 +9,34 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.168 — Setembro 2026
+
+### Novidade
+
+- **Pacotes de mensagens do assistente por Telegram.** Precisando de mais que a franquia mensal, o condomínio pode contratar um **pacote mensal** (+50 ou +100 mensagens, somado à mensalidade do Pro) ou comprar uma **recarga avulsa** (50 ou 100 mensagens, por Pix ou boleto, válida por 12 meses). O assistente avisa e oferece a compra assim que a franquia acaba. Um painel novo, **"Mensagens do assistente"**, mostra o consumo na tela do plano.
+- **"Complete seu cadastro" ao entrar pela primeira vez.** Quem ainda não preencheu telefone e CPF/CNPJ vê uma janela pedindo esses dados logo depois de entrar — pode preencher na hora ou fechar e fazer depois. Aparece só no primeiro acesso e, enquanto o cadastro continuar incompleto, no máximo uma vez por semana.
+
+### Corrigido
+
+- Pacote de mensagens cancelado deixa de ser cobrado na mensalidade seguinte, mas continua valendo até o fim do período já pago.
+- A janela "Complete seu cadastro" não reabre mais ao trocar de tela ou de condomínio durante a mesma visita.
+- O botão de cancelar o pacote agora deixa claro o que aconteceu: "Cancelar o pacote" e, depois, "Cancelamento registrado" (com a opção de desfazer).
+
+## v7.167 — Setembro 2026
+
+### Novidade
+
+- Base para os pacotes de mensagens do assistente (ver v7.168, acima).
+
+## v7.166.7 — Setembro 2026
+
+### Corrigido
+
+- No assistente por Telegram, uma resposta de "não entendi" deixou de consumir mensagem da franquia mensal.
+- Dar baixa em um pagamento citando a descrição do lançamento passou a funcionar mesmo com pontuação diferente da que foi gravada.
+- No cabeçalho, em telas de tablet com o menu lateral aberto, o nome ao lado do avatar deixou de disputar espaço com a logo do condomínio.
+- Corrigido o botão "Gerenciar unidades" que transbordava o campo em telas de tablet.
+
 ## v7.166 — Setembro 2026
 
 ### Novidade
