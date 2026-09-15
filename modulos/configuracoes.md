@@ -105,10 +105,55 @@ bloqueada e o botão vira **Cadastrar unidades**. Condomínios com mais de 200
 unidades são atendidos sob consulta (**Fale conosco**).
 
 A mensalidade é paga por **Pix ou boleto**, sem cartão de crédito, e o Pro só
-ativa quando o primeiro pagamento é confirmado. Duas ações no card abrem um
-painel: **Mensalidades e pagamento** (pagador, histórico, trocar entre Pix e
-boleto) e **Cancelar plano** (com confirmação e o que se perde). Veja o passo
-a passo completo em [Planos](/guia/planos/).
+ativa quando o primeiro pagamento é confirmado. Três ações no card abrem um
+painel: **Mensagens do assistente** (franquia, pacotes e recargas do
+Telegram — veja abaixo), **Mensalidades e pagamento** (pagador, histórico,
+trocar entre Pix e boleto) e **Cancelar plano** (com confirmação e o que se
+perde). Veja o passo a passo completo em [Planos](/guia/planos/).
+
+### Mensagens do assistente
+
+O card **Seu Plano** também mostra, numa linha própria, quantas mensagens do
+[Assistente por Mensagem (Telegram)](/modulos/assistente-telegram/) o
+condomínio já usou no mês — por exemplo, *"28 de 100 mensagens neste mês
+(inclui +50 do pacote) · renova em 01/10/2026"*. Clique em **Mensagens do
+assistente** para abrir o painel completo.
+
+![Painel Mensagens do assistente, com o uso do mês, o pacote mensal ativo (com cancelamento registrado) e os pacotes e recargas disponíveis para contratar](/assets/screenshots/config-mensagens-assistente-01.png)
+
+O painel reúne três coisas:
+
+- **Neste mês** — quantas das **50 mensagens da franquia** (renovadas todo dia
+  1º) já foram usadas, e o **saldo de recarga avulsa** disponível. A franquia
+  do mês é sempre gasta primeiro; a recarga só entra depois dela — e, havendo
+  mais de uma recarga paga, a mais antiga é consumida primeiro.
+- **Pacote mensal** — um adicional recorrente à franquia: **+50 mensagens por
+  R$ 29,90/mês** ou **+100 mensagens por R$ 49,90/mês**. O valor entra na sua
+  **próxima mensalidade** do Pro (nunca na já emitida) e **não recebe
+  desconto**, mesmo que o condomínio tenha desconto na mensalidade. Dá para
+  **trocar** de pacote a qualquer momento — o novo valor vale a partir da
+  cobrança seguinte — ou **cancelar**: o pacote continua ativo até o fim do
+  período já contratado (a tela mostra a data exata) e some da mensalidade
+  seguinte; enquanto isso não chega, dá para **desfazer o cancelamento**.
+- **Recarga avulsa** — um pagamento único, sem repetição: **50 mensagens por
+  R$ 35,90** ou **100 mensagens por R$ 71,90**, por Pix (confirmação na hora)
+  ou boleto (até 3 dias úteis). As mensagens entram na conta assim que o
+  pagamento é confirmado e **valem por 12 meses** a partir dessa confirmação.
+  Recarga não paga até o vencimento é cancelada, sem cobrança.
+
+{: .note }
+> **Condomínio com desconto de 100% não compra**
+>
+> Se a mensalidade do condomínio está com desconto integral, o painel avisa
+> e os botões de contratar pacote ou comprar recarga ficam indisponíveis —
+> fale com a V3RTECH para ampliar a franquia nesse caso.
+
+{: .tip }
+> **Acabou a franquia? O assistente avisa direto no Telegram**
+>
+> Quando as mensagens do mês (franquia + pacote + recarga) se esgotam, o bot
+> não fica mudo: ele responde com o link para este painel, para contratar
+> mais sem precisar procurar onde.
 
 ### Parceiros do Condomínio
 

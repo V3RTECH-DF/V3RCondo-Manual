@@ -82,6 +82,34 @@ Os documentos ficam sempre disponíveis, para consulta a qualquer momento, em [C
 >
 > São **dois aceites diferentes**, e vale saber qual é qual. Os **Termos de Uso** e a **Política de Privacidade**, deste passo, são aceitos por **cada pessoa** que usa o aplicativo — síndico, condômino ou porteiro — e é o que acabamos de descrever aqui. Já o **Contrato de Prestação de Serviços** é aceito **uma única vez, só pelo síndico**, em nome do condomínio, em [Configurações → Condomínio](/modulos/configuracoes/). O condômino nunca vê esse segundo aceite nem precisa fazer nada a respeito dele.
 
+## Complete seu cadastro
+
+Pouco depois de entrar, pode aparecer uma janela pedindo seu **telefone** e
+seu **CPF ou CNPJ** — desde que algum dos dois ainda esteja em branco no seu
+[Meu Perfil](/modulos/perfil/). Vale para qualquer papel: síndico, condômino
+ou porteiro.
+
+![Janela Complete seu cadastro, pedindo telefone e CPF ou CNPJ, com os botões Agora não e Salvar](/assets/screenshots/complete-cadastro-01.png)
+
+Esses dois dados são usados para identificar você em documentos gerados pelo
+sistema — acordo de parcelamento, notificação extrajudicial, extrato — e é
+por isso que vale a pena preencher: um cadastro incompleto pode atrasar a
+emissão desses documentos quando chegar a hora.
+
+O que fazer:
+
+1. Informe o **telefone/WhatsApp** e o **CPF ou CNPJ**
+2. Clique em **Salvar** — ou em **Agora não**, se preferir deixar para depois
+
+{: .tip }
+> **Não é obrigatório, e não insiste toda vez**
+>
+> Clicando em **Agora não**, a janela fecha e não volta a aparecer nessa
+> mesma visita, mesmo trocando de tela. Enquanto o cadastro continuar
+> incompleto, ela pode aparecer de novo, mas **no máximo uma vez por
+> semana** — em qualquer aparelho que você use para entrar. Completando o
+> cadastro (aqui ou depois, por Meu Perfil), ela some de vez.
+
 ## Selecionar o condomínio
 
 Se você pertence a mais de um condomínio, após o login o sistema exibe uma tela de seleção. Clique no condomínio que deseja acessar. Você pode trocar de condomínio a qualquer momento clicando na logo (ou no nome, se não houver logo) no cabeçalho do aplicativo — é o seletor de condomínio, com uma seta ao lado.
