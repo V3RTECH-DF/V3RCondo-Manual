@@ -9,6 +9,23 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.166 — Setembro 2026
+
+### Novidade
+
+- **O plano Pro passou a ser cobrado pelo Asaas — Pix e boleto, sem cartão de crédito.** Contratar o Pro agora se faz pela própria tela do plano, em Configurações → Condomínio: o síndico escolhe pagar por Pix (QR Code na hora) ou boleto, e o Pro é ativado assim que o primeiro pagamento é confirmado. A primeira mensalidade vence 3 dias úteis após a contratação; as seguintes, todo mês no mesmo dia. O card "Seu Plano" ficou mais curto, com duas ações — **"Mensalidades e pagamento"** (histórico, pagador, trocar meio de pagamento) e **"Cancelar plano"** — cada uma abrindo um painel próprio, no mesmo padrão do painel de assinatura que já existia.
+- **Avisos da mensalidade do plano, por e-mail e pelos canais que você escolher.** Você é avisado quando a mensalidade é emitida, 3 dias antes do vencimento, no dia do vencimento, em caso de atraso (7, 20 e 27 dias) e quando o pagamento é confirmado. O e-mail sai sempre; Telegram e notificação no navegador seguem a preferência **"Mensalidade do plano"**, em Meu Perfil → Notificações.
+- **30 dias sem pagar a mensalidade do Pro: o condomínio volta ao Básico, sem ser suspenso.** O acesso continua funcionando com os recursos do plano gratuito — o que se perde é o que é exclusivo do Pro (assembleias, cobrança automática de cotas, entre outros). Pagando dentro desses 30 dias, o Pro volta sozinho, sem precisar contratar de novo.
+- **Cancelar o Pro** agora tem confirmação explícita, mostrando o que se perde: o plano continua valendo até o fim do período já pago (sem reembolso), e dá para desfazer o cancelamento a qualquer momento antes disso.
+- **Desconto por condomínio.** A V3RTECH pode registrar uma condição comercial diferente para o seu condomínio (por exemplo, um desconto temporário ou permanente) — quando houver, ele aparece na tela do plano, já refletido no valor da mensalidade.
+- A cobrança automática das cotas dos moradores não muda: continua exclusiva do plano Pro.
+
+### Corrigido
+
+- Aba **Condomínio**, em Configurações, reorganizada: os cartões agora têm altura própria em vez de esticar para acompanhar o vizinho, e os documentos do condomínio (Contrato de Prestação de Serviços, Termo de Responsabilidade do Síndico) passaram a ficar juntos num único cartão.
+
+<!-- TODO print: telas do painel "Mensalidades e pagamento" e "Cancelar plano" ainda vão mudar em pequenos ajustes (v7.166.6) — capturar só depois dessa entrega -->
+
 ## v7.165 — Setembro 2026
 
 ### Melhorado
