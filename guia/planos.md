@@ -70,29 +70,43 @@ O preço **acompanha o tamanho do condomínio**: se você cadastrar mais ou meno
 
 ## Assinar o plano Pro
 
-O preço do Pro é definido automaticamente pela **quantidade de unidades cadastradas** do seu condomínio (aba **Configurações → Unidades**) — por isso, **cadastre as unidades antes de assinar**. Depois, acesse **Configurações → aba Condomínio** e clique em **Assinar Plano Pro**: o sistema já mostra a **faixa e o valor** correspondentes ao seu número de unidades (você não escolhe o tamanho). Conclua o checkout — o pagamento é feito por cartão de crédito. Sem unidades cadastradas, a assinatura fica bloqueada; condomínios com mais de 200 unidades são atendidos sob consulta (**Fale conosco**).
+O preço do Pro é definido automaticamente pela **quantidade de unidades cadastradas** do seu condomínio (aba **Configurações → Unidades**) — por isso, **cadastre as unidades antes de contratar**. Depois, acesse **Configurações → aba Condomínio**, no cartão **Seu Plano**, e clique em **Assinar Plano Pro**: o sistema já mostra a **faixa e o valor** correspondentes ao seu número de unidades (você não escolhe o tamanho), com o desconto vigente para o seu condomínio, se houver.
 
-Confirmado o pagamento, o **plano Pro é ativado automaticamente**, em instantes — você não precisa avisar ninguém nem repetir o processo. O síndico recebe um e-mail de confirmação com a data da próxima cobrança, e os recursos do Pro passam a aparecer liberados no aplicativo.
+{: .note }
+> **Pix ou boleto — sem cartão de crédito**
+>
+> A mensalidade do Pro é paga por **Pix** ou **boleto**, à sua escolha. Não é preciso cartão de crédito. Escolhendo Pix, o QR Code aparece na própria tela e a confirmação é na hora; escolhendo boleto, você é levado à página de pagamento do Asaas (que também mostra a opção de Pix), e a confirmação pode levar até 3 dias úteis.
 
-## Gerenciar assinatura
+Sem unidades cadastradas, a contratação fica bloqueada; condomínios com mais de 200 unidades são atendidos sob consulta (**Fale conosco**).
 
-Clique em **Gerenciar assinatura** na aba Condomínio de Configurações para acessar o portal do cliente, onde você pode atualizar o método de pagamento, ver faturas e cancelar a assinatura.
+**O plano Pro só é ativado quando o pagamento da primeira mensalidade é confirmado** — não basta contratar. Confirmado o pagamento, os recursos do Pro aparecem liberados no aplicativo automaticamente, sem precisar avisar ninguém.
+
+A **primeira mensalidade vence 3 dias úteis** depois da contratação; as seguintes vencem **todo mês, no mesmo dia** desse primeiro vencimento.
+
+<!-- TODO print: telas de contratação (Pix/boleto) e dos painéis "Mensalidades e pagamento"/"Cancelar plano" — aguardar os ajustes do item 258h (v7.166.6) antes de capturar -->
+
+## Acompanhar e gerenciar a mensalidade
+
+No cartão **Seu Plano**, em Configurações → Condomínio, duas ações abrem um painel:
+
+- **Mensalidades e pagamento** — mostra quem é o pagador (o condomínio, pelo CNPJ, ou o síndico, pelo CPF, quando o condomínio não tem CNPJ cadastrado), o histórico de mensalidades com a situação de cada uma, e permite pagar uma mensalidade em aberto ou trocar entre Pix e boleto para as próximas.
+- **Cancelar plano** — lista o que você perde antes de confirmar. **O Pro continua valendo até o fim do período já pago**, sem reembolso proporcional, e o cancelamento pode ser desfeito a qualquer momento antes disso.
+
+{: .note }
+> **Troca de síndico**
+>
+> Se quem contratou o Pro deixa de ser síndico, a cobrança precisa ser assumida por quem entra — pelo CPF da nova pessoa, ou pelo CNPJ do condomínio, se houver. Até alguém assumir, os avisos de mensalidade continuam chegando ao síndico atual do app.
 
 ## Se o pagamento falhar
 
-Quando uma cobrança não é aprovada (cartão vencido, limite insuficiente, cartão cancelado), o síndico recebe um **e-mail avisando da falha**, com o caminho para regularizar: **Configurações → Gerenciar assinatura**, atualizando o cartão no portal do cliente. Se a pendência continuar, o sistema envia mais três lembretes por e-mail, aos **7, aos 20 e aos 27 dias** de atraso — este último já informando a **data exata** em que o acesso passa a somente leitura, caso o pagamento não seja regularizado antes.
+Você é avisado da mensalidade em vários momentos: quando ela é emitida, 3 dias antes do vencimento, no dia do vencimento e, em caso de atraso, aos **7, 20 e 27 dias**. O e-mail sai sempre; Telegram e push seguem a preferência **Mensalidade do plano**, em Meu Perfil → Notificações.
 
 {: .warning }
-> **Aos 30 dias, o acesso passa a somente leitura**
+> **Aos 30 dias sem pagar, o condomínio volta ao Básico**
 >
-> Se a assinatura seguir em falha por **30 dias corridos** a partir da primeira cobrança recusada, o condomínio é suspenso **automaticamente**: ninguém perde dado, mas deixa de ser possível criar ou alterar registros até a assinatura ser regularizada. Regularizado o pagamento, fale com o suporte da V3RTECH para reativar o acesso — a reativação não é automática.
+> O condomínio **não é suspenso** — continua funcionando normalmente, com os recursos do plano Básico. O que se perde é o que é exclusivo do Pro (assembleias, cobrança automática de cotas, entre outros). Pagando a mensalidade pendente dentro desses 30 dias, o Pro **volta sozinho**, sem precisar contratar de novo; passados os 30 dias, a mensalidade pendente é cancelada e, para voltar ao Pro, é preciso contratar novamente.
 
 {: .note }
-> **Regularizar interrompe os avisos**
+> **Cobrança automática das cotas dos moradores**
 >
-> Assim que o pagamento é confirmado, a régua de lembretes é zerada — se uma nova falha acontecer depois, a contagem recomeça do zero.
-
-{: .note }
-> **Cancelamento**
->
-> O cancelamento pode ser feito a qualquer momento, sem multa. Após cancelar, o plano volta automaticamente para o Básico. **Seus dados são preservados** — nada é apagado — e você pode **reativar a assinatura quando quiser**, voltando a **Configurações → aba Condomínio** e assinando o Pro novamente.
+> Continua funcionando enquanto o condomínio está no Pro. Se o condomínio volta ao Básico, as cotas **já emitidas** continuam visíveis e acompanháveis — só deixam de ser geradas cotas novas automaticamente.

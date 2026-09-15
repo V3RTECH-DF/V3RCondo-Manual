@@ -25,9 +25,18 @@ seis abas.
 > [**Meu Perfil**](/modulos/perfil/), no cartão **Como sou avisado** — assim
 > todo usuário, síndico ou condômino, alcança as suas.
 
+<!-- TODO print: 73-config-condominio.png está desatualizado — a aba Condomínio virou duas colunas independentes (Dados + Documentos à esquerda, Seu Plano + Parceiros à direita; um card por vez no celular), v7.166.x. Recapturar depois do 258h -->
 ![Aba Condomínio com dados cadastrais e card do plano atual](/assets/screenshots/73-config-condominio.png)
 
 ## Aba Condomínio
+
+Desde a v7.166.x, a aba tem **duas colunas independentes**, cada card com a
+própria altura (sem mais esticar para acompanhar o vizinho): à esquerda,
+**Dados do Condomínio** e, abaixo, **Documentos** (reunindo o Contrato de
+Prestação de Serviços, o Termo de Responsabilidade do Síndico e os documentos
+do condomínio que existirem); à direita, **Seu Plano** e, abaixo, **Parceiros
+do Condomínio**. No celular, os cards aparecem um de cada vez, nesta ordem:
+Dados → Seu Plano → Parceiros → Documentos.
 
 Exibe e permite editar os dados cadastrais:
 
@@ -81,18 +90,25 @@ Ao confirmar, ficam registrados a **data e a hora**, a **versão do contrato**, 
 
 Enquanto o contrato estiver pendente, o síndico também vê um aviso no topo do [Painel](/modulos/dashboard/), com o atalho **Ocultar por 30 dias** — que apenas adia o lembrete, sem resolver a pendência: ele volta a aparecer depois desse prazo.
 
-### Plano e assinatura
+### Seu Plano
 
 Na coluna direita da aba Condomínio, o card **Seu Plano** exibe o plano atual,
-o status do pagamento e a data da próxima cobrança. A partir daqui você
-pode assinar o plano Pro ou gerenciar a assinatura existente.
+a faixa e o valor (já com desconto, quando houver), a situação da mensalidade
+do mês e a data da próxima cobrança. A partir daqui você pode contratar o
+plano Pro ou gerenciar a mensalidade já contratada.
 
 O preço do Pro é calculado pela **quantidade de unidades cadastradas** (aba
-Unidades): ao assinar, o sistema já mostra a **faixa e o valor** correspondentes
-ao seu condomínio, sem você escolher o tamanho. **Cadastre as unidades antes de
-assinar** — sem unidades cadastradas, a assinatura fica bloqueada e o botão vira
-**Cadastrar unidades**. Condomínios com mais de 200 unidades são atendidos sob
-consulta (**Fale conosco**).
+Unidades): ao contratar, o sistema já mostra a **faixa e o valor**
+correspondentes ao seu condomínio, sem você escolher o tamanho. **Cadastre as
+unidades antes de contratar** — sem unidades cadastradas, a contratação fica
+bloqueada e o botão vira **Cadastrar unidades**. Condomínios com mais de 200
+unidades são atendidos sob consulta (**Fale conosco**).
+
+A mensalidade é paga por **Pix ou boleto**, sem cartão de crédito, e o Pro só
+ativa quando o primeiro pagamento é confirmado. Duas ações no card abrem um
+painel: **Mensalidades e pagamento** (pagador, histórico, trocar entre Pix e
+boleto) e **Cancelar plano** (com confirmação e o que se perde). Veja o passo
+a passo completo em [Planos](/guia/planos/).
 
 ### Parceiros do Condomínio
 
