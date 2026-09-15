@@ -16,7 +16,7 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 {: .note }
 > **Assistente por Mensagem (Telegram)**
 >
-> Também é recurso do Pro, com uma franquia de **50 mensagens por mês** por condomínio. Veja como funciona em [Assistente por Mensagem (Telegram)](/modulos/assistente-telegram/).
+> Também é recurso do Pro, com uma franquia de **50 mensagens por mês** por condomínio — ampliável por pacote mensal ou recarga avulsa em [Configurações → Seu Plano](/modulos/configuracoes/#mensagens-do-assistente). Veja como funciona em [Assistente por Mensagem (Telegram)](/modulos/assistente-telegram/).
 
 ## Comparativo
 
@@ -50,7 +50,7 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 | **Exportação PDF/XLSX** | 🔒 Pro | ✅ |
 | **Relatório de Gestão com análise por IA** | ✅ | ✅ |
 | **Anexos em orçamentos** | 🔒 Pro | ✅ |
-| **Assistente por Mensagem (Telegram)** — consultas e lançamentos por conversa | 🔒 Pro | ✅ (50 mensagens/mês) |
+| **Assistente por Mensagem (Telegram)** — consultas e lançamentos por conversa | 🔒 Pro | ✅ (50 mensagens/mês, ampliável) |
 | **Nosso Condomínio — reservas de áreas comuns** | 🔒 Pro | ✅ |
 | **Assembleias com ata por IA** | 🔒 Pro | ✅ |
 | **Projeção Financeira (Forecast)** | 🔒 Pro | ✅ |

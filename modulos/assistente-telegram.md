@@ -46,6 +46,14 @@ poderia fazer pela tela.
 
    ![Card Seu Plano, em Configurações, com a linha Ações pelo Telegram mostrando quantas mensagens já foram usadas no mês e a data de renovação](/assets/screenshots/config-plano-telegram-01.png)
 
+   {: .tip }
+   > **A franquia acabou? Dá para ampliar**
+   >
+   > Clicando em **Mensagens do assistente**, no mesmo card, você contrata um
+   > pacote mensal (que soma mensagens todo mês) ou compra uma recarga avulsa
+   > (pagamento único, válida por 12 meses). Veja como funciona em
+   > [Mensagens do assistente](/modulos/configuracoes/#mensagens-do-assistente).
+
 {: .note }
 > **Nem toda conversa consome a franquia**
 >
@@ -311,7 +319,7 @@ inteira em volta dele.
 | "Não reconheci esta conversa. Conecte o Telegram no seu perfil…" | Sua conta do Telegram não está vinculada ao seu usuário no V3RCondo | Conecte em **Meu Perfil › Telegram** |
 | "As ações por mensagem estão desligadas…" | O interruptor **Permitir ações por mensagem** está desligado | Ligue em **Meu Perfil › Telegram** — o app pode continuar usado normalmente enquanto isso |
 | "As ações por mensagem fazem parte do plano Pro…" | O condomínio não está no Pro (ou você não tem papel com ações disponíveis) | Assine o Pro em **Configurações → Condomínio**, ou continue usando o aplicativo normalmente |
-| "Vocês já usaram as 50 mensagens do mês…" | A franquia do condomínio acabou | Use o aplicativo até a franquia renovar — a data aparece na própria mensagem |
+| "Vocês já usaram as 50 mensagens do mês…" (com um link) | A franquia (e eventual pacote ou recarga) do condomínio acabou | Toque no link para abrir **Mensagens do assistente** e contratar um pacote ou uma recarga, ou use o aplicativo até a franquia renovar — a data aparece na própria mensagem |
 | "Esse pedido já foi concluído ou expirou." | Você confirmou depois dos 15 minutos, ou tocou de novo num botão já usado | Peça de novo |
 | "Não entendi o pedido…" | O bot não conseguiu associar sua frase a nenhuma das ações que ele faz | Tente reformular, ou veja a lista de exemplos acima |
 | "Não consigo ler esse tipo de arquivo…" | O arquivo enviado não é foto, PDF nem áudio | Mande em um desses formatos, ou escreva os dados em texto |
@@ -321,8 +329,10 @@ inteira em volta dele.
 ## Glossário
 
 **Franquia** — o limite de mensagens interpretadas pelo bot por mês, por
-condomínio. Reinicia automaticamente na data de renovação mostrada em
-**Configurações → Seu Plano**.
+condomínio: **50 mensagens**, incluídas no plano Pro. Reinicia
+automaticamente na data de renovação mostrada em **Configurações → Seu
+Plano**, e pode ser ampliada por pacote mensal ou recarga avulsa — veja
+[Mensagens do assistente](/modulos/configuracoes/#mensagens-do-assistente).
 
 **Pedido pendente** — um lançamento ou baixa que o bot já entendeu e está
 aguardando sua confirmação (ou uma resposta a uma pergunta) antes de

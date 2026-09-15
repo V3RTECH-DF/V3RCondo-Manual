@@ -1403,11 +1403,17 @@ normalmente, mas o bot não consulta nem grava nada a seu pedido.
 <details markdown="1">
 <summary>O que acontece quando a franquia de 50 mensagens acaba?</summary>
 
-O bot avisa que a franquia do mês acabou e informa a data em que ela
-renova (sempre no dia 1º). Até lá, use o aplicativo normalmente — nada
-fica bloqueado por lá. Tocar em botões, responder a perguntas do bot e
-continuar uma consulta anterior não gastam franquia, então o consumo real
-costuma ser menor do que parece à primeira vista.
+O bot avisa que a franquia do mês acabou, com um link para o painel
+**Mensagens do assistente** (em Configurações → Seu Plano), e informa a
+data em que ela renova (sempre no dia 1º). Até lá, use o aplicativo
+normalmente — nada fica bloqueado por lá. Tocar em botões, responder a
+perguntas do bot e continuar uma consulta anterior não gastam franquia,
+então o consumo real costuma ser menor do que parece à primeira vista.
+
+Se preferir não esperar a renovação, dá para contratar um **pacote
+mensal** (soma mensagens todo mês, na mensalidade) ou comprar uma
+**recarga avulsa** (pagamento único, válida por 12 meses) — veja
+[Mensagens do assistente](/modulos/configuracoes/#mensagens-do-assistente).
 </details>
 
 <details markdown="1">
