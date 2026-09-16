@@ -8,7 +8,7 @@ nav_order: 3
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.4 — 14 de setembro de 2026
+Versão 1.5 — 16 de setembro de 2026
 
 ---
 
@@ -93,7 +93,9 @@ O interruptor "permitir ações por mensagem", em Perfil, é único por pessoa e
 
 ### 2.3. Dados de pagamento
 
-Os dados de cartão de crédito **não são armazenados pela V3RTECH**. O processamento é realizado integralmente pelo **Stripe**, que possui certificação PCI-DSS. A V3RTECH recebe apenas confirmações de pagamento e identificadores de assinatura.
+Desde 15 de setembro de 2026, a mensalidade do plano Pro é cobrada pelo **Asaas**, por Pix ou boleto. Para isso, são enviados ao Asaas o nome, o CPF ou CNPJ, o e-mail e o telefone de quem paga a mensalidade, além do valor e do vencimento de cada cobrança. A finalidade é a emissão e a liquidação da mensalidade, e a base legal é a execução de contrato (Art. 7º, V) e, quanto ao CPF ou CNPJ, o cumprimento de obrigação legal e regulatória (Art. 7º, II).
+
+Até essa data, as assinaturas eram pagas por cartão de crédito, com processamento realizado integralmente pelo **Stripe**, que possui certificação PCI-DSS. Os dados de cartão **nunca foram armazenados pela V3RTECH**, que recebia apenas confirmações de pagamento e identificadores de assinatura. O Stripe guarda o histórico dessas assinaturas encerradas.
 
 ### 2.4. Dados de visitantes
 
@@ -157,8 +159,8 @@ Os dados dos usuários podem ser compartilhados com os seguintes terceiros, estr
 | Terceiro | Dados compartilhados | Finalidade |
 |---|---|---|
 | **Supabase** (EUA) | Todos os dados da plataforma | Banco de dados, autenticação e armazenamento de arquivos |
-| **Stripe** (EUA) | E-mail, identificador do condomínio | Processamento de pagamentos e gestão de assinaturas |
-| **Asaas** — ASAAS GESTÃO FINANCEIRA S.A. (Brasil) | Do condômino pagador: nome, CPF ou CNPJ, e-mail, telefone, unidade, valor e vencimento da cobrança. Do titular da conta de cobrança: nome ou razão social, CPF ou CNPJ, e-mail, telefone, data de nascimento, tipo de empresa, endereço e faturamento estimado | Emissão, envio e liquidação das cobranças de cota e demais valores condominiais (boleto, Pix e cartão), e abertura e manutenção da conta de pagamento do condomínio — detalhado na seção 2.5 |
+| **Stripe** (EUA) | E-mail, identificador do condomínio | Processamento das assinaturas pagas por cartão até 15/09/2026; hoje, guarda apenas o histórico dessas assinaturas encerradas |
+| **Asaas** — ASAAS GESTÃO FINANCEIRA S.A. (Brasil) | Do condômino pagador: nome, CPF ou CNPJ, e-mail, telefone, unidade, valor e vencimento da cobrança. Do titular da conta de cobrança: nome ou razão social, CPF ou CNPJ, e-mail, telefone, data de nascimento, tipo de empresa, endereço e faturamento estimado. De quem paga a mensalidade do plano Pro: nome, CPF ou CNPJ, e-mail, telefone, valor e vencimento | Emissão, envio e liquidação das cobranças de cota e demais valores condominiais (boleto, Pix e cartão), e abertura e manutenção da conta de pagamento do condomínio — detalhado na seção 2.5; emissão e liquidação da mensalidade do plano Pro (Pix e boleto) — detalhado na seção 2.3 |
 | **Google** (EUA) | E-mail (apenas para usuários que optarem pelo login com Google) | Autenticação OAuth |
 | **Google — Gemini** (EUA) | (1) Apenas indicadores **agregados** do Relatório de Gestão — sem nomes, sem identificação de unidade e sem dados pessoais. (2) Quando o condomínio habilita o assistente por mensagem: o conteúdo da mensagem, foto ou áudio enviado pelo usuário autorizado, que pode incluir nomes de moradores e fornecedores, CPF/CNPJ visível em foto e a voz da pessoa | (1) Análise por IA no Relatório de Gestão (resumo executivo e comentários), best-effort. (2) Interpretação de comandos e consultas do assistente por mensagem — provedor principal, no plano pago da API —, quando habilitado |
 | **OpenAI** (EUA) | (1) Idem Google, apenas indicadores agregados. (2) Idem Google, como provedor reserva do assistente por mensagem | (1) Análise por IA no Relatório de Gestão (provedor alternativo). (2) Interpretação de comandos e consultas do assistente por mensagem — provedor reserva |
@@ -292,4 +294,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 
 *Versão 1.3 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais), em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5) e, ainda em agosto de 2026, com a definição dos papéis de tratamento: o condomínio passa a constar expressamente como controlador e a V3RTECH como operadora, com a V3RTECH atuando como controladora apenas para prevenção à fraude, verificação de identidade e obrigações legais e regulatórias — seção 1 reescrita. Revisado em setembro de 2026 para descrever com precisão dois prazos da seção 4.2: o registro de auditoria, que não tinha linha própria e vinha sendo lido sob a linha dos logs de acesso, e a suspensão por inadimplência, que passa a constar como o que de fato é — bloqueio de acesso com preservação dos dados, e não exclusão em 30 dias.*
 *Versão 1.4 — 14 de setembro de 2026. Adicionado o tratamento de dados pessoais pelo assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio — inicialmente síndico e subsíndico do plano Pro — que habilitarem o recurso): nova finalidade e base legal na seção 2.1, atualização da tabela de suboperadores e do aviso de transferência internacional na seção 3, novos prazos de retenção na seção 4.2, e nota sobre como desligar a autorização na seção 6. Revista também a regra de alterações (item 9.1): a nova versão vale na data indicada no documento, e o prazo de 15 dias passa a valer só para alteração que reduza direitos ou amplie obrigações, salvo exigência legal, ordem de autoridade ou segurança.*
+*Versão 1.5 — 16 de setembro de 2026. Atualizada a seção 2.3 e a tabela da seção 3: desde 15/09/2026 a mensalidade do plano Pro é cobrada pelo Asaas, por Pix ou boleto, com os dados de quem paga a mensalidade enviados ao Asaas; o Stripe, que processou as assinaturas por cartão até essa data, permanece listado porque guarda o histórico dessas assinaturas encerradas.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*
