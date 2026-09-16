@@ -8,7 +8,7 @@ nav_order: 1
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.3 — 14 de setembro de 2026
+Versão 1.4 — 16 de setembro de 2026
 
 ---
 
@@ -73,7 +73,7 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 
 **3.4.1.** A alteração de preço comunicada na forma acima e não seguida de cancelamento até a data de vigência considera-se aceita para os ciclos seguintes.
 
-**3.5.** O pagamento da assinatura do V3RCondo é processado pelo Stripe, plataforma de pagamentos internacional, e pode ser realizado via cartão de crédito.
+**3.5.** A mensalidade do plano Pro é cobrada pelo ASAAS GESTÃO FINANCEIRA S.A., instituição de pagamento autorizada pelo Banco Central do Brasil, por Pix ou boleto, em nome da V3RTECH.
 
 **3.5.1.** Esta seção trata **exclusivamente da assinatura do V3RCondo** — o valor que o condomínio paga à V3RTECH pelo uso da plataforma. **Não se confunde** com a cobrança da cota condominial dos condôminos, que é serviço financeiro distinto, processado por instituição de pagamento autorizada pelo Banco Central e disciplinado na seção 5 deste Contrato.
 
@@ -121,7 +121,7 @@ Para evitar confusão, este Contrato trata de dois pagamentos de natureza distin
 
 | | Quem paga | Para quem vai | Como é pago | Onde está neste Contrato |
 |---|---|---|---|---|
-| **Assinatura do V3RCondo** | O condomínio | V3RTECH | Cartão de crédito, via Stripe | Seção 3 |
+| **Assinatura do V3RCondo** | O condomínio | V3RTECH | Pix ou boleto, via Asaas | Seção 3 |
 | **Cota e demais valores condominiais** | O condômino | Conta do próprio condomínio | Boleto, Pix ou cartão, via [Asaas](https://www.asaas.com){: target="_blank" rel="noopener"} | Seção 5 |
 
 **5.5. Onde o dinheiro da cota cai.**
@@ -234,6 +234,8 @@ Para dúvidas, solicitações ou notificações relacionadas a este Contrato:
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)
 
 ---
+
+*Versão 1.4 — 16 de setembro de 2026. Corrigido o meio de pagamento da assinatura do V3RCondo (item 3.5 e tabela do item 5.4): desde 15/09/2026 a mensalidade do plano Pro é cobrada pelo Asaas, por Pix ou boleto, e não mais pelo Stripe via cartão de crédito.*
 
 *Versão 1.3 — 14 de setembro de 2026. Adicionado o assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico): novo item na lista de recursos oferecidos (seção 2), franquia mensal de mensagens (novo item 3.7), acréscimo ao item 6.1 sobre o conteúdo das mensagens como dado pessoal tratado na plataforma, e nova subseção 6.4.1 sobre o processamento desse conteúdo por subprocessador de inteligência artificial. Revista também a regra de alterações (item 8.1): a nova versão vale na data indicada no documento, e o prazo de 15 dias passa a valer só para alteração que reduza direitos ou amplie obrigações, salvo exigência legal, ordem de autoridade ou segurança.*
 

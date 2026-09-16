@@ -12,7 +12,7 @@ São **dois instrumentos com públicos diferentes**, e vale saber qual é qual:
 
 | Documento | Quem aceita | Versão | Atualizado em |
 |---|---|---|---|
-| [Contrato de Prestação de Serviços](/legal/contrato/) | O **síndico**, em nome do **condomínio** | v1.0 | Agosto de 2026 |
+| [Contrato de Prestação de Serviços](/legal/contrato/) | O **síndico**, em nome do **condomínio** | v1.4 | 16 de setembro de 2026 |
 | [Termo de Responsabilidade do Síndico](/legal/termo-sindico/) | Quem **cria o condomínio**, na qualidade de síndico | v1.0 | Setembro de 2026 |
 | [Termos de Uso](/legal/termos/) | **Cada pessoa** que usa a plataforma | v1.5 | Agosto de 2026 |
 | [Política de Privacidade](/legal/privacidade/) | — (informativa, vale para todos) | v1.3 | Agosto de 2026 |
