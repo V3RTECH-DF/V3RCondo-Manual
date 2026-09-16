@@ -130,9 +130,18 @@ Telegram.
     > **Além de avisar, o Telegram pode agir por você** *(plano Pro)*
     >
     > Conectado, aparece logo abaixo, no mesmo cartão, o interruptor
-    > **Permitir ações por mensagem** — ligue-o para consultar e lançar
-    > direto pela conversa com o bot. Veja como em [Assistente por Mensagem
-    > (Telegram)](/modulos/assistente-telegram/).
+    > **Permitir ações por mensagem**. Para o síndico, ele libera consultar
+    > e lançar direto pela conversa com o bot — veja [Assistente por
+    > Mensagem (Telegram) — Para o
+    > síndico](/modulos/assistente-telegram/#para-o-síndico). Para o
+    > condômino, libera consultar a própria segunda via, situação de
+    > pagamento, reservas, avisos e solicitações, com franquia própria —
+    > veja [Para o
+    > condômino](/modulos/assistente-telegram/#para-o-condômino). Nos dois
+    > casos, o condômino só vê essa opção disponível depois que o síndico
+    > habilita o assistente para os condôminos em **Configurações → Seu
+    > Plano → Mensagens do assistente**; enquanto isso não acontece, o
+    > interruptor aparece desabilitado, com o aviso do motivo.
 
 ### Resumo por e-mail
 

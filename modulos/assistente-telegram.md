@@ -9,21 +9,30 @@ nav_order: 7.5
 {: .warning }
 > **Plano Pro**
 >
-> Consultar e lançar pelo Telegram é um recurso do **plano Pro**, com uma
-> franquia de **50 mensagens por mês** por condomínio. No plano Básico, o
-> Telegram continua disponível — mas só para **receber avisos** (veja
-> [Notificações](/modulos/notificacoes/)), não para agir por mensagem.
+> Falar com o V3RCondo pelo Telegram é um recurso do **plano Pro** — para o
+> síndico e, quando ele habilitar, para o condômino também. Cada papel tem a
+> sua própria franquia mensal, e elas não se misturam: **50 mensagens por
+> mês, por condomínio**, para o síndico (ampliável por pacote ou recarga); e
+> **20 mensagens por mês, por condômino**, própria e sem compra. No plano
+> Básico, o Telegram continua disponível — mas só para **receber avisos**
+> (veja [Notificações](/modulos/notificacoes/)), não para falar com o bot.
 
 Além de abrir o aplicativo, você pode falar com o V3RCondo pelo **Telegram**:
-perguntar o saldo em caixa, ver quem está devendo, lançar uma despesa a
-partir da foto de um boleto ou dar baixa num pagamento — tudo puxando
-conversa com o bot, do celular, sem precisar abrir o navegador. É útil
-quando você está fora de casa, numa reunião com um fornecedor, ou só quer
-resolver algo rápido sem esperar o aplicativo carregar.
+o síndico pode perguntar o saldo em caixa, lançar uma despesa a partir da
+foto de um boleto ou dar baixa num pagamento; o condômino pode consultar a
+segunda via do próprio boleto, a situação da própria unidade, as próprias
+reservas e solicitações — tudo puxando conversa com o bot, do celular, sem
+precisar abrir o navegador. É útil quando você está fora de casa, numa
+reunião com um fornecedor, ou só quer resolver algo rápido sem esperar o
+aplicativo carregar.
 
 O assistente age **com as mesmas permissões que você já tem** no aplicativo
 — ele não abre uma porta nova, só encurta o caminho para o que você já
-poderia fazer pela tela.
+poderia fazer pela tela. Por isso esta página tem duas trilhas: leia a que
+corresponde ao seu papel — [Para o síndico](#para-o-síndico) ou
+[Para o condômino](#para-o-condômino).
+
+## Para o síndico
 
 ## Antes de começar
 
@@ -326,19 +335,164 @@ inteira em volta dele.
 | "Não consigo processar sua mensagem agora. Tente de novo em instantes." | Falha temporária nossa ao interpretar a mensagem | Tente de novo em alguns instantes — não consumiu sua franquia |
 | "Só atendo em conversa privada. Me chame direto, sem grupo." | Você mandou a mensagem num grupo do Telegram, não na conversa direta com o bot | Fale com o **@V3RCondoBot** diretamente, fora de grupos |
 
+## Para o condômino
+
+Você também pode falar com o V3RCondo pelo Telegram — mas só sobre a **sua
+própria unidade**: sua segunda via, sua situação de pagamento, suas
+reservas, os avisos do mural e suas solicitações. É útil para conferir o
+boleto do mês sem abrir o aplicativo, ou para ver se uma reserva foi
+aprovada enquanto você está na rua.
+
+O condômino **não lança nem dá baixa em nada** pelo Telegram — essas ações
+continuam sendo só do síndico, mesmo que você peça. O bot também não
+consulta dados de outras unidades nem do condomínio como um todo: ele só
+enxerga o que já é seu dentro do aplicativo.
+
+### Antes de começar
+
+1. **O síndico precisa habilitar o recurso primeiro.** Enquanto ele não
+   liberar o assistente para os condôminos, em **Mensagens do assistente**
+   (veja [Para o síndico](#para-o-síndico), acima), o interruptor no seu
+   perfil fica indisponível — veja [Quando dá errado](#quando-dá-errado-1),
+   abaixo.
+2. **Conecte o Telegram.** Em **Meu Perfil › Telegram**, clique em
+   **Conectar**, envie `/start` para o bot **@V3RCondoBot** e volte ao
+   aplicativo — o cartão passa a mostrar *Conectado*.
+3. **Ligue "Permitir ações por mensagem".** O aplicativo mostra o aviso do
+   que muda antes de você confirmar — leia antes de ligar. Você pode
+   desligar a qualquer momento, e o efeito é imediato.
+
+   ![Cartão de conexão com o Telegram em Meu Perfil de um condômino, mostrando o status Conectado, o interruptor Permitir ações por mensagem e a franquia do mês](/assets/screenshots/perfil-telegram-condomino-01.png)
+
+   *Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
+
+{: .note }
+> **Se você participa de mais de um condomínio**
+>
+> O bot pergunta em qual condomínio trabalhar antes de responder, do mesmo
+> jeito descrito em [Em qual condomínio o bot está
+> trabalhando](#em-qual-condomínio-o-bot-está-trabalhando) — só que a lista
+> mostra apenas os condomínios em que o síndico já habilitou o assistente
+> para os condôminos.
+
+### O que você pode perguntar
+
+| Você pergunta | O bot responde |
+|---|---|
+| "Manda a segunda via do meu boleto" | Cobranças em aberto da sua unidade: valor, vencimento, link da fatura, linha digitável e Pix copia e cola |
+| "Como está minha unidade?" | Situação de pagamento da sua unidade: o que está em aberto, vencido ou foi pago recentemente |
+| "Quais são minhas reservas?" | Suas próprias reservas futuras de áreas comuns |
+| "Tem aviso novo no mural?" | Avisos recentes do mural do condomínio — os mesmos que o síndico vê |
+| "Como estão minhas solicitações?" | Suas solicitações em aberto |
+
+**Exemplo concreto:**
+
+> Você: "manda a segunda via do meu boleto"
+>
+> Bot:
+> *Suas cobranças em aberto*
+> *• R$ 480,00 — vencimento 10/10/2026*
+> *Fatura: https://…*
+> *Linha digitável: `85670000...`*
+> *Pix copia e cola: `00020126...`*
+
+Se a sua unidade não tiver cobrança em aberto, o bot responde "Você não tem
+cobranças em aberto" — e essa resposta **conta na franquia**, porque a
+mensagem foi interpretada mesmo sem achar nada.
+
+{: .note }
+> **Falar é o mesmo que consultar pelo aplicativo**
+>
+> As respostas vêm exatamente da mesma informação que aparece em [Minha
+> Área](/modulos/minha-area/) e nas demais telas do condômino — o bot não
+> enxerga nada a mais nem a menos do que você já vê logado.
+
+### Franquia própria, sem compra
+
+Diferente da franquia do síndico, a sua é **pessoal**: **20 mensagens por
+mês**, por condômino, incluídas no plano Pro do condomínio. Ela:
+
+- **não soma com a de outros condôminos** nem com a franquia do
+  condomínio — cada condômino tem a própria conta de 20;
+- **não tem pacote nem recarga.** Esgotada, você espera a renovação do mês
+  seguinte; não há botão de comprar mais;
+- **conta só o pedido interpretado**, do mesmo jeito descrito para o
+  síndico em [O que conta na franquia](#o-que-conta-na-franquia): tocar em
+  um botão, responder a uma pergunta pendente ou receber um erro nosso não
+  consome mensagem.
+
+Para conferir quantas você já usou no mês, veja o cartão **Telegram**, em
+**Meu Perfil** — a contagem aparece ali, logo abaixo do interruptor.
+
+### O que o condômino não pode fazer
+
+O bot recusa qualquer pedido de gravação ou de gestão vindo de um
+condômino — lançar, dar baixa, editar cadastro de outra pessoa, ver
+inadimplência do condomínio inteiro — mesmo que o pedido seja claro:
+
+> Você: "lança uma despesa de R$ 100 de material de limpeza"
+>
+> Bot avisa que, por mensagem, você só faz consultas, e que para essa ação
+> é preciso usar o aplicativo.
+
+Essas ações continuam existindo — só não pelo Telegram. Abra o aplicativo
+para fazer o que o bot recusou.
+
+### Dicas e armadilhas
+
+- **Frases curtas funcionam melhor.** "segunda via do meu boleto" resolve
+  mais rápido que uma pergunta longa.
+- **Pergunta fora do que o bot faz também conta na franquia.** Se você
+  pedir algo que ele não entende, a mensagem foi interpretada mesmo sem
+  resultado — reformule antes de repetir, para não gastar franquia à toa.
+- **A franquia não se acumula de um mês para o outro.** Mensagem não usada
+  em setembro não vira duas em outubro.
+
+### Dúvidas frequentes
+
+**O síndico vê as mensagens que eu mando para o bot?**
+Não. A trilha do condômino é separada da do síndico: o bot só enxerga as
+suas próprias informações, e o síndico não recebe nem lê o conteúdo das
+suas conversas.
+
+**Minha franquia soma com a do condomínio?**
+Não. São duas contas separadas — a sua, de 20 mensagens, e a do
+condomínio, de 50. Uma acabar não afeta a outra.
+
+**Posso pedir ao bot para lançar ou cancelar algo por mim?**
+Não — condômino não grava nada pelo Telegram. O bot recusa e indica o
+aplicativo, mesmo que você repita o pedido de outro jeito.
+
+### Quando dá errado {#quando-dá-errado-1}
+
+| O bot diz | O que significa | O que fazer |
+|---|---|---|
+| "O síndico do seu condomínio ainda não liberou o assistente por mensagem para os condôminos." | O condomínio não tem **Mensagens do assistente → Permitir o assistente por mensagem para os condôminos** ligado | Peça ao síndico para habilitar, ou continue usando o aplicativo normalmente |
+| "Não reconheci esta conversa. Conecte o Telegram no seu perfil…" | Sua conta do Telegram não está vinculada ao seu usuário no V3RCondo | Conecte em **Meu Perfil › Telegram** |
+| "As ações por mensagem estão desligadas…" | O interruptor **Permitir ações por mensagem** está desligado no seu perfil | Ligue em **Meu Perfil › Telegram** |
+| "Você já usou as 20 mensagens do mês. Elas renovam em…" | Sua franquia pessoal acabou | Espere a renovação (a data vem na própria mensagem), ou use o aplicativo |
+| "Seu cadastro ainda não tem unidade vinculada. Fale com o síndico." | Sua conta de condômino não está vinculada a nenhuma unidade | Peça ao síndico para vincular sua unidade em **Configurações → Condôminos** |
+| "Por mensagem, você pode fazer consultas. Para \[ação\], use o aplicativo." | Você pediu algo que só o síndico pode fazer | Abra o aplicativo para essa ação |
+| "Não entendi o pedido…" | O bot não conseguiu associar sua frase a nenhuma das consultas que ele faz | Reformule, ou veja a lista de exemplos acima |
+| "Esse pedido já foi concluído ou expirou." | Você tocou de novo num botão já usado | Peça de novo |
+| "Não consigo processar sua mensagem agora. Tente de novo em instantes." | Falha temporária nossa ao interpretar a mensagem | Tente de novo em alguns instantes — não consumiu sua franquia |
+| "Só atendo em conversa privada. Me chame direto, sem grupo." | Você mandou a mensagem num grupo do Telegram, não na conversa direta com o bot | Fale com o **@V3RCondoBot** diretamente, fora de grupos |
+
 ## Glossário
 
-**Franquia** — o limite de mensagens interpretadas pelo bot por mês, por
-condomínio: **50 mensagens**, incluídas no plano Pro. Reinicia
-automaticamente na data de renovação mostrada em **Configurações → Seu
-Plano**, e pode ser ampliada por pacote mensal ou recarga avulsa — veja
-[Mensagens do assistente](/modulos/configuracoes/#mensagens-do-assistente).
+**Franquia** — o limite de mensagens interpretadas pelo bot por mês. Existem
+**duas**, independentes: a do **condomínio** (síndico), de **50 mensagens**,
+ampliável por pacote mensal ou recarga avulsa em [Mensagens do
+assistente](/modulos/configuracoes/#mensagens-do-assistente); e a do
+**condômino**, pessoal, de **20 mensagens**, sem pacote nem recarga. As duas
+reiniciam automaticamente todo mês.
 
 **Pedido pendente** — um lançamento ou baixa que o bot já entendeu e está
 aguardando sua confirmação (ou uma resposta a uma pergunta) antes de
-gravar. Expira em 15 minutos.
+gravar. Expira em 15 minutos. *(Só se aplica ao síndico — o condômino não
+grava nada.)*
 
 **Ações por mensagem** — o interruptor, em **Meu Perfil › Telegram**, que
-autoriza o bot a consultar e gravar a seu pedido. Diferente de *receber
-avisos*, que é só entrega de notificações (veja
+autoriza o bot a consultar (e, para o síndico, também gravar) a seu pedido.
+Diferente de *receber avisos*, que é só entrega de notificações (veja
 [Notificações](/modulos/notificacoes/)).
