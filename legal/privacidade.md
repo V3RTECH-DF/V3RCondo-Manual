@@ -8,7 +8,7 @@ nav_order: 3
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.5 — 16 de setembro de 2026
+Versão 1.6 — 16 de setembro de 2026
 
 ---
 
@@ -76,12 +76,12 @@ Na dúvida, escreva para o nosso Encarregado, que direcionamos.
 | Registros de assembleia (lista de presença, votos por pauta, procurações e manifestações) | Condução e documentação digital de assembleias condominiais, conforme exigência legal | Execução de contrato e cumprimento de obrigação legal — Art. 7º, II e V |
 | Documentos enviados | Armazenamento e compartilhamento interno | Execução de contrato — Art. 7º, V |
 | Telegram Chat ID | Envio de notificações sobre eventos do condomínio via Telegram, quando o usuário conecta sua conta | Consentimento — Art. 7º, I |
-| Conteúdo de mensagens enviadas ao assistente por mensagem (texto, foto e áudio), por aplicativo de mensagem compatível — atualmente, o Telegram —, quanto ao dado da própria pessoa que envia (voz, identificação da conversa) | Interpretar pedidos e executar consultas, lançamentos financeiros e baixas de pagamento enviados por mensagem, quando o usuário autorizado habilita o recurso "permitir ações por mensagem" em Perfil | Consentimento — Art. 7º, I |
+| Conteúdo de mensagens enviadas ao assistente por mensagem (texto, foto e áudio), por aplicativo de mensagem compatível — atualmente, o Telegram —, quanto ao dado da própria pessoa que envia (voz, identificação da conversa) | Interpretar pedidos e executar, conforme o papel da pessoa, consultas (todos os usuários autorizados, inclusive condôminos) e lançamentos financeiros e baixas de pagamento (síndico e subsíndico), enviados por mensagem, quando a pessoa ativa o recurso "permitir ações por mensagem" em Perfil — e, para condôminos, quando o condomínio também o habilitou | Consentimento — Art. 7º, I |
 | Conteúdo de mensagens enviadas ao assistente por mensagem, quanto a dado de terceiro eventualmente citado (nome de morador, de fornecedor, CPF/CNPJ visível em foto) | Idem — a mensagem executa a mesma finalidade condominial que o dado já tem nesta tabela (lançamento financeiro, cadastro, etc.) | Mesma base da finalidade que a mensagem executa — em regra, Execução de contrato — Art. 7º, V |
 
 O conteúdo dessas mensagens é processado por provedores de inteligência artificial descritos na seção 3, e pode incluir nomes de moradores e fornecedores citados na mensagem, CPF ou CNPJ visíveis em foto de nota fiscal ou comprovante, e a voz da pessoa que enviou o áudio. Quando a mensagem traz dado de terceiro, o tratamento segue a mesma base legal que já ampara a finalidade que a mensagem executa (por exemplo, a de lançamentos financeiros, nesta tabela) — não o consentimento de quem enviou a mensagem, que não pode consentir em nome de terceiro.
 
-O interruptor "permitir ações por mensagem", em Perfil, é único por pessoa e vale para o recurso como um todo — não há um interruptor separado por aplicativo de mensagem.
+O interruptor "permitir ações por mensagem", em Perfil, é único por pessoa e vale para o recurso como um todo — não há um interruptor separado por aplicativo de mensagem. Para condôminos, o recurso só funciona se o condomínio, pela decisão do síndico, também o tiver habilitado para os seus condôminos. Nenhuma mensagem do condômino é enviada à inteligência artificial enquanto uma das duas chaves estiver desligada.
 
 ### 2.2. Dados coletados automaticamente
 
@@ -180,7 +180,7 @@ Cada provedor retém o conteúdo por um prazo limitado, para monitoramento de ab
 >
 > Supabase, Stripe, Google, OpenAI, Anthropic e Telegram operam fora do Brasil. A V3RTECH adota cláusulas contratuais e boas práticas reconhecidas pela ANPD para assegurar nível adequado de proteção, conforme Art. 33 da LGPD.
 >
-> Ao provedor de IA que analisa o Relatório de Gestão são enviados apenas indicadores agregados, sem dados pessoais. Ao provedor de IA que interpreta as mensagens do assistente por mensagem — recurso opcional, habilitado pessoa a pessoa, hoje disponível por Telegram — pode ser enviado dado pessoal contido na própria mensagem, conforme a seção 2.1 e a tabela acima. Segundo a documentação oficial de cada provedor, nenhum deles usa esse conteúdo para treinar seus modelos, e cada um o retém por um prazo limitado — entre 30 e 55 dias, conforme o provedor — apenas para monitoramento de abuso e segurança, detalhado com as fontes na seção 3.
+> Ao provedor de IA que analisa o Relatório de Gestão são enviados apenas indicadores agregados, sem dados pessoais. Ao provedor de IA que interpreta as mensagens do assistente por mensagem — recurso opcional, ativado pessoa a pessoa (e, para condôminos, também habilitado pelo condomínio), hoje disponível por Telegram — pode ser enviado dado pessoal contido na própria mensagem, conforme a seção 2.1 e a tabela acima. Segundo a documentação oficial de cada provedor, nenhum deles usa esse conteúdo para treinar seus modelos, e cada um o retém por um prazo limitado — entre 30 e 55 dias, conforme o provedor — apenas para monitoramento de abuso e segurança, detalhado com as fontes na seção 3.
 >
 > O **Asaas** é empresa brasileira, sujeita à LGPD e à regulação do Banco Central do Brasil. O próprio Asaas informa, em sua política de privacidade, que pode tratar parte dos dados em provedores de nuvem no exterior, sempre nas hipóteses admitidas pela legislação brasileira.
 
@@ -243,6 +243,8 @@ Conforme a LGPD, você tem os seguintes direitos, exercíveis pelo e-mail [dpo@v
 > **Desligar o assistente por mensagem**
 >
 > A autorização dada ao ligar "permitir ações por mensagem" pode ser retirada a qualquer momento em **Perfil**, desligando a mesma opção. Desligar interrompe o envio de novas mensagens à inteligência artificial; não afeta lançamentos já confirmados.
+>
+> Para condôminos, o condomínio também pode desabilitar o recurso para todos os seus condôminos; nesse caso, as mensagens deixam de ser atendidas mesmo para quem o tiver ativado.
 
 {: .tip }
 > **Exportação de dados**
@@ -295,4 +297,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 *Versão 1.3 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais), em agosto de 2026 (declaração do Asaas como operador da cobrança de valores condominiais, dados compartilhados, finalidades e bases legais — nova seção 2.5) e, ainda em agosto de 2026, com a definição dos papéis de tratamento: o condomínio passa a constar expressamente como controlador e a V3RTECH como operadora, com a V3RTECH atuando como controladora apenas para prevenção à fraude, verificação de identidade e obrigações legais e regulatórias — seção 1 reescrita. Revisado em setembro de 2026 para descrever com precisão dois prazos da seção 4.2: o registro de auditoria, que não tinha linha própria e vinha sendo lido sob a linha dos logs de acesso, e a suspensão por inadimplência, que passa a constar como o que de fato é — bloqueio de acesso com preservação dos dados, e não exclusão em 30 dias.*
 *Versão 1.4 — 14 de setembro de 2026. Adicionado o tratamento de dados pessoais pelo assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio — inicialmente síndico e subsíndico do plano Pro — que habilitarem o recurso): nova finalidade e base legal na seção 2.1, atualização da tabela de suboperadores e do aviso de transferência internacional na seção 3, novos prazos de retenção na seção 4.2, e nota sobre como desligar a autorização na seção 6. Revista também a regra de alterações (item 9.1): a nova versão vale na data indicada no documento, e o prazo de 15 dias passa a valer só para alteração que reduza direitos ou amplie obrigações, salvo exigência legal, ordem de autoridade ou segurança.*
 *Versão 1.5 — 16 de setembro de 2026. Atualizada a seção 2.3 e a tabela da seção 3: desde 15/09/2026 a mensalidade do plano Pro é cobrada pelo Asaas, por Pix ou boleto, com os dados de quem paga a mensalidade enviados ao Asaas; o Stripe, que processou as assinaturas por cartão até essa data, permanece listado porque guarda o histórico dessas assinaturas encerradas.*
+*Versão 1.6 — 16 de setembro de 2026. O assistente por mensagem passa a atender condôminos, só para consultas das informações a que já têm acesso, quando o condomínio habilita o recurso para eles e a pessoa o ativa em Perfil: finalidade ajustada na seção 2.1, nota sobre a dupla habilitação abaixo da tabela e na seção 6. Base legal, suboperadores e prazos de retenção sem mudança.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*
