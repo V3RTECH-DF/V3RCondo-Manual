@@ -8,7 +8,7 @@ nav_order: 5
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.0 — Setembro de 2026
+Versão 1.1 — 16 de setembro de 2026
 
 ---
 
@@ -62,6 +62,8 @@ Do aceite ficam registrados a data e a hora, a versão deste termo, quem aceitou
 3.3. Os avisos, documentos e cobranças enviados pela plataforma partem de decisão do síndico. A V3RTECH disponibiliza o meio; o conteúdo e a oportunidade do envio são de quem os emite.
 
 3.4. O síndico não usará a plataforma para comunicação de natureza comercial alheia à administração do condomínio.
+
+3.5. Ao habilitar o assistente por mensagem para os condôminos, o síndico o faz em nome do condomínio, na qualidade de controlador dos dados, ciente de que cada condômino que o ativar terá as mensagens interpretadas por provedor de inteligência artificial, conforme a Política de Privacidade.
 
 ### 4. Dados pessoais dos moradores e de terceiros
 
@@ -117,6 +119,8 @@ Para dúvidas, solicitações ou notificações relacionadas a este termo:
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)
 
 ---
+
+*Versão 1.1 — 16 de setembro de 2026. Acrescentado o item 3.5 (seção "Uso consciente da plataforma"): ao habilitar o assistente por mensagem para os condôminos, o síndico o faz em nome do condomínio, na qualidade de controlador dos dados, ciente de que as mensagens dos condôminos que ativarem o recurso são interpretadas por provedor de inteligência artificial.*
 
 *Versão 1.0 — Setembro de 2026. Documento criado a partir do desmembramento do compromisso que, até então, não existia como instrumento próprio: quem criava um condomínio não assumia nenhum compromisso formal sobre como usá-lo, além dos Termos de Uso pessoais. Este termo passa a ser aceito na criação do condomínio, uma vez por condomínio, e novamente por quem vier a assumir a síndica depois.*
 *Próxima revisão prevista: quando houver alteração relevante no período de avaliação ou nas regras de responsabilidade do síndico.*

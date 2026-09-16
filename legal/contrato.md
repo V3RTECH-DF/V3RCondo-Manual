@@ -8,7 +8,7 @@ nav_order: 1
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.4 — 16 de setembro de 2026
+Versão 1.5 — 16 de setembro de 2026
 
 ---
 
@@ -46,7 +46,7 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 - Geração de relatórios analíticos com inteligência artificial
 - Gestão de acordos de inadimplência e negociação de dívidas condominiais
 - Convocação, condução e registro digital de assembleias condominiais
-- **Consultas e lançamentos por mensagem, por aplicativo de mensagem compatível — atualmente, o Telegram — (texto, foto ou voz), disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico**
+- **Assistente por mensagem, por aplicativo de mensagem compatível — atualmente, o Telegram —, no plano Pro: consultas e lançamentos por texto, foto ou voz para síndico e subsíndico; consultas por texto ou voz para condôminos, quando o condomínio habilitar o recurso para eles**
 
 ---
 
@@ -89,7 +89,13 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 
 **3.6.5.** Configurada reincidência — síndico anteriormente notificado por divergência que, após regularizar, volta a apresentar divergência —, o prazo prévio de correção previsto no item 3.6.3 poderá ser dispensado, aplicando-se diretamente as sanções previstas no item 3.6.4.
 
-**3.7. Do uso do assistente por mensagem.** O plano Pro inclui uma franquia de **50 mensagens por mês, por condomínio** — somando as mensagens de todos os usuários autorizados daquele condomínio, por qualquer aplicativo de mensagem compatível (atualmente, o Telegram). Atingida a franquia, o recurso fica bloqueado até o dia 1º do mês seguinte, sem cobrança automática de excedente. Quando oferecidos, pacotes mensais adicionais e recargas avulsas seguem a tabela publicada em [v3rcondo.com.br/planos](https://v3rcondo.com.br/planos), que integra este Contrato para todos os efeitos, na forma do item 3.3.1.
+**3.7. Do uso do assistente por mensagem.**
+
+**3.7.1.** O plano Pro inclui uma franquia de **50 mensagens por mês, por condomínio**, somando as mensagens do síndico e do subsíndico daquele condomínio, por qualquer aplicativo de mensagem compatível (atualmente, o Telegram). Atingida a franquia, o recurso fica bloqueado para eles até o dia 1º do mês seguinte, sem cobrança automática de excedente. Quando oferecidos, pacotes mensais adicionais e recargas avulsas ampliam esta franquia e seguem a tabela publicada em [v3rcondo.com.br/planos](https://v3rcondo.com.br/planos), que integra este Contrato para todos os efeitos, na forma do item 3.3.1.
+
+**3.7.2.** Quando o condomínio habilitar o recurso para os seus condôminos, cada condômino que o ativar terá franquia **própria** de **20 mensagens por mês**, sem custo adicional ao condomínio. A franquia do condômino não consome a do item 3.7.1, não é somada entre condôminos nem entre unidades, e não pode ser ampliada por pacote ou recarga. Atingida, o recurso fica indisponível para aquele condômino até o dia 1º do mês seguinte.
+
+**3.7.3.** A habilitação do recurso para os condôminos é feita pelo síndico, em nome do condomínio, e pode ser desfeita a qualquer momento, com efeito imediato para todos os condôminos daquele condomínio.
 
 ---
 
@@ -234,6 +240,8 @@ Para dúvidas, solicitações ou notificações relacionadas a este Contrato:
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)
 
 ---
+
+*Versão 1.5 — 16 de setembro de 2026. Aberto o assistente por mensagem aos condôminos, só para consultas, quando o condomínio habilitar (item 3.7.3), com franquia própria por condômino, não ampliável e sem custo adicional (item 3.7.2); a franquia de 50 mensagens por condomínio passa a constar como a de síndico e subsíndico (item 3.7.1).*
 
 *Versão 1.4 — 16 de setembro de 2026. Corrigido o meio de pagamento da assinatura do V3RCondo (item 3.5 e tabela do item 5.4): desde 15/09/2026 a mensalidade do plano Pro é cobrada pelo Asaas, por Pix ou boleto, e não mais pelo Stripe via cartão de crédito.*
 

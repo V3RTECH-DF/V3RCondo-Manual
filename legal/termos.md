@@ -8,7 +8,7 @@ nav_order: 2
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.6 — 14 de setembro de 2026
+Versão 1.7 — 16 de setembro de 2026
 
 ---
 
@@ -110,7 +110,12 @@ O usuário compromete-se a:
 
 **5.7. Do assistente por mensagem.**
 
-**(a)** O V3RCondo oferece, aos usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico — que habilitarem o recurso em Perfil, a possibilidade de consultar informações e propor lançamentos financeiros e baixas de pagamento por mensagem, em aplicativo de mensagem compatível — atualmente, o Telegram —, por texto, foto ou mensagem de voz. O interruptor que habilita o recurso é único por pessoa e vale para o recurso como um todo, independentemente de quantos aplicativos de mensagem estejam disponíveis.
+**(a)** O V3RCondo oferece, no plano Pro, um assistente por mensagem, em aplicativo de mensagem compatível — atualmente, o Telegram. O que cada pessoa pode fazer por ele depende do papel dela no condomínio:
+
+- **síndico e subsíndico** podem consultar informações e propor lançamentos financeiros e baixas de pagamento, por texto, foto ou mensagem de voz;
+- **condôminos** podem consultar, por texto ou mensagem de voz, as informações da própria unidade e do condomínio a que já têm acesso na plataforma — como a segunda via e a situação de pagamento da cota, reservas, avisos e solicitações —, sem fazer lançamento nem alteração de nenhum tipo.
+
+O recurso só funciona para quem o ativar em Perfil. O interruptor pessoal é único por pessoa e vale para o recurso como um todo, independentemente de quantos aplicativos de mensagem estejam disponíveis. Para condôminos, o recurso depende também de o condomínio tê-lo habilitado para os seus condôminos. Se o condomínio desabilitar, o recurso deixa de funcionar para todos os condôminos daquele condomínio, mesmo para quem o tiver ativado.
 
 **(b)** Toda ação de gravação proposta pelo assistente depende de confirmação expressa de quem a solicitou antes de ser efetivada. Cabe a quem confirma conferir se o que o assistente entendeu corresponde ao que pretendia, antes de confirmar.
 
@@ -119,6 +124,8 @@ O usuário compromete-se a:
 **(d)** O assistente pode interpretar incorretamente uma mensagem, foto ou áudio. A exigência de confirmação antes de qualquer gravação é o mecanismo de proteção contra esse erro; a V3RTECH não se responsabiliza por lançamento confirmado que não correspondia ao que a pessoa pretendia.
 
 **(e)** O tratamento de dados pessoais envolvido neste recurso — inclusive de terceiro eventualmente citado na mensagem —, os provedores utilizados e as salvaguardas adotadas estão descritos na Política de Privacidade. Ao habilitar o recurso, quem o habilita declara ciência desse processamento e confirma estar autorizado a inserir, na mensagem, o dado de terceiro necessário à finalidade condominial que está executando.
+
+**(f)** A quantidade de mensagens disponível a cada pessoa por mês segue o item 3.7 do Contrato de Prestação de Serviços. Esgotada a quantidade, o recurso fica indisponível para aquela pessoa até o dia 1º do mês seguinte, e o uso da plataforma pelo aplicativo continua normal.
 
 ---
 
@@ -206,6 +213,8 @@ Para dúvidas, solicitações ou notificações relacionadas a estes Termos:
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)
 
 ---
+
+*Versão 1.7 — 16 de setembro de 2026. Aberto o assistente por mensagem (item 5.7) aos condôminos, só para consultas das informações a que já têm acesso, por texto ou mensagem de voz, com franquia própria de mensagens; para condôminos, o recurso depende de o condomínio tê-lo habilitado e de a pessoa ativá-lo em Perfil. Alteração que amplia o acesso, sem reduzir direitos nem ampliar obrigações: vale na data de publicação.*
 
 *Versão 1.6 — 14 de setembro de 2026. Adicionada a subseção 5.7 (Do assistente por mensagem), cobrindo consultas e lançamentos propostos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio no plano Pro — inicialmente síndico e subsíndico: como o recurso funciona, a exigência de confirmação antes de qualquer gravação, o alcance das permissões do assistente e a responsabilidade em caso de interpretação incorreta. Revista também a regra de alterações (item 10.1): a nova versão vale na data indicada no documento, e o prazo de 15 dias passa a valer só para alteração que reduza direitos ou amplie obrigações, salvo exigência legal, ordem de autoridade ou segurança.*
 
