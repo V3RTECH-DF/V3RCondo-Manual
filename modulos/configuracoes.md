@@ -155,6 +155,34 @@ O painel reúne três coisas:
 > não fica mudo: ele responde com o link para este painel, para contratar
 > mais sem precisar procurar onde.
 
+### Permitir o assistente para os condôminos
+
+No mesmo painel **Mensagens do assistente**, o interruptor **Permitir o
+assistente por mensagem para os condôminos** decide se os condôminos do seu
+condomínio podem falar com o bot pelo Telegram.
+
+Ligar aqui **não ativa nada sozinho**: é só a permissão do condomínio. Cada
+condômino ainda precisa conectar o próprio Telegram e ligar **Permitir
+ações por mensagem** no próprio perfil, do mesmo jeito que o síndico faz —
+veja [Assistente por Mensagem (Telegram) — Para o
+condômino](/modulos/assistente-telegram/#para-o-condômino).
+
+O que muda ao ligar:
+
+- Os condôminos passam a ver, no próprio perfil, a opção de ativar o
+  assistente. Antes de você ligar, essa opção aparece desabilitada, com um
+  aviso de que o síndico ainda não liberou.
+- Cada condômino consulta **só a própria unidade** — segunda via, situação
+  de pagamento, reservas, avisos do mural e solicitações — com uma franquia
+  **própria de 20 mensagens por mês**, separada da franquia do condomínio
+  mostrada acima. Nenhum condômino grava nada pelo Telegram.
+
+{: .warning }
+> **Desligar tira o acesso de todos na hora**
+>
+> Ao desligar, todos os condôminos que já tinham ativado deixam de conseguir
+> falar com o bot imediatamente — mesmo sem fazer nada no próprio perfil.
+
 ### Parceiros do Condomínio
 
 Abaixo do card de plano, a seção **Parceiros do Condomínio** centraliza os
