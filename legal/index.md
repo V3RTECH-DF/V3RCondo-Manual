@@ -14,8 +14,8 @@ São **dois instrumentos com públicos diferentes**, e vale saber qual é qual:
 |---|---|---|---|
 | [Contrato de Prestação de Serviços](/legal/contrato/) | O **síndico**, em nome do **condomínio** | v1.4 | 16 de setembro de 2026 |
 | [Termo de Responsabilidade do Síndico](/legal/termo-sindico/) | Quem **cria o condomínio**, na qualidade de síndico | v1.0 | Setembro de 2026 |
-| [Termos de Uso](/legal/termos/) | **Cada pessoa** que usa a plataforma | v1.5 | Agosto de 2026 |
-| [Política de Privacidade](/legal/privacidade/) | — (informativa, vale para todos) | v1.3 | Agosto de 2026 |
+| [Termos de Uso](/legal/termos/) | **Cada pessoa** que usa a plataforma | v1.6 | 14 de setembro de 2026 |
+| [Política de Privacidade](/legal/privacidade/) | — (informativa, vale para todos) | v1.4 | 14 de setembro de 2026 |
 | [Segurança e Privacidade](/legal/seguranca/) | — (informativa) | — | Julho de 2026 |
 
 O **Contrato** rege a relação com o condomínio contratante: objeto, planos e preços, cancelamento, cobrança da cota pelos condôminos, proteção de dados e encerramento.
