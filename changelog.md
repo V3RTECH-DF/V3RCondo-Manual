@@ -9,6 +9,49 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.171 — Setembro 2026
+
+### Novidade
+
+- **Ações em lote na lista de lançamentos do Financeiro.** Agora dá para selecionar vários lançamentos de uma vez — na tabela do computador ou nos cartões do celular — e aplicar a mesma ação a todos: **dar baixa** (com a data de pagamento), **excluir**, **trocar a categoria** ou **exportar** (planilha e PDF). Uma barra fixa mostra quantos estão selecionados e a soma dos valores. Antes de executar, uma prévia mostra quantos serão aplicados, pulados ou recusados — com o motivo de cada recusa —, e ao final o resultado separa o que foi concluído do que falhou, sem esconder problema atrás de um "pronto" genérico.
+- Lançamento com **cobrança automática em aberto** ou que faz parte de um **acordo de inadimplência** não pode receber baixa nem exclusão pelo Financeiro — a trava vale tanto na ação em lote quanto no botão da própria linha, na edição do lançamento e no caçador de divergências.
+
+### Corrigido
+
+- A barra de seleção agora fica sempre visível na parte de baixo da tela enquanto houver lançamentos marcados, no computador e no celular — antes, em listas longas, ela podia ficar bem abaixo da área visível.
+- A confirmação de uma ação em lote agora mostra a ação, a quantidade de lançamentos e o valor total envolvido — por exemplo, "Excluir 12 lançamentos, total R$ 4.380,00".
+- Corrigida uma frase do assistente que recusava um pedido de lançamento com pontuação duplicada.
+
+## v7.170 — Setembro 2026
+
+### Novidade
+
+- **Assistente por mensagem (Telegram) agora também para condôminos** *(plano Pro)*, só para consulta — a segunda via e a situação de pagamento da própria unidade, as próprias reservas, os avisos do mural e as próprias solicitações. O síndico habilita o recurso para o condomínio, junto do painel do plano; cada condômino ativa para si em Meu Perfil, com franquia própria de mensagens.
+- O **Contrato de Prestação de Serviços** foi atualizado para a versão 1.5, que passa a cobrir o assistente para condôminos. Síndicos que aceitaram a versão anterior veem o aviso de contrato novo e precisam aceitar de novo.
+
+### Corrigido
+
+- Reforçamos a proteção dos dados financeiros do condomínio: consultas que deveriam ser vistas só pelo síndico e pelo auditor financeiro — como a lista de lançamentos com a identificação da unidade de cada um — passaram a exigir esse papel. Antes, qualquer membro ativo do condomínio conseguia acessá-las por um caminho interno, fora das telas do app.
+- A aba **Contas Bancárias**, em Configurações, deixou de aparecer para o porteiro.
+- No Telegram, mandar **/start** de novo numa conversa que já estava conectada deixou de responder "link inválido" — agora confirma que o Telegram já está conectado.
+
+## v7.169 — Setembro 2026
+
+### Novidade
+
+- Nova pendência no painel do síndico: **"Categoria da cobrança automática"** — aparece quando a geração automática de cobranças está ligada e falta escolher a categoria, e leva direto para a tela de configurá-la. Some sozinha assim que a categoria é escolhida ou a geração automática é desligada.
+
+### Corrigido
+
+- Com a geração automática desligada e sem categoria de cobrança escolhida, o **lembrete mensal ao síndico** para gerar as cobranças manualmente voltou a ser enviado — antes, a falta de categoria travava o lembrete mesmo quando ele não gera lançamento nenhum.
+
+## v7.168.2 — Setembro 2026
+
+### Corrigido
+
+- A janela "Complete seu cadastro" deixou de abrir com os campos vazios para quem já tinha telefone e CPF/CNPJ preenchidos — agora ela só aparece para quem realmente tem dado faltando, e já traz os campos existentes preenchidos.
+- Condomínio no plano Pro com **cortesia** (sem cobrança) deixou de mostrar o botão "Contratar o Pro"; agora mostra que já está no Pro com cortesia.
+
 ## v7.168 — Setembro 2026
 
 ### Novidade

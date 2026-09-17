@@ -156,6 +156,21 @@ O painel é de leitura: **nada é alterado só por abri-lo** e não há botão d
 >
 > Antes, quem tinha acesso apenas de leitura ao Financeiro **não conseguia abrir o detalhe de lançamento nenhum** — a única porta era o painel de edição, exclusivo do síndico. Agora o detalhe abre para todo mundo que enxerga o Financeiro, com a informação completa — inclusive anexos e composição do pagamento — e, para quem só lê, **sem nenhum botão de ação**. Conferir comprovante, competência e composição do pagamento deixou de depender do síndico.
 
+## Ações em lote *(síndico)*
+
+Em vez de abrir um lançamento por vez, dá para selecionar vários e aplicar a mesma ação a todos.
+
+- Marque a caixa de seleção de cada linha da tabela (no computador) ou de cada cartão (no celular), ou use **"Selecionar todos"** para marcar tudo o que está na tela, respeitando o filtro e o período escolhidos.
+- Com algum lançamento selecionado, aparece uma barra fixa na parte de baixo da tela, com a quantidade selecionada, a soma dos valores e as ações disponíveis: **Dar baixa**, **Excluir**, **Trocar categoria** e **Exportar**.
+- Ao escolher uma ação (exceto exportar), o sistema mostra uma **prévia** antes de aplicar: quantos lançamentos serão afetados, quantos serão pulados (por exemplo, um que já está pago) e quantos serão recusados, com o motivo de cada recusa. Só depois de conferir a prévia é que você confirma.
+- O resultado final separa **concluídos**, **pulados** e **recusados** — nunca aparece um "pronto" genérico que esconda uma falha parcial.
+- **Exportar** gera a planilha ou o PDF só com os lançamentos selecionados, no mesmo formato usado em Relatórios.
+
+{: .note }
+> **Lançamento que nunca pode receber baixa nem exclusão em lote**
+>
+> Um lançamento com **cobrança automática em aberto** ou que faz parte de um **acordo de inadimplência** é sempre recusado, com o motivo explicado. Essa trava vale igual na ação em lote, no botão da própria linha, na edição do lançamento e no caçador de divergências — não tem caminho para contornar.
+
 ## Lançamentos parcelados *(síndico)*
 
 Para despesas que devem ser pagas em várias parcelas — como uma reforma, equipamento ou compra de grande valor — ative o toggle **Parcelado** no formulário de novo lançamento.
