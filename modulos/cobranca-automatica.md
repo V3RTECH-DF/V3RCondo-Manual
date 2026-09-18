@@ -6,7 +6,7 @@ nav_order: 3.6
 
 # Cobrança Automática
 
-A Cobrança Automática permite que o condomínio **cobre a cota por boleto, Pix ou cartão**, com o dinheiro caindo **direto na conta do condomínio**. Quando o morador paga, o V3RCondo fica sabendo sozinho e dá baixa no Financeiro.
+A Cobrança Automática abre, em nome do condomínio, uma **conta de pagamento na Asaas Gestão Financeira S.A.**, instituição de pagamento autorizada pelo Banco Central do Brasil — com painel próprio de acesso. É uma conta completa: recebe, paga contas, transfere por Pix e TED e tem extrato. O dinheiro é do condomínio e fica nela. Um dos usos que o V3RCondo dá a essa conta é emitir a cota por boleto, Pix ou cartão; quando o morador paga, o aplicativo fica sabendo sozinho e dá baixa no Financeiro.
 
 ![Aba Cobranças da Cobrança Automática, com as três abas do módulo, o cartão "Como estão as cobranças" com um contador por estado, os filtros e o início da lista](/assets/screenshots/cobranca-01-visao-geral.png)
 
@@ -15,14 +15,15 @@ A Cobrança Automática permite que o condomínio **cobre a cota por boleto, Pix
 {: .note }
 > **Disponibilidade**
 >
-> A Cobrança Automática faz parte do **plano Pro** e está sendo **liberada aos poucos**, condomínio a condomínio. Para usá-la, o condomínio precisa ter a **conta de cobrança aberta e aprovada** (o passo a passo está logo abaixo). Se o item **Cobrança automática** ainda não aparece no menu do seu condomínio, fale com a nossa equipe.
+> A Cobrança Automática já está em operação — faz parte do **plano Pro** e vem sendo ativada **aos poucos**, condomínio a condomínio, à medida que cada conta é aprovada. Para usá-la, o condomínio precisa **abrir e ter aprovada a conta de cobrança** (o passo a passo está logo abaixo). Se o item **Cobrança automática** ainda não aparece no menu do seu condomínio, fale com a nossa equipe.
 
 ## Como funciona, em uma página
 
-- Quem processa o pagamento é o **Asaas**, uma instituição de pagamento autorizada pelo Banco Central. É ele que emite o boleto e o Pix.
-- A conta de cobrança é **do condomínio**, aberta em nome dele. **A V3RTECH não fica com o dinheiro em momento nenhum** — o valor da cota cai direto na conta do condomínio.
+- A conta é **do condomínio**, aberta em nome dele na **Asaas Gestão Financeira S.A.**, instituição de pagamento autorizada pelo Banco Central, com painel próprio de acesso. Quem processa o pagamento é o Asaas — é ele quem emite o boleto e o Pix —, e a mesma conta também paga contas, transfere por Pix e TED e tem extrato, como qualquer conta de pagamento.
+- O dinheiro é do condomínio e fica nela o tempo todo. **A V3RTECH não fica com o dinheiro em momento nenhum.**
+- Emitir a cota por boleto, Pix ou cartão — com baixa automática quando o morador paga — é **um dos usos** que o V3RCondo dá a essa conta, não o motivo dela existir.
 - A cobrança **sempre parte de um lançamento que já existe no Financeiro**. Nada é lançado em dobro.
-- Enquanto a conta não estiver aprovada, **nada muda**: o síndico segue lançando a cota como faz hoje.
+- **Abrir a conta é opcional.** O condomínio que nunca abrir continua operando o aplicativo inteiro, só lançando a cota manualmente. Enquanto a conta não estiver aprovada, nada muda.
 
 ### Antes de abrir a conta: o Contrato de Prestação de Serviços precisa estar aceito
 
