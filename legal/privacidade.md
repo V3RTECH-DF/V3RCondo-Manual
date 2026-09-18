@@ -8,7 +8,7 @@ nav_order: 3
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.6 — 16 de setembro de 2026
+Versão 1.7 — 18 de setembro de 2026
 
 ---
 
@@ -198,9 +198,8 @@ A V3RTECH **não vende, aluga ou compartilha** dados pessoais com terceiros para
 |---|---|
 | Dados de conta ativa | Enquanto a conta estiver ativa |
 | Dados financeiros | 5 anos após o encerramento (obrigação fiscal) |
-| Logs de acesso | 6 meses |
 | Dados de visitantes | 12 meses após a visita |
-| Registro de auditoria (o que cada usuário fez no sistema) | Endereço de IP e identificação do navegador anonimizados em 30 dias; o registro do evento é excluído em 400 dias |
+| Registro de auditoria e de acesso (o que cada usuário fez no sistema, incluindo os acessos registrados na interface de integração) | Endereço de IP e identificação do navegador anonimizados em 30 dias; o registro do evento é excluído em 400 dias |
 | Dados de condomínio com plano suspenso por inadimplência | Preservados durante a suspensão: o acesso é bloqueado, os dados não são apagados |
 | Notificações antigas | 24 meses após o envio |
 | Conteúdo das mensagens ao assistente por mensagem (texto, foto, áudio) — no V3RCondo | Não retido além do necessário para atender o pedido. Exceções: a foto anexada como comprovante a um lançamento confirmado segue o prazo de "Dados financeiros" desta mesma tabela (5 anos após o encerramento, obrigação fiscal); um pedido de gravação proposto e ainda não confirmado expira em 15 minutos |
@@ -298,4 +297,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 *Versão 1.4 — 14 de setembro de 2026. Adicionado o tratamento de dados pessoais pelo assistente por mensagem (consultas e lançamentos por texto, foto ou voz, enviados por aplicativo de mensagem compatível — hoje, o Telegram —, disponível a usuários autorizados conforme o papel de cada um no condomínio — inicialmente síndico e subsíndico do plano Pro — que habilitarem o recurso): nova finalidade e base legal na seção 2.1, atualização da tabela de suboperadores e do aviso de transferência internacional na seção 3, novos prazos de retenção na seção 4.2, e nota sobre como desligar a autorização na seção 6. Revista também a regra de alterações (item 9.1): a nova versão vale na data indicada no documento, e o prazo de 15 dias passa a valer só para alteração que reduza direitos ou amplie obrigações, salvo exigência legal, ordem de autoridade ou segurança.*
 *Versão 1.5 — 16 de setembro de 2026. Atualizada a seção 2.3 e a tabela da seção 3: desde 15/09/2026 a mensalidade do plano Pro é cobrada pelo Asaas, por Pix ou boleto, com os dados de quem paga a mensalidade enviados ao Asaas; o Stripe, que processou as assinaturas por cartão até essa data, permanece listado porque guarda o histórico dessas assinaturas encerradas.*
 *Versão 1.6 — 16 de setembro de 2026. O assistente por mensagem passa a atender condôminos, só para consultas das informações a que já têm acesso, quando o condomínio habilita o recurso para eles e a pessoa o ativa em Perfil: finalidade ajustada na seção 2.1, nota sobre a dupla habilitação abaixo da tabela e na seção 6. Base legal, suboperadores e prazos de retenção sem mudança.*
+*Versão 1.7 — 18 de setembro de 2026. A tabela da seção 4.2 trazia duas linhas para o mesmo dado: "Logs de acesso — 6 meses" e o registro de auditoria, com 30 e 400 dias. É um registro só, apagado pela mesma rotina, e o prazo que vale é o do registro de auditoria: anonimização do endereço de IP e do navegador em 30 dias, exclusão do evento em 400 dias. As duas linhas foram fundidas numa só, com o prazo correto. Nenhuma prática mudou — o que muda é a descrição, que agora corresponde ao que o sistema faz.*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*
