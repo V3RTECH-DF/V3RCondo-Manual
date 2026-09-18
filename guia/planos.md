@@ -73,9 +73,9 @@ O preço **acompanha o tamanho do condomínio**: se você cadastrar mais ou meno
 O preço do Pro é definido automaticamente pela **quantidade de unidades cadastradas** do seu condomínio (aba **Configurações → Unidades**) — por isso, **cadastre as unidades antes de contratar**. Depois, acesse **Configurações → aba Condomínio**, no cartão **Seu Plano**, e clique em **Assinar Plano Pro**: o sistema já mostra a **faixa e o valor** correspondentes ao seu número de unidades (você não escolhe o tamanho), com o desconto vigente para o seu condomínio, se houver.
 
 {: .note }
-> **Pix ou boleto — sem cartão de crédito**
+> **Pix, boleto ou débito automático — sem cartão de crédito**
 >
-> A mensalidade do Pro é paga por **Pix** ou **boleto**, à sua escolha. Não é preciso cartão de crédito. Escolhendo Pix, o QR Code aparece na própria tela e a confirmação é na hora; escolhendo boleto, você é levado à página de pagamento do Asaas (que também mostra a opção de Pix), e a confirmação pode levar até 3 dias úteis.
+> A mensalidade do Pro é paga por **Pix**, **boleto** ou **débito automático**, à sua escolha — não é preciso cartão de crédito. Na tela de contratação, o débito automático aparece como opção principal, com Pix e boleto ao lado, em um clique. Escolhendo Pix, o QR Code aparece na própria tela e a confirmação é na hora; escolhendo boleto, você é levado à página de pagamento do Asaas (que também mostra a opção de Pix), e a confirmação pode levar até 3 dias úteis. Sobre como o débito automático funciona, o limite que você autoriza e como desistir, veja [Débito automático da mensalidade](#débito-automático-da-mensalidade), mais abaixo.
 
 Sem unidades cadastradas, a contratação fica bloqueada; condomínios com mais de 200 unidades são atendidos sob consulta (**Fale conosco**).
 
@@ -89,7 +89,7 @@ A **primeira mensalidade vence 3 dias úteis** depois da contratação; as segui
 
 No cartão **Seu Plano**, em Configurações → Condomínio, duas ações abrem um painel:
 
-- **Mensalidades e pagamento** — mostra quem é o pagador (o condomínio, pelo CNPJ, ou o síndico, pelo CPF, quando o condomínio não tem CNPJ cadastrado), o histórico de mensalidades com a situação de cada uma, e permite pagar uma mensalidade em aberto ou trocar entre Pix e boleto para as próximas.
+- **Mensalidades e pagamento** — mostra quem é o pagador (o condomínio, pelo CNPJ, ou o síndico, pelo CPF, quando o condomínio não tem CNPJ cadastrado), o histórico de mensalidades com a situação de cada uma, e permite pagar uma mensalidade em aberto, trocar entre Pix e boleto para as próximas, ou aderir ao [débito automático](#débito-automático-da-mensalidade) — se ainda não tiver aderido na contratação.
 - **Cancelar plano** — lista o que você perde antes de confirmar. **O Pro continua valendo até o fim do período já pago**, sem reembolso proporcional, e o cancelamento pode ser desfeito a qualquer momento antes disso.
 
 {: .note }
@@ -110,3 +110,63 @@ Você é avisado da mensalidade em vários momentos: quando ela é emitida, 3 di
 > **Cobrança automática das cotas dos moradores**
 >
 > Continua funcionando enquanto o condomínio está no Pro. Se o condomínio volta ao Básico, as cotas **já emitidas** continuam visíveis e acompanháveis — só deixam de ser geradas cotas novas automaticamente.
+
+## Débito automático da mensalidade
+
+{: .note }
+> **Não confunda com a Cobrança Automática das cotas**
+>
+> Este débito automático é a **V3RTECH cobrando o condomínio** pela mensalidade do plano Pro — autorizado no aplicativo do banco do síndico. É outra coisa: a [Cobrança Automática](/modulos/cobranca-automatica/) é o **condomínio cobrando os moradores**, pela conta de pagamento do próprio condomínio na Asaas. As duas funcionam de forma independente.
+
+Com o débito automático ativo, você autoriza uma vez, no aplicativo do seu banco, e as mensalidades seguintes do Pro são debitadas sozinhas — sem precisar pagar boleto nem escanear Pix todo mês. Essa autorização é feita por **Pix Automático**, o recurso do Banco Central que o seu banco deve reconhecer com esse nome, caso você procure por ele lá.
+
+### Contratando agora
+
+O débito automático já aparece como opção na própria tela de contratação — veja [Assinar o plano Pro](#assinar-o-plano-pro), acima.
+
+### Já é Pro? Adira quando quiser
+
+O convite para aderir aparece em dois lugares, que levam para a mesma tela:
+
+- no card **Seu Plano**, em **Configurações → Condomínio**;
+- dentro do painel **Mensalidades e pagamento** (veja [Acompanhar e gerenciar a mensalidade](#acompanhar-e-gerenciar-a-mensalidade), acima).
+
+### O limite combinado
+
+Ao aderir, você confirma um **valor máximo por mensalidade** — sugerido como a mensalidade de hoje **mais 50%**, mas você pode informar outro valor. É esse limite que o seu banco vai respeitar: nenhum débito acima dele é autorizado.
+
+{: .tip }
+> **Por que a folga de 50%?**
+>
+> A mensalidade pode subir de um mês para o outro — o condomínio troca de faixa de unidades, contrata um pacote de mensagens do assistente, ou perde um desconto que tinha. O limite sugerido dá margem para essas variações sem exigir que você reautorize toda hora.
+
+Dá para **trocar o limite depois**, no mesmo painel **Mensalidades e pagamento**: a mudança vale a partir da **próxima mensalidade**, aproveitando a cobrança que já ia acontecer — sem gerar cobrança extra por isso.
+
+### Quando começa a valer
+
+Aderindo com o Pro já ativo, **você não paga nada a mais na hora da adesão**: ela fica registrada, e é a **próxima mensalidade** que já sai como débito automático. É assim porque toda autorização de débito nasce junto de um pagamento — criá-la na hora faria o condomínio pagar duas mensalidades no mesmo mês.
+
+### Se a mensalidade passar do limite combinado
+
+Acontece de vez em quando: a mensalidade sobe — nova faixa de unidades, pacote de mensagens, fim de um desconto — e ultrapassa o limite autorizado no banco. Nesse mês, ela é cobrada **normalmente por Pix e boleto**, com um aviso ao síndico explicando o motivo, e o débito automático **continua valendo** para os meses seguintes, sem precisar reautorizar nada.
+
+{: .warning }
+> **E se esse Pix ou boleto também não for pago?**
+>
+> Vale o mesmo prazo de [Se o pagamento falhar](#se-o-pagamento-falhar), acima: avisos aos 7, 20 e 27 dias de atraso e, aos 30 dias, o condomínio volta ao Básico.
+
+### Desistir
+
+- **Antes de começar a valer** — cancele a adesão a qualquer momento, sem efeito nenhum: nada foi cobrado nem autorizado ainda.
+- **Já ativo** — cancele o débito automático no painel **Mensalidades e pagamento**, e as próximas mensalidades voltam a Pix e boleto. O plano e a mensalidade já emitida não são afetados.
+
+### Se você cancelar a autorização direto no banco
+
+Também funciona: o sistema fica sabendo, avisa o síndico, e as próximas mensalidades voltam a Pix e boleto sozinhas — sem precisar fazer mais nada por aqui.
+
+{: .note }
+> **Não disponível em cortesia**
+>
+> Condomínio no Pro em **cortesia** (sem cobrança) não vê a opção de débito automático — não há mensalidade a debitar.
+
+<!-- TODO print: tela de contratação do Pro com débito automático como opção principal (Pix/boleto ao lado); tela de adesão ao débito automático com o limite sugerido; painel "Mensalidades e pagamento" com o débito automático já ativo; aviso de mensalidade acima do limite cobrada por Pix/boleto -->

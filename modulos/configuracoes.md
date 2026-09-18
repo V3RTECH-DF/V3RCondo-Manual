@@ -104,12 +104,14 @@ unidades antes de contratar** — sem unidades cadastradas, a contratação fica
 bloqueada e o botão vira **Cadastrar unidades**. Condomínios com mais de 200
 unidades são atendidos sob consulta (**Fale conosco**).
 
-A mensalidade é paga por **Pix ou boleto**, sem cartão de crédito, e o Pro só
-ativa quando o primeiro pagamento é confirmado. Três ações no card abrem um
-painel: **Mensagens do assistente** (franquia, pacotes e recargas do
-Telegram — veja abaixo), **Mensalidades e pagamento** (pagador, histórico,
-trocar entre Pix e boleto) e **Cancelar plano** (com confirmação e o que se
-perde). Veja o passo a passo completo em [Planos](/guia/planos/).
+A mensalidade é paga por **Pix, boleto ou débito automático**, sem cartão de
+crédito, e o Pro só ativa quando o primeiro pagamento é confirmado. Três
+ações no card abrem um painel: **Mensagens do assistente** (franquia,
+pacotes e recargas do Telegram — veja abaixo), **Mensalidades e pagamento**
+(pagador, histórico, trocar entre Pix e boleto, e aderir ou desistir do
+débito automático) e **Cancelar plano** (com confirmação e o que se perde).
+Veja o passo a passo completo — inclusive do débito automático — em
+[Planos](/guia/planos/#débito-automático-da-mensalidade).
 
 ### Mensagens do assistente
 
