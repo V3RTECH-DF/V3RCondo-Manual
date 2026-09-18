@@ -9,6 +9,22 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.173 — Setembro 2026
+
+### Novidade
+
+- **Débito automático para quem já contratou o Pro.** Antes, o débito automático só podia ser escolhido no momento de contratar o plano Pro. Agora, quem já é cliente também pode aderir — o convite aparece no card do plano e no painel "Mensalidades e pagamento", em Configurações. A adesão fica registrada na hora e passa a valer a partir da próxima mensalidade, sem cobrança extra nem duplicada; dá para desistir enquanto ela ainda não tiver sido confirmada.
+
+### Corrigido
+
+- Os textos que falam da conta de cobrança (na tela de abertura e no painel de configuração inicial) agora explicam melhor do que se trata: é uma conta de pagamento do condomínio, aberta na Asaas Gestão Financeira S.A. — instituição de pagamento autorizada pelo Banco Central —, com painel próprio para receber, pagar contas, transferir por Pix e TED e acompanhar o extrato. Abrir essa conta continua sendo **opcional**: sem ela, o aplicativo inteiro funciona normalmente.
+
+## v7.172 — Setembro 2026
+
+### Novidade
+
+- **Débito automático (Pix Automático) na mensalidade do plano Pro.** Ao contratar o Pro, o débito automático passa a ser a forma de pagamento sugerida — Pix avulso ou boleto continuam disponíveis, a um clique de distância. Na contratação, o síndico confirma um limite de valor para a mensalidade (já vem sugerido, e pode ser ajustado); a primeira cobrança é o próprio QR Code que autoriza as cobranças seguintes, então não existem duas cobranças no mesmo mês. Se em algum mês a mensalidade ultrapassar o limite combinado, ela é cobrada normalmente pelo meio anterior (Pix ou boleto), com aviso ao síndico — o débito automático continua ativo. Cancelar a autorização direto no banco não cancela o plano: a mensalidade seguinte volta a ser cobrada por Pix ou boleto, com aviso.
+
 ## v7.171 — Setembro 2026
 
 ### Novidade
