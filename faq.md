@@ -567,10 +567,12 @@ antes de confirmar: o app aponta o mais provável, mas a decisão é sua.
 <details markdown="1">
 <summary>O dinheiro da cota passa pela V3RTECH?</summary>
 
-**Não.** A conta de cobrança é aberta em nome do condomínio, e o valor da cota cai
-**direto nela**. Quem processa o pagamento é o Asaas, uma instituição de pagamento
-autorizada pelo Banco Central. A V3RTECH não guarda nem intermedia o dinheiro em
-momento nenhum.
+**Não.** A conta de cobrança é uma **conta de pagamento aberta em nome do
+condomínio**, na Asaas Gestão Financeira S.A., instituição de pagamento
+autorizada pelo Banco Central, com painel próprio de acesso — ela recebe, paga
+contas, transfere por Pix e TED e tem extrato. Emitir a cota pelo V3RCondo é um
+dos usos que o condomínio dá a essa conta. O valor da cota cai **direto nela**,
+e a V3RTECH não guarda nem intermedia o dinheiro em momento nenhum.
 </details>
 
 <details markdown="1">
