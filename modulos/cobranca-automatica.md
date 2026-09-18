@@ -244,6 +244,11 @@ Alguns pontos importantes:
 - O aviso que o síndico já recebe ao fim do ciclo passa a dizer **quantas cobranças saíram, quantas não saíram e por quê**, com a unidade de cada falha
 
 {: .note }
+> **O morador recebe um aviso só sobre a cota do mês**
+>
+> Quando a cota é gerada, o morador recebe **exatamente um e-mail** sobre ela — nunca dois. Se a cobrança saiu junto, o aviso já vem no formato **Cobrança emitida**, com boleto e Pix disponíveis pelo link. Se a cobrança não saiu — condomínio sem conta aprovada, ou falha só daquela unidade —, o aviso chega mesmo assim, no formato mais simples, com o valor e o vencimento da cota (veja a tabela em [O que o morador recebe](#o-que-o-morador-recebe)). Ele nunca fica sem saber que uma cota nova existe.
+
+{: .note }
 > **Unidade sem valor de cota cadastrado é pulada, e a tela avisa na hora**
 >
 > Ao gerar a cota do mês, uma unidade sem **valor de cota configurado** em **Configurações → Unidades** não entra na geração. A tela informa, no momento, **quantas e quais unidades** ficaram de fora, com o caminho para cadastrar o valor que falta. O e-mail que chega depois ao síndico também nomeia as unidades — não é preciso caçar qual ficou sem cobrança.
@@ -433,6 +438,7 @@ Além disso, o responsável pela unidade recebe **avisos por e-mail**:
 | Aviso | Quando |
 |---|---|
 | **Cobrança emitida** | Assim que a cobrança sai, no formato "Sua cota **de [mês de referência]** da unidade [nome] está disponível" (quando o lançamento tem competência registrada) ou, sem ela, "Sua cota da unidade [nome] **com vencimento em** [data]" — mais um link que leva ao aplicativo, nunca um código de pagamento pronto |
+| **Cota disponível, sem cobrança emitida** | Quando a cota do mês é gerada mas a cobrança automática não sai — condomínio ainda sem conta de cobrança aprovada, ou emissão daquela unidade específica não aconteceu. Traz o valor e o vencimento da cota, sem link de pagamento por boleto, Pix ou cartão, porque ainda não há cobrança para pagar |
 | **Vence em breve** | Com a antecedência configurada pelo condomínio |
 | **Vence hoje** | No dia do vencimento |
 | **Venceu** | No dia seguinte ao vencimento |
