@@ -9,6 +9,18 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.175 — Setembro 2026
+
+### Corrigido
+
+- **Um aviso só por cota do mês.** Antes, no dia em que a cota do mês era gerada, o morador podia receber duas mensagens quase iguais em poucos minutos: uma com o valor e o vencimento, e outra com o boleto e o Pix. Agora recebe uma só, e a mais completa possível: se a cobrança foi emitida, o aviso já chega com boleto e Pix; se ainda não foi, chega com o valor e o vencimento — o morador nunca fica sem saber que uma cota nova existe.
+- Removido um controle interno de limite que não se aplicava ao nosso caso, sem efeito para quem usa o aplicativo.
+- Corrigida uma conferência que, em condomínios com um lançamento avulso na categoria da cota, podia impedir a geração das cobranças do mês.
+
+### Documento legal
+
+- **Política de Privacidade atualizada para a versão 1.7.** A tabela de prazos de retenção trazia duas linhas para o mesmo registro — "Logs de acesso" e o registro de auditoria, com prazos diferentes. Foram unificadas numa só, com o prazo correto: anonimização do endereço IP e do navegador em 30 dias, exclusão do evento em 400 dias. Nenhuma prática mudou, só a descrição ficou mais precisa. [Leia a Política de Privacidade](/legal/privacidade/).
+
 ## v7.173 — Setembro 2026
 
 ### Novidade

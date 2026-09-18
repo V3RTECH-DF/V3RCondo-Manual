@@ -74,7 +74,7 @@ Hoje você controla:
 | Controle | O que faz |
 |---|---|
 | **Push neste aparelho** | Liga o aviso na tela do celular ou do navegador. Vale por aparelho, e tem botão para testar na hora |
-| **Cobranças → E-mail** | Aviso de cobrança emitida, com valor, vencimento e um link para o aplicativo — nunca um código de pagamento pronto. Sempre ligado — sem ele você pode perder o vencimento da sua cota |
+| **Cobranças → E-mail** | Um aviso por cota do mês — com boleto e Pix pelo link quando a cobrança já foi emitida, ou só com valor e vencimento quando ainda não foi. Nunca um código de pagamento pronto no e-mail. Sempre ligado — sem ele você pode perder o vencimento da sua cota |
 | **Cobranças → Push** | Aviso no celular quando a cobrança sai e nos lembretes de vencimento. Não afeta os e-mails |
 | **Cobranças → Resumo diário de pagamentos** | Só para quem administra um condomínio. Um e-mail por dia com os pagamentos que entraram — valor recebido, juros e tarifas. Vale para **todos** os condomínios que você administra, e é **independente do Push**: desligar o aviso no celular não desliga mais este resumo |
 | **Mensalidade do plano** | Só para o síndico. Controla o Telegram e o push dos avisos da **mensalidade do plano Pro** — emissão, véspera do vencimento, atraso e pagamento confirmado. O e-mail desses avisos sai sempre, independente deste controle: é a cobrança do contrato do condomínio com a V3RTECH, precisa de um canal garantido. Veja [Planos](/guia/planos/) |
