@@ -140,6 +140,7 @@ Clique em **+ Novo Lançamento** e preencha:
 Para consultar um lançamento sem entrar no modo de edição, **clique na linha** dele na lista — ou no cartão, se estiver no celular. Abre um painel de leitura com tudo o que está registrado:
 
 - **Valor** e a situação (Pago, Pendente ou Vencido)
+- Um selo à parte, **Conciliado com o extrato**, quando esse lançamento já foi conferido contra o extrato do banco — ver [Conciliar com o extrato bancário](#conciliar-com-o-extrato-bancário-síndico--plano-pro), mais abaixo. É uma marca independente da situação: um lançamento pode estar **Pago** e **não conciliado** — alguém deu baixa manual e ninguém confirmou aquilo contra o extrato ainda. É exatamente essa combinação — pago, mas não conciliado — que interessa ao síndico e à comissão fiscal no fechamento do mês
 - **Unidade**, **Categoria** e **Conta** bancária
 - **Vencimento**, **Competência** e a data em que foi **pago**
 - **Observações**
@@ -149,7 +150,7 @@ Para consultar um lançamento sem entrar no modo de edição, **clique na linha*
 
 <!-- PRINT: financeiro-detalhe-lancamento-01 — ver roteiro de capturas -->
 
-O painel é de leitura: **nada é alterado só por abri-lo** e não há botão de excluir dentro dele. Para o síndico, o rodapé oferece dois atalhos — **Marcar como pago** (quando o lançamento ainda está em aberto) e **Editar lançamento**, que fecha o painel e abre o formulário. Quem tem acesso apenas de leitura não vê esses botões: para essas pessoas o painel é só consulta.
+O painel é de leitura: **nada é alterado só por abri-lo** e não há botão de excluir dentro dele. Para síndico e subsíndico, o rodapé oferece atalhos conforme o estado do lançamento — **Marcar como pago** (quando ainda está em aberto), **Editar lançamento**, que fecha o painel e abre o formulário, e **Desfazer conciliação** (quando o lançamento está marcado como conciliado). Desfazer a conciliação **não** desfaz a baixa: o lançamento continua pago, só deixa de estar marcado como conferido contra o extrato. Quem tem acesso apenas de leitura não vê esses botões: para essas pessoas o painel é só consulta.
 
 {: .note }
 > **Para o conselho fiscal e o contador**
@@ -243,28 +244,54 @@ A operação é **atômica**: o sistema registra automaticamente um débito na c
 >
 > Ao excluir uma transferência, ambos os lançamentos (débito e crédito) são removidos automaticamente.
 
-## Importar extrato bancário *(síndico — plano Pro)*
+## Conciliar com o extrato bancário *(síndico — plano Pro)*
+
+Dar baixa manual confirma que o dinheiro entrou ou saiu; não confirma que aquele lançamento é **de fato** a mesma transação do extrato do banco. A conciliação faz essa segunda conferência: compara os lançamentos do V3RCondo com as linhas reais do extrato e marca cada um que bate como **Conciliado com o extrato** — a marca separada que aparece no [detalhe do lançamento](#ver-os-detalhes-de-um-lançamento).
 
 O V3RCondo aceita extratos nos formatos **OFX** (padrão da maioria dos bancos) e **CSV** genérico.
 
-Para importar:
+### Importar o extrato
 
 1. Clique em **Importar extrato**
 
-![Tela de importação de extrato bancário](/assets/screenshots/18-financeiro-importar-extrato.png)
+   ![Tela de importação de extrato bancário](/assets/screenshots/18-financeiro-importar-extrato.png)
 
 2. Selecione a **conta bancária de destino**
 3. Faça o upload do arquivo OFX ou CSV
-4. Revise as correspondências encontradas:
-    - **Conciliado automaticamente** — mesmo valor + data ≤ 3 dias
-    - **Aguarda confirmação** — mesmo valor + data 4–7 dias
-    - **Novo lançamento** — sem correspondência; decida importar ou ignorar
-5. Clique em **Confirmar importação**
+4. O app compara cada linha do extrato com os lançamentos daquela conta:
+    - **Casa automaticamente** quando existe **um único** lançamento com o mesmo valor e data compatível — a conciliação acontece sem perguntar nada
+    - **Pede para você decidir** quando há mais de um lançamento candidato (duas cotas do mesmo valor no mesmo mês, por exemplo) ou quando o valor é parecido mas não idêntico — típico de pagamento parcial. Você escolhe o lançamento certo ou diz que nenhum corresponde
+    - **Vira lançamento novo** quando não existe nada parecido no V3RCondo — decida se importa como lançamento novo ou ignora a linha
+5. Revise as pendências que pedem decisão e confirme cada uma
+6. Clique em **Concluir importação**
 
 {: .note }
-> **Deduplicação automática**
+> **Pagamento fora da data do vencimento também é reconhecido**
 >
-> O sistema identifica transações já importadas e as ignora, evitando duplicatas.
+> A conciliação não fica mais presa a uma janela de poucos dias ao redor do vencimento — ela aceita pagamento bem depois, que é o normal em despesa. Uma conta de energia que vence dia 10 e é paga dia 25 é reconhecida normalmente.
+
+{: .note }
+> **Conciliar também dá baixa — com a data do extrato**
+>
+> Conciliar um lançamento marca como pago usando a **data que está no extrato**, mesmo que ele já estivesse marcado como pago com outra data. Vale a data do extrato, porque é quando o dinheiro realmente se moveu; a correção aparece no resumo da importação.
+
+{: .tip }
+> **Reimportar o mesmo arquivo é seguro**
+>
+> Uma linha do extrato já registrada numa importação anterior é reconhecida e não entra de novo — pode reimportar um período sem se preocupar em duplicar lançamento.
+
+### Conferir o que aconteceu com cada linha do extrato
+
+Ao escolher a conta na tela de importação, aparece a lista das linhas já importadas daquela conta, cada uma com o desfecho: **conciliada**, **virou lançamento novo**, **ignorada**, **sem correspondência** ou **valor divergente**. É o registro de tudo o que o app decidiu — útil para conferir depois, sem precisar refazer a importação.
+
+### Desfazer uma conciliação
+
+Abra o [detalhe do lançamento](#ver-os-detalhes-de-um-lançamento) e clique em **Desfazer conciliação**. Isso tira a marca **Conciliado com o extrato**, mas **não desfaz a baixa** — o lançamento continua pago. Use quando a conciliação casou com o lançamento errado.
+
+{: .note }
+> **Quem pode**
+>
+> Síndico e subsíndico conferem, importam e desfazem conciliações. Contador e conselho fiscal enxergam as duas marcas (Pago e Conciliado com o extrato) em qualquer lançamento, mas não alteram nada.
 
 ## Lançamento em lote por unidade *(síndico)*
 

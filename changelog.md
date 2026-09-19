@@ -9,6 +9,25 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.176.1 — Setembro 2026
+
+### Corrigido
+
+- Na tela de conferência do extrato, o rodapé fixo deixou de cobrir as últimas transações da lista.
+
+## v7.176 — Setembro 2026
+
+### Novidade
+
+- **Conciliação de verdade com o extrato do banco.** O lançamento agora ganha uma marca separada da situação de pagamento: **Conciliado com o extrato**, para quando aquilo foi conferido contra uma linha real do extrato bancário — diferente de **Pago**, que só diz que alguém deu baixa. As duas convivem: um lançamento pago à mão e nunca conferido aparece pago, mas sem a marca de conciliado — é exatamente essa lista que interessa no fechamento do mês.
+- **Conciliar também corrige a data de pagamento.** Se o lançamento já estava marcado como pago com outra data, a conciliação passa a valer a data do extrato — é quando o dinheiro realmente se moveu —, e a correção aparece no resumo da importação.
+- **A janela de datas ficou realista.** Antes a comparação valia só poucos dias em torno do vencimento; agora reconhece pagamento bem depois do vencimento, o normal em despesa — uma conta que vence dia 10 e é paga dia 25 passa a casar.
+- **Casamento automático só quando não há dúvida.** Havendo um único lançamento com o mesmo valor e data compatível, concilia sozinho; havendo mais de um candidato, ou um valor parecido mas diferente (pagamento parcial, por exemplo), o app pergunta em vez de decidir.
+- **Cada linha do extrato fica registrada**, com o que aconteceu com ela — conciliou, virou lançamento novo, foi ignorada, ficou sem correspondência ou com valor divergente. A lista aparece ao escolher a conta na tela de importação.
+- **Reimportar o mesmo arquivo é seguro** — uma linha já registrada é reconhecida e não entra de novo.
+- **Desfazer uma conciliação**, pelo detalhe do lançamento, sem desfazer a baixa: o lançamento continua pago, só deixa de estar marcado como conferido.
+- Síndico e subsíndico conferem, importam e desfazem conciliações; contador e conselho fiscal enxergam as duas marcas em qualquer lançamento, sem poder alterar nada.
+
 ## v7.175 — Setembro 2026
 
 ### Corrigido

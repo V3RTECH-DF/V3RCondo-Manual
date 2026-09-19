@@ -560,6 +560,25 @@ para a ação de **mover um lançamento de conta**. Ainda assim, confira o lanç
 antes de confirmar: o app aponta o mais provável, mas a decisão é sua.
 </details>
 
+<details markdown="1">
+<summary>Qual a diferença entre "Pago" e "Conciliado com o extrato"?</summary>
+
+**Pago** diz que o dinheiro se moveu — alguém deu baixa, à mão ou automaticamente.
+**Conciliado com o extrato** diz que aquele lançamento já foi conferido contra uma
+linha real do extrato do banco, pela importação de extrato. As duas marcas são
+independentes: um lançamento pode estar pago e ainda não conciliado — é o caso mais
+comum de baixa manual, antes de importar o extrato daquele mês. Veja
+**[Conciliar com o extrato bancário](modulos/financeiro.md#conciliar-com-o-extrato-bancário-síndico--plano-pro)**.
+</details>
+
+<details markdown="1">
+<summary>Conciliei um lançamento errado. Dá para desfazer?</summary>
+
+Sim. Abra o detalhe do lançamento e clique em **Desfazer conciliação**. Isso tira a
+marca de conciliado, mas **não desfaz a baixa** — o lançamento continua marcado como
+pago. Só síndico e subsíndico têm esse botão.
+</details>
+
 ---
 
 ## Cobrança Automática *(síndico — plano Pro)*
