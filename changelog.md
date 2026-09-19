@@ -9,6 +9,38 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.180 — Setembro 2026
+
+### Novidade
+
+- **Conta bancária com movimento agora pode ser desativada, não só excluída.** Antes, uma conta que já tinha lançamentos não podia ser removida do cadastro. Agora, desativar tira a conta das listas de escolha (novo lançamento, lançamento em lote, despesa de compra, transferência, importações, filtro do Fluxo de Caixa) e do quadro de saldos, mas mantém o nome dela no histórico antigo — e ela pode ser reativada a qualquer momento em "Mostrar contas desativadas", no cadastro de Contas Bancárias. Desativar a conta padrão pede para escolher outra antes; se a conta estava vinculada à cobrança automática ou tinha recorrência ativa apontando para ela, o app avisa antes de confirmar.
+
+### Corrigido
+
+- Uma conta cujos únicos lançamentos já tinham sido excluídos ainda era recusada como "tem movimento" ao tentar apagar — corrigido, a exclusão agora enxerga esses lançamentos como o que são.
+- Acabamento da tabela de contas: nome, tipo, saldo e a lupa do Caça-diferenças voltaram a ficar alinhados na mesma altura em cada linha, e as divisórias entre as linhas voltaram a atravessar a tabela inteira — inclusive a que fica sob a lupa, que estava torta.
+
+## v7.179 — Setembro 2026
+
+### Novidade
+
+- **Conta de dívida (cartão de crédito, financiamento) no Financeiro.** Ao cadastrar uma conta bancária, agora dá para marcá-la como conta de dívida — diferente da conta de dinheiro de sempre. O saldo inicial de uma conta de dívida aparece como "quanto já está devido", e o total líquido do condomínio passa a descontar essa dívida do que está disponível em caixa, em vez de somar os dois.
+- **Contas em tabela, mais fácil de comparar.** O quadro de contas do Financeiro passou de um cartão por conta para uma tabela única, com nome, tipo e saldo alinhados.
+- **Busca e filtros numa faixa só**, mostrando o nome de cada filtro (Tipo, Status, Categoria, Conciliação) mesmo sem nada selecionado.
+- **O aviso de lançamentos vencidos deixou de ocupar uma faixa fixa no topo** e virou um bloco ao lado das Recorrências ativas — sempre visível ali, sem ficar em cima do resto da tela.
+
+### Corrigido
+
+- O saldo inicial de uma conta de dinheiro lançado como número negativo estava sendo invertido (virava positivo) ao salvar. Corrigido.
+
+## v7.178 — Setembro 2026
+
+### Novidade
+
+- **Topo do Financeiro reorganizado.** O resumo do período agora mostra lado a lado o que já foi **realizado** e o que ainda está **previsto**, em vez de misturar tudo num só número. Os saldos das contas ganharam um bloco único, mais compacto que os cartões separados de antes.
+- **Busca única nos lançamentos.** Um campo de busca agora encontra lançamentos por descrição, unidade, conta, categoria, valor ou data — inclusive fora do mês em tela, sem precisar trocar de filtro antes.
+- No computador, resumo e saldos aparecem lado a lado; no celular, um embaixo do outro, com as colunas de valor alinhadas à direita.
+
 ## v7.176.1 — Setembro 2026
 
 ### Corrigido

@@ -533,20 +533,79 @@ Na coluna de ações, os botões ficaram **maiores** e o de excluir foi **afasta
 Para adicionar uma nova conta, clique em **Adicionar conta** e preencha:
 
 1. **Nome da conta** — ex: "Conta Inter", "Fundo de Reserva" (obrigatório)
-2. **Banco** — nome do banco
-3. **Código** *(opcional)* — o código de 3 dígitos do banco, aquele que aparece no extrato (ex: 237)
-4. **Agência** — número da agência
-5. **Conta** — número da conta
-6. **Dígito** *(opcional)* — o dígito verificador da conta, o número depois do traço
-7. **Tipo de conta** *(opcional)* — Conta corrente ou Conta poupança; deixe em "Não informado" se preferir
-8. **Titular da conta** *(opcional)* — o nome como está registrado no banco
-9. **Saldo inicial** — saldo na data de implantação (padrão: 0,00)
-10. **Data do saldo inicial** — data de referência do saldo
-11. **Conta padrão** — ative para pré-selecionar em novos lançamentos
+2. **Natureza da conta** — **Conta de dinheiro** (banco, poupança, caixa) ou **Conta de dívida** (cartão, empréstimo, financiamento). O padrão é conta de dinheiro. Veja logo abaixo por que essa escolha importa
+3. **Banco** — nome do banco
+4. **Código** *(opcional)* — o código de 3 dígitos do banco, aquele que aparece no extrato (ex: 237)
+5. **Agência** — número da agência
+6. **Conta** — número da conta
+7. **Dígito** *(opcional)* — o dígito verificador da conta, o número depois do traço
+8. **Tipo de conta** *(opcional)* — Conta corrente ou Conta poupança; deixe em "Não informado" se preferir
+9. **Titular da conta** *(opcional)* — o nome como está registrado no banco
+10. **Saldo inicial** — saldo na data de implantação (padrão: 0,00). Numa conta de dívida, o campo muda de nome para **"Quanto já está devido nesta conta"** — informe um número positivo com o que já está em aberto naquela data
+11. **Data do saldo inicial** — data de referência do saldo
+12. **Conta padrão** — ative para pré-selecionar em novos lançamentos
 
 {: .note }
 > **Os campos novos são opcionais**
 >
 > Código do banco, dígito, tipo de conta e titular podem ficar em branco. As contas que você já cadastrou continuam válidas do jeito que estão — não é preciso voltar e completar nada. Preencher ajuda a identificar a conta com precisão quando o dado é usado fora do aplicativo.
 
-![Modal de cadastro de nova conta bancária com todos os campos](/assets/screenshots/83-config-conta-modal.png)
+![Painel de cadastro de nova conta bancária com todos os campos, incluindo Natureza da conta](/assets/screenshots/83-config-conta-modal.png)
+
+### Conta de dívida: cartão de crédito, empréstimo e financiamento
+
+Boa parte dos condomínios paga o cartão corporativo, um financiamento de equipamento ou um empréstimo para obra. Esse dinheiro não está disponível — é dinheiro que **falta**, e no sentido contrário ao das outras contas. Marcar a conta como **de dívida** ensina o V3RCondo a tratá-la assim: em vez de somar ao que você tem, ela desconta do que você tem.
+
+**Exemplo:** o condomínio tem R$ 18.000,00 na conta corrente e uma fatura de cartão em aberto de R$ 3.200,00. Cadastrando o cartão como conta de dívida, o [Líquido](/modulos/financeiro/#visão-geral-síndico) do bloco de contas mostra R$ 14.800,00 — o que sobra depois de pagar a fatura —, em vez de somar os R$ 3.200,00 como se fossem dinheiro disponível.
+
+{: .warning }
+> **Não cadastre o cartão como conta comum**
+>
+> Se o cartão de crédito for cadastrado como conta de dinheiro (o padrão), o valor gasto nele soma normalmente ao saldo daquela conta — e esse saldo passa a contar como dinheiro disponível no Líquido e na resposta do assistente sobre "quanto tem em caixa". O síndico vê mais dinheiro do que realmente existe, porque parte dele já tem dono: a operadora do cartão. Cadastre como **conta de dívida** desde o início.
+
+{: .note }
+> **Contas já cadastradas não mudam sozinhas**
+>
+> A natureza da conta não é reclassificada automaticamente. Se você já tem um cartão ou empréstimo cadastrado como conta comum, edite a conta e troque a **Natureza** para **Conta de dívida** — o sistema não faz essa troca por conta própria, porque ela muda o que o Líquido mostra.
+
+Como uma conta de dívida se comporta no dia a dia:
+
+- **Uma despesa lançada na conta de dívida aumenta o que se deve** — é a fatura do mês crescendo.
+- **Pagar a fatura é uma [transferência](/modulos/financeiro/#transferências-entre-contas-síndico) da conta de dinheiro para a conta de dívida**, não um lançamento de despesa comum: reduz o valor devido e o dinheiro disponível ao mesmo tempo, e o Líquido não muda — pagar uma dívida com dinheiro não aumenta nem diminui o patrimônio do condomínio, só troca uma coisa pela outra.
+- A conta de dívida **não entra no dinheiro disponível** em lugar nenhum do aplicativo — nem no bloco de contas do Financeiro, nem quando o assistente responde quanto o condomínio tem em caixa.
+
+![Campo Natureza da conta em "Conta de dívida", com a frase de efeito e o rótulo de saldo inicial ajustado para "Quanto já está devido nesta conta"](/assets/screenshots/config-conta-natureza-dropdown.png)
+
+### Desativar, reativar e excluir uma conta
+
+São ações diferentes, para situações diferentes — a lógica é a mesma que vale para condôminos, mais acima.
+
+**Uma conta sem nenhum lançamento, recorrência, despesa de compra ou linha de extrato importada pode ser excluída de vez.** Clique no ícone de lixeira e confirme.
+
+**Uma conta com qualquer coisa vinculada não pode ser excluída.** Em vez do aviso genérico de erro, o app explica quanto está vinculado àquela conta e oferece **Desativar** no lugar.
+
+![Diálogo "Esta conta não pode ser apagada", com a contagem do que depende da conta, a oferta de desativar e o seletor de nova conta padrão](/assets/screenshots/config-conta-nao-pode-excluir-aviso.png)
+
+**Desativar é uma pausa, não um apagamento.** A conta desativada:
+
+- some das listas de escolha em todo o aplicativo — novo lançamento, lançamento em lote, despesa de compra, transferência, importação de extrato, importação por planilha e no filtro do Fluxo de Caixa;
+- sai do bloco de contas do Financeiro e do cálculo do Líquido;
+- **continua nomeando** todo o histórico antigo — um lançamento pago no ano passado por uma conta hoje desativada continua mostrando o nome dela normalmente.
+
+{: .tip }
+> **Ver e reativar contas desativadas**
+>
+> Ative o interruptor **Mostrar contas desativadas**, no topo da lista, para vê-las. Cada uma traz o botão **Reativar**, que devolve a conta a todas as listas de escolha.
+
+![Lista de contas com o interruptor "Mostrar contas desativadas" ligado: uma conta ativa e uma desativada, com os selos "Desativada" e "Conta de dívida" e o botão "Reativar"](/assets/screenshots/config-conta-desativada-lista.png)
+
+{: .warning }
+> **Duas travas antes de desativar**
+>
+> Desativar a **conta padrão** exige eleger outra antes — e só **contas de dinheiro ativas** aparecem como opção, porque a padrão pré-seleciona lançamentos comuns. Desativar a conta **vinculada à cobrança automática** (definida em **Cobranças & Acordos**) avisa que a busca do extrato do Asaas para de funcionar para aquele condomínio a partir dali.
+
+{: .note }
+> **Conta com histórico todo excluído também não sai da lista**
+>
+> Se todos os lançamentos de uma conta já foram excluídos, ela ainda assim não libera a exclusão da conta em si — o app explica que há histórico excluído guardado nela. Isso é proposital: um lançamento excluído continua recuperável com a nossa ajuda (ver [O que acontece ao excluir uma categoria](#o-que-acontece-ao-excluir-uma-categoria), acima), e apagar a conta cortaria esse caminho de recuperação.
+

@@ -26,7 +26,12 @@ A tela principal exibe cinco cards de resumo no topo. **Todos eles acompanham o 
 - **Saídas do Período** — despesas do período, incluindo o que ainda vai vencer
 - **Pendentes** — quantos lançamentos do período ainda não foram pagos
 
-A seção **Saldos por Conta** mostra o saldo atual de cada conta bancária cadastrada. Um card de **Saldo Total** consolida todas as contas.
+A seção **Saldos por Conta** mostra o saldo atual de cada conta bancária cadastrada. Um card de **Líquido** consolida todas as contas.
+
+{: .note }
+> **Contas de dívida entram diferente**
+>
+> Uma conta marcada como **conta de dívida** (cartão de crédito, empréstimo, financiamento) não mostra um saldo disponível — mostra **quanto está devido**, ou **crédito a favor** se ficar positiva. O card **Líquido** desconta esse valor em vez de somá-lo: é o que sobra depois de pagar tudo o que se deve, não a soma de tudo o que existe em cada conta. Ver [Conta de dívida](/modulos/configuracoes/#conta-de-dívida-cartão-de-crédito-empréstimo-e-financiamento), em Configurações.
 
 {: .tip }
 > **O saldo não bate com o banco?**
