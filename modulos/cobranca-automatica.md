@@ -290,7 +290,7 @@ Quem avisa o morador é o V3RCondo — todos os avisos que o Asaas manda por con
 {: .note }
 > **Você não recebe recibo do Asaas**
 >
-> O síndico não é copiado nos avisos do Asaas. O pagamento aparece para você **no [Financeiro](/modulos/financeiro/), assim que é conciliado**, e no **resumo diário por e-mail** — não há aviso individual de recibo a cada cota paga.
+> O síndico não é copiado nos avisos do Asaas. O pagamento aparece para você **no [Financeiro](/modulos/financeiro/), assim que é baixado** — em poucos minutos — e no **resumo diário por e-mail** — não há aviso individual de recibo a cada cota paga.
 
 Se moradores cadastrados antes de a régua existir ainda recebem outras mensagens do Asaas, use o botão **Ajustar moradores antigos**, no mesmo cartão. Ele pode ser acionado quantas vezes quiser: rodar de novo não muda o resultado, e a mensagem final diz quantos moradores foram ajustados (ou que já estava tudo certo).
 
@@ -385,10 +385,10 @@ O detalhe traz:
 - **Não há onde pagar** — para uma cobrança **cancelada, removida no Asaas ou com falha na emissão**: em vez de um botão que levaria a uma página de erro, a tela explica o que houve e orienta **emitir uma nova cobrança a partir do lançamento no Financeiro**
 - **Valores** — valor cobrado, uso da plataforma e o líquido estimado
 - **De onde veio esta cobrança** — os lançamentos do Financeiro que a originaram
-- **Lançamentos gerados por esta cobrança** — só em cobrança paga: as tarifas e, quando houver, os juros e multa que a conciliação lançou, cada um com a data do pagamento
+- **Lançamentos gerados por esta cobrança** — só em cobrança paga: as tarifas e, quando houver, os juros e multa que a baixa automática lançou, cada um com a data do pagamento
 - **Cancelar esta cobrança**, quando ela ainda pode ser cancelada
 
-![Detalhe de uma cobrança paga, com o bloco "Comprovante da cobrança" e o botão Abrir fatura, e os lançamentos de tarifa gerados pela conciliação](/assets/screenshots/cobranca-14-detalhe-paga.png)
+![Detalhe de uma cobrança paga, com o bloco "Comprovante da cobrança" e o botão Abrir fatura, e os lançamentos de tarifa gerados pela baixa automática](/assets/screenshots/cobranca-14-detalhe-paga.png)
 
 *Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
@@ -507,7 +507,7 @@ Abra o lançamento da cota paga no Financeiro e você verá o bloco **Composiç�
 
 Logo abaixo da composição, o bloco **Origem do pagamento** diz como aquela cota foi liquidada:
 
-- A frase **“Liquidado pelo Asaas · Pix”** (ou Boleto, Cartão de crédito, Cartão de débito, Transferência bancária, Dinheiro), seguida da data do pagamento
+- A frase **“Pagamento confirmado pelo Asaas · Pix”** (ou Boleto, Cartão de crédito, Cartão de débito, Transferência bancária, Dinheiro), seguida da data do pagamento
 - O **identificador da cobrança no Asaas**, com um botão para copiar — é o que você usa para localizar o lançamento no extrato do Asaas
 
 <!-- PRINT: cobranca-17-origem-do-pagamento — ver roteiro de capturas -->
@@ -534,7 +534,7 @@ Na lista do Financeiro, esses lançamentos automáticos aparecem **recolhidos de
 
 ## O resumo diário
 
-Todo dia às **7h (horário de Brasília)**, **cada síndico ativo do condomínio** recebe **um único e-mail** com os pagamentos que entraram desde o resumo anterior:
+Todo dia **no fim do dia (horário de Brasília)**, **cada síndico ativo do condomínio** recebe **um único e-mail** com os pagamentos que entraram desde o resumo anterior:
 
 - Quantos pagamentos e o **total recebido**
 - A lista **por unidade**, com o morador, o valor pago e a data

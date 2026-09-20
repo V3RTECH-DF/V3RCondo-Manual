@@ -9,7 +9,7 @@ nav_order: 7
 {: .warning }
 > **Envio de e-mails — Plano Pro**
 >
-> O envio de notificações por e-mail é um recurso do **plano Pro**. No plano Básico, o módulo está disponível apenas para visualizar o histórico.
+> O envio de notificações por e-mail é um recurso do **plano Pro**. No plano Básico, o formulário de nova notificação continua disponível para preencher — o que fica bloqueado é o botão de envio, marcado como **Enviar (Pro)** e com um cadeado.
 
 O módulo de Notificações permite ao síndico enviar comunicados por e-mail para os condôminos — seja para todos de uma vez, para unidades específicas ou para um condômino individual.
 
@@ -31,7 +31,7 @@ Clique em **Enviar agora** para disparar a notificação.
 
 ## Histórico de notificações
 
-Abaixo do formulário, a seção **Histórico** lista todas as notificações enviadas com: Título, Destinatários, Data e Status. O status **Enviado** confirma que a notificação foi processada.
+Abaixo do formulário, a seção **Histórico** lista todas as notificações enviadas com: Título, Destinatários, Data e Status. O status pode ser **Enviado** (confirma que a notificação foi processada), **Agendado** (ainda vai sair, na data marcada) ou **Falhou** (o envio não foi concluído).
 
 Para excluir uma notificação do histórico, clique no ícone de lixeira e confirme. A notificação sai do histórico e o **registro fica guardado** — mas o que já foi enviado ao morador não volta atrás.
 
@@ -77,7 +77,7 @@ Hoje você controla:
 | **Cobranças → E-mail** | Um aviso por cota do mês — com boleto e Pix pelo link quando a cobrança já foi emitida, ou só com valor e vencimento quando ainda não foi. Nunca um código de pagamento pronto no e-mail. Sempre ligado — sem ele você pode perder o vencimento da sua cota |
 | **Cobranças → Push** | Aviso no celular quando a cobrança sai e nos lembretes de vencimento. Não afeta os e-mails |
 | **Cobranças → Resumo diário de pagamentos** | Só para quem administra um condomínio. Um e-mail por dia com os pagamentos que entraram — valor recebido, juros e tarifas. Vale para **todos** os condomínios que você administra, e é **independente do Push**: desligar o aviso no celular não desliga mais este resumo |
-| **Mensalidade do plano** | Só para o síndico. Controla o Telegram e o push dos avisos da **mensalidade do plano Pro** — emissão, véspera do vencimento, atraso e pagamento confirmado. O e-mail desses avisos sai sempre, independente deste controle: é a cobrança do contrato do condomínio com a V3RTECH, precisa de um canal garantido. Veja [Planos](/guia/planos/) |
+| **Mensalidade do plano** | Só para o síndico. Os avisos da **mensalidade do plano Pro** — emissão, véspera do vencimento, atraso e pagamento confirmado — saem sempre por e-mail: é a cobrança do contrato do condomínio com a V3RTECH, precisa de um canal garantido. Veja [Planos](/guia/planos/) |
 | **Comunicados gerais** | Entra ou sai da lista de destinatários dos comunicados do síndico |
 | **Mural de avisos** | Aviso quando um aviso novo é publicado no mural |
 | **Documentos** | Aviso quando um documento novo é publicado |
@@ -89,12 +89,13 @@ Hoje você controla:
 {: .note }
 > **A que horas os avisos saem**
 >
-> Os lembretes automáticos — de **assembleia**, de **reserva** e de **tarefa** — e o
-> **resumo diário** de quem administra o condomínio saem sempre de manhã, no
-> **horário de Brasília**: o resumo diário de pagamentos às **7h**, o lembrete de
-> tarefa por volta das **7h50**, o de reserva às **8h10** e o de assembleia às
-> **8h20**. Antes eles chegavam de madrugada, o que fazia o aviso ser visto só na
-> manhã seguinte e, no caso do lembrete de véspera, tarde demais.
+> Os lembretes automáticos — de **assembleia**, de **reserva** e de **tarefa** —
+> saem sempre de manhã, no **horário de Brasília**: o lembrete de tarefa por
+> volta das **7h50**, o de reserva às **8h10** e o de assembleia às **8h20**.
+> Antes eles chegavam de madrugada, o que fazia o aviso ser visto só na manhã
+> seguinte e, no caso do lembrete de véspera, tarde demais. Já o **resumo
+> diário de pagamentos** sai **no fim do dia**, depois de fechado o
+> movimento.
 
 {: .note }
 > **Dois resumos diferentes, dois controles diferentes**

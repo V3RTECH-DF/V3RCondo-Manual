@@ -88,8 +88,10 @@ ou no ícone de lixeira para excluir (com confirmação).
 {: .tip }
 > **Assuntos gerais**
 >
-> Itens não previstos na pauta original podem ser adicionados durante a
-> condução da assembleia, diretamente na tela de condução.
+> O tipo **Assunto geral** é para o item que surgiu depois de a pauta original
+> ter sido montada. Adicione-o enquanto a assembleia ainda está em
+> **Rascunho** — a tela de condução só lista e edita os itens que já existem
+> na pauta, não permite criar item novo durante a assembleia.
 
 ### Anexar documentos
 
@@ -104,7 +106,8 @@ Os documentos aparecem também no módulo **Documentos** com a categoria
 ### Publicar o edital
 
 Quando a pauta estiver completa, clique em **Publicar edital** no cabeçalho
-da página. Uma confirmação será exibida antes de prosseguir.
+da página. Uma confirmação será exibida antes de prosseguir. É preciso ter
+ao menos um item de pauta cadastrado — o app recusa publicar um edital vazio.
 
 Ao publicar:
 
@@ -113,7 +116,17 @@ Ao publicar:
 - Uma notificação interna é disparada no aplicativo
 - O status muda para **Edital publicado**
 - O edital fica disponível em **Documentos → Assembleias**
-- O **total de unidades do condomínio é registrado neste momento**, a partir do que está cadastrado em **Configurações → Unidades** — é essa contagem que serve de referência para o cálculo do quórum desta assembleia, e ela **não muda depois**, mesmo que o condomínio cadastre ou remova unidades em seguida
+
+{: .note }
+> **O total de unidades é registrado na criação do rascunho, não na publicação do edital**
+>
+> É essa contagem — o que estava cadastrado em **Configurações → Unidades** no
+> momento em que você clicou em **Salvar** para criar a assembleia — que serve
+> de referência para o cálculo do quórum, e ela **não muda depois**, nem quando
+> você publica o edital dias ou semanas mais tarde, nem se o condomínio cadastrar
+> ou remover unidades nesse meio-tempo. Criou o rascunho num condomínio com 40
+> unidades e só publicou o edital depois de cadastrar mais 10? O quórum desta
+> assembleia continua calculado sobre 40.
 
 {: .warning }
 > **Ação irreversível**

@@ -94,8 +94,13 @@ conferir que está funcionando.
 - **Cobranças** — aviso de cobrança emitida, com valor, vencimento e um link para o aplicativo (nunca um código de pagamento pronto).
     - **E-mail** — fica **sempre ligado** e não pode ser desmarcado. Sem ele
       você pode perder o vencimento da sua cota.
-    - **Push** — o aviso no celular é opcional; ligue ou desligue à vontade.
-      Só tem efeito depois que você autorizar o push neste aparelho, acima.
+    - **Push** — o aviso no celular quando a cobrança sai **e** nos lembretes
+      de vencimento; é opcional, ligue ou desligue à vontade. Só tem efeito
+      depois que você autorizar o push neste aparelho, acima.
+    - **Resumo diário de pagamentos** — só aparece para quem administra um
+      condomínio. Um e-mail por dia, no fim do dia, com os pagamentos que
+      entraram — valor recebido, juros e tarifas. Vale para todos os
+      condomínios que você administra.
 - **Comunicados gerais** — entra ou sai da lista de destinatários dos
   comunicados enviados pelo síndico.
 - **Mural de avisos** — ser avisado quando um aviso novo for publicado no mural.
@@ -166,12 +171,6 @@ condomínio.
 
 Preencha **Nova senha** e **Confirmar nova senha** e clique em **Alterar senha**.
 
-{: .note }
-> **Login com Google**
->
-> Quem entra com a conta Google não precisa definir senha — o acesso é
-> gerenciado pelo Google.
-
 ## Exportar meus dados
 
 O botão **Exportar XLSX** gera uma planilha com todas as informações do seu
@@ -200,6 +199,8 @@ O que acontece, na prática:
   nada do anterior: sem vínculo com o condomínio, sem histórico, sem os
   aceites de documentos já feitos. O síndico precisa **incluir a pessoa de
   novo** para que ela volte a acessar o condomínio
+- **Os síndicos dos condomínios em que você estava são avisados** do
+  encerramento
 
 {: .warning }
 > **Síndico único**

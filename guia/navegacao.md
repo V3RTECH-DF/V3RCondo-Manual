@@ -81,7 +81,7 @@ Antes, quando não cabiam na largura da tela, as últimas saíam do enquadrament
 | Compras e Serviços | ✅ Leitura e escrita | ✅ Leitura |
 | Notificações | ✅ Envia e visualiza | ✅ Visualiza |
 | Documentos | ✅ Upload e gestão | ✅ Visualiza e baixa |
-| Mural de Avisos | ✅ Publica e gerencia | ✅ Visualiza |
+| Mural de Avisos | ✅ Publica em qualquer categoria e gerencia | ✅ Publica só como Informativo e exclui os próprios |
 | Fale com o Síndico | ✅ Gerencia todas | ✅ Cria e acompanha as próprias |
 | Nosso Condomínio | ✅ Plano Pro | ✅ Plano Pro |
 | Assembleias | ✅ Plano Pro — criação e condução | ✅ Plano Pro — visualização |

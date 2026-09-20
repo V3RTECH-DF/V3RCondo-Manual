@@ -47,4 +47,13 @@ Clique em **Publicar** para tornar o aviso visível a todos.
 
 ## Visão do condômino
 
-Condôminos visualizam todos os avisos e podem filtrar por categoria. Não é possível publicar, editar ou excluir posts — apenas leitura.
+Condôminos visualizam todos os avisos e podem filtrar por categoria. Diferente do síndico, não é possível escolher categoria nem data de expiração — e não dá para editar um aviso já publicado.
+
+### Publicar um aviso *(condômino)*
+
+Clique em **+ Novo Aviso** e preencha **Título** e **Mensagem** (até 300 caracteres). O aviso sai sempre na categoria **Informativo** — é a única disponível para condômino, e o formulário avisa disso.
+
+{: .tip }
+> **Excluir seu próprio aviso**
+>
+> Você pode excluir um aviso que você mesmo publicou, do mesmo jeito que o síndico: ícone de lixeira no post e confirmação. Aviso publicado por outro condômino ou pelo síndico só pode ser excluído por quem publicou ou pelo síndico.

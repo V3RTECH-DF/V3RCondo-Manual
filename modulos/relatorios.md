@@ -27,7 +27,7 @@ O módulo de Relatórios oferece uma visão analítica da situação financeira 
 
 Exibe a evolução financeira mensal no período selecionado.
 
-**Filtros:** período de início e fim (mês/ano) e conta bancária. Por padrão, exibe os últimos 6 meses considerando todas as contas.
+**Filtros:** período de início e fim (mês/ano) e conta bancária. Por padrão, exibe o **mês atual**, considerando todas as contas.
 
 **Gráfico:** barras agrupadas por mês mostrando Receitas (verde escuro) e Despesas (vermelho), com linha de Saldo Acumulado sobreposta.
 
@@ -49,9 +49,9 @@ Exibe a evolução financeira mensal no período selecionado.
 Projeta a situação financeira do condomínio para os próximos meses com base no histórico de lançamentos pagos e nas recorrências financeiras ativas.
 
 {: .note }
-> **Disponível apenas para síndicos**
+> **Disponível para quem administra o condomínio**
 >
-> A aba Projeção é exibida somente para o **síndico**. Condôminos não têm acesso a essa aba.
+> A aba Projeção é exibida para o **síndico** e também para **Conselho Fiscal** e **Contador**, que enxergam os mesmos números em modo leitura. Condôminos não têm acesso a essa aba.
 
 ![Aba Projeção (Forecast) com cartões de resumo, alerta de saldo negativo e gráficos de barras e linha](/assets/screenshots/73-relatorios-forecast.png)
 
@@ -129,7 +129,7 @@ Mostra como as despesas (ou receitas) estão distribuídas entre as categorias f
 
 Reúne duas visões analíticas:
 
-**Compras por Período:** tabela com todas as compras no período filtrado — título, categoria, status, data, fornecedor aprovado e valor aprovado.
+**Compras por Período:** tabela com todas as compras no período filtrado — título, categoria, status, data, fornecedor aprovado e valor aprovado. Um filtro de **status** (Planejada, Em Andamento, Concluída, Cancelada ou Todos) refina a lista, além do período.
 
 **Comparativo de Orçamentos:** selecione uma compra específica para ver uma tabela comparativa com todos os orçamentos recebidos.
 
@@ -158,11 +158,11 @@ A Prestação de Contas é o **documento financeiro formal** do condomínio, em 
 >
 > Se o condomínio ainda não marcou qual categoria financeira é a taxa condominial (**Configurações → Categorias → Financeiro**), a Prestação de Contas não tem como saber quem está em dia — e o documento diz que a inadimplência **não pôde ser apurada** naquele período, em vez de mostrar zero. Marque a categoria em Configurações e gere o documento de novo.
 
-**Origem do pagamento:** os lançamentos pagos por [Cobrança Automática](/modulos/cobranca-automatica/) trazem, no documento, **como** foram liquidados — a frase *Liquidado pelo Asaas · Pix* (ou boleto, cartão, transferência), a data e o identificador da cobrança. É o que permite a quem confere a prestação amarrar cada entrada ao extrato da conta de cobrança, sem precisar pedir nada ao síndico. Lançamentos pagos à mão continuam sem essa menção, porque não há meio eletrônico a informar.
+**Origem do pagamento:** os lançamentos pagos por [Cobrança Automática](/modulos/cobranca-automatica/) trazem, no documento, **como** foram liquidados — a frase *Pagamento confirmado pelo Asaas · Pix* (ou boleto, cartão, transferência), a data e o identificador da cobrança. É o que permite a quem confere a prestação amarrar cada entrada ao extrato da conta de cobrança, sem precisar pedir nada ao síndico. Lançamentos pagos à mão continuam sem essa menção, porque não há meio eletrônico a informar.
 
-## Relatório de Gestão *(síndico)*
+## Relatório de Gestão *(síndico, Conselho Fiscal e Contador)*
 
-O Relatório de Gestão é um documento **gerencial, exclusivo do síndico**, com o panorama operacional de todos os módulos do condomínio no período: indicadores (receitas, despesas, saldo, unidades, inadimplência), **Destaques e Pontos de Atenção**, inadimplência por unidade, compras/obras e resumos de tarefas, solicitações, visitantes, assembleias, reservas, documentos, mural e membros.
+O Relatório de Gestão é um documento **gerencial**, com o panorama operacional de todos os módulos do condomínio no período: indicadores (receitas, despesas, saldo, unidades, inadimplência), **Destaques e Pontos de Atenção**, inadimplência por unidade, compras/obras e resumos de tarefas, solicitações, visitantes, assembleias, reservas, documentos, mural e membros. Fica fora do plano Básico e do condômino comum — o síndico gera; Conselho Fiscal e Contador acompanham em modo leitura.
 
 **Geração:** escolha o período — **Mês**, **Ano** ou **Intervalo personalizado** — e clique em **Gerar relatório**. O documento é montado em segundo plano e o síndico é avisado por e-mail quando o PDF fica pronto; ele aparece na lista **Relatórios gerados** com o botão **Baixar PDF**.
 
@@ -191,6 +191,8 @@ Quando a análise por IA está habilitada na plataforma, o Relatório de Gestão
 
 ## Exportação *(plano Pro)*
 
-Todas as abas oferecem os botões **PDF** e **XLSX** no canto superior direito. Os arquivos exportados incluem o nome do condomínio, o período filtrado e a data de geração.
+**Fluxo de Caixa, Projeção, Gastos por Categoria e Compras e Serviços** oferecem os botões **PDF** e **XLSX** no canto superior direito. Os arquivos exportados incluem o nome do condomínio, o período filtrado e a data de geração.
+
+**Prestação de Contas e Relatório de Gestão são diferentes:** não têm botão de exportação nesta tela — o documento é gerado à parte (ver as seções acima) e baixado só em **PDF**, sem opção de XLSX.
 
 ![Botões de exportação PDF e XLSX disponíveis em todas as abas de Relatórios](/assets/screenshots/72-relatorios-exportar.png)

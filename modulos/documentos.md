@@ -36,11 +36,11 @@ Clique em **+ Fazer Upload** e preencha:
 > Para editar o nome, categoria ou mês/ano de referência de um arquivo já enviado, clique no ícone de lápis no card.
 
 {: .warning }
-> **Excluir um arquivo das categorias Relatórios, Compras e Serviços, Manutenção ou Outros é definitivo**
+> **Excluir um arquivo fora de Assembleias ou Financeiro é definitivo**
 >
-> Para essas quatro categorias, excluir pede confirmação em dois passos e avisa que **não há como recuperar — nem com a nossa ajuda**. Antes, qualquer exclusão de documento era reversível; agora não é mais, nessas categorias. Confira o arquivo antes de confirmar.
+> Só as categorias **Assembleias** e **Financeiro** preservam o arquivo ao excluir — ele sai da lista, mas fica guardado e dá para recuperar com a nossa ajuda, se tiver sido engano. Em qualquer outra categoria (Relatórios, Contratos, Manutenção, Outros e as demais), excluir pede confirmação em dois passos e avisa que **não há como recuperar — nem com a nossa ajuda**. Confira o arquivo antes de confirmar.
 >
-> **Atas de assembleia e comprovantes financeiros continuam preservados** ao excluir — saem da lista, mas ficam guardados e dá para recuperar com a nossa ajuda, se tiver sido engano. E documentos emitidos pelo próprio V3RCondo com **código de verificação público** (como o Termo de Autorização da Cobrança Automática) nunca podem ser excluídos.
+> Documentos emitidos pelo próprio V3RCondo com **código de verificação público** (como o Termo de Autorização da Cobrança Automática) nunca podem ser excluídos, mesmo estando em categoria sem guarda.
 
 {: .note }
 > **Quem é avisado do documento novo**

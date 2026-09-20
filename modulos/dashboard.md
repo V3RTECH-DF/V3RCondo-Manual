@@ -91,9 +91,11 @@ Essa linha aparece para **qualquer condomínio** com conta de cobrança em andam
 
 Três cards no topo exibem os dados do mês atual:
 
-- **Saldo do Mês** — resultado do período (entradas menos saídas)
+- **Resultado do Mês** — entradas menos saídas do período, já incluindo o que ainda vai vencer
 - **Total de Entradas** — soma de todas as receitas recebidas no mês
 - **Total de Saídas** — soma de todas as despesas pagas no mês
+
+Logo abaixo, um quarto card mostra o número de **Unidades do Condomínio** cadastradas. Se ainda não houver nenhuma, o card avisa e traz o atalho **Cadastrar unidades** — sem unidades cadastradas não dá para gerar cobrança, fazer lançamento em lote nem calcular o plano.
 
 ## Fluxo de Caixa
 
@@ -112,6 +114,10 @@ Exibe as tarefas com prazo vencido ou classificadas como prioridade **Alta**. Ca
 
 Exibe os posts mais recentes do Mural do condomínio, com categoria, título e data de publicação. Tanto síndicos quanto condôminos visualizam os mesmos avisos.
 
+## Últimas Notificações
+
+Exibe as notificações manuais mais recentes enviadas pelo síndico pelo módulo [Notificações](/modulos/notificacoes/), com título, destinatários e data de envio. Se o síndico ainda não estiver no plano Pro e nunca tiver enviado nenhuma, o card mostra um convite para conhecer o recurso em vez da lista vazia.
+
 ## Últimos Documentos
 
 Lista os documentos mais recentemente disponibilizados no condomínio, com nome e data de upload. Clique em qualquer item para ir diretamente ao módulo de Documentos.
@@ -124,8 +130,10 @@ Lista os documentos mais recentemente disponibilizados no condomínio, com nome 
 |---|---|---|
 | Configuração inicial | ✅ Em condomínio novo, até resolver a lista | ❌ Não aparece |
 | Resumo financeiro | ✅ | ✅ |
+| Unidades do condomínio | ✅ | ✅ |
 | Fluxo de caixa | ✅ | ✅ |
 | Tarefas urgentes | ✅ Vê tarefas pendentes | ❌ Não aparece |
 | Avisos recentes | ✅ | ✅ |
+| Últimas notificações | ✅ | ✅ |
 | Últimos documentos | ✅ | ✅ |
 | Menu lateral | Todos os módulos | Sem Tarefas |
