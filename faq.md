@@ -431,15 +431,17 @@ módulo Financeiro.
 </details>
 
 <details markdown="1">
-<summary>O que é o 'Saldo Acumulado'?</summary>
+<summary>O que é o 'Líquido', no topo do Financeiro?</summary>
 
-É quanto o condomínio tem de fato, considerando **só o que foi efetivamente
-pago**, somado até o fim do período escolhido no filtro — e **nunca além de
-hoje**. Escolher "Ano atual" em agosto não faz o saldo pular para dezembro.
+É quanto o condomínio tem de fato **hoje**: a soma do saldo de todas as
+contas de dinheiro, descontado o que se deve nas contas de dívida (cartão de
+crédito, empréstimo, financiamento). Diferente do painel ao lado — **Resumo
+do período** —, o Líquido não segue o filtro de período: é sempre o saldo
+atual.
 
-Os outros quatro cards do topo (**Resultado**, **Entradas**, **Saídas** e
-**Pendentes do Período**) seguem o período escolhido e incluem o que ainda vai
-vencer.
+O painel **Resumo do período** (Receitas, Despesas, Resultado) é que segue o
+período escolhido no filtro, em duas colunas: **Realizado** (o que já foi
+pago) e **Previsto** (o que ainda vai vencer).
 </details>
 
 <details markdown="1">
@@ -448,17 +450,17 @@ vencer.
 Sim. O filtro **Período** oferece nove opções: mês atual, mês anterior,
 trimestre atual, trimestre anterior, semestre atual, ano atual, **ano até
 hoje**, um intervalo **personalizado** (você informa início e fim) e **todos**.
-Os cards do topo acompanham a escolha.
+O painel Resumo do período acompanha a escolha.
 </details>
 
 <details markdown="1">
 <summary>Mudei de mês e as contas atrasadas sumiram. Como vejo?</summary>
 
-Elas não sumiram. Acima dos cards aparece um aviso âmbar dizendo **quantos
-lançamentos venceram antes do período que você está vendo e quanto somam**.
-Clique nele e a lista passa a mostrar **só esses vencidos**; clique de novo e
-você volta para o período em que estava. **Vencidos** também é uma opção do
-filtro **Status**.
+Elas não sumiram. Logo abaixo dos painéis do topo existe um card fixo
+**Vencidos de períodos anteriores**, dizendo **quantos lançamentos venceram
+antes do período que você está vendo e quanto somam** — ele não depende do
+período escolhido e não se fecha. Clique em **Ver todos** para abrir a lista
+completa. **Vencidos** também é uma opção do filtro **Status**.
 </details>
 
 <details markdown="1">
@@ -535,7 +537,7 @@ ao lançamento.
 <details markdown="1">
 <summary>O saldo do app não bate com o do banco. Como descubro onde está a diferença?</summary>
 
-Use o **Caça-diferenças**: no módulo **Financeiro**, seção **Saldos por Conta**,
+Use o **Caça-diferenças**: no módulo **Financeiro**, painel **Contas**,
 clique no botão de lupa 🔍 da conta. Informe o saldo que o extrato mostra e a data;
 o app calcula a diferença e lista as causas mais prováveis (uma cobrança duplicada,
 um lançamento na conta errada, um valor divergente, algo faltando), com correção em

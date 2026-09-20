@@ -42,7 +42,7 @@ No alto da tela ficam o **seletor de condomínio** (à esquerda) e, à direita, 
 
 O seletor funciona assim tanto no computador quanto no celular, e também para quem participa de um único condomínio — não é só para quem tem vários. **Não existem mais** os botões **Trocar** e **+** de versões anteriores do aplicativo.
 
-<!-- PRINT: navegacao-seletor-condominio-01 — cabeçalho com o seletor de condomínio aberto (lista, Informações do condomínio, Criar novo condomínio), condomínio COND TESTE RD, desktop -->
+![Cabeçalho com o seletor de condomínio aberto, mostrando a lista de condomínios do usuário e as opções Informações do condomínio e Criar novo condomínio](/assets/screenshots/navegacao-seletor-condominio.png)
 
 ### Manual, Feedback e Configurações
 
@@ -55,9 +55,9 @@ O seletor funciona assim tanto no computador quanto no celular, e também para q
 
 É pelo ícone de mensagem (💬) que você **[envia feedback](enviar-feedback.md)** (sugestões, problemas, elogios, reclamações ou depoimentos) à equipe do V3RCondo, inclusive no celular.
 
-<!-- PRINT: navegacao-cabecalho-icones-01 — cabeçalho no computador com os ícones Manual, Feedback e Configurações antes do avatar -->
+![Cabeçalho no computador com os ícones Manual, Feedback e Configurações antes do avatar](/assets/screenshots/navegacao-icones-cabecalho.png){: width="330" }
 
-<!-- PRINT: navegacao-menu-foto-mobile-01 — menu aberto ao tocar na foto no celular, com Manual do Usuário, Feedback e Configurações escritos por extenso -->
+![Menu aberto ao tocar na foto no celular, com Manual do Usuário, Feedback e Configurações escritos por extenso](/assets/screenshots/navegacao-menu-foto-mobile.png){: width="320" }
 
 ## Abas das telas no celular
 

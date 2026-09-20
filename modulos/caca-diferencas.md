@@ -15,9 +15,9 @@ Quando o saldo que o V3RCondo mostra para uma conta **não bate** com o saldo do
 
 ## Abrir o caça-diferenças
 
-No módulo **Financeiro**, na seção **Saldos por Conta**, cada conta tem um botão de lupa 🔍 ("Conferir saldo"). Clique nele na conta que quer conferir.
+No módulo **Financeiro**, no painel **Contas**, cada conta tem um botão de lupa 🔍 ("Conferir saldo"). Clique nele na conta que quer conferir.
 
-![Seção Saldos por Conta com o botão de lupa em cada conta](/assets/screenshots/caca-diferencas-botao.png)
+![Painel Contas com o botão de lupa em cada conta](/assets/screenshots/caca-diferencas-botao.png)
 
 ## Passo a passo
 
