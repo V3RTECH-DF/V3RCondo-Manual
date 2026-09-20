@@ -111,6 +111,7 @@ fixo. Alguns exemplos:
 | "Quais as reservas da próxima semana?" | Reservas de áreas comuns no período |
 | "Quanto entrou e saiu esse mês?" | Resumo do período — entradas, saídas e resultado |
 | "Tem tarefa atrasada?" | Tarefas em aberto, marcando as atrasadas |
+| "Qual o telefone do eletricista?" | Contatos do condomínio e fornecedores cadastrados que casam com a busca |
 
 ![Resposta do bot a "quanto tem em caixa?", mostrando o saldo de cada conta e o total](/assets/screenshots/telegram-saldos-01.png)
 

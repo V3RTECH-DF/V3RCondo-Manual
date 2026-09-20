@@ -892,8 +892,10 @@ do síndico em **Fale com o Síndico**, que anexa o documento pronto.
 <details markdown="1">
 <summary>Quem pode publicar avisos no Mural?</summary>
 
-Apenas síndicos podem publicar, editar e excluir avisos. Condôminos
-visualizam todos os avisos publicados.
+Síndicos podem publicar em qualquer categoria e excluir qualquer aviso.
+Condôminos também podem publicar — sempre na categoria **Informativo** — e
+excluir os avisos que eles mesmos publicaram. Não dá para editar um aviso já
+publicado, nem para síndico nem para condômino.
 </details>
 
 <details markdown="1">

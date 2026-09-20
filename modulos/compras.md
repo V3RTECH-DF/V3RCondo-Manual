@@ -67,6 +67,8 @@ Para adicionar um orçamento, clique em **+ Adicionar Orçamento** e preencha:
 
 **Aprovar um orçamento:** clique em **Aprovar** no card desejado. Os demais são automaticamente rejeitados. Para desfazer, clique em **Desaprovar**. O fornecedor e valor aprovados ficam em destaque no cabeçalho da compra.
 
+Também é possível **rejeitar um orçamento individualmente**, antes de aprovar qualquer outro — clique em **Rejeitar** no card dele.
+
 ## Layout da página de detalhe
 
 Na página de detalhe de uma compra, a seção inferior é exibida em **duas colunas** em telas maiores (desktop):
@@ -108,14 +110,14 @@ A seção **Despesas** na página de detalhe registra cada pagamento realizado e
 Para registrar uma despesa, clique em **+ Adicionar despesa** e preencha:
 
 1. **Descrição** — obrigatório
-2. **Categoria** — Material / Mão de Obra / Outros
+2. **Categoria financeira** — escolhida entre as categorias de despesa já cadastradas em **Configurações → Categorias** (não é mais uma lista fixa de Material / Mão de Obra / Outros)
 3. **Valor** — obrigatório
 4. **Data da despesa** — padrão: hoje
 5. **Data de vencimento** — pré-preenchida com a data da despesa, editável
 6. **Conta bancária** — pré-selecionada a conta padrão do condomínio, editável
 7. **Marcar como pago** — toggle; se ativado, registra o pagamento na data da despesa
 8. **Observações** — opcional
-9. **Comprovante** — PDF, JPG, PNG ou ZIP até 10 MB
+9. **Comprovantes** — um ou mais arquivos (PDF, imagem, planilha, documento ou ZIP), até 5 MB cada — um ZIP pode chegar a 25 MB, porque é expandido em segundo plano
 
 Cada despesa exibe um **badge de status de pagamento**:
 

@@ -131,12 +131,12 @@ houver, ou os síndicos.
 {: .tip }
 > **Conclusão automática**
 >
-> Ao marcar uma tarefa como **Concluída**, a data de conclusão é registrada automaticamente.
+> Ao marcar uma tarefa como **Concluída**, a data de conclusão é registrada automaticamente. Se você reabrir a tarefa depois (voltar o status para A Fazer ou Em Andamento), essa data é apagada — ela volta quando a tarefa for concluída de novo.
 
 {: .note }
 > **Tarefas urgentes no Dashboard**
 >
-> Tarefas com prioridade **Alta** e prazo vencido aparecem em destaque na seção "Tarefas Urgentes" do Dashboard.
+> Tarefas com prioridade **Alta** ou com prazo vencido (qualquer prioridade) aparecem em destaque na seção "Tarefas Urgentes" do Dashboard.
 
 ## Criar tarefa a partir de uma solicitação
 

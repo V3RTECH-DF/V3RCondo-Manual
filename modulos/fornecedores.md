@@ -12,11 +12,13 @@ O módulo de Fornecedores reúne os contatos de prestadores de serviço — empr
 
 ## Fornecedores do condomínio
 
-A aba **Do Condomínio** exibe os fornecedores cadastrados pelo síndico. Cada card mostra:
+A aba **Do Condomínio** exibe os fornecedores cadastrados pelo síndico, em cards no celular e em tabela no computador. Cada um mostra:
 
 - Nome e categoria de serviço
-- Telefone de contato
+- Telefone e e-mail de contato
 - Dias de atendimento (disponíveis em destaque, indisponíveis em cinza)
+
+No computador, a tabela traz também a coluna **CPF/CNPJ**, quando cadastrado.
 
 ## Fornecedores compartilhados pelos moradores
 
@@ -35,10 +37,11 @@ Clique em **+ Novo Fornecedor** e preencha:
 
 1. **Nome / Empresa** — obrigatório
 2. **Tipo de Serviço** — categoria do serviço prestado (obrigatório)
-3. **Telefone** — número de contato
-4. **E-mail** — endereço de e-mail
-5. **Dias de Atendimento** — dias da semana disponíveis
-6. **Observações** — horário, condições especiais etc.
+3. **Tipo de pessoa** — Pessoa Física ou Pessoa Jurídica, e o **CPF ou CNPJ** correspondente (opcional)
+4. **Telefone** — número de contato
+5. **E-mail** — endereço de e-mail
+6. **Dias de Atendimento** — dias da semana disponíveis
+7. **Observações** — horário, condições especiais etc.
 
 ![Formulário de cadastro de fornecedor do condomínio](/assets/screenshots/22-fornecedores-form.png)
 

@@ -15,12 +15,12 @@ O módulo "Fale com o Síndico" é o canal oficial de comunicação entre condô
 Clique em **Nova solicitação** e preencha:
 
 - **Título** — descrição breve do assunto (obrigatório)
-- **Categoria** — Reparo/manutenção, Sugestão de melhoria, Limpeza e conservação, Segurança ou Outros
+- **Categoria** — as categorias que o síndico cadastrou em [Configurações](/modulos/configuracoes/) para este condomínio. Um condomínio recém-criado já nasce com Reparo/manutenção, Sugestão de melhoria, Limpeza e conservação, Segurança e Outros, mas o síndico pode renomear, adicionar ou remover
 - **Descrição** — detalhes do problema ou sugestão (opcional)
 - **Arquivos** — clique no ícone de clipe para anexar fotos ou documentos
   (até 5 arquivos, máximo de 5 MB cada)
 
-Após enviar, o síndico recebe uma notificação por e-mail.
+Após enviar, o síndico recebe uma notificação por e-mail e, se tiver o Telegram conectado, também por lá.
 
 ### Acompanhar suas solicitações
 
@@ -35,11 +35,9 @@ ou **Canceladas**. Para ver solicitações arquivadas, ative o toggle
 | **Em andamento** | O síndico está tratando a solicitação |
 | **Resolvido** | Concluída |
 | **Cancelado** | Encerrada sem resolução |
-| **Arquivada** | Arquivada — aparece em cinza, não requer ação |
 
-Para organizar sua lista, use o botão **Arquivar** em qualquer solicitação para
-ocultá-la da visão principal. Para restaurá-la, ative o toggle
-**Exibir arquivadas** e clique em **Desarquivar**.
+**Arquivada não é um status, é independente dele** — uma solicitação **Resolvida**, por exemplo, pode estar arquivada ao mesmo tempo. É só uma forma de tirá-la da sua visão principal sem mudar o andamento. Para organizar sua lista, use o botão **Arquivar** em qualquer solicitação para
+ocultá-la da visão principal (ela aparece em cinza quando o toggle **Exibir arquivadas** está ativo). Para restaurá-la, ative o toggle e clique em **Desarquivar**.
 
 ### Conversa com o síndico *(plano Pro)*
 
@@ -48,7 +46,7 @@ completa. Na página da conversa você pode:
 
 - Ler as respostas do síndico em ordem cronológica
 - Enviar mensagens adicionais de acompanhamento, com ou sem arquivos anexados
-- Receber uma notificação por e-mail a cada nova resposta do síndico
+- Receber uma notificação por e-mail — e pelo Telegram, se conectado — a cada nova resposta do síndico
 
 Suas mensagens aparecem à direita (fundo escuro); as do síndico aparecem à
 esquerda (fundo claro).
@@ -64,6 +62,16 @@ avatar no cabeçalho do app. Passe o mouse sobre o badge para ver quantas
 mensagens estão pendentes. Ele desaparece automaticamente ao abrir a conversa.
 
 ## Para o síndico
+
+### Duas abas: Chamados e Solicitações de Documentos
+
+O síndico vê duas abas no topo do módulo: **Chamados** — as solicitações descritas abaixo — e **Solicitações de Documentos**, com os pedidos de documento personalizado que o condômino faz em [Minha Área → Solicitar documento ao síndico](/modulos/minha-area/#solicitar-documento-ao-síndico-outros). O número ao lado do nome da aba mostra quantos pedidos de documento ainda esperam resposta.
+
+Em **Solicitações de Documentos**, os pedidos ficam em duas sub-abas — **Pendentes** e **Concluídos**. Clique em um pedido para:
+
+- **Marcar em análise** — avisa o condômino que o pedido está sendo tratado
+- **Concluir** — envie o PDF do documento (obrigatório, até 10 MB) e uma observação opcional; o arquivo passa a aparecer para o condômino em **Meus Documentos**
+- **Recusar** — informe o motivo; o condômino vê a recusa e o motivo em **Meus Documentos**
 
 ### Visão geral
 
