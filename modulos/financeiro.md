@@ -16,17 +16,13 @@ O módulo Financeiro centraliza toda a gestão financeira do condomínio — rec
 
 ## Visão geral *(síndico)*
 
-A tela principal exibe cinco cards de resumo no topo. **Todos eles acompanham o período escolhido no filtro** — troque o período e os números mudam junto.
+O topo da tela se divide em dois painéis lado a lado.
 
-![Topo do Financeiro com os cinco cards do período e o filtro de período](/assets/screenshots/financeiro-periodo-cards.png)
+À **esquerda**, o painel **Contas** lista cada conta bancária cadastrada, com o tipo e o saldo atual — sempre o saldo de hoje, sem relação com o período escolhido no filtro. Abaixo da lista, o card **Líquido** mostra o que sobra: o que há nas contas de dinheiro, menos o que se deve nas contas de dívida.
 
-- **Saldo Acumulado** — só o que foi efetivamente pago, somado até o fim do período escolhido. Nunca projeta além de hoje: se você escolher um período futuro, ele para na data de hoje
-- **Resultado do Período** — entradas menos saídas do período, incluindo o que ainda vai vencer
-- **Entradas do Período** — receitas do período, incluindo o que ainda vai vencer
-- **Saídas do Período** — despesas do período, incluindo o que ainda vai vencer
-- **Pendentes** — quantos lançamentos do período ainda não foram pagos
+À **direita**, o painel **Resumo do período** mostra Receitas, Despesas e Resultado em duas colunas: **Realizado** (o que já foi pago) e **Previsto** (o que ainda vai vencer, dentro do período escolhido no filtro). Troque o período e os dois painéis mudam — mas o painel Contas sempre continua mostrando o saldo de hoje.
 
-A seção **Saldos por Conta** mostra o saldo atual de cada conta bancária cadastrada. Um card de **Líquido** consolida todas as contas.
+![Painéis Contas e Resumo do período, lado a lado no topo do Financeiro](/assets/screenshots/financeiro-periodo-cards.png)
 
 {: .note }
 > **Contas de dívida entram diferente**
@@ -82,25 +78,20 @@ Ao escolher **Personalizado**, aparecem os dois campos de data. Enquanto o inter
 {: .note }
 > **Com intervalo inválido, a tela não afirma nada**
 >
-> Os cards de resumo e a lista **somem** junto com a consulta, em vez de ficarem zerados e dizendo "nenhum lançamento encontrado". Zero e "não perguntei" são coisas diferentes, e uma lista vazia num intervalo errado passaria a impressão de que o mês não teve movimento. Corrija as datas e tudo volta.
-
-{: .note }
-> **O Saldo Acumulado é a exceção**
->
-> Os quatro primeiros cards falam do período escolhido. O **Saldo Acumulado** é diferente: ele soma tudo o que foi efetivamente pago **até o fim daquele período**, e **nunca passa de hoje**. Escolher "Ano atual" em agosto não faz o saldo pular para dezembro.
+> O painel Resumo do período e a lista **somem** junto com a consulta, em vez de ficarem zerados e dizendo "nenhum lançamento encontrado". Zero e "não perguntei" são coisas diferentes, e uma lista vazia num intervalo errado passaria a impressão de que o mês não teve movimento. Corrija as datas e tudo volta.
 
 ## Vencidos de períodos anteriores
 
-Quando existem lançamentos que venceram **antes** do período que você está vendo, um aviso âmbar aparece acima dos cards dizendo **quantos são e quanto somam**. É o jeito de a conta atrasada de julho não desaparecer só porque você está olhando agosto.
+Logo abaixo dos painéis do topo, um card fixo **Vencidos de períodos anteriores** mostra quantos lançamentos venceram **antes** do período que você está vendo e quanto somam — ao lado do card **Recorrências ativas**. É o jeito de a conta atrasada de julho não desaparecer só porque você está olhando agosto: diferente da versão anterior, o card não se fecha nem precisa ser dispensado.
 
-**Clique no aviso** e a lista passa a mostrar **apenas** esses vencidos. O aviso muda de texto — passa a dizer quantos estão sendo exibidos e a oferecer a volta —, e **o mesmo clique devolve você ao período em que estava**.
+Clique em **Ver todos** para abrir a lista completa desses vencidos.
 
-![Financeiro exibindo apenas os lançamentos vencidos de períodos anteriores, com o aviso âmbar oferecendo a volta](/assets/screenshots/financeiro-vencidos-anteriores.png)
+![Cards Recorrências ativas e Vencidos de períodos anteriores, lado a lado, com o botão Ver todos](/assets/screenshots/financeiro-vencidos-anteriores.png)
 
 {: .tip }
 > **Vencidos também é um filtro**
 >
-> Além do atalho pelo aviso, **Vencidos** virou uma opção do filtro **Status** — use quando quiser cruzar os vencidos com um tipo, uma categoria ou um período específico.
+> Além do atalho pelo card, **Vencidos** também é uma opção do filtro **Status** — use quando quiser cruzar os vencidos com um tipo, uma categoria ou um período específico.
 
 ## Como saber que a baixa foi automática
 
