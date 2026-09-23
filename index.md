@@ -41,6 +41,22 @@ Acompanhe e gerencie a sua vida no condomínio com autonomia:
 
 ---
 
+## Como faço para...
+
+As páginas de [Fluxos](/fluxos/) contam uma tarefa do começo ao fim, na ordem em que você realmente faz — mesmo quando ela passa por mais de um módulo pelo caminho:
+
+- [Cobrar a cota do mês](/fluxos/cobrar-a-cota/)
+- [Prestar contas do mês](/fluxos/prestar-contas/)
+- [Receber um morador novo](/fluxos/receber-morador-novo/)
+- [Conferir o extrato e conciliar](/fluxos/conferir-extrato-e-conciliar/)
+- [Abrir a conta de cobrança](/fluxos/abrir-conta-de-cobranca/)
+- [Convocar e registrar uma assembleia](/fluxos/convocar-e-registrar-assembleia/)
+- [Cobrar quem está atrasado](/fluxos/cobrar-quem-esta-atrasado/)
+- [Contratar uma obra ou compra](/fluxos/contratar-obra-ou-compra/)
+- [Pagar a cota](/fluxos/pagar-a-cota/) *(morador)*
+
+---
+
 ## Módulos disponíveis
 
 - [**Dashboard**](/modulos/dashboard/) — Visão geral do condomínio: inadimplência, tarefas pendentes, últimas notificações e resumo financeiro do mês.

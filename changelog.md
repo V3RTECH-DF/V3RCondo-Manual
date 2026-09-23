@@ -9,6 +9,26 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.181.0 — Setembro 2026
+
+### Corrigido
+
+- O interruptor "Permitir ações por mensagem" (Meu Perfil › Telegram) não pode mais ser ligado num condomínio no plano Básico — antes ligava normalmente e só recusava na hora de usar o assistente.
+- O botão "Criar tarefa", em Fale com o Síndico, agora avisa na hora quando a ação não está disponível, em vez de levar para outra tela para só lá descobrir que não dava para continuar.
+- O assistente, quando acionado pelo mesmo caminho usado no painel administrativo, passou a respeitar as mesmas regras de habilitação e de franquia que já valiam no Telegram. No painel de consumo de mensagens, agora dá para ver de qual canal cada mensagem veio.
+
+## v7.180.8 — Setembro 2026
+
+### Corrigido
+
+- No débito automático da mensalidade do Pro, aceitar o valor de limite sugerido gravava um valor cem vezes maior do que o combinado (por exemplo, R$ 19.485,00 em vez de R$ 194,85). Corrigido — o valor que aparece no campo agora é o mesmo que é gravado e o mesmo que aparece depois na tela de Mensalidades e pagamento.
+
+## v7.180.7 — Setembro 2026
+
+### Corrigido
+
+- Ligar o débito automático da mensalidade do Pro respondia com erro e não registrava a adesão. Corrigido.
+
 ## v7.180 — Setembro 2026
 
 ### Novidade

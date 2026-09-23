@@ -585,6 +585,11 @@ A divisão é esta, e vale a pena guardá-la:
 
 Os mesmos canais aparecem nos e-mails de cobrança, de conta de pagamento e no resumo diário, no rodapé, para você não precisar voltar ao aplicativo só para achar um telefone.
 
+{: .warning }
+> **Existem três coisas para não mexer no painel do Asaas**
+>
+> A conta de cobrança tem bem mais opções do que o V3RCondo usa, e três delas sustentam esta integração sem que o painel avise disso: as chaves de API, os webhooks, e o bloqueio de saída durante a análise cadastral. Ver [O que o síndico não deve mexer no painel do Asaas](/modulos/asaas-painel/).
+
 ## O que ainda não existe
 
 Para não haver surpresa, o que **não** está disponível nesta versão:
