@@ -46,7 +46,7 @@ Condomínio com a [conta de cobrança aprovada](/fluxos/abrir-conta-de-cobranca/
 
 ### 3. Sem Cobrança Automática, a cota fica no Financeiro para você dar baixa
 
-Condomínio sem a conta aprovada continua exatamente como sempre operou: a cota nasce como lançamento em aberto no Financeiro, o morador paga por fora (transferência, depósito, dinheiro), e você [registra a baixa](/modulos/financeiro/#ver-os-detalhes-de-um-lançamento) — um lançamento por vez ou em lote, pela [ação **Dar baixa**](/modulos/financeiro/#ações-em-lote-síndico) — quando o pagamento chegar. O morador ainda recebe um aviso por e-mail com o valor e o vencimento da cota, só que sem link de pagamento pronto.
+Condomínio sem a conta aprovada continua exatamente como sempre operou: a cota nasce como lançamento em aberto no Financeiro, o morador paga por fora (transferência, depósito, dinheiro), e você [registra a baixa](/modulos/financeiro/#ver-os-detalhes-de-um-lançamento) — um lançamento por vez ou em lote, pela [ação **Marcar como pago**](/modulos/financeiro/#ações-em-lote-síndico) — quando o pagamento chegar. O morador ainda recebe um aviso por e-mail com o valor e o vencimento da cota, só que sem link de pagamento pronto.
 
 ### 4. Confira que saiu certo
 

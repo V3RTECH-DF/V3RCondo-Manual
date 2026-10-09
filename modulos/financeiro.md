@@ -59,11 +59,12 @@ O topo da tela se divide em dois painéis lado a lado.
 
 O filtro de período deixou de ser mês a mês. Agora ele oferece nove opções, para você olhar o mês, o trimestre, o semestre ou o ano inteiro sem precisar somar nada à mão:
 
-![Seletor de período aberto com as nove opções disponíveis](/assets/screenshots/financeiro-periodo-opcoes.png)
+![Seletor de período aberto com as opções disponíveis](/assets/screenshots/financeiro-periodo-opcoes.png)
 
 | Opção | O que traz |
 |---|---|
 | **Mês atual** | O mês corrente (padrão) |
+| **Próximo mês** | O mês seguinte inteiro — para conferir o que já está lançado para a frente (cotas geradas, contas a pagar, parcelas de acordo) |
 | **Mês anterior** | O mês passado, fechado |
 | **Trimestre atual** | Os três meses do trimestre em curso |
 | **Trimestre anterior** | O trimestre fechado anterior |
@@ -72,6 +73,8 @@ O filtro de período deixou de ser mês a mês. Agora ele oferece nove opções,
 | **Ano até hoje** | De 1º de janeiro até hoje — útil para a prestação de contas parcial |
 | **Personalizado** | Você informa a data de início e a data de fim |
 | **Todos** | O histórico completo, sem recorte de data |
+
+Escolhendo um período que **ainda não começou**, como o Próximo mês, a tela avisa que o realizado fica zerado até os primeiros pagamentos serem registrados — não é erro, é só o período ainda não ter chegado.
 
 Ao escolher **Personalizado**, aparecem os dois campos de data. Enquanto o intervalo não fizer sentido — falta uma das datas, ou a data de início é **posterior** à de fim —, a tela mostra **só o aviso do erro**, dizendo o que corrigir. Nada é consultado até você ajustar.
 
@@ -158,13 +161,13 @@ O painel é de leitura: **nada é alterado só por abri-lo** e não há botão d
 Em vez de abrir um lançamento por vez, dá para selecionar vários e aplicar a mesma ação a todos.
 
 - Marque a caixa de seleção de cada linha da tabela (no computador) ou de cada cartão (no celular), ou use **"Selecionar todos"** para marcar tudo o que está na tela, respeitando o filtro e o período escolhidos.
-- Com algum lançamento selecionado, aparece uma barra fixa na parte de baixo da tela, com a quantidade selecionada, a soma dos valores e as ações disponíveis: **Dar baixa**, **Excluir**, **Trocar categoria** e **Exportar**.
+- Com algum lançamento selecionado, aparece uma barra fixa na parte de baixo da tela, com a quantidade selecionada, a soma dos valores e as ações disponíveis: **Marcar como pago**, **Excluir**, **Trocar categoria** e **Exportar**.
 - Ao escolher uma ação (exceto exportar), o sistema mostra uma **prévia** antes de aplicar: quantos lançamentos serão afetados, quantos serão pulados (por exemplo, um que já está pago) e quantos serão recusados, com o motivo de cada recusa. Só depois de conferir a prévia é que você confirma.
 - O resultado final separa **concluídos**, **pulados** e **recusados** — nunca aparece um "pronto" genérico que esconda uma falha parcial.
 - **Exportar** gera a planilha ou o PDF só com os lançamentos selecionados, no mesmo formato usado em Relatórios.
 
 {: .note }
-> **Lançamento que nunca pode receber baixa nem exclusão em lote**
+> **Lançamento que nunca pode ser marcado como pago nem excluído em lote**
 >
 > Um lançamento com **cobrança automática em aberto** ou que faz parte de um **acordo de inadimplência** é sempre recusado, com o motivo explicado. Essa trava vale igual na ação em lote, no botão da própria linha, na edição do lançamento e no caçador de divergências — não tem caminho para contornar.
 

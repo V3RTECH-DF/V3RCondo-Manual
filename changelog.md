@@ -9,6 +9,22 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.182.0 — Outubro 2026
+
+### Novidade
+
+- **O seletor de período do Financeiro ganhou "Próximo mês".** Fica logo depois de "Mês atual" e mostra do primeiro ao último dia do mês seguinte — inclusive na virada de dezembro para janeiro. Serve para conferir o que já está lançado para o mês que vem sem precisar escolher "Personalizado" e digitar as duas datas toda vez. Como ainda não houve pagamentos nesse período, o quadro de resumo avisa: *"Este período ainda não começou: o realizado fica zerado até os primeiros pagamentos serem registrados."* — o realizado zerado não é falha, e o previsto mostra o que está por vir.
+
+### Corrigido
+
+- **Textos que falavam "1 lançamentos" no plural quando havia só um.** Ao selecionar um único lançamento e abrir a ação em lote, o painel dizia "os 1 lançamentos selecionados"; agora diz "o 1 lançamento selecionado". O mesmo ajuste foi feito em outros lugares do Financeiro que montavam a frase com a quantidade: o resultado da ação em lote ("1 já estava assim", "1 recusado"), o título do relatório dos lançamentos selecionados, o número de anexos de um lançamento, o aviso depois de lançar vários de uma vez e a mensagem de conclusão da importação por planilha (inclusive a contagem de comprovantes na fila).
+
+## v7.181.1 — Outubro 2026
+
+### Melhorado
+
+- **Na lista de lançamentos do Financeiro, a ação em lote que antes se chamava "Dar baixa" agora se chama "Marcar como pago"** — o mesmo nome que o resto do aplicativo já usava para registrar um pagamento (no botão de cada lançamento, no detalhe, na janela de confirmação e nos formulários). O botão da barra, o título do painel, a frase de confirmação e o resumo do que vai acontecer passaram a usar o mesmo nome, em frases que concordam com a quantidade: "Marcar 1 lançamento como pago", "Marcar 2 lançamentos como pagos". As outras duas ações em lote também ganharam frases mais naturais no resumo ("Serão excluídos", "Terão a categoria trocada"). O que a ação faz não mudou: continuam valendo as mesmas regras sobre quais lançamentos recebem a ação, quais são pulados e quais são recusados, e o assistente por mensagem continua entendendo o pedido de dar baixa em um lançamento.
+
 ## v7.181.0 — Setembro 2026
 
 ### Corrigido
