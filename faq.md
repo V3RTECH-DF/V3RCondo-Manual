@@ -753,6 +753,34 @@ registrado no histórico financeiro da unidade.
 </details>
 
 <details markdown="1">
+<summary>O condomínio já tinha um acordo firmado antes de usar o V3RCondo. Como registro?</summary>
+
+Na aba **Acordos**, clique em **Registrar acordo existente** (plano Pro). Em
+três passos você informa as condições, escolhe quais lançamentos em aberto da
+unidade são as parcelas e confere o antes e depois. Nada é criado nem muda de
+valor, e nenhuma cobrança ou aviso é enviado ao morador. O **valor acordado** é o
+do acordo inteiro, não o total da dívida da unidade. Detalhes em
+[Inadimplência e Acordos](/modulos/inadimplencia/#registrar-um-acordo-que-já-existia-pro).
+</details>
+
+<details markdown="1">
+<summary>Sumiram acordos da aba Acordos. O que aconteceu?</summary>
+
+A aba abre em **Em andamento** e mostra só acordos ativos e quebrados. Os
+concluídos e os cancelados ficam atrás do filtro **Status** — a tela avisa
+*"N acordos encerrados ocultos"* e oferece **Ver todos**.
+</details>
+
+<details markdown="1">
+<summary>Posso excluir um acordo cancelado?</summary>
+
+Pode, desde que não tenha nenhuma parcela paga: a parcela paga é a prova do
+pagamento e o acordo precisa continuar guardado. Use a lixeira ao lado do
+acordo cancelado. Para corrigir só advogado, OAB ou observações, use o lápis
+(**Editar dados**) — não precisa cancelar nem excluir.
+</details>
+
+<details markdown="1">
 <summary>O condômino é notificado quando um acordo é criado?</summary>
 
 Sim. Ao criar um acordo — pelo síndico ou pelo próprio condômino — todos
@@ -1280,6 +1308,25 @@ onde agir. À IA enviamos **apenas indicadores agregados** — nunca nomes,
 unidades ou dados pessoais. É **best-effort**: se a IA estiver indisponível, o
 relatório sai normalmente sem a análise. *(O antigo "Relatório Mensal com IA"
 automático foi substituído por este fluxo, gerado sob demanda na plataforma.)*
+</details>
+
+<details markdown="1">
+<summary>Por que não consigo publicar uma prestação de contas que já gerei?</summary>
+
+Prestações geradas **antes da versão 7.185.0** não podem ser publicadas: elas
+traziam a lista de unidades em atraso, que deixou de aparecer no documento
+(o total em aberto e a quantidade de unidades continuam). Gere de novo a
+prestação do mesmo período e publique a nova.
+</details>
+
+<details markdown="1">
+<summary>Por que a prestação de contas não mostra quais unidades estão devendo?</summary>
+
+Porque o documento é lido por todos os moradores, e quem deve não deve ser
+exposto aos vizinhos. Ele mostra o total em aberto e quantas unidades estão em
+atraso. O detalhe por unidade fica na aba **Inadimplentes** e nos relatórios de
+inadimplência, visíveis só para o síndico (e, em leitura, Conselho Fiscal e
+Contador).
 </details>
 
 <details markdown="1">
