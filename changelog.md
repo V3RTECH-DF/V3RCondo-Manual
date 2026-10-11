@@ -9,6 +9,56 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.186.0 — Outubro 2026
+
+### Novidade
+
+- **Dados do acordo corrigíveis sem cancelar.** Um acordo em andamento (ativo ou quebrado) agora pode ter editados o valor da dívida, o valor acordado, o desconto, o advogado, a OAB, as observações e quem pediu o acordo — sem precisar cancelar e refazer. Num acordo já encerrado (quitado ou cancelado), ainda dá para corrigir advogado, OAB, observações e quem pediu. As parcelas, os vencimentos e as dívidas originais não mudam por aqui.
+- **Acordo cancelado sem nenhum pagamento pode ser excluído.** Se o acordo foi cancelado e nenhuma parcela chegou a ser paga, ele pode ser removido da lista. Se houver parcela paga, a exclusão é recusada: o pagamento é a prova do que o morador cumpriu, e o acordo precisa continuar guardado.
+
+### Melhorado
+
+- **A aba Acordos abre mostrando só os acordos em andamento.** Os acordos já encerrados (quitados ou cancelados) ficam atrás do filtro, e uma linha logo abaixo avisa quantos estão ocultos, com o atalho "Ver todos". Os cartões dos acordos encerrados também ficaram mais discretos, para não competir com os que ainda exigem atenção.
+- **O documento (PDF) de um acordo cancelado agora traz uma tarja de "cancelado"**, para que ninguém confunda com um acordo em vigor.
+
+### Corrigido
+
+- Ao gerar a prestação de contas, uma solicitação sem a versão do aplicativo passa a ser aceita normalmente — mas o documento gerado assim não pode ser publicado até ser gerado de novo. Uma versão em formato inválido é recusada.
+
+## v7.185.0 — Outubro 2026
+
+### Melhorado
+
+- **A prestação de contas deixou de identificar as unidades em atraso.** A seção de inadimplência agora mostra apenas o valor total em aberto e a quantidade de unidades em atraso. Antes, o documento listava quais unidades deviam — e como a prestação publicada pode ser lida por qualquer morador ativo do condomínio, isso expunha uma informação pessoal de cada inadimplente. O síndico continua vendo a lista completa de inadimplentes na tela de Inadimplência.
+- **Uma prestação gerada antes dessa mudança não pode mais ser publicada.** Se a prestação ainda estiver no formato antigo (com as unidades identificadas), o botão Publicar fica desabilitado e a tela explica o motivo: é preciso gerá-la de novo.
+
+### Corrigido
+
+- **Ao cancelar um acordo registrado mantendo os pagamentos, as parcelas já pagas perdiam o vínculo com o acordo.** Elas continuavam pagas no Financeiro, mas não apareciam mais no acordo cancelado, e deixava de ser possível saber quais lançamentos eram parcelas dele. Agora as parcelas pagas continuam ligadas ao acordo cancelado; só as que estavam em aberto são liberadas.
+
+## v7.184.0 — Outubro 2026
+
+### Novidade
+
+- **Registrar um acordo que já existia antes do V3RCondo.** Na aba Acordos, o novo caminho "Registrar acordo existente" permite cadastrar um acordo de inadimplência que já estava em andamento antes de o condomínio começar a usar o aplicativo, aproveitando os lançamentos que já estão no Financeiro como as parcelas do acordo. É possível informar vencimentos que já passaram e marcar as parcelas que já foram pagas. Nada é criado, apagado nem tem o valor alterado nos lançamentos: eles apenas passam a ser reconhecidos como parcelas do acordo.
+- **Parcelas pagas antes do aplicativo ficam como informação do acordo.** Quando parte do acordo foi cumprida antes de ele ser registrado aqui, a quantidade e o valor já pagos aparecem no acordo, mas não viram lançamento nem receita — o Financeiro continua refletindo só o que foi pago dentro do aplicativo.
+- **Um acordo registrado pode não ter as dívidas originais cadastradas.** Nesse caso, se o acordo for quebrado, ele apenas passa a constar como quebrado: nada é removido nem recalculado.
+
+### Melhorado
+
+- **Não é mais possível marcar como paga uma parcela de acordo em um período cuja prestação de contas já foi publicada.** A tentativa é recusada, para que um documento já publicado aos moradores não fique desatualizado em relação ao Financeiro.
+
+## v7.183.0 — Outubro 2026
+
+### Corrigido
+
+- **O gráfico de pizza da prestação de contas sumia quando uma única categoria respondia por 100% do valor.** Agora aparece o círculo cheio, tanto nas receitas quanto nas despesas.
+- **O quadro "Inadimplência acumulada até o período" da prestação de contas saía vazio em todos os relatórios**, mesmo quando havia valores em aberto — e o documento chegava a afirmar que não havia inadimplência acumulada. Voltou a mostrar o valor.
+
+### Melhorado
+
+- **A seção "Posição por Conta Bancária" da prestação de contas ganhou uma linha de Total**, somando as contas.
+
 ## v7.182.0 — Outubro 2026
 
 ### Novidade

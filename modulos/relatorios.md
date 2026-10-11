@@ -158,6 +158,34 @@ A Prestação de Contas é o **documento financeiro formal** do condomínio, em 
 >
 > Se o condomínio ainda não marcou qual categoria financeira é a taxa condominial (**Configurações → Categorias → Financeiro**), a Prestação de Contas não tem como saber quem está em dia — e o documento diz que a inadimplência **não pôde ser apurada** naquele período, em vez de mostrar zero. Marque a categoria em Configurações e gere o documento de novo.
 
+### O que mudou na seção de inadimplência — e por que a prestação antiga não publica
+
+A seção **Inadimplência** da Prestação de Contas **não identifica mais as unidades**. Em vez da lista de quem deve, o documento mostra só o **total em aberto** e **quantas unidades estão em atraso** (por exemplo: *R$ 12.340,00 em aberto · 7 unidades em atraso*), tanto para a inadimplência do período quanto para a acumulada.
+
+**Por que isto importa.** A prestação de contas é lida por **todos os moradores**. Uma lista com número de unidade e valor devido expõe quem está em dificuldade para os vizinhos — constrangimento que o síndico não deveria causar, e que tende a virar conflito. O condomínio continua prestando contas do tamanho do problema; o detalhe de quem deve fica com quem precisa dele. Esse detalhe você consulta no módulo [Inadimplência](/modulos/inadimplencia/) (aba **Inadimplentes**) e nos relatórios de inadimplência em PDF/XLSX, que só o síndico (e, em leitura, o Conselho Fiscal e o Contador) enxerga.
+
+{: .warning }
+> **Prestação gerada antes desta atualização não pode ser publicada — gere de novo.**
+>
+> Os documentos gerados **antes da versão 7.185.0** ainda trazem as unidades identificadas, e por isso o botão de publicar (o ícone de envio, na coluna **Ações**) fica **desabilitado**. Ao passar o mouse, a tela explica: *"Gerado antes da atualização que deixou de mostrar quais unidades estão em atraso. Gere de novo para publicar."*
+>
+> O que fazer: escolha de novo o período na aba **Prestação de Contas**, clique em **Gerar prestação** e publique o documento novo. Você pode baixar e ler o antigo, mas ele **não pode ser publicado**; exclua-o depois para não confundir.
+
+![Lista de prestações de contas geradas em julho: o botão de publicar fica desabilitado e a dica pede para gerar de novo](/assets/screenshots/prestacao-02-publicar-bloqueado.png)
+
+![Seção 4 da prestação de contas: à esquerda, o quadro do período vazio ("Nenhuma inadimplência com vencimento neste período"); à direita, o quadro acumulado com "Total em aberto: R$ 24.729,50" e "11 unidades em atraso", sem nenhuma unidade identificada](/assets/screenshots/prestacao-03-inadimplencia-sem-unidades.png)
+
+*Seção 4 de uma prestação de setembro de um condomínio de teste. O quadro da esquerda (4.1, inadimplência do período) está vazio porque nenhum lançamento venceu em setembro e continua em aberto — não é defeito. O da direita (4.2, acumulada) soma tudo o que venceu até o fim do período: só o total e a quantidade de unidades em atraso.*
+
+**Outras mudanças no documento:**
+
+- O **gráfico de receitas** agora aparece **mesmo quando só há uma categoria** de receita — caso comum no condomínio pequeno, em que tudo é taxa de condomínio. Antes, nessa situação, o gráfico saía em branco e o documento parecia incompleto.
+- A **posição por conta bancária** ganhou uma linha de **Total**, somando as contas — você confere o saldo geral do condomínio sem precisar de calculadora.
+
+![Posição por conta bancária da prestação de contas, com a linha Total destacada ao fim da tabela](/assets/screenshots/prestacao-05-total-por-conta.png)
+
+*Seção 2 da mesma prestação: a linha **Total** soma o saldo de todas as contas.*
+
 **Origem do pagamento:** os lançamentos pagos por [Cobrança Automática](/modulos/cobranca-automatica/) trazem, no documento, **como** foram liquidados — a frase *Pagamento confirmado pelo Asaas · Pix* (ou boleto, cartão, transferência), a data e o identificador da cobrança. É o que permite a quem confere a prestação amarrar cada entrada ao extrato da conta de cobrança, sem precisar pedir nada ao síndico. Lançamentos pagos à mão continuam sem essa menção, porque não há meio eletrônico a informar.
 
 ## Relatório de Gestão *(síndico, Conselho Fiscal e Contador)*

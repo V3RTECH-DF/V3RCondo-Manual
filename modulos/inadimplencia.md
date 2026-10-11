@@ -95,7 +95,93 @@ A aba **Acordos** lista **todos** os acordos do condomínio, com filtro por stat
 ![Aba Acordos: lista consolidada de todos os acordos do condomínio, com selos de status e filtro](/assets/screenshots/inad-acordo-status-01.png)
 
 {: .note }
+> **A aba abre em "Em andamento".** Por padrão você vê só os acordos **Ativos** e **Quebrados** — os que ainda pedem alguma ação sua. Os acordos **Concluídos** e **Cancelados** ficam atrás do filtro **Status** (escolha **Todos**, **Concluídos** ou **Cancelados**). Para você não achar que eles sumiram, a tela avisa logo acima da lista: *"1 acordo encerrado oculto"* (ou *"N acordos encerrados ocultos"*), com o atalho **Ver todos**.
+>
+> Lista vazia com esse aviso não é defeito: quer dizer que todos os acordos do condomínio já foram encerrados.
+
+![Aba Acordos em "Em andamento", com o aviso de que há um acordo encerrado oculto](/assets/screenshots/acordo-lista-02-ocultos.png)
+
+{: .note }
 > **Por que esta aba existe.** Antes, o acordo só aparecia grudado na unidade dentro da lista de inadimplência. Quando o acordo cobria **toda** a dívida da unidade, ela saía da lista e o acordo "sumia" da sua visão. Agora, **todo acordo fica sempre visível e gerenciável aqui** — inclusive os que já quitaram a dívida inteira da unidade.
+
+### Registrar um acordo que já existia *(Pro)*
+
+Seu condomínio pode ter começado a usar o V3RCondo com acordos já firmados — no cartório, com advogado, numa reunião de conselho. O botão **Registrar acordo existente**, ao lado do filtro de status, serve para esses casos: você **reconhece** o acordo no sistema, em vez de refazê-lo do zero.
+
+**Por que isto importa.** Refazer o acordo com **Gerar Acordo** criaria parcelas novas por cima de lançamentos que já existem — o morador passaria a dever em dobro, e o valor combinado com ele ficaria diferente do que aparece na tela. Registrar o acordo existente faz o contrário: as parcelas **são** os lançamentos que você já tem em aberto, só passam a ser acompanhadas como acordo (com número de parcela, PDF e quebra automática).
+
+{: .note }
+> **O que o registro faz e não faz.** Nenhum lançamento é criado, apagado ou muda de valor. **Nenhuma cobrança é emitida e nenhum aviso é enviado** ao morador — registrar é só reconhecer o que já foi combinado. O acordo aparece na lista com o selo **Registrado (anterior ao sistema)**.
+
+O registro acontece numa gaveta lateral, em **3 passos**. Nada é gravado até o último botão.
+
+**Passo 1 — Condições do acordo**
+
+1. Escolha a **Unidade**.
+2. Preencha **Valor total da dívida**, **Valor acordado** e **Desconto (%)**.
+3. Indique **Quem pediu o acordo** (síndico ou condômino) e, se houver, **Advogado** e **OAB**.
+4. Em **Parcelas pagas antes de usar o sistema**, informe a **quantidade** e a **soma (R$)** das parcelas que o morador já cumpriu antes de o condomínio entrar no V3RCondo.
+5. Use **Observações** para guardar o que for útil depois (onde foi firmado, em que data, quem testemunhou).
+6. Clique em **Escolher parcelas**.
+
+![Passo 1 do registro de acordo existente: unidade, valores, advogado, parcelas pagas antes do sistema e observações](/assets/screenshots/acordo-existente-01-condicoes.png)
+
+{: .warning }
+> **O "Valor acordado" é o valor do acordo inteiro — não o total da dívida da unidade.**
+>
+> A unidade pode ter outros lançamentos em aberto que **não** fazem parte do acordo (a taxa do mês corrente, por exemplo). Se você digitar ali o total em aberto da unidade, o acordo passa a mostrar um valor que ninguém combinou. Digite só o que foi acertado no acordo — somando as parcelas que já foram pagas antes do sistema e as que ainda estão em aberto.
+
+{: .note }
+> **Parcelas cumpridas antes do sistema não viram lançamento.** Elas ficam guardadas só como informação do acordo (quantidade e soma). Não entram em nenhum total do Financeiro, não aumentam receita e não mexem na inadimplência — o dinheiro entrou numa época em que o condomínio ainda não usava o V3RCondo. A numeração das parcelas do sistema começa depois delas: se duas foram pagas antes, a primeira parcela do sistema é a **3**.
+
+**Passo 2 — Escolha das parcelas**
+
+A gaveta lista os **lançamentos em aberto da unidade**. Marque aqueles que são as parcelas deste acordo. Para cada um marcado você pode:
+
+- **Corrigir o vencimento da parcela.** Data no passado é aceita — acordos antigos costumam ter parcelas que já venceram. O vencimento só muda para o acordo; se o acordo for cancelado, o lançamento volta à data que tinha.
+- Marcar **Já foi paga**, informando a data. Use só quando o pagamento aconteceu **depois** de o condomínio começar a usar o sistema e ainda não foi lançado como pago: a baixa lança a receita no mês da data informada.
+
+Lançamentos que não podem ser parcela aparecem desabilitados, com o motivo escrito embaixo: já pagos, já parte de outro acordo, excluídos, de outra unidade ou que não são receita.
+
+![Passo 2: lançamentos em aberto da unidade 403, com três marcados como parcelas, vencimento editável e a caixa "Já foi paga"](/assets/screenshots/acordo-existente-02-parcelas.png)
+
+No fim da lista há a seção recolhida **Vincular dívidas originais (opcional)**. Use-a só se a dívida que deu origem ao acordo ainda estiver cadastrada como lançamento em aberto. Ao vincular, essa dívida **sai da inadimplência** e volta a aparecer se o acordo quebrar — igual ao acordo criado pelo sistema. Se você não vincula nada, o total em aberto da unidade não muda.
+
+![Seção "Vincular dívidas originais (opcional)" aberta, com os lançamentos que podem ser vinculados](/assets/screenshots/acordo-existente-03-vincular-originais.png)
+
+**Passo 3 — Revisão**
+
+A última tela mostra **tudo o que será adotado**, na ordem das parcelas, e o **total em aberto da unidade antes e depois**. É a sua conferência final: só quando você clica em **Registrar acordo** algo é gravado.
+
+![Passo 3: parcelas 3, 4 e 5 listadas, nota sobre as 2 parcelas pagas antes do sistema e total em aberto igual antes e depois (R$ 4.114,00)](/assets/screenshots/acordo-existente-04-revisao.png)
+
+{: .warning }
+> **Confira o "antes e depois": sem dívida original vinculada, os dois números têm de ser iguais.**
+>
+> Registrar um acordo **não** quita nada — só reconhece parcelas que já estavam em aberto. Se os totais diferirem sem você ter vinculado dívida original nem marcado parcela como paga, algo foi escolhido errado: volte e confira as parcelas e o valor acordado antes de gravar.
+
+**Exemplo concreto.** Em fevereiro, a unidade 403 do Residencial TESTE firmou em cartório um acordo de R$ 2.500,00, em 5 parcelas de R$ 500,00, sem desconto. Duas parcelas (R$ 1.000,00) foram pagas antes de o condomínio usar o sistema. O síndico informa **Valor total da dívida R$ 2.500,00**, **Valor acordado R$ 2.500,00**, **2 parcelas pagas antes do sistema** somando **R$ 1.000,00**, e marca no passo 2 as três taxas ainda em aberto (março, abril e maio). A revisão mostra as parcelas **3, 4 e 5** e o total da unidade em **R$ 4.114,00 antes e depois** — as outras taxas em aberto da unidade (junho a outubro) continuam como inadimplência normal.
+
+![Acordo registrado: selo "Registrado (anterior ao sistema)", 2/5 pagas e as parcelas 3 a 5 pendentes](/assets/screenshots/acordo-existente-05-registrado.png)
+
+**No celular**, a gaveta ocupa a tela inteira e os passos são os mesmos:
+
+![Passo 3 do registro de acordo no celular](/assets/screenshots/acordo-existente-04-revisao-mobile.png)
+
+**Quando dá errado**
+
+| O que você vê | O que significa e o que fazer |
+|---|---|
+| Lançamento desabilitado com *"já faz parte de outro acordo"* | O lançamento já é parcela ou dívida original de outro acordo. Cancele o outro acordo primeiro, se foi um engano. |
+| *"O pagamento em dd/mm/aaaa cai no período …, que já tem prestação de contas publicada"* | Você marcou uma parcela como paga numa data cujo mês já foi prestado e publicado. Escolha outra data ou registre essa parcela como paga **antes do sistema** (passo 1). Ver o aviso abaixo. |
+| O botão **Registrar acordo** não habilita | Falta algo: nenhuma parcela marcada, data de pagamento em branco, ou — se há parcela marcada como paga — a **conta que recebeu os pagamentos** não foi escolhida. |
+| Mensagem de erro seguida de *"Nada foi gravado"* | O servidor recusou o registro. Como tudo é gravado de uma vez, nada ficou pela metade: corrija e tente de novo. |
+| O botão aparece desabilitado com *"Disponível no plano Pro"* | Registrar acordo é recurso do plano Pro (nos 30 dias grátis fica liberado). |
+
+{: .warning }
+> **Baixa de parcela em mês com prestação de contas já publicada é recusada.**
+>
+> Vale para **qualquer** acordo, registrado ou criado pelo sistema: **Marcar como pago** com data num mês cuja prestação de contas já foi publicada não é aceito, porque a baixa mudaria um mês que os condôminos já leram. Para dar baixa, [despublique a prestação](/modulos/relatorios/#prestação-de-contas) daquele mês, faça a baixa e gere e publique de novo.
 
 ### Acompanhar e receber as parcelas
 
@@ -134,6 +220,38 @@ Você pode **cancelar** um acordo ativo a qualquer momento (expanda o acordo →
 
 {: .note }
 > **O que você já recebeu continua registrado.** Quebrar ou cancelar um acordo **não reescreve meses já fechados** — cada pagamento fica lançado na data em que entrou. O que ele ainda deve é sempre: **dívida original cheia menos o total já pago**.
+
+**Acordo registrado (anterior ao sistema).** Ao cancelar, cada parcela volta ao **vencimento que tinha antes do registro** e continua em aberto como lançamento normal; nada é apagado. Se alguma parcela já foi baixada, o sistema **não cancela em silêncio**: pede que você decida o que fazer com ela antes de continuar.
+
+![Confirmação de cancelamento de acordo registrado: as parcelas voltam ao vencimento anterior e nada é apagado](/assets/screenshots/acordo-cancelar-02-confirmacao.png)
+
+Um acordo cancelado continua na lista, com a tarja **"Cancelado em dd/mm/aaaa — sem efeito"** e o valor riscado. O **PDF** de um acordo cancelado também sai com uma **tarja avisando que ele não tem efeito** — assim ninguém usa por engano um documento que já não vale.
+
+### Excluir um acordo cancelado
+
+Um acordo cancelado que não serve mais (registrado por engano, por exemplo) pode ser **excluído**: clique na lixeira à direita do acordo e confirme. Ele sai da lista, mas fica guardado no histórico; nenhum lançamento, valor ou vencimento muda.
+
+{: .warning }
+> **Só dá para excluir acordo cancelado que não tem nenhuma parcela paga.** Se houver parcela paga, a lixeira fica desabilitada e o motivo aparece ao passar o mouse: a parcela paga é a **prova do pagamento**, e o acordo precisa continuar guardado. Acordo ativo, quebrado ou concluído também não se exclui — para o ativo, use **Cancelar Acordo**.
+
+![Acordo cancelado com a tarja "sem efeito" e a dica "Excluir acordo" sobre a lixeira](/assets/screenshots/acordo-cancelado-03-excluir.png)
+
+![Confirmação "Excluir este acordo cancelado?"](/assets/screenshots/acordo-cancelado-04-excluir-confirmacao.png)
+
+### Corrigir os dados de um acordo (lápis)
+
+Digitou o nome do advogado errado ou esqueceu a OAB? Não precisa cancelar o acordo: o **lápis** ao lado do valor abre **Editar dados do acordo** e corrige só os dados descritivos.
+
+| Situação do acordo | O que você pode corrigir |
+|---|---|
+| **Ativo** ou **Quebrado** | Todos os dados descritivos: dívida total, valor acordado, desconto, quem pediu, advogado, OAB e observações — e, no acordo registrado, a quantidade e a soma das parcelas pagas antes do sistema |
+| **Concluído** ou **Cancelado** | Só **advogado, OAB, observações e quem pediu** |
+
+**Parcelas, vencimentos, baixas e dívidas vinculadas nunca se editam ali.** Para mudar uma delas é preciso cancelar o acordo e registrar de novo.
+
+![Editar dados de um acordo ativo: todos os campos descritivos liberados](/assets/screenshots/acordo-editar-dados-01-ativo.png)
+
+![Editar dados de um acordo encerrado: só advogado, OAB, observações e quem pediu](/assets/screenshots/acordo-editar-dados-02-encerrado.png)
 
 ### Os status de um acordo
 

@@ -31,12 +31,18 @@ Clique em **Gerar prestação**. O documento é montado em segundo plano — voc
 
 ### 3. Revise antes de publicar
 
-O documento reúne o resultado do período (receitas, despesas e transferências), a movimentação por conta, a situação da inadimplência e os comprovantes anexados aos lançamentos — tudo num PDF só. Abra e confira os números batem com o que você já sabe do mês antes de publicar: depois de publicado, é isso que os condôminos vão ler.
+O documento reúne o resultado do período (receitas, despesas e transferências), a movimentação por conta, a situação da inadimplência (total e quantidade de unidades em atraso, sem identificá-las) e os comprovantes anexados aos lançamentos — tudo num PDF só. Abra e confira os números batem com o que você já sabe do mês antes de publicar: depois de publicado, é isso que os condôminos vão ler.
 
 {: .warning }
 > **Sem a categoria da cota configurada, a inadimplência do período não aparece — nem como zero**
 >
 > Se [Configurações → Categorias → Financeiro](/modulos/configuracoes/#a-categoria-da-taxa-condominial) ainda não tem uma categoria marcada como a taxa condominial, a prestação registra a inadimplência como **"não apurada"**, em vez de mostrar que está tudo em dia. Um "zero" ali seria uma afirmação falsa — não há como o documento saber. Marque a categoria e gere o documento de novo.
+
+{: .note }
+> **A inadimplência da prestação mostra só o total e a quantidade de unidades em atraso — não quem deve.** É proposital: o documento é lido por todos os moradores. Para o detalhe por unidade, use o módulo [Inadimplência](/modulos/inadimplencia/).
+
+{: .warning }
+> **Prestação gerada antes da versão 7.185.0 não publica.** Se o botão de publicar estiver desabilitado num documento antigo, gere a prestação do mesmo período de novo e publique a nova. Detalhes em [Relatórios](/modulos/relatorios/#prestação-de-contas).
 
 ### 4. Publique
 
@@ -64,5 +70,6 @@ Fechado setembro no Financeiro — 42 lançamentos, todos com baixa e comprovant
 |---|---|
 | Inadimplência marcada como "não apurada" | Falta marcar a categoria da taxa condominial em Configurações → Categorias → Financeiro; gere o documento de novo depois de corrigir |
 | Números do documento não batem com o que você esperava | Volte ao Financeiro e confira lançamentos sem baixa, ou o extrato ainda não conciliado daquele mês — a prestação reflete exatamente o que está lançado |
+| O botão de publicar está desabilitado | O documento foi gerado antes da atualização que tirou a identificação das unidades em atraso. Clique em **Gerar prestação** de novo para o mesmo período e publique o novo |
 | Condômino diz que não consegue ver a prestação | Confira se ela foi de fato **publicada** (não basta ter sido gerada) — o status aparece na própria aba de Relatórios |
 | Precisa corrigir algo depois de publicado | Despublique, corrija a causa no Financeiro, gere de novo e publique novamente — não há edição direta do PDF já publicado |
