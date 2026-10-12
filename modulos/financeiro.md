@@ -139,7 +139,7 @@ Clique em **+ Novo Lançamento** e preencha:
 Para consultar um lançamento sem entrar no modo de edição, **clique na linha** dele na lista — ou no cartão, se estiver no celular. Abre um painel de leitura com tudo o que está registrado:
 
 - **Valor** e a situação (Pago, Pendente ou Vencido)
-- Um selo à parte, **Conciliado com o extrato**, quando esse lançamento já foi conferido contra o extrato do banco — ver [Conciliar com o extrato bancário](#conciliar-com-o-extrato-bancário-síndico--plano-pro), mais abaixo. É uma marca independente da situação: um lançamento pode estar **Pago** e **não conciliado** — alguém deu baixa manual e ninguém confirmou aquilo contra o extrato ainda. É exatamente essa combinação — pago, mas não conciliado — que interessa ao síndico e à comissão fiscal no fechamento do mês
+- Um bloco à parte, quando esse lançamento já foi conferido contra o banco, dizendo **de onde veio a marca**: **Conciliado com o extrato importado** (casou com uma linha de um arquivo OFX/CSV) ou **Conferido manualmente** (você registrou à mão, olhando o banco) — ver [Conciliar com o extrato bancário](#conciliar-com-o-extrato-bancário-síndico--plano-pro) e [Conferir à mão, sem arquivo](#conferir-à-mão-sem-arquivo), mais abaixo. É uma marca independente da situação: um lançamento pode estar **Pago** e **não conciliado** — alguém deu baixa manual e ninguém confirmou aquilo contra o extrato ainda. É exatamente essa combinação — pago, mas não conciliado — que interessa ao síndico e à comissão fiscal no fechamento do mês
 - **Unidade**, **Categoria** e **Conta** bancária
 - **Vencimento**, **Competência** e a data em que foi **pago**
 - **Observações**
@@ -149,7 +149,7 @@ Para consultar um lançamento sem entrar no modo de edição, **clique na linha*
 
 <!-- PRINT: financeiro-detalhe-lancamento-01 — ver roteiro de capturas -->
 
-O painel é de leitura: **nada é alterado só por abri-lo** e não há botão de excluir dentro dele. Para síndico e subsíndico, o rodapé oferece atalhos conforme o estado do lançamento — **Marcar como pago** (quando ainda está em aberto), **Editar lançamento**, que fecha o painel e abre o formulário, e **Desfazer conciliação** (quando o lançamento está marcado como conciliado). Desfazer a conciliação **não** desfaz a baixa: o lançamento continua pago, só deixa de estar marcado como conferido contra o extrato. Quem tem acesso apenas de leitura não vê esses botões: para essas pessoas o painel é só consulta.
+O painel é de leitura: **nada é alterado só por abri-lo** e não há botão de excluir dentro dele. Para síndico e subsíndico, o rodapé oferece atalhos conforme o estado do lançamento — **Marcar como pago** (quando ainda está em aberto), **Editar lançamento**, que fecha o painel e abre o formulário, **Marcar como conferido** (quando o lançamento ainda não tem a marca de conferido) e **Desfazer conciliação** (quando já tem). Desfazer a conciliação **não** desfaz a baixa: o lançamento continua pago, só deixa de estar marcado como conferido. Transferências entre contas não oferecem o botão de conferir. Quem tem acesso apenas de leitura não vê esses botões: para essas pessoas o painel é só consulta.
 
 {: .note }
 > **Para o conselho fiscal e o contador**
@@ -161,7 +161,7 @@ O painel é de leitura: **nada é alterado só por abri-lo** e não há botão d
 Em vez de abrir um lançamento por vez, dá para selecionar vários e aplicar a mesma ação a todos.
 
 - Marque a caixa de seleção de cada linha da tabela (no computador) ou de cada cartão (no celular), ou use **"Selecionar todos"** para marcar tudo o que está na tela, respeitando o filtro e o período escolhidos.
-- Com algum lançamento selecionado, aparece uma barra fixa na parte de baixo da tela, com a quantidade selecionada, a soma dos valores e as ações disponíveis: **Marcar como pago**, **Excluir**, **Trocar categoria** e **Exportar**.
+- Com algum lançamento selecionado, aparece uma barra fixa na parte de baixo da tela, com a quantidade selecionada, a soma dos valores e as ações disponíveis: **Marcar como pago**, **Marcar como conferido** (para registrar que você conferiu os lançamentos olhando o banco — veja [Conferir à mão, sem arquivo](#conferir-à-mão-sem-arquivo)), **Trocar categoria**, **Exportar** (planilha ou PDF) e **Excluir**.
 - Ao escolher uma ação (exceto exportar), o sistema mostra uma **prévia** antes de aplicar: quantos lançamentos serão afetados, quantos serão pulados (por exemplo, um que já está pago) e quantos serão recusados, com o motivo de cada recusa. Só depois de conferir a prévia é que você confirma.
 - O resultado final separa **concluídos**, **pulados** e **recusados** — nunca aparece um "pronto" genérico que esconda uma falha parcial.
 - **Exportar** gera a planilha ou o PDF só com os lançamentos selecionados, no mesmo formato usado em Relatórios.
@@ -285,12 +285,55 @@ Ao escolher a conta na tela de importação, aparece a lista das linhas já impo
 
 ### Desfazer uma conciliação
 
-Abra o [detalhe do lançamento](#ver-os-detalhes-de-um-lançamento) e clique em **Desfazer conciliação**. Isso tira a marca **Conciliado com o extrato**, mas **não desfaz a baixa** — o lançamento continua pago. Use quando a conciliação casou com o lançamento errado.
+Abra o [detalhe do lançamento](#ver-os-detalhes-de-um-lançamento) e clique em **Desfazer conciliação**. Isso tira a marca de conferido, mas **não desfaz a baixa** — o lançamento continua pago. Use quando a conciliação casou com o lançamento errado, ou quando você marcou à mão um lançamento que não devia.
+
+Há uma diferença entre as duas origens. Desfazer uma conciliação **de extrato importado** também **libera a linha do extrato** que estava ligada a ele, e, se o lançamento mudou de conta ao conciliar, **não volta** para a conta anterior. Desfazer uma conferência **manual** não tem nada disso a desfazer: como não há linha de extrato, só a marca some.
+
+### Conferir à mão, sem arquivo
+
+**Por que isto importa.** Nem todo mês você tem o arquivo do extrato — às vezes só o app do banco aberto no celular, ou o extrato em papel. Antes, a única forma de registrar "conferi este lançamento contra o banco" era importar um arquivo; quem conferia olhando a tela do banco não tinha onde deixar essa marca, e o Conselho Fiscal não conseguia distinguir o lançamento conferido do que ninguém olhou. Agora você registra a conferência direto no lançamento, e a lista de "pago, mas não conferido" volta a ser confiável.
+
+**Um lançamento por vez.** Abra o [detalhe do lançamento](#ver-os-detalhes-de-um-lançamento). No bloco **Conferência com o banco**, clique em **Marcar como conferido**. O bloco passa a mostrar **Conferido manualmente**, com a frase *"Conferido à mão contra o banco, sem arquivo de extrato"* e a data.
+
+![Detalhe de um lançamento pago, com o bloco "Conferência com o banco" e o botão Marcar como conferido](/assets/screenshots/financeiro-conferir-01-detalhe-botao.png)
+
+![Detalhe do mesmo lançamento depois de conferido: "Conferido manualmente", a frase "Conferido à mão contra o banco, sem arquivo de extrato" e o botão Desfazer conciliação](/assets/screenshots/financeiro-conferir-04-detalhe-manual.png)
+
+**Vários de uma vez.** Na lista do Financeiro, marque os lançamentos (ou use **Selecionar todos**) e clique em **Marcar como conferido** na barra que aparece embaixo. Uma janela de confirmação diz **quantos lançamentos** serão marcados — *"Marcar 12 lançamentos como conferidos manualmente?"* — antes de qualquer coisa ser gravada.
+
+<!-- PRINT: financeiro-conferir-02-lote-confirmacao — barra de baixo + janela "Marcar N lançamentos como conferidos manualmente?" -->
+
+**O resultado separa quatro grupos**, sempre os quatro números, para nada ficar escondido atrás de um "pronto":
+
+<!-- PRINT: financeiro-conferir-03-resultado — aviso com os quatro números; -->
+
+| Grupo | O que significa |
+|---|---|
+| **Marcados como conferidos** | Receberam a marca agora |
+| **Já estavam conferidos** | Já tinham a marca (de um extrato importado ou de uma conferência anterior) e ficaram como estão. **Não é erro** — é o que acontece quando você seleciona o mês inteiro e parte dele já estava conferida |
+| **Recusados** | Não puderam ser marcados por regra, com o motivo — por exemplo, o lançamento ainda não foi pago |
+| **Com falha** | Algo deu errado no servidor para esses; tente de novo só com eles |
+
+O lote vai até **200 lançamentos por vez**. Se você selecionar mais, o app divide em partes e soma o resultado no final.
+
+**Exemplo concreto.** Ao fechar setembro, a síndica do Residencial TESTE abre o app do banco, confere as 38 movimentações do mês contra o Financeiro, filtra setembro e usa **Selecionar todos**. Ao confirmar, o resultado diz *"31 marcados como conferidos · 6 já estavam conferidos · 1 recusado · 0 com falha"*. Os 6 já tinham sido conciliados por um extrato importado em agosto; o recusado é uma conta de água de fim de mês que ainda não foi paga — como não houve movimento no banco, não há o que conferir.
+
+**O que a marca não faz.** Conferir **não mexe em nada**: valor, data, conta, pagamento e competência ficam exatamente como estão. É só o registro de que alguém olhou. Isso o distingue da conciliação por extrato importado, que **dá baixa com a data do extrato** e pode mudar o lançamento.
+
+{: .warning }
+> **Só lançamento já pago pode ser conferido**
+>
+> Conciliar é conferir um movimento que **aconteceu**. Um lançamento ainda em aberto é recusado, com o motivo *"Ainda não foi pago; só dá para conferir movimento que já aconteceu"*. Dê a baixa primeiro e confira depois. Os lançamentos excluídos também são recusados, e transferências entre contas não têm o botão.
+
+{: .tip }
+> **Conferir não é provar.** A marca manual diz que *você* olhou o banco; ela não tem uma linha de extrato por trás. Para o Conselho Fiscal, o selo mostra a origem — **Conferido manualmente** × **Conciliado com o extrato importado** — mas **na lista o selo é um só**, sem distinguir, de propósito, para não poluir a tela. A diferença só aparece ao abrir o detalhe.
+
+**Se uma importação de extrato reconhecer depois um lançamento que você conferiu à mão**, a marca da importação **substitui** a manual: fica uma marca só, agora ligada à linha do extrato, e o detalhe passa a dizer **Conciliado com o extrato importado**. Nada fica duplicado.
 
 {: .note }
 > **Quem pode**
 >
-> Síndico e subsíndico conferem, importam e desfazem conciliações. Contador e conselho fiscal enxergam as duas marcas (Pago e Conciliado com o extrato) em qualquer lançamento, mas não alteram nada.
+> Síndico e subsíndico conferem (à mão ou pela importação), importam e desfazem conciliações. Contador e conselho fiscal enxergam as duas marcas (Pago e Conferido) em qualquer lançamento, inclusive de onde veio a marca, mas não alteram nada.
 
 ## Lançamento em lote por unidade *(síndico)*
 

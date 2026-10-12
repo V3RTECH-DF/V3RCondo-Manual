@@ -9,6 +9,38 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.188.1 — Outubro 2026
+
+### Corrigido
+
+- **O valor informado no aviso de acordo quebrado agora é o mesmo que a tela de Inadimplência mostra.** O aviso podia somar a mais: contava também lançamentos que já fazem parte de um acordo (dívida renegociada, contada duas vezes) e de categorias que não entram em inadimplência. Agora o aviso usa a mesma regra da tela.
+- **Se o sistema não conseguir ler algum dado para montar o texto do aviso, o acordo é marcado como quebrado do mesmo jeito.** O aviso segue com um texto genérico, mandando conferir a situação na tela de Inadimplência, e a falha fica registrada para a equipe. Antes, nessa situação o acordo era pulado sem que ninguém soubesse.
+
+## v7.188.0 — Outubro 2026
+
+### Corrigido
+
+- **O aviso de acordo quebrado passou a dizer o que realmente aconteceu.** Num acordo registrado a partir de uma dívida anterior ao sistema (sem dívidas originais cadastradas), o aviso afirmava que a dívida original tinha voltado, que o valor pago tinha sido creditado e que as parcelas tinham sido removidas — nada disso acontece nesse tipo de acordo. Agora, nesse caso, o aviso diz que as parcelas vencidas continuam em aberto, seguem sendo a dívida da unidade e que nada foi removido nem recalculado, e informa o saldo vencido em aberto da unidade. Nos acordos comuns, o texto é o de sempre. Vale para o e-mail e para a mensagem no Telegram.
+
+### Melhorado
+
+- **No Dashboard, o cartão "Unidades do Condomínio" passou a dividir a linha com os três cartões financeiros em telas largas**, em vez de ocupar uma faixa inteira só para mostrar um número. Em telas menores, os cartões continuam empilhando como antes. Enquanto o condomínio não tem nenhuma unidade cadastrada, o cartão continua largo, com a explicação e o botão "Cadastrar unidades".
+
+## v7.187.0 — Outubro 2026
+
+### Novidade
+
+- **Conferência manual do extrato.** Agora o síndico pode marcar um lançamento como conferido à mão, olhando o extrato do banco — sem precisar importar o arquivo do extrato. Dá para fazer no detalhe do lançamento (botão "Marcar como conferido") ou em vários de uma vez, pela ação em lote do Financeiro. Marcar não muda valor, data, conta nem pagamento: só registra quem conferiu e quando.
+- **Cada marca de conferência guarda de onde veio.** No detalhe do lançamento, aparece "Conferido manualmente" (conferido à mão, sem arquivo de extrato) ou "Conciliado com o extrato importado". Na lista do Financeiro continua existindo uma única marca de "conciliado", sem distinção.
+- **Na ação em lote, o resultado separa quatro grupos**: marcados como conferidos, os que já estavam conferidos, os recusados (com o motivo) e os que deram falha. A confirmação antes de marcar diz quantos lançamentos serão afetados, e cada vez dá para marcar até 200 lançamentos.
+- **Só movimento que já aconteceu pode ser conferido.** Um lançamento que ainda não foi pago é recusado, com a explicação. Quem apenas audita o financeiro continua só consultando.
+
+### Corrigido
+
+- **No bloco de contas do Financeiro, o texto "crédito a favor" (e "devido") voltou a ter um espaço entre o valor e a palavra**, em vez de aparecer colado ao número.
+- **O subtítulo da aba Acordos deixou de prometer "todos os acordos".** Como a aba abre mostrando só os acordos em andamento, o texto agora descreve o que a aba é — os acordos de parcelamento firmados com as unidades do condomínio — sem depender do filtro escolhido.
+- **No celular, o valor de um acordo registrado deixou de ficar por cima do selo "Registrado (anterior ao sistema)".** A linha do acordo passou a quebrar em duas, sem sobreposição e com os botões de editar e excluir fáceis de tocar.
+
 ## v7.186.0 — Outubro 2026
 
 ### Novidade

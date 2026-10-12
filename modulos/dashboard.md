@@ -95,7 +95,9 @@ Três cards no topo exibem os dados do mês atual:
 - **Total de Entradas** — soma de todas as receitas recebidas no mês
 - **Total de Saídas** — soma de todas as despesas pagas no mês
 
-Logo abaixo, um quarto card mostra o número de **Unidades do Condomínio** cadastradas. Se ainda não houver nenhuma, o card avisa e traz o atalho **Cadastrar unidades** — sem unidades cadastradas não dá para gerar cobrança, fazer lançamento em lote nem calcular o plano.
+Quando o condomínio já tem unidades cadastradas, um quarto card — **Unidades do Condomínio**, com o número de unidades — fica **ao lado** dos três cards de dinheiro, na mesma faixa, em vez de ocupar uma linha própria embaixo. Assim o resumo inteiro cabe de uma olhada. Isso vale em **tela larga**; em tela média o quarto card desce para a linha seguinte, e no celular os cards se empilham, um abaixo do outro.
+
+Enquanto não há unidades — ou enquanto a contagem ainda carrega, ou a consulta falha —, o card **não entra na faixa**: fica numa linha larga própria, abaixo dos três cards. Sem unidades, ele avisa e traz o atalho **Cadastrar unidades** — sem unidades cadastradas não dá para gerar cobrança, fazer lançamento em lote nem calcular o plano. Se a consulta falhar, o card diz que falhou e oferece tentar de novo, em vez de mostrar um zero.
 
 ## Fluxo de Caixa
 

@@ -202,7 +202,7 @@ Se a unidade acumular **2 parcelas vencidas e não pagas**, o sistema marca o ac
 - O condômino **perde o desconto** e volta a dever o **valor original cheio**.
 - **Tudo o que ele já pagou é abatido** — nada do que entrou é perdido.
 - As parcelas ainda não pagas **deixam de existir**.
-- As dívidas originais **voltam a aparecer na inadimplência**, com o valor certo.
+- As dívidas originais **voltam a aparecer na inadimplência**, com o valor certo — **quando o acordo as tem vinculadas**. Sem dívida original vinculada, nada é removido e as parcelas vencidas seguem em aberto (veja [o que o aviso diz](#o-que-o-aviso-de-acordo-quebrado-diz--e-por-que-depende-do-acordo)).
 - Você recebe uma **notificação** (app + e-mail, com a identidade do condomínio).
 
 **Exemplo prático:**
@@ -211,6 +211,29 @@ Se a unidade acumular **2 parcelas vencidas e não pagas**, o sistema marca o ac
 
 {: .warning }
 > **Perder o desconto é intencional.** O desconto é o incentivo para o acordo ser cumprido. Descumprido, a base volta a ser a dívida cheia — sempre creditando o que já foi pago.
+
+#### O que o aviso de acordo quebrado diz — e por que depende do acordo
+
+"Acordo quebrado" é o mesmo evento para todo acordo, mas **o que acontece com a dívida depende de uma coisa só: o acordo tem dívidas originais vinculadas, ou não?** O aviso que chega por e-mail e Telegram descreve o caso certo, e vale entender a diferença para não estranhar o texto.
+
+| O acordo tinha… | O que a quebra faz | O que o aviso diz |
+|---|---|---|
+| **Dívidas originais vinculadas** — acordo criado pelo sistema com **Gerar Acordo**, ou acordo registrado em que você vinculou as dívidas | As dívidas originais **voltam à inadimplência** com o valor cheio, o que já foi pago é **abatido** e as parcelas ainda não pagas são **removidas** | Que a dívida original voltou com o valor cheio, já descontado o que foi recebido, e que as parcelas não pagas deixaram de existir |
+| **Nenhuma dívida original vinculada** — o caso típico do acordo *Registrado (anterior ao sistema)* em que você não usou **Vincular dívidas originais** | **Nada é removido nem recalculado.** As parcelas vencidas continuam em aberto, como lançamentos normais, e **elas são a dívida** | Que as parcelas vencidas seguem em aberto e que nada foi removido nem recalculado, e traz o **saldo vencido em aberto da unidade** |
+
+**Por que isto importa.** Quem lê "acordo quebrado" costuma esperar que a dívida original "volte" e as parcelas "sumam". Isso só acontece quando existe dívida original cadastrada para voltar. Num acordo registrado sem vínculo não há dívida antiga no sistema — o que existe são as próprias parcelas, e elas **já estavam** em aberto. Procurar a dívida original reaparecendo na lista, nesse caso, é procurar o que nunca foi cadastrado.
+
+{: .note }
+> **A escolha vem das dívidas vinculadas, não da origem do acordo**
+>
+> Um acordo registrado como anterior ao sistema **pode** ter dívidas originais vinculadas (você as vincula no registro). Nesse caso a quebra se comporta como a de um acordo criado pelo sistema. O que decide o texto do aviso é só se existe vínculo.
+
+**Exemplo concreto.** A unidade 403 do Residencial TESTE tem um acordo registrado de 5 parcelas de R$ 500,00, sem dívida original vinculada. As parcelas 3 e 4 vencem e não são pagas: o acordo quebra. Você recebe o aviso dizendo que as parcelas vencidas continuam em aberto e que o saldo vencido da unidade é de R$ 1.000,00. Na aba **Inadimplentes** a unidade aparece devendo esse valor — são as duas parcelas, não uma dívida "ressuscitada".
+
+{: .tip }
+> **O saldo do aviso é o mesmo da tela de Inadimplência**, apurado na hora do envio. Se divergir do que você vê depois, houve pagamento ou lançamento novo no intervalo.
+
+**Quando dá errado.** Se o sistema não conseguir apurar o saldo no momento do envio, o aviso **não inventa um número**: diz que não foi possível apurar agora e manda você conferir na tela de Inadimplência. Se nem o vínculo das dívidas originais puder ser lido, o aviso se limita a pedir que você confira o acordo e a situação da unidade lá. Nos dois casos, a verdade está na aba **Inadimplentes**.
 
 ### Cancelar um acordo manualmente
 

@@ -10,7 +10,7 @@ nav_order: 4
 
 Dar baixa num lançamento confirma que o dinheiro entrou ou saiu — mas não confirma que aquele lançamento é, **de fato**, a mesma transação que aparece no extrato do banco. Duas pessoas podem ter dado baixa em lançamentos parecidos por engano, um pagamento pode ter caído em outra conta, uma tarifa pode nunca ter sido lançada. Conferir contra o extrato é a segunda checagem — a que o Conselho Fiscal e o contador esperam encontrar pronta na hora de revisar as contas.
 
-Há dois caminhos, e a escolha depende do que você tem em mãos: o **arquivo** do extrato (OFX ou CSV), ou só o **número** do saldo, de um extrato impresso ou em PDF.
+Há três caminhos, e a escolha depende do que você tem em mãos: o **arquivo** do extrato (OFX ou CSV); só o **número** do saldo, de um extrato impresso ou em PDF; ou o **banco aberto na sua frente**, para conferir lançamento a lançamento e registrar que conferiu.
 
 ## Passo a passo
 
@@ -39,7 +39,22 @@ Quando você só tem o extrato impresso, em PDF, ou simplesmente sabe o saldo qu
 3. Sem diferença, aparece **"Tudo batendo ✅"**. Com diferença, o app lista as hipóteses mais prováveis — duplicata, lançamento que explica o valor, lançamento na conta errada, valor quase igual (tarifa, IOF) — da mais provável para a menos provável.
 4. Aplique a correção sugerida em cada hipótese e veja a diferença recalcular na hora, até zerar.
 
-### 3. Confira o resultado
+### 3. Conferiu olhando o banco? Registre a conferência à mão
+
+Quando você percorreu o app ou o extrato do banco e conferiu os lançamentos com os olhos, mas não tem arquivo para importar, marque os lançamentos como conferidos direto no [Financeiro](/modulos/financeiro/#conferir-à-mão-sem-arquivo):
+
+1. **Um só:** abra o detalhe do lançamento e clique em **Marcar como conferido**.
+2. **Vários:** na lista, marque os lançamentos (ou **Selecionar todos**) e clique em **Marcar como conferido** na barra de baixo. A janela de confirmação diz quantos lançamentos serão marcados.
+3. Leia o resultado, que sempre traz quatro números: **marcados**, **já estavam conferidos**, **recusados** e **com falha**.
+
+O detalhe do lançamento passa a dizer **Conferido manualmente**, para distinguir de quem foi **Conciliado com o extrato importado**. O lançamento em si não muda.
+
+{: .note }
+> **"Já estavam conferidos" não é erro**
+>
+> Se você selecionar o mês inteiro e parte dele já tinha sido conciliada por um extrato importado, esses lançamentos aparecem nesse grupo e ficam como estão. É a confirmação de que nada foi marcado duas vezes.
+
+### 4. Confira o resultado
 
 Depois de conciliar (ou zerar a diferença pelo caça-diferenças), confirme que o saldo do painel **Contas**, no topo do Financeiro, bate com o saldo real do extrato na mesma data. É essa comparação — não a tela dizendo "importação concluída" — que prova que o mês fechou certo.
 
@@ -54,6 +69,9 @@ O síndico do Residencial Aurora recebe o extrato de setembro em PDF do banco, s
 - **Pagamento fora da data do vencimento também é reconhecido na importação** — uma conta que vence dia 10 e é paga dia 25 casa normalmente. Não é preciso ajustar nada para isso.
 - **Conciliar dá baixa com a data do extrato, mesmo que o lançamento já estivesse marcado como pago com outra data.** É a data real do dinheiro se movendo que prevalece — a correção aparece no resumo da importação.
 - **Desfazer uma conciliação não desfaz a baixa.** Use quando a conciliação casou com o lançamento errado; o lançamento continua pago, só perde a marca de conferido.
+- **Só dá para conferir o que já foi pago.** Conferir é checar um movimento que aconteceu; lançamento em aberto é recusado. Dê a baixa antes.
+- **A conferência manual não altera o lançamento** — nem valor, nem data, nem conta. É a diferença para a importação, que dá baixa com a data do extrato. Se o que você viu no banco difere do lançamento (valor, data), **corrija o lançamento primeiro** e só depois marque como conferido.
+- **Importar o extrato depois não duplica nada:** se a importação reconhecer um lançamento que você já tinha conferido à mão, a marca da importação substitui a manual.
 - **Cobranças legitimamente repetidas** (a mesma taxa em várias unidades, por exemplo) não são confundidas com duplicata pelo caça-diferenças — ele já sabe separar as duas situações.
 
 ## Quando dá errado
@@ -64,3 +82,7 @@ O síndico do Residencial Aurora recebe o extrato de setembro em PDF do banco, s
 | O caça-diferenças mostra "Procure no extrato" | Nenhuma hipótese automática explica a diferença — provavelmente falta lançar algo (uma tarifa, um débito ainda não registrado); o app já indica o valor exato a procurar |
 | Saldo continua sem bater depois de conciliar tudo | Confira se a data do saldo informado é a mesma da conferência — saldo de datas diferentes nunca vai bater |
 | Conciliou o lançamento errado por engano | Abra o detalhe do lançamento e clique em **Desfazer conciliação** — a baixa continua, só a marca de conferido some |
+| O botão **Marcar como conferido** está desabilitado, com o motivo embaixo | O lançamento ainda não foi pago (ou foi excluído). Dê a baixa e volte |
+| Na conferência em lote, o resultado traz **recusados** | Cada recusado vem com o motivo; o mais comum é lançamento ainda não pago. Os demais foram marcados normalmente |
+| O resultado traz **com falha** | Falha do servidor naqueles lançamentos, não regra. Selecione só eles e tente de novo |
+| Não vejo **Marcar como conferido** | Só síndico e subsíndico marcam e desfazem; contador e conselho fiscal apenas leem. Em transferência entre contas o botão não existe |
