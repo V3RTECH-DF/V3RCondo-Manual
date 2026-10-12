@@ -9,6 +9,14 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.190.0 — Outubro 2026
+
+### Corrigido
+
+- **O dia de pagamento de uma parcela de acordo passou a ser gravado exatamente como o dia escolhido, no horário do condomínio.** Antes, ao marcar uma parcela como paga, o dia guardado internamente podia ficar um dia antes do escolhido. Isso valia para todos os caminhos de pagamento: marcar a parcela no acordo, a ação em lote do Financeiro, a importação de extrato e o registro de um acordo já existente. Condomínios com fuso próprio configurado passam a usar o seu.
+- **O que você vê não mudou:** o dia errado ficava só guardado e não aparecia em nenhuma tela. O painel do acordo usa esse campo apenas para saber se a parcela está paga ou não, e a data de pagamento mostrada no Financeiro sempre esteve correta. Por isso, a correção não altera nenhum valor, total ou situação de acordo.
+- **Pagamentos registrados antes desta versão não foram alterados** e continuam com o dia que foi guardado na época. A partir daqui, todo novo pagamento já é gravado no dia certo.
+
 ## v7.189.1 — Outubro 2026
 
 ### Corrigido
