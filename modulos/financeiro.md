@@ -139,7 +139,7 @@ Clique em **+ Novo Lançamento** e preencha:
 Para consultar um lançamento sem entrar no modo de edição, **clique na linha** dele na lista — ou no cartão, se estiver no celular. Abre um painel de leitura com tudo o que está registrado:
 
 - **Valor** e a situação (Pago, Pendente ou Vencido)
-- Um bloco à parte, quando esse lançamento já foi conferido contra o banco, dizendo **de onde veio a marca**: **Conciliado com o extrato importado** (casou com uma linha de um arquivo OFX/CSV) ou **Conferido manualmente** (você registrou à mão, olhando o banco) — ver [Conciliar com o extrato bancário](#conciliar-com-o-extrato-bancário-síndico--plano-pro) e [Conferir à mão, sem arquivo](#conferir-à-mão-sem-arquivo), mais abaixo. É uma marca independente da situação: um lançamento pode estar **Pago** e **não conciliado** — alguém deu baixa manual e ninguém confirmou aquilo contra o extrato ainda. É exatamente essa combinação — pago, mas não conciliado — que interessa ao síndico e à comissão fiscal no fechamento do mês
+- Um bloco à parte, quando esse lançamento já foi conferido contra o banco, dizendo **de onde veio a marca**: **Conciliado com o extrato importado** (casou com uma linha de um arquivo OFX/CSV) ou **Conferido manualmente** (você registrou à mão, olhando o banco) — ver [Conciliar com o extrato bancário](#conciliar-com-o-extrato-bancário-síndico--plano-pro) e [Conferir à mão, sem arquivo](#conferir-à-mão-sem-arquivo-síndico--plano-básico), mais abaixo. É uma marca independente da situação: um lançamento pode estar **Pago** e **não conciliado** — alguém deu baixa manual e ninguém confirmou aquilo contra o extrato ainda. É exatamente essa combinação — pago, mas não conciliado — que interessa ao síndico e à comissão fiscal no fechamento do mês
 - **Unidade**, **Categoria** e **Conta** bancária
 - **Vencimento**, **Competência** e a data em que foi **pago**
 - **Observações**
@@ -161,7 +161,7 @@ O painel é de leitura: **nada é alterado só por abri-lo** e não há botão d
 Em vez de abrir um lançamento por vez, dá para selecionar vários e aplicar a mesma ação a todos.
 
 - Marque a caixa de seleção de cada linha da tabela (no computador) ou de cada cartão (no celular), ou use **"Selecionar todos"** para marcar tudo o que está na tela, respeitando o filtro e o período escolhidos.
-- Com algum lançamento selecionado, aparece uma barra fixa na parte de baixo da tela, com a quantidade selecionada, a soma dos valores e as ações disponíveis: **Marcar como pago**, **Marcar como conferido** (para registrar que você conferiu os lançamentos olhando o banco — veja [Conferir à mão, sem arquivo](#conferir-à-mão-sem-arquivo)), **Trocar categoria**, **Exportar** (planilha ou PDF) e **Excluir**.
+- Com algum lançamento selecionado, aparece uma barra fixa na parte de baixo da tela, com a quantidade selecionada, a soma dos valores e as ações disponíveis: **Marcar como pago**, **Marcar como conferido** (para registrar que você conferiu os lançamentos olhando o banco — veja [Conferir à mão, sem arquivo](#conferir-à-mão-sem-arquivo-síndico--plano-básico)), **Trocar categoria**, **Exportar** (planilha ou PDF) e **Excluir**.
 - Ao escolher uma ação (exceto exportar), o sistema mostra uma **prévia** antes de aplicar: quantos lançamentos serão afetados, quantos serão pulados (por exemplo, um que já está pago) e quantos serão recusados, com o motivo de cada recusa. Só depois de conferir a prévia é que você confirma.
 - O resultado final separa **concluídos**, **pulados** e **recusados** — nunca aparece um "pronto" genérico que esconda uma falha parcial.
 - **Exportar** gera a planilha ou o PDF só com os lançamentos selecionados, no mesmo formato usado em Relatórios.
@@ -289,7 +289,9 @@ Abra o [detalhe do lançamento](#ver-os-detalhes-de-um-lançamento) e clique em 
 
 Há uma diferença entre as duas origens. Desfazer uma conciliação **de extrato importado** também **libera a linha do extrato** que estava ligada a ele, e, se o lançamento mudou de conta ao conciliar, **não volta** para a conta anterior. Desfazer uma conferência **manual** não tem nada disso a desfazer: como não há linha de extrato, só a marca some.
 
-### Conferir à mão, sem arquivo
+## Conferir à mão, sem arquivo *(síndico — plano Básico)*
+
+**Disponível nos dois planos.** Importar o arquivo do extrato é recurso **Pro**; registrar que você conferiu um lançamento olhando o banco é do **Básico**. A diferença entre os planos está no trabalho, não no resultado: no Pro o sistema casa os lançamentos com as linhas do arquivo de uma vez; no Básico você confere e marca, um a um ou em lote.
 
 **Por que isto importa.** Nem todo mês você tem o arquivo do extrato — às vezes só o app do banco aberto no celular, ou o extrato em papel. Antes, a única forma de registrar "conferi este lançamento contra o banco" era importar um arquivo; quem conferia olhando a tela do banco não tinha onde deixar essa marca, e o Conselho Fiscal não conseguia distinguir o lançamento conferido do que ninguém olhou. Agora você registra a conferência direto no lançamento, e a lista de "pago, mas não conferido" volta a ser confiável.
 
