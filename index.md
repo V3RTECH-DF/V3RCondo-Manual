@@ -48,7 +48,7 @@ As páginas de [Fluxos](/fluxos/) contam uma tarefa do começo ao fim, na ordem 
 - [Cobrar a cota do mês](/fluxos/cobrar-a-cota/)
 - [Prestar contas do mês](/fluxos/prestar-contas/)
 - [Receber um morador novo](/fluxos/receber-morador-novo/)
-- [Conferir o extrato e conciliar](/fluxos/conferir-extrato-e-conciliar/)
+- [Conciliar o extrato](/fluxos/conferir-extrato-e-conciliar/)
 - [Abrir a conta de cobrança](/fluxos/abrir-conta-de-cobranca/)
 - [Convocar e registrar uma assembleia](/fluxos/convocar-e-registrar-assembleia/)
 - [Cobrar quem está atrasado](/fluxos/cobrar-quem-esta-atrasado/)

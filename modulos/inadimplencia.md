@@ -35,7 +35,7 @@ O módulo de **Inadimplência** reúne, por unidade, tudo o que está em atraso 
 A aba **Inadimplentes** lista as **unidades devedoras** e, dentro de cada uma, os lançamentos vencidos e ainda não pagos. No topo, um card mostra o **Total Inadimplente** e a quantidade de lançamentos vencidos. É a partir daqui que você notifica um devedor ou fecha um acordo.
 
 {: .note }
-> **O que conta como inadimplência?** Um lançamento entra quando é do tipo **receita**, tem vencimento **no passado** e **não** foi pago. Lançamentos com vencimento futuro, mesmo em aberto, ainda estão no prazo e não entram.
+> **O que conta como inadimplência?** Um lançamento entra quando é do tipo **receita**, tem vencimento **no passado** e **não** foi pago. Lançamentos com vencimento futuro, mesmo em aberto, ainda estão no prazo e não entram. O que é "passado" é medido pelo calendário **do seu condomínio** (o fuso horário definido em **Configurações**), não pelo horário do servidor: um lançamento que vence **hoje** ainda está no prazo até o fim do dia, em qualquer horário — só passa a contar como inadimplência a partir do dia seguinte.
 >
 > Lançamentos de uma **categoria financeira que você excluiu** também deixaram de entrar na conta. Antes eles continuavam somando no total de inadimplência mesmo depois de a categoria sair da lista, o que inflava o valor devido de unidades que já estavam quitadas para efeitos práticos. Se o total do seu condomínio diminuiu sem que ninguém tenha pago, é provável que seja isto.
 

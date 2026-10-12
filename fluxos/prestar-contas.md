@@ -10,7 +10,7 @@ nav_order: 2
 
 Prestar contas é uma obrigação do síndico, e é também o que sustenta a confiança do condomínio na sua gestão. Feita mês a mês, ela é rápida e ninguém questiona um número: o histórico está todo lançado, conciliado e à mão. Deixada para o fim do ano ou para quando alguém pede, ela vira um trabalho de reconstituição — comprovante por comprovante — bem mais caro do que fechar um mês de cada vez.
 
-Este fluxo parte do princípio de que o mês já foi bem cuidado no dia a dia: lançamentos registrados, baixas feitas, extrato conferido (ver [Conferir o extrato e conciliar](/fluxos/conferir-extrato-e-conciliar/)). Prestar contas é a etapa final, não o momento de arrumar a casa.
+Este fluxo parte do princípio de que o mês já foi bem cuidado no dia a dia: lançamentos registrados, baixas feitas, extrato conciliado (ver [Conciliar o extrato](/fluxos/conferir-extrato-e-conciliar/)). Prestar contas é a etapa final, não o momento de arrumar a casa.
 
 ## Passo a passo
 

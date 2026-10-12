@@ -127,7 +127,7 @@ Faz parte da criação aceitar o **Termo de Responsabilidade do Síndico**, que 
 {: .note }
 > **As unidades são cadastradas depois, não na criação**
 >
-> O formulário de criação **não pede o número de unidades**. Depois de criar o condomínio, cadastre as unidades em **Configurações → Unidades** — é esse cadastro que alimenta o painel, o cálculo do plano e tudo que depende de "quantas unidades o condomínio tem".
+> O formulário de criação **não pede o número de unidades**. Depois de criar o condomínio, cadastre as unidades em **Configurações → Unidades** — é esse cadastro que alimenta o painel, o cálculo do plano e tudo que depende de "quantas unidades o condomínio tem". Elas também são o catálogo que a [importação de lançamentos por planilha](/modulos/financeiro/#importar-lançamentos-em-lote-síndico) reconhece: cadastre as unidades antes de importar um histórico que cite unidade.
 
 {: .tip }
 > **Confira o fuso horário**

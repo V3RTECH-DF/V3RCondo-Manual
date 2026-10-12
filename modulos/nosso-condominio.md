@@ -397,7 +397,9 @@ Cada linha exibe:
 - **Ocasião** — nome do evento (ex: "Churrasco do Bruno")
 - **Data** — data do evento
 - **Visitantes** — número de visitantes já adicionados
-- **Status** — Ativo (futura) ou Realizado (passada)
+- **Status** — Ativo (futura) ou Finalizado (passada)
+
+O que é "futura" e "passada" segue o calendário do condomínio (o fuso definido em **Configurações**): uma lista marcada para **hoje** continua em **Futuras** até o fim do dia, mesmo à noite.
 
 ### Criar uma nova lista
 
