@@ -110,6 +110,9 @@ agosto pode vencer em setembro —, e é isso que a tabela mostra.
 | Pendente | Ainda dentro do prazo de vencimento |
 | Em atraso | Prazo vencido sem registro de pagamento |
 
+{: .note }
+> **"Em atraso" conta pelo dia do seu condomínio.** O extrato decide o que está vencido pelo calendário e pelo fuso horário do condomínio, não pelo horário universal. Uma conta que vence **hoje** fica **Pendente** até o fim do dia — inclusive entre 21h e meia-noite, quando antes ela já aparecia como atrasada — e só passa a **Em atraso** a partir do dia seguinte.
+
 ---
 
 ### Negociar dívida *(plano Pro)*

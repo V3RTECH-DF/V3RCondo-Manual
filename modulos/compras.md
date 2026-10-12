@@ -34,7 +34,7 @@ Clique em **+ Nova Compra** e preencha:
 5. **Valor estimado** — referência antes de receber orçamentos (opcional)
 6. **Valor final** — custo total realizado (opcional, sempre editável)
 7. **Data prevista de início** — planejamento de quando o serviço começa
-8. **Data de conclusão** — preenchida automaticamente ao concluir, mas editável
+8. **Data de conclusão** — preenchida automaticamente ao concluir, mas editável. A data automática é o dia no calendário do seu condomínio (o fuso definido em **Configurações**): concluir às 22h de uma terça registra terça, não quarta
 
 ![Formulário de registro de nova compra ou serviço](/assets/screenshots/28-compras-form.png)
 

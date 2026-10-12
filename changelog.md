@@ -9,6 +9,37 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.189.1 — Outubro 2026
+
+### Corrigido
+
+- **O extrato do morador e o relatório de inadimplentes passaram a decidir o que está atrasado pelo fuso do condomínio**, e não mais pelo horário universal. Entre 21h e meia-noite, uma conta que vence no próprio dia **não aparece mais como atrasada**: ela só passa a atrasada a partir do dia seguinte. O mesmo cuidado vale para a **data de conclusão** de uma solicitação de serviço (concluir à noite registra o dia certo) e para a **agenda de visitantes** (uma lista marcada para hoje continua em "Futuras" até o fim do dia).
+
+### Melhorado
+
+- **O selo da lista do Financeiro agora diz apenas "Conciliado".** Antes dizia "Conciliado com o extrato", o que era impreciso: o selo aparecia igual em lançamento conciliado à mão, que não tem arquivo de extrato nenhum por trás. A dica de ajuda também mudou: *Lançamento conciliado com o banco. Abra o detalhe para ver como foi conciliado.* A origem da marca — **Conciliado manualmente** ou **Conciliado com o extrato importado** — continua aparecendo só no detalhe do lançamento.
+
+## v7.189.0 — Outubro 2026
+
+### Corrigido
+
+- **A importação de lançamentos por planilha passou a reconhecer as unidades cadastradas.** Antes, só era aceita a unidade que tivesse morador vinculado; as unidades criadas em **Configurações → Unidades** — inclusive pelo gerador em lote — eram recusadas, e quem estava montando um condomínio novo não conseguia importar nada que citasse unidade. Agora vale qualquer unidade cadastrada, com ou sem morador. Quando a unidade realmente não existe, a mensagem avisa e diz onde criá-la (**Configurações → Unidades**; o nome precisa ser igual ao da planilha).
+
+## v7.188.3 — Outubro 2026
+
+### Melhorado
+
+- **A marca que diz que um lançamento bate com o extrato do banco agora tem um nome só: "conciliado".** Até aqui o aplicativo misturava "conferido" e "conciliado" para a mesma coisa, e agora tudo diz **conciliado**, do selo na lista ao detalhe do lançamento, passando pelos botões, pelos avisos e pela importação do extrato. A palavra "conferir" continua existindo como verbo comum, para comparar ou checar, mas não dá mais nome à marca, à ação nem ao resultado.
+- **Como ficou, para quem já usava a conciliação feita à mão (versão 7.187.0):** o botão **Marcar como conferido** passou a se chamar **Marcar como conciliado**; o bloco do detalhe, antes "Conferência com o banco", é agora **Conciliação com o banco**; e a origem da marca aparece como **Conciliado manualmente** (registrada à mão, sem arquivo de extrato) ou **Conciliado com o extrato importado** (veio de um arquivo OFX ou CSV). Na ação em lote, o resultado traz os mesmos quatro números de antes, agora escritos assim: *marcados como conciliados · já estavam conciliados · recusados · com falha*, e os avisos de fechamento se chamam **Conciliação registrada** e **Conciliação concluída com pendências**. **Desfazer conciliação** continua como era.
+- **Os títulos da importação de extrato acompanharam:** **Conciliar extrato bancário**, **Conciliação do extrato**, **Revisar e conciliar** e **Aplicar a conciliação do extrato?**.
+- **Nada mudou no que a marca faz.** Marcar à mão continua sem alterar valor, data, conta nem pagamento; só lançamento já pago pode ser conciliado; e na lista do Financeiro o selo continua sendo um só, sem distinguir a origem, que só aparece ao abrir o detalhe.
+
+## v7.188.2 — Outubro 2026
+
+### Corrigido
+
+- **A tela de Inadimplência passou a decidir o que está vencido pelo fuso horário do condomínio, e não mais pelo horário universal.** Antes, entre 21h e meia-noite (horário de Brasília), ela já tratava o dia seguinte como "hoje" e listava como inadimplente quem vencia naquele mesmo dia. Como o aviso de cobrança em lote parte dessa lista, o síndico que o disparasse à noite acabava cobrando um morador que ainda estava em dia. Agora, um lançamento que vence hoje só entra na lista a partir do dia seguinte, a qualquer hora. Condomínios com fuso próprio configurado passam a usar o seu.
+
 ## v7.188.1 — Outubro 2026
 
 ### Corrigido

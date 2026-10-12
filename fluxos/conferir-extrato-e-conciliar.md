@@ -1,16 +1,16 @@
 ---
-title: Conferir o extrato e conciliar
+title: Conciliar o extrato
 parent: Fluxos
 nav_order: 4
 ---
 
-# Conferir o extrato e conciliar
+# Conciliar o extrato
 
 ## Por que isto importa
 
-Dar baixa num lançamento confirma que o dinheiro entrou ou saiu — mas não confirma que aquele lançamento é, **de fato**, a mesma transação que aparece no extrato do banco. Duas pessoas podem ter dado baixa em lançamentos parecidos por engano, um pagamento pode ter caído em outra conta, uma tarifa pode nunca ter sido lançada. Conferir contra o extrato é a segunda checagem — a que o Conselho Fiscal e o contador esperam encontrar pronta na hora de revisar as contas.
+Dar baixa num lançamento confirma que o dinheiro entrou ou saiu — mas não confirma que aquele lançamento é, **de fato**, a mesma transação que aparece no extrato do banco. Duas pessoas podem ter dado baixa em lançamentos parecidos por engano, um pagamento pode ter caído em outra conta, uma tarifa pode nunca ter sido lançada. Conciliar com o extrato é a segunda checagem — a que o Conselho Fiscal e o contador esperam encontrar pronta na hora de revisar as contas.
 
-Há três caminhos, e a escolha depende do que você tem em mãos: o **arquivo** do extrato (OFX ou CSV); só o **número** do saldo, de um extrato impresso ou em PDF; ou o **banco aberto na sua frente**, para conferir lançamento a lançamento e registrar que conferiu.
+Há três caminhos, e a escolha depende do que você tem em mãos: o **arquivo** do extrato (OFX ou CSV); só o **número** do saldo, de um extrato impresso ou em PDF; ou o **banco aberto na sua frente**, para comparar lançamento a lançamento e registrar a conciliação.
 
 ## Passo a passo
 
@@ -23,7 +23,7 @@ No [Financeiro → Importar extrato](/modulos/financeiro/#conciliar-com-o-extrat
 3. Revise as pendências e confirme cada uma.
 4. Clique em **Concluir importação**.
 
-Cada lançamento conciliado ganha o selo **Conciliado com o extrato**, visível no [detalhe do lançamento](/modulos/financeiro/#ver-os-detalhes-de-um-lançamento) — uma marca separada da situação **Pago**: um lançamento pode estar pago e ainda não conciliado, e é exatamente essa combinação que interessa ao Conselho Fiscal no fechamento do mês.
+Cada lançamento conciliado ganha o selo **Conciliado**, visível no [detalhe do lançamento](/modulos/financeiro/#ver-os-detalhes-de-um-lançamento) — uma marca separada da situação **Pago**: um lançamento pode estar pago e ainda não conciliado, e é exatamente essa combinação que interessa ao Conselho Fiscal no fechamento do mês.
 
 {: .tip }
 > **Reimportar o mesmo arquivo é seguro**
@@ -32,25 +32,25 @@ Cada lançamento conciliado ganha o selo **Conciliado com o extrato**, visível 
 
 ### 2. Sem o arquivo? Use o caça-diferenças
 
-Quando você só tem o extrato impresso, em PDF, ou simplesmente sabe o saldo que o banco mostra, não precisa do arquivo para conferir. No [Financeiro](/modulos/financeiro/), clique na lupa 🔍 ao lado da conta e use o **[Caça-diferenças](/modulos/caca-diferencas/)**:
+Quando você só tem o extrato impresso, em PDF, ou simplesmente sabe o saldo que o banco mostra, não precisa do arquivo para fechar a conta. No [Financeiro](/modulos/financeiro/), clique na lupa 🔍 ao lado da conta e use o **[Caça-diferenças](/modulos/caca-diferencas/)**:
 
 1. Informe o **saldo do banco** e a **data** desse saldo.
 2. O app calcula a diferença entre o que ele tem registrado e o que você informou.
 3. Sem diferença, aparece **"Tudo batendo ✅"**. Com diferença, o app lista as hipóteses mais prováveis — duplicata, lançamento que explica o valor, lançamento na conta errada, valor quase igual (tarifa, IOF) — da mais provável para a menos provável.
 4. Aplique a correção sugerida em cada hipótese e veja a diferença recalcular na hora, até zerar.
 
-### 3. Conferiu olhando o banco? Registre a conferência à mão
+### 3. Comparou olhando o banco? Registre a conciliação à mão
 
-Quando você percorreu o app ou o extrato do banco e conferiu os lançamentos com os olhos, mas não tem arquivo para importar, marque os lançamentos como conferidos direto no [Financeiro](/modulos/financeiro/#conferir-à-mão-sem-arquivo-síndico--plano-básico):
+Quando você percorreu o app ou o extrato do banco e comparou os lançamentos com os olhos, mas não tem arquivo para importar, marque os lançamentos como conciliados direto no [Financeiro](/modulos/financeiro/#conciliar-à-mão-sem-arquivo-síndico--plano-básico):
 
-1. **Um só:** abra o detalhe do lançamento e clique em **Marcar como conferido**.
-2. **Vários:** na lista, marque os lançamentos (ou **Selecionar todos**) e clique em **Marcar como conferido** na barra de baixo. A janela de confirmação diz quantos lançamentos serão marcados.
-3. Leia o resultado, que sempre traz quatro números: **marcados**, **já estavam conferidos**, **recusados** e **com falha**.
+1. **Um só:** abra o detalhe do lançamento e clique em **Marcar como conciliado**.
+2. **Vários:** na lista, marque os lançamentos (ou **Selecionar todos**) e clique em **Marcar como conciliado** na barra de baixo. A janela de confirmação diz quantos lançamentos serão marcados.
+3. Leia o resultado, que sempre traz quatro números: **marcados como conciliados**, **já estavam conciliados**, **recusados** e **com falha**.
 
-O detalhe do lançamento passa a dizer **Conferido manualmente**, para distinguir de quem foi **Conciliado com o extrato importado**. O lançamento em si não muda.
+O detalhe do lançamento passa a dizer **Conciliado manualmente**, para distinguir de quem foi **Conciliado com o extrato importado**. O lançamento em si não muda.
 
 {: .note }
-> **"Já estavam conferidos" não é erro**
+> **"Já estavam conciliados" não é erro**
 >
 > Se você selecionar o mês inteiro e parte dele já tinha sido conciliada por um extrato importado, esses lançamentos aparecem nesse grupo e ficam como estão. É a confirmação de que nada foi marcado duas vezes.
 
@@ -68,10 +68,10 @@ O síndico do Residencial Aurora recebe o extrato de setembro em PDF do banco, s
 
 - **Pagamento fora da data do vencimento também é reconhecido na importação** — uma conta que vence dia 10 e é paga dia 25 casa normalmente. Não é preciso ajustar nada para isso.
 - **Conciliar dá baixa com a data do extrato, mesmo que o lançamento já estivesse marcado como pago com outra data.** É a data real do dinheiro se movendo que prevalece — a correção aparece no resumo da importação.
-- **Desfazer uma conciliação não desfaz a baixa.** Use quando a conciliação casou com o lançamento errado; o lançamento continua pago, só perde a marca de conferido.
-- **Só dá para conferir o que já foi pago.** Conferir é checar um movimento que aconteceu; lançamento em aberto é recusado. Dê a baixa antes.
-- **A conferência manual não altera o lançamento** — nem valor, nem data, nem conta. É a diferença para a importação, que dá baixa com a data do extrato. Se o que você viu no banco difere do lançamento (valor, data), **corrija o lançamento primeiro** e só depois marque como conferido.
-- **Importar o extrato depois não duplica nada:** se a importação reconhecer um lançamento que você já tinha conferido à mão, a marca da importação substitui a manual.
+- **Desfazer uma conciliação não desfaz a baixa.** Use quando a conciliação casou com o lançamento errado; o lançamento continua pago, só perde a marca de conciliado.
+- **Só dá para conciliar o que já foi pago.** Conciliar é confrontar com um movimento que aconteceu; lançamento em aberto é recusado. Dê a baixa antes.
+- **A conciliação manual não altera o lançamento** — nem valor, nem data, nem conta. É a diferença para a importação, que dá baixa com a data do extrato. Se o que você viu no banco difere do lançamento (valor, data), **corrija o lançamento primeiro** e só depois marque como conciliado.
+- **Importar o extrato depois não duplica nada:** se a importação reconhecer um lançamento que você já tinha conciliado à mão, a marca da importação substitui a manual.
 - **Cobranças legitimamente repetidas** (a mesma taxa em várias unidades, por exemplo) não são confundidas com duplicata pelo caça-diferenças — ele já sabe separar as duas situações.
 
 ## Quando dá errado
@@ -80,9 +80,9 @@ O síndico do Residencial Aurora recebe o extrato de setembro em PDF do banco, s
 |---|---|
 | Uma linha do extrato "vira lançamento novo" que você não esperava | Confira se não é um lançamento que já existe com data ou valor bem diferente do esperado — decida importar como novo ou ignorar a linha |
 | O caça-diferenças mostra "Procure no extrato" | Nenhuma hipótese automática explica a diferença — provavelmente falta lançar algo (uma tarifa, um débito ainda não registrado); o app já indica o valor exato a procurar |
-| Saldo continua sem bater depois de conciliar tudo | Confira se a data do saldo informado é a mesma da conferência — saldo de datas diferentes nunca vai bater |
-| Conciliou o lançamento errado por engano | Abra o detalhe do lançamento e clique em **Desfazer conciliação** — a baixa continua, só a marca de conferido some |
-| O botão **Marcar como conferido** está desabilitado, com o motivo embaixo | O lançamento ainda não foi pago (ou foi excluído). Dê a baixa e volte |
-| Na conferência em lote, o resultado traz **recusados** | Cada recusado vem com o motivo; o mais comum é lançamento ainda não pago. Os demais foram marcados normalmente |
+| Saldo continua sem bater depois de conciliar tudo | Confira se a data do saldo informado é a mesma do saldo do banco que você está comparando — saldo de datas diferentes nunca vai bater |
+| Conciliou o lançamento errado por engano | Abra o detalhe do lançamento e clique em **Desfazer conciliação** — a baixa continua, só a marca de conciliado some |
+| O botão **Marcar como conciliado** está desabilitado, com o motivo embaixo | O lançamento ainda não foi pago (ou foi excluído). Dê a baixa e volte |
+| Na conciliação em lote, o resultado traz **recusados** | Cada recusado vem com o motivo; o mais comum é lançamento ainda não pago. Os demais foram marcados normalmente |
 | O resultado traz **com falha** | Falha do servidor naqueles lançamentos, não regra. Selecione só eles e tente de novo |
-| Não vejo **Marcar como conferido** | Só síndico e subsíndico marcam e desfazem; contador e conselho fiscal apenas leem. Em transferência entre contas o botão não existe |
+| Não vejo **Marcar como conciliado** | Só síndico e subsíndico marcam e desfazem; contador e conselho fiscal apenas leem. Em transferência entre contas o botão não existe |

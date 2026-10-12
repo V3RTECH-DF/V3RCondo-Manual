@@ -563,43 +563,44 @@ antes de confirmar: o app aponta o mais provável, mas a decisão é sua.
 </details>
 
 <details markdown="1">
-<summary>Qual a diferença entre "Pago" e "Conciliado com o extrato"?</summary>
+<summary>Qual a diferença entre "Pago" e "Conciliado"?</summary>
 
 **Pago** diz que o dinheiro se moveu — alguém deu baixa, à mão ou automaticamente.
-**Conciliado** (ou **Conferido**) diz que aquele lançamento já foi conferido contra o
-banco: ou por uma linha real do extrato importado (**Conciliado com o extrato
-importado**), ou à mão, por você, olhando o banco (**Conferido manualmente**). As duas
-marcas — pago e conferido — são independentes: um lançamento pode estar pago e ainda
-não conferido, que é o caso mais comum de baixa manual. Veja
+**Conciliado** diz que aquele lançamento já foi confrontado com o banco: ou com uma
+linha real do extrato importado (**Conciliado com o extrato importado**), ou à mão, por
+você, olhando o banco (**Conciliado manualmente**). As duas marcas — pago e
+conciliado — são independentes: um lançamento pode estar pago e ainda não conciliado,
+que é o caso mais comum de baixa manual. Na lista do Financeiro o selo é um só
+(**Conciliado**); a origem aparece ao abrir o detalhe. Veja
 **[Conciliar com o extrato bancário](modulos/financeiro.md#conciliar-com-o-extrato-bancário-síndico--plano-pro)**
-e **[Conferir à mão, sem arquivo](modulos/financeiro.md#conferir-à-mão-sem-arquivo-síndico--plano-básico)**.
+e **[Conciliar à mão, sem arquivo](modulos/financeiro.md#conciliar-à-mão-sem-arquivo-síndico--plano-básico)**.
 </details>
 
 <details markdown="1">
-<summary>Não tenho o arquivo do extrato. Como registro que conferi os lançamentos contra o banco?</summary>
+<summary>Não tenho o arquivo do extrato. Como registro que conciliei os lançamentos com o banco?</summary>
 
-Abra o detalhe do lançamento e clique em **Marcar como conferido** — ou, na lista do
-Financeiro, selecione vários e use **Marcar como conferido** na barra de baixo (até 200
+Abra o detalhe do lançamento e clique em **Marcar como conciliado** — ou, na lista do
+Financeiro, selecione vários e use **Marcar como conciliado** na barra de baixo (até 200
 por vez; a confirmação diz quantos). O lançamento não muda: só ganha a marca
-**Conferido manualmente**. Só lançamento **já pago** pode ser conferido. Detalhes em
-**[Conferir à mão, sem arquivo](modulos/financeiro.md#conferir-à-mão-sem-arquivo-síndico--plano-básico)**.
+**Conciliado manualmente**. Só lançamento **já pago** pode ser conciliado. Detalhes em
+**[Conciliar à mão, sem arquivo](modulos/financeiro.md#conciliar-à-mão-sem-arquivo-síndico--plano-básico)**.
 </details>
 
 <details markdown="1">
-<summary>Na conferência em lote apareceu "já estavam conferidos". Deu erro?</summary>
+<summary>Na conciliação em lote apareceu "já estavam conciliados". Deu erro?</summary>
 
-Não. Significa que aqueles lançamentos já tinham a marca de conferido — de um extrato
-importado ou de uma conferência anterior — e ficaram como estavam. O resultado sempre
-traz quatro números: **marcados agora**, **já estavam conferidos**, **recusados**
-(por regra, com o motivo, como lançamento ainda não pago) e **com falha**. Só os dois
-últimos pedem a sua atenção.
+Não. Significa que aqueles lançamentos já tinham a marca de conciliado — de um extrato
+importado ou de uma conciliação anterior — e ficaram como estavam. O resultado sempre
+traz quatro números: **marcados como conciliados**, **já estavam conciliados**,
+**recusados** (por regra, com o motivo, como lançamento ainda não pago) e **com falha**.
+Só os dois últimos pedem a sua atenção.
 </details>
 
 <details markdown="1">
-<summary>Conciliei ou conferi um lançamento errado. Dá para desfazer?</summary>
+<summary>Conciliei um lançamento errado. Dá para desfazer?</summary>
 
 Sim. Abra o detalhe do lançamento e clique em **Desfazer conciliação**. Isso tira a
-marca de conferido, mas **não desfaz a baixa** — o lançamento continua marcado como
+marca de conciliado, mas **não desfaz a baixa** — o lançamento continua marcado como
 pago. Só síndico e subsíndico têm esse botão.
 </details>
 
