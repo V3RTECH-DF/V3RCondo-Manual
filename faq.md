@@ -566,18 +566,40 @@ antes de confirmar: o app aponta o mais provável, mas a decisão é sua.
 <summary>Qual a diferença entre "Pago" e "Conciliado com o extrato"?</summary>
 
 **Pago** diz que o dinheiro se moveu — alguém deu baixa, à mão ou automaticamente.
-**Conciliado com o extrato** diz que aquele lançamento já foi conferido contra uma
-linha real do extrato do banco, pela importação de extrato. As duas marcas são
-independentes: um lançamento pode estar pago e ainda não conciliado — é o caso mais
-comum de baixa manual, antes de importar o extrato daquele mês. Veja
-**[Conciliar com o extrato bancário](modulos/financeiro.md#conciliar-com-o-extrato-bancário-síndico--plano-pro)**.
+**Conciliado** (ou **Conferido**) diz que aquele lançamento já foi conferido contra o
+banco: ou por uma linha real do extrato importado (**Conciliado com o extrato
+importado**), ou à mão, por você, olhando o banco (**Conferido manualmente**). As duas
+marcas — pago e conferido — são independentes: um lançamento pode estar pago e ainda
+não conferido, que é o caso mais comum de baixa manual. Veja
+**[Conciliar com o extrato bancário](modulos/financeiro.md#conciliar-com-o-extrato-bancário-síndico--plano-pro)**
+e **[Conferir à mão, sem arquivo](modulos/financeiro.md#conferir-à-mão-sem-arquivo)**.
 </details>
 
 <details markdown="1">
-<summary>Conciliei um lançamento errado. Dá para desfazer?</summary>
+<summary>Não tenho o arquivo do extrato. Como registro que conferi os lançamentos contra o banco?</summary>
+
+Abra o detalhe do lançamento e clique em **Marcar como conferido** — ou, na lista do
+Financeiro, selecione vários e use **Marcar como conferido** na barra de baixo (até 200
+por vez; a confirmação diz quantos). O lançamento não muda: só ganha a marca
+**Conferido manualmente**. Só lançamento **já pago** pode ser conferido. Detalhes em
+**[Conferir à mão, sem arquivo](modulos/financeiro.md#conferir-à-mão-sem-arquivo)**.
+</details>
+
+<details markdown="1">
+<summary>Na conferência em lote apareceu "já estavam conferidos". Deu erro?</summary>
+
+Não. Significa que aqueles lançamentos já tinham a marca de conferido — de um extrato
+importado ou de uma conferência anterior — e ficaram como estavam. O resultado sempre
+traz quatro números: **marcados agora**, **já estavam conferidos**, **recusados**
+(por regra, com o motivo, como lançamento ainda não pago) e **com falha**. Só os dois
+últimos pedem a sua atenção.
+</details>
+
+<details markdown="1">
+<summary>Conciliei ou conferi um lançamento errado. Dá para desfazer?</summary>
 
 Sim. Abra o detalhe do lançamento e clique em **Desfazer conciliação**. Isso tira a
-marca de conciliado, mas **não desfaz a baixa** — o lançamento continua marcado como
+marca de conferido, mas **não desfaz a baixa** — o lançamento continua marcado como
 pago. Só síndico e subsíndico têm esse botão.
 </details>
 
@@ -761,6 +783,18 @@ unidade são as parcelas e confere o antes e depois. Nada é criado nem muda de
 valor, e nenhuma cobrança ou aviso é enviado ao morador. O **valor acordado** é o
 do acordo inteiro, não o total da dívida da unidade. Detalhes em
 [Inadimplência e Acordos](/modulos/inadimplencia/#registrar-um-acordo-que-já-existia-pro).
+</details>
+
+<details markdown="1">
+<summary>O acordo quebrou, mas a dívida original não voltou para a lista. Por quê?</summary>
+
+Depende de o acordo ter **dívidas originais vinculadas**. Se tinha, a quebra as devolve à
+inadimplência (com o valor cheio, abatido o que foi pago) e remove as parcelas não pagas.
+Se não tinha — caso típico do acordo registrado como **anterior ao sistema** sem vínculo —,
+não existe dívida antiga cadastrada para voltar: **nada é removido nem recalculado**, as
+parcelas vencidas continuam em aberto e são a dívida da unidade. O aviso que você recebe
+diz qual dos dois casos aconteceu e, no segundo, informa o saldo vencido da unidade.
+Veja **[O que o aviso de acordo quebrado diz](modulos/inadimplencia.md#o-que-o-aviso-de-acordo-quebrado-diz--e-por-que-depende-do-acordo)**.
 </details>
 
 <details markdown="1">
