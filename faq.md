@@ -572,7 +572,7 @@ importado**), ou à mão, por você, olhando o banco (**Conferido manualmente**)
 marcas — pago e conferido — são independentes: um lançamento pode estar pago e ainda
 não conferido, que é o caso mais comum de baixa manual. Veja
 **[Conciliar com o extrato bancário](modulos/financeiro.md#conciliar-com-o-extrato-bancário-síndico--plano-pro)**
-e **[Conferir à mão, sem arquivo](modulos/financeiro.md#conferir-à-mão-sem-arquivo)**.
+e **[Conferir à mão, sem arquivo](modulos/financeiro.md#conferir-à-mão-sem-arquivo-síndico--plano-básico)**.
 </details>
 
 <details markdown="1">
@@ -582,7 +582,7 @@ Abra o detalhe do lançamento e clique em **Marcar como conferido** — ou, na l
 Financeiro, selecione vários e use **Marcar como conferido** na barra de baixo (até 200
 por vez; a confirmação diz quantos). O lançamento não muda: só ganha a marca
 **Conferido manualmente**. Só lançamento **já pago** pode ser conferido. Detalhes em
-**[Conferir à mão, sem arquivo](modulos/financeiro.md#conferir-à-mão-sem-arquivo)**.
+**[Conferir à mão, sem arquivo](modulos/financeiro.md#conferir-à-mão-sem-arquivo-síndico--plano-básico)**.
 </details>
 
 <details markdown="1">

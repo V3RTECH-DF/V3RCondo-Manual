@@ -41,7 +41,7 @@ Quando você só tem o extrato impresso, em PDF, ou simplesmente sabe o saldo qu
 
 ### 3. Conferiu olhando o banco? Registre a conferência à mão
 
-Quando você percorreu o app ou o extrato do banco e conferiu os lançamentos com os olhos, mas não tem arquivo para importar, marque os lançamentos como conferidos direto no [Financeiro](/modulos/financeiro/#conferir-à-mão-sem-arquivo):
+Quando você percorreu o app ou o extrato do banco e conferiu os lançamentos com os olhos, mas não tem arquivo para importar, marque os lançamentos como conferidos direto no [Financeiro](/modulos/financeiro/#conferir-à-mão-sem-arquivo-síndico--plano-básico):
 
 1. **Um só:** abra o detalhe do lançamento e clique em **Marcar como conferido**.
 2. **Vários:** na lista, marque os lançamentos (ou **Selecionar todos**) e clique em **Marcar como conferido** na barra de baixo. A janela de confirmação diz quantos lançamentos serão marcados.
