@@ -9,6 +9,16 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.190.1 — Outubro 2026
+
+### Melhorado
+
+- **Na lista de cobranças, a cobrança que saiu sem um dos meios de pagamento agora aparece marcada.** Logo depois de emitir uma cobrança, o V3RCondo busca no Asaas o código Pix e a linha digitável do boleto, e essa busca pode falhar: já aconteceu com uma cobrança real, que saiu só com boleto, e o síndico só descobria abrindo as cobranças uma a uma. Agora a lista mostra a marca **Sem Pix** ou **Sem linha digitável**, e o motivo aparece ao passar o mouse (no celular, ao tocar).
+- **Ao emitir várias cobranças de uma vez, o resultado avisa na hora quais unidades ficaram sem um dos meios**, com tempo de cancelar e emitir de novo antes de o morador receber o aviso.
+- **Se não for possível conferir, a tela diz isso**, em vez de dar a entender que está tudo certo.
+- **A marca é só para o que falhou.** Uma cobrança que não tem aquele meio por escolha não é marcada: a mensalidade do plano paga por Pix Automático, por exemplo, não usa boleto e não ganha "Sem linha digitável".
+- **Cobranças emitidas antes desta versão não são marcadas**, porque a informação não existia na época. A ausência da marca nelas não quer dizer que estejam completas.
+
 ## v7.190.0 — Outubro 2026
 
 ### Corrigido

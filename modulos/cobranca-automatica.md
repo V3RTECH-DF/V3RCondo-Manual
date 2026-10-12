@@ -215,6 +215,11 @@ Na aba **Emitir**, clique em **Emitir cobrança**:
 >
 > Escolheu mais de 30? A revisão emite as 30 primeiras e avisa quantas ficaram de fora — repita a emissão para pegar o restante numa próxima leva.
 
+{: .note }
+> **Confira o resultado antes de fechar a tela**
+>
+> Logo depois de criar cada cobrança, o aplicativo busca no Asaas o código Pix e a linha digitável do boleto, e essa busca pode falhar. Quando isso acontece, o resultado da emissão **avisa na hora quais unidades ficaram sem um dos meios**. É o momento certo para agir: **cancele aquela cobrança e emita de novo** (veja [Cancelar uma cobrança](#cancelar-uma-cobrança-síndico)) antes de o morador receber o aviso e tentar pagar por um meio que não existe. Se o aplicativo não conseguir conferir, o resultado diz isso em vez de sugerir que está tudo certo — nesse caso, abra a cobrança na aba **Cobranças** e veja o detalhe.
+
 Emitidas, as cobranças aparecem na aba **Cobranças** no estado **Emitida**, com o endereço da fatura, que o síndico pode abrir e repassar ao morador se quiser. A revisão também aponta, separadamente, os lançamentos que **não puderam** ser emitidos e o motivo de cada um (veja a tabela abaixo).
 
 ### O que impede uma emissão
@@ -316,6 +321,19 @@ A aba **Cobranças** abre no cartão **Como estão as cobranças**, com um **con
 >
 > Aqui você acompanha quantas cobranças saíram, quais falharam e quais venceram. **Quanto entrou no caixa continua sendo no [Financeiro](/modulos/financeiro/)**, e quem está devendo, na [Inadimplência](/modulos/inadimplencia/) — por isso esta tela não exibe soma nem saldo.
 
+### Cobrança que saiu sem Pix ou sem linha digitável
+
+Uma cobrança pode ser criada com sucesso e, mesmo assim, ficar sem um dos meios de pagamento: o código Pix ou a linha digitável do boleto são buscados no Asaas logo depois da criação, e essa busca às vezes falha. Quando isso acontece, a cobrança aparece na lista com uma marca ao lado — **Sem Pix** ou **Sem linha digitável**. Passe o mouse sobre a marca (no celular, toque nela) para ler o motivo.
+
+**Por que isso importa:** o morador que abre uma cobrança sem Pix só descobre na hora de pagar. Com a marca, você percebe antes, na lista, sem precisar abrir cobrança por cobrança.
+
+**O que fazer:** o boleto e o cartão continuam valendo. Se o meio que falta for importante para aquele morador, cancele a cobrança e emita outra a partir do mesmo lançamento (veja [Cancelar uma cobrança](#cancelar-uma-cobrança-síndico)). Se a falta é só da linha digitável, o morador ainda paga pelo Pix, pelo cartão ou pelo boleto em PDF.
+
+Dois cuidados ao ler a lista:
+
+- **A marca só aparece onde houve falha.** Cobrança que não tem aquele meio por escolha não é marcada — a mensalidade do plano paga por Pix Automático, por exemplo, não usa boleto e nunca mostra "Sem linha digitável".
+- **Cobranças emitidas antes da versão 7.190.1 não são marcadas**, porque a informação não era guardada na época. Cobrança antiga sem marca **não** garante que o Pix e o boleto estejam completos: na dúvida, abra o detalhe.
+
 ### Quando o dinheiro fica disponível
 
 Na coluna **Pagamento**, abaixo da data em que o morador pagou, a cobrança informa **quando aquele valor fica disponível na conta do condomínio**.
@@ -379,7 +397,7 @@ O detalhe traz:
 {: .note }
 > **Quando o Pix não vem**
 >
-> Em raras vezes o Asaas emite a cobrança mas não devolve o código Pix na hora. Antes, isso passava despercebido: a tela parecia completa e só o morador descobria, na hora de tentar pagar. Agora o detalhe da cobrança **avisa o síndico** quando o Pix (ou a linha digitável do boleto) não veio — o boleto e o cartão continuam funcionando normalmente, e o aviso ao morador deixa de prometer um meio de pagamento que não existe.
+> Em raras vezes o Asaas emite a cobrança mas não devolve o código Pix na hora. Antes, isso passava despercebido: a tela parecia completa e só o morador descobria, na hora de tentar pagar. Agora o detalhe da cobrança **avisa o síndico** quando o Pix (ou a linha digitável do boleto) não veio — e a lista de cobranças mostra a marca **Sem Pix** ou **Sem linha digitável** (veja [Cobrança que saiu sem Pix ou sem linha digitável](#cobrança-que-saiu-sem-pix-ou-sem-linha-digitável)) — o boleto e o cartão continuam funcionando normalmente, e o aviso ao morador deixa de prometer um meio de pagamento que não existe.
 
 - **Comprovante da cobrança** — para uma cobrança **já paga**: só a fatura, que passa a servir de comprovante. O boleto em PDF não aparece, porque para cota quitada ele não tem função
 - **Não há onde pagar** — para uma cobrança **cancelada, removida no Asaas ou com falha na emissão**: em vez de um botão que levaria a uma página de erro, a tela explica o que houve e orienta **emitir uma nova cobrança a partir do lançamento no Financeiro**
