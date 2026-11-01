@@ -32,7 +32,11 @@ variam conforme o papel do usuário e as preferências de privacidade de cada
 membro.
 
 ### Campos sempre visíveis para todos
-Nome, unidade, papel e título. Os badges indicam o papel de cada membro:
+Nome, unidade, papel e título. Enquanto uma pessoa recém-incluída não confirma a
+inclusão, o nome que aparece é o **que o síndico digitou** ao incluí-la, e a
+foto, o telefone e os demais dados dela ficam ocultos — veja
+[A pessoa que você inclui precisa confirmar](/modulos/configuracoes/#aba-condôminos).
+Os badges indicam o papel de cada membro:
 
 - **Síndico / Subsíndico** → roxo/lilás
 - **Contador / Conselho Fiscal** → azul
@@ -42,6 +46,15 @@ Nome, unidade, papel e título. Os badges indicam o papel de cada membro:
 E-mail, telefone e CPF são sempre exibidos ao síndico, independentemente
 das preferências de privacidade do condômino. Esses dados são necessários
 para comunicação e emissão de cobranças.
+
+{: .note }
+> **Exceção: enquanto a pessoa não confirmar a inclusão**
+>
+> Até o condômino responder à janela *"O condomínio incluiu você"*, o síndico
+> vê só o nome que digitou, o e-mail e a unidade; o telefone e o CPF não
+> aparecem, e o badge de completude continua dizendo se eles existem. O selo
+> **Aguardando confirmação** e a indicação **Não confirmou a inclusão** (de quem
+> recusou) ficam na lista de **Configurações → Condôminos**.
 
 ### Campos controlados pelo próprio condômino
 Foto de perfil, Instagram, LinkedIn, profissão e aniversário (dia e mês)

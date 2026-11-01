@@ -28,6 +28,15 @@ para quem participa de um único condomínio.
 </details>
 
 <details markdown="1">
+<summary>Apareceu uma janela dizendo que um condomínio me incluiu. O que faço?</summary>
+
+Se você conhece o condomínio e a unidade, clique em **Confirmar**: o síndico passa
+a ver seus dados de cadastro. Se não reconhece, clique em **Não reconheço** e
+confirme: você sai daquele condomínio, o histórico é mantido e a equipe do
+V3RCondo é avisada. A janela só fecha depois da resposta.
+</details>
+
+<details markdown="1">
 <summary>Não recebi o e-mail de boas-vindas. O que fazer?</summary>
 
 Verifique a caixa de spam ou lixo eletrônico. Se não encontrar, peça ao
@@ -233,6 +242,38 @@ Preencha nome, e-mail, unidade (opcional) e título (opcional) e clique em
 **Adicionar**. O sistema cadastra o membro imediatamente e envia um
 e-mail de boas-vindas com instruções para definir a senha ou entrar com
 o Google.
+</details>
+
+<details markdown="1">
+<summary>O que a pessoa que eu incluí vê, e o que eu vejo dela, até ela confirmar?</summary>
+
+Ao entrar no aplicativo, a pessoa vê uma janela perguntando se reconhece a
+inclusão, com os botões **Confirmar** e **Não reconheço**. Até ela responder,
+você vê o nome que digitou, o e-mail, a unidade e o selo **Aguardando
+confirmação**; CPF, RG, telefone e foto ficam ocultos. Você continua podendo
+**preencher** um dado que esteja vazio (por exemplo o CPF, para a cobrança sair).
+Documentos pedidos por outra pessoa, como acordo e extrato, saem com o nome
+digitado e o CPF parcial até a confirmação. A emissão de cobrança não muda.
+</details>
+
+<details markdown="1">
+<summary>A pessoa respondeu "Não reconheço". E agora?</summary>
+
+Ela sai do condomínio e a lista mostra **Não confirmou a inclusão**, com a
+data. Confira se o e-mail e a unidade estavam certos; se foi engano seu, inclua
+a pessoa de novo com o e-mail correto. Cobranças já emitidas não são
+canceladas, e se ela era a responsável pela unidade, a responsabilidade passou
+ao morador confirmado mais antigo da unidade.
+</details>
+
+<details markdown="1">
+<summary>Por que não consigo alterar o CPF de um morador?</summary>
+
+O cadastro de uma pessoa vale para todos os condomínios dela. Você pode
+preencher um dado vazio, mas só pode alterar ou apagar um dado já preenchido se
+a pessoa nunca abriu o aplicativo e não participa de outro condomínio. Fora
+disso aparece *"Só a própria pessoa pode alterar este dado."* — peça a ela que
+corrija em **Perfil**.
 </details>
 
 <details markdown="1">

@@ -246,6 +246,13 @@ O condômino designado como **responsável** pela unidade aparece com um badge l
 >
 > Enquanto a administração não liberou o condomínio, adicionar ou importar moradores fica indisponível, com a mensagem de que a ação *alcança pessoas de fora do condomínio e fica disponível depois que a administração liberar o condomínio*. Peça a liberação em [Aba Liberação](#aba-liberação-síndico); a configuração das unidades pode seguir enquanto isso.
 
+{: .note }
+> **A pessoa que você inclui precisa confirmar**
+>
+> Quem você acabou de incluir vê, ao entrar no aplicativo, uma janela com duas opções: **Confirmar** ou **Não reconheço**. Até ela responder, a linha dela na lista mostra o selo **Aguardando confirmação**, o nome que **você digitou** ao incluí-la, o e-mail, a unidade e, pelo indicador de cadastro, se ela já tem CPF e telefone (apenas "sim" ou "não", nunca o número). O CPF, o RG, o telefone, a foto e os demais dados do cadastro dela só aparecem para você depois da confirmação. Quem você incluiu há mais tempo, antes desta regra, já conta como confirmado.
+>
+> Se a pessoa responder **Não reconheço**, ela sai do condomínio e a linha passa a mostrar **Não confirmou a inclusão**, com a data. Cobranças que já tinham sido emitidas para ela **não são canceladas**. Se ela era a responsável pela unidade, a responsabilidade passa para o morador confirmado mais antigo da mesma unidade (ou, se ninguém confirmou ainda, para o mais antigo). Para tentar de novo, inclua a pessoa outra vez: ela confirmará novamente.
+
 ![Aba Condôminos com lista de membros ativos, badges de responsável, ícone de editar perfil e botão Transferir](/assets/screenshots/config-condominos-editar.png)
 
 *Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
@@ -254,7 +261,8 @@ O condômino designado como **responsável** pela unidade aparece com um badge l
 preencha o nome completo, e-mail, unidade (opcional) e título (opcional:
 Síndico, Subsíndico, Contador, Conselho Fiscal) e clique em **Adicionar**. O sistema
 cadastra o membro imediatamente e envia um e-mail de boas-vindas com
-instruções para definir a senha ou entrar com o Google.
+instruções para definir a senha ou entrar com o Google. O nome que você digita
+aqui é o que os outros moradores veem até a pessoa confirmar a inclusão.
 
 ![Modal de adição direta de condômino com campos de nome, e-mail, unidade e título](/assets/screenshots/77-config-condomino-modal.png)
 
@@ -278,9 +286,21 @@ instruções para definir a senha ou entrar com o Google.
 - **Instagram** e **LinkedIn** — links de perfil
 - **Dia e Mês de aniversário**
 
+{: .warning }
+> **Você preenche o que está vazio; o que já está preenchido é da pessoa**
+>
+> O cadastro de uma pessoa é um só e vale para **todos os condomínios** em que ela participa. Por isso:
+>
+> - Você pode **preencher** qualquer dado que esteja vazio (CPF ou CNPJ, telefone, RG, profissão, redes sociais, aniversário). É assim que a cobrança sai para quem nunca abre o aplicativo.
+> - Você só pode **alterar ou apagar** um dado que já está preenchido se a pessoa **nunca abriu o aplicativo** e **não participa de outro condomínio**. Nesse caso o campo fica liberado.
+> - Em qualquer outro caso, o campo aparece travado (com o valor, ou com a indicação **Já cadastrado** enquanto a pessoa não confirmou a inclusão), e a tentativa de gravar é recusada com a mensagem *"Só a própria pessoa pode alterar este dado."* Quem pode corrigir é a própria pessoa, em **Perfil**.
+> - Enquanto a pessoa não confirmar a inclusão, os dados preenchidos ficam ocultos para você. O campo mostra *"Já cadastrado; preencher substitui"* quando você ainda pode trocá-lo, e deixar em branco **não muda nada**.
+>
+> O formulário envia apenas o que você alterou: salvar sem mexer no CPF não altera nem apaga o CPF.
+
 Clique em **Salvar** para confirmar. Ao promover um membro para Síndico, o sistema exibe um aviso de que o condomínio passará a ter mais de um síndico — o papel do síndico atual não é alterado automaticamente. Ao alterar o próprio papel para um título sem permissão de síndico, o sistema exibe um aviso de confirmação, pois o acesso de síndico será removido imediatamente após salvar.
 
-**Transferir responsabilidade:** quando um condômino responsável por uma unidade tem pelo menos outro membro na mesma unidade, o botão **Transferir** aparece ao lado do badge "Responsável". Clique nele para selecionar o novo responsável e confirmar a transferência — o sistema garante que sempre haverá exatamente um responsável por unidade.
+**Transferir responsabilidade:** quando um condômino responsável por uma unidade tem pelo menos outro membro na mesma unidade, o botão **Transferir** aparece ao lado do badge "Responsável". Clique nele para selecionar o novo responsável e confirmar a transferência — o sistema garante que sempre haverá exatamente um responsável por unidade. A troca também acontece sozinha quando o responsável responde **Não reconheço** à inclusão e a unidade tem outros moradores.
 
 ![Modal de transferência de responsabilidade com seletor de novo responsável](/assets/screenshots/95-configuracoes-transferir-responsavel.png)
 
@@ -321,7 +341,8 @@ exclua. Clique no ícone de lixeira e confirme.
 >
 > Basta cadastrá-la de novo, pelo **+ Adicionar condômino** ou pela importação
 > em planilha, usando o mesmo e-mail. O vínculo anterior é reaproveitado: não
-> há cadastro duplicado e o histórico continua no lugar.
+> há cadastro duplicado e o histórico continua no lugar. Como em toda
+> inclusão, a pessoa precisa **confirmar de novo** ao entrar.
 
 {: .note }
 > A exclusão funciona para qualquer condômino, inclusive quem já participou de
@@ -332,7 +353,9 @@ cadastrar vários condôminos de uma vez. Baixe o modelo, preencha com Nome,
 E-mail, Unidade e Título e faça o upload. O sistema processa linha a linha,
 ignora e-mails já cadastrados e exibe um resumo com importados, ignorados e
 rejeitados (com o motivo). Limite de 100 condôminos por importação — se
-houver mais, realize importações em lote.
+houver mais, realize importações em lote. Quem entra pela planilha também
+precisa **confirmar a inclusão** ao abrir o aplicativo, e os outros moradores
+veem o nome digitado na planilha até lá.
 
 ![Tela de importação de planilha de condôminos](/assets/screenshots/78-config-importar-planilha.png)
 

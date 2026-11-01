@@ -154,7 +154,7 @@ Para condôminos cujo condomínio já está cadastrado. Busque o condomínio pel
 {: .tip }
 > **Convite por e-mail**
 >
-> Se você recebeu um convite por e-mail do seu síndico, clique no link do e-mail e siga as instruções para definir sua senha. O vínculo será feito automaticamente.
+> Se você recebeu um convite por e-mail do seu síndico, clique no link do e-mail e siga as instruções para definir sua senha. O vínculo será feito automaticamente. Ao entrar, o aplicativo pergunta se você reconhece a inclusão no condomínio (**Confirmar** ou **Não reconheço**); até você responder, o síndico não vê seus dados de cadastro.
 
 ## Recuperar a senha
 

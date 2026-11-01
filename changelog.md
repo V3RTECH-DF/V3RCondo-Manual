@@ -9,6 +9,28 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.195.0 e v7.195.1 — Novembro 2026
+
+### Novidade
+
+- **Quem é incluído num condomínio agora confirma a inclusão.** Ao entrar no aplicativo, a pessoa vê uma janela que diz *"O condomínio [nome] incluiu você na unidade [unidade]"* e escolhe entre **Confirmar** e **Não reconheço**. A janela não fecha até a pessoa responder, vale para qualquer papel (inclusive síndico incluído por outro síndico) e aparece uma vez por condomínio. Quem cria o próprio condomínio já nasce confirmado.
+- **Até a confirmação, os dados da pessoa ficam protegidos.** Os outros moradores veem apenas o **nome que o síndico digitou** ao incluí-la. O síndico vê, além do nome digitado, o e-mail, a unidade, a indicação **Aguardando confirmação** e se a pessoa já tem CPF e telefone cadastrados (só "sim" ou "não", nunca o número). CPF, RG, telefone, foto, redes sociais, profissão e aniversário ficam ocultos para todos, mesmo para quem liberou a foto no diretório. Depois da confirmação, tudo volta a aparecer como antes.
+- **Documentos pedidos por outra pessoa saem com o nome digitado e o CPF parcial** enquanto o titular não confirmar: acordo, notificação de inadimplência, extrato da unidade, nada consta, declaração de residência, declaração de quitação e a reemissão de documento. A notificação guardada e enviada em qualquer canal também sai com o CPF parcial. A ata e a lista de presença de uma assembleia não copiam CPF nem RG de quem ainda não confirmou. **A emissão de cobrança não muda.**
+- **O que acontece se a pessoa escolher "Não reconheço":** ela é retirada do condomínio (o histórico fica guardado), o síndico passa a ver na lista **"Não confirmou a inclusão"** com a data, e a equipe do V3RCondo recebe um aviso. As cobranças que já tinham sido emitidas **não são canceladas**. Se a pessoa era a responsável pela unidade, a responsabilidade passa ao morador confirmado mais antigo da mesma unidade (ou, se ninguém confirmou, ao mais antigo).
+- **Reinclusão pergunta de novo.** Quem sai do condomínio e é incluído outra vez, ou tem a participação reativada, precisa confirmar novamente.
+
+### Alterado
+
+- **O síndico preenche o que está vazio, mas não sobrescreve o cadastro de outra pessoa.** CPF, telefone, RG, profissão, redes sociais e aniversário vazios podem ser preenchidos por ele. Um dado **já preenchido** só pode ser alterado ou apagado pelo síndico se a pessoa **nunca abriu o aplicativo** e **não participa de outro condomínio**. Em qualquer outro caso, o aplicativo recusa com a mensagem *"Só a própria pessoa pode alterar este dado"* e não grava nada. Como o cadastro da pessoa vale para todos os condomínios dela, é ela quem decide o que muda.
+- **O formulário de edição de membro envia só o que você mudou.** Salvar sem mexer no CPF não altera nem apaga o CPF. O campo travado aparece desabilitado com a indicação **Já cadastrado**; o campo oculto que você ainda pode substituir mostra *"Já cadastrado; preencher substitui"*, e deixá-lo em branco não muda nada.
+- **Os condomínios e moradores que já existiam em 01/11/2026 foram considerados confirmados**, sem que nada fosse perguntado a eles. Para eles, a lista e os dados que o síndico vê não mudaram.
+- **O síndico não apaga mais o vínculo de um morador de forma definitiva.** A exclusão continua funcionando como antes na tela (a pessoa sai da lista e o histórico é mantido).
+
+### Corrigido
+
+- **v7.195.1 — "Não reconheço" funciona para quem é o responsável por uma unidade com outros moradores.** Na v7.195.0 a recusa falhava nesse caso, e a única saída que sobrava na janela era confirmar. Agora a responsabilidade passa para outro morador da unidade, no mesmo momento.
+- **v7.195.1 — depois de "Não reconheço", a tela sai do condomínio recusado sem precisar recarregar a página.**
+
 ## v7.193.0 a v7.194.2 — Novembro 2026
 
 ### Novidade

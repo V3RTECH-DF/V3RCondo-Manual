@@ -47,11 +47,12 @@ Uma unidade pode ter mais de um morador vinculado, mas só **um responsável** �
 
 ### 4. O que o morador vê no primeiro acesso
 
-Depois de criar a senha (ou entrar com o Google), o novo morador passa por até três telas, nesta ordem, antes de chegar ao Dashboard:
+Depois de criar a senha (ou entrar com o Google), o novo morador passa por até quatro telas, nesta ordem, antes de chegar ao Dashboard:
 
 1. **Aceite dos Termos de Uso e da Política de Privacidade** — obrigatório, uma vez só (ou de novo, quando os documentos mudam de versão). Ver [Primeiros Passos — Aceitar os Termos de Uso](/guia/primeiros-passos/#aceitar-os-termos-de-uso-e-a-política-de-privacidade).
-2. **Complete seu cadastro** — pede telefone e CPF/CNPJ, se algum estiver em branco. Não é obrigatório; **Agora não** adia, e a janela não insiste mais de uma vez por semana.
-3. **Seleção de condomínio** — só aparece se a pessoa tiver vínculo com mais de um condomínio.
+2. **Confirmação da inclusão** — uma janela pergunta *"O condomínio [nome] incluiu você na unidade [unidade]"*, com os botões **Confirmar** e **Não reconheço**. Não fecha até a pessoa responder. Até lá, você e os vizinhos veem só o nome que você digitou, e os dados do cadastro dela ficam ocultos.
+3. **Complete seu cadastro** — pede telefone e CPF/CNPJ, se algum estiver em branco. Não é obrigatório; **Agora não** adia, e a janela não insiste mais de uma vez por semana.
+4. **Seleção de condomínio** — só aparece se a pessoa tiver vínculo com mais de um condomínio.
 
 Daí em diante, o morador vê o Dashboard com o resumo da própria unidade, e o menu lateral sem os módulos exclusivos do síndico.
 
@@ -69,6 +70,8 @@ A unidade 302 do Edifício Aurora foi vendida. O síndico cadastra o novo morado
 
 - **Um e-mail errado no cadastro direto vira um convite que nunca chega.** Confira o e-mail antes de salvar — não há como o app avisar que a pessoa nunca recebeu nada.
 - **Se a pessoa já morou no condomínio antes, cadastre de novo com o mesmo e-mail** em vez de tentar "reativar" de outro jeito: o vínculo anterior é reaproveitado automaticamente, sem duplicar cadastro nem perder histórico.
+- **Digite o nome certo da pessoa.** Até ela confirmar a inclusão, é o nome que você digitou que os outros moradores veem.
+- **"Não reconheço" costuma indicar e-mail ou unidade errados.** A pessoa sai do condomínio e a lista mostra *Não confirmou a inclusão*; confira os dados e inclua de novo se foi engano. Cobranças já emitidas não são canceladas.
 - **Solicitação pendente não vence sozinha.** Uma solicitação esquecida fica ali indefinidamente — vale conferir a lista de tempos em tempos, não só quando alguém reclama.
 
 ## Quando dá errado

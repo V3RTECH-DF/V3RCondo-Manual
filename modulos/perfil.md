@@ -64,6 +64,34 @@ Clique em **Salvar dados** para confirmar as alterações.
 > a natureza do documento: aparece "CPF" ou "CNPJ", conforme o que você
 > cadastrou.
 
+## Quando um condomínio inclui você
+
+Se um síndico incluir você num condomínio, ao entrar no aplicativo aparece uma
+janela com a pergunta *"O condomínio [nome] incluiu você na unidade [unidade]"* e
+dois botões: **Confirmar** e **Não reconheço**. A janela não fecha enquanto você
+não responder, e aparece uma vez para cada condomínio que incluiu você. Ela vem
+depois do aceite dos Termos de Uso e da Política de Privacidade.
+
+- **Confirmar:** o síndico daquele condomínio passa a ver seu nome e os dados do
+  seu cadastro, e você aparece para os vizinhos com o nome do seu perfil.
+- **Não reconheço:** você pede uma confirmação e sai do condomínio. O histórico
+  do condomínio é mantido, cobranças já emitidas não são canceladas, o síndico vê
+  que você não confirmou e a equipe do V3RCondo é avisada. Se você era o
+  responsável pela unidade e há outros moradores nela, a responsabilidade passa
+  para outro morador.
+
+Enquanto você não confirma, os outros moradores e o síndico veem apenas o nome
+que o síndico digitou. Seu CPF, RG, telefone, foto, redes sociais, profissão e
+aniversário ficam ocultos.
+
+{: .note }
+> **Seu cadastro é seu**
+>
+> O que você preenche no **Perfil** vale para todos os condomínios em que você
+> participa. Um síndico pode preencher um dado que esteja vazio, mas **só você**
+> pode alterar um dado que já está preenchido, a partir do momento em que usa o
+> aplicativo ou participa de outro condomínio.
+
 ## Como sou avisado
 
 Aqui você escolhe por onde e sobre o quê quer ser avisado. As preferências valem
