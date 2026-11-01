@@ -43,9 +43,10 @@ Os badges indicam o papel de cada membro:
 - **Condômino** → verde
 
 ### Campos visíveis apenas para o síndico
-E-mail, telefone e CPF são sempre exibidos ao síndico, independentemente
-das preferências de privacidade do condômino. Esses dados são necessários
-para comunicação e emissão de cobranças.
+O e-mail é sempre exibido ao síndico, e o telefone e o CPF também, desde que a
+pessoa já tenha confirmado a inclusão, independentemente das preferências de
+privacidade do condômino. Esses dados são necessários para comunicação e
+emissão de cobranças.
 
 {: .note }
 > **Exceção: enquanto a pessoa não confirmar a inclusão**

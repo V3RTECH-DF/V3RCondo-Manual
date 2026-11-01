@@ -9,6 +9,25 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.196.0 a v7.196.3 — Novembro 2026
+
+### Novidade
+
+- **Quando a pessoa responde "Não reconheço", os dados que o síndico digitou no cadastro dela são apagados.** Vale para CPF, telefone, RG, profissão, redes sociais (Instagram e LinkedIn) e aniversário (dia e mês). O que a **própria pessoa** digitou fica: se ela preencheu ou alterou um desses dados, ele nunca é apagado por esta regra. O apagamento acontece no mesmo momento da recusa e vale também se a pessoa participa de outro condomínio, porque o dado veio de uma origem que ela não reconheceu.
+- **Depois de "Confirmar", nada é apagado.** A pessoa aceitou aquele condomínio, e os dados passam a ser dela.
+- **O nome não entra nesta regra.** Ele continua protegido como estava.
+
+### Alterado
+
+- **Quem ficou sem nenhum condomínio ativo não vê mais a janela "Complete seu cadastro".** É o caso de quem acabou de responder "Não reconheço" à única inclusão que tinha: antes, o aplicativo pedia telefone e CPF a uma pessoa que já não pertencia a condomínio nenhum.
+- **Quem abre o convite por e-mail aceita os Termos de Uso e a Política de Privacidade uma vez só, na tela de criar a senha.** O aviso de termos não pede o mesmo aceite logo em seguida. Vale também para quem entra com o Google nessa mesma tela. Quem chega ao aplicativo sem ter marcado o aceite continua vendo o aviso nas telas internas.
+- **Cobranças já emitidas não mudam** quando alguém recusa a inclusão. Se o outro condomínio da pessoa precisar do CPF apagado para cobrar, ele verá a falta do documento, como já acontece com qualquer cadastro incompleto.
+
+### Corrigido
+
+- **O aceite marcado na tela do convite não era guardado.** A pessoa criava a senha, marcava o aceite e, mesmo assim, o aviso de termos aparecia em seguida pedindo o mesmo aceite. A partir da v7.196.2 o aceite fica registrado, e a v7.196.3 fez o aviso reconhecê-lo na hora, sem esperar.
+- **v7.196.1 — corrigido um defeito da v7.196.0: por pouco tempo, em 1º de novembro, quem alterava os próprios dados (Meu Perfil ou "Complete seu cadastro") recebia um erro e nada era gravado.** A correção foi aplicada no mesmo dia. Como o erro desfazia a gravação, nada ficou gravado pela metade; bastava tentar de novo depois da correção.
+
 ## v7.195.0 e v7.195.1 — Novembro 2026
 
 ### Novidade

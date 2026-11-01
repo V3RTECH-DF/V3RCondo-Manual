@@ -78,7 +78,10 @@ depois do aceite dos Termos de Uso e da Política de Privacidade.
   do condomínio é mantido, cobranças já emitidas não são canceladas, o síndico vê
   que você não confirmou e a equipe do V3RCondo é avisada. Se você era o
   responsável pela unidade e há outros moradores nela, a responsabilidade passa
-  para outro morador.
+  para outro morador. Os dados do seu cadastro que o síndico tenha digitado (CPF,
+  telefone, RG, profissão, redes sociais e aniversário) são apagados no mesmo
+  momento, mesmo que você participe de outro condomínio. O que **você** digitou
+  nunca é apagado, e o seu nome também fica como está.
 
 Enquanto você não confirma, os outros moradores e o síndico veem apenas o nome
 que o síndico digitou. Seu CPF, RG, telefone, foto, redes sociais, profissão e

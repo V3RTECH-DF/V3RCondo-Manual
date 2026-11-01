@@ -33,7 +33,9 @@ para quem participa de um único condomínio.
 Se você conhece o condomínio e a unidade, clique em **Confirmar**: o síndico passa
 a ver seus dados de cadastro. Se não reconhece, clique em **Não reconheço** e
 confirme: você sai daquele condomínio, o histórico é mantido e a equipe do
-V3RCondo é avisada. A janela só fecha depois da resposta.
+V3RCondo é avisada. Os dados do seu cadastro que o síndico tenha digitado
+(CPF, telefone, RG, profissão, redes sociais e aniversário) são apagados; o que
+você mesmo digitou fica. A janela só fecha depois da resposta.
 </details>
 
 <details markdown="1">
@@ -251,8 +253,10 @@ Ao entrar no aplicativo, a pessoa vê uma janela perguntando se reconhece a
 inclusão, com os botões **Confirmar** e **Não reconheço**. Até ela responder,
 você vê o nome que digitou, o e-mail, a unidade e o selo **Aguardando
 confirmação**; CPF, RG, telefone e foto ficam ocultos. Você continua podendo
-**preencher** um dado que esteja vazio (por exemplo o CPF, para a cobrança sair).
-Documentos pedidos por outra pessoa, como acordo e extrato, saem com o nome
+**preencher** um dado que esteja vazio (por exemplo o CPF, para a cobrança sair),
+mas atenção: **se a pessoa responder "Não reconheço", o que você digitou no
+cadastro dela é apagado** (o que ela mesma digitou fica). Depois de ela
+confirmar, nada é apagado. Documentos pedidos por outra pessoa, como acordo e extrato, saem com o nome
 digitado e o CPF parcial até a confirmação. A emissão de cobrança não muda.
 </details>
 
@@ -260,7 +264,11 @@ digitado e o CPF parcial até a confirmação. A emissão de cobrança não muda
 <summary>A pessoa respondeu "Não reconheço". E agora?</summary>
 
 Ela sai do condomínio e a lista mostra **Não confirmou a inclusão**, com a
-data. Confira se o e-mail e a unidade estavam certos; se foi engano seu, inclua
+data. O CPF, o telefone e os outros dados do cadastro que você tinha digitado
+para ela são apagados do cadastro dela, inclusive se ela participa de outro
+condomínio; o que ela mesma digitou não é apagado. Se esse outro condomínio
+precisar do CPF para cobrar, vai ver a falta do documento. Confira se o e-mail e
+a unidade estavam certos; se foi engano seu, inclua
 a pessoa de novo com o e-mail correto. Cobranças já emitidas não são
 canceladas, e se ela era a responsável pela unidade, a responsabilidade passou
 ao morador confirmado mais antigo da unidade.

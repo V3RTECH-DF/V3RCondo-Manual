@@ -87,7 +87,8 @@ Os documentos ficam sempre disponíveis, para consulta a qualquer momento, em [C
 Pouco depois de entrar, pode aparecer uma janela pedindo seu **telefone** e
 seu **CPF ou CNPJ** — desde que algum dos dois ainda esteja em branco no seu
 [Meu Perfil](/modulos/perfil/). Vale para qualquer papel: síndico, condômino
-ou porteiro.
+ou porteiro. A janela só aparece para quem participa de pelo menos um condomínio:
+quem acabou de responder **Não reconheço** à única inclusão que tinha não a vê.
 
 ![Janela Complete seu cadastro, pedindo telefone e CPF ou CNPJ, com os botões Agora não e Salvar](/assets/screenshots/complete-cadastro-01.png)
 
@@ -154,7 +155,7 @@ Para condôminos cujo condomínio já está cadastrado. Busque o condomínio pel
 {: .tip }
 > **Convite por e-mail**
 >
-> Se você recebeu um convite por e-mail do seu síndico, clique no link do e-mail e siga as instruções para definir sua senha. O vínculo será feito automaticamente. Ao entrar, o aplicativo pergunta se você reconhece a inclusão no condomínio (**Confirmar** ou **Não reconheço**); até você responder, o síndico não vê seus dados de cadastro.
+> Se você recebeu um convite por e-mail do seu síndico, clique no link do e-mail e siga as instruções para definir sua senha. O vínculo será feito automaticamente. Na tela de criar a senha você marca o aceite dos Termos de Uso e da Política de Privacidade; esse aceite fica registrado e o aplicativo não pede o mesmo aceite de novo logo depois. Ao entrar, o aplicativo pergunta se você reconhece a inclusão no condomínio (**Confirmar** ou **Não reconheço**); até você responder, o síndico não vê seus dados de cadastro.
 
 ## Recuperar a senha
 

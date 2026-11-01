@@ -49,7 +49,7 @@ Uma unidade pode ter mais de um morador vinculado, mas só **um responsável** �
 
 Depois de criar a senha (ou entrar com o Google), o novo morador passa por até quatro telas, nesta ordem, antes de chegar ao Dashboard:
 
-1. **Aceite dos Termos de Uso e da Política de Privacidade** — obrigatório, uma vez só (ou de novo, quando os documentos mudam de versão). Ver [Primeiros Passos — Aceitar os Termos de Uso](/guia/primeiros-passos/#aceitar-os-termos-de-uso-e-a-política-de-privacidade).
+1. **Aceite dos Termos de Uso e da Política de Privacidade** — obrigatório, uma vez só (ou de novo, quando os documentos mudam de versão). Quem chega pelo convite por e-mail já marca esse aceite na tela de criar a senha e não o vê de novo ao entrar. Ver [Primeiros Passos — Aceitar os Termos de Uso](/guia/primeiros-passos/#aceitar-os-termos-de-uso-e-a-política-de-privacidade).
 2. **Confirmação da inclusão** — uma janela pergunta *"O condomínio [nome] incluiu você na unidade [unidade]"*, com os botões **Confirmar** e **Não reconheço**. Não fecha até a pessoa responder. Até lá, você e os vizinhos veem só o nome que você digitou, e os dados do cadastro dela ficam ocultos.
 3. **Complete seu cadastro** — pede telefone e CPF/CNPJ, se algum estiver em branco. Não é obrigatório; **Agora não** adia, e a janela não insiste mais de uma vez por semana.
 4. **Seleção de condomínio** — só aparece se a pessoa tiver vínculo com mais de um condomínio.
@@ -72,6 +72,7 @@ A unidade 302 do Edifício Aurora foi vendida. O síndico cadastra o novo morado
 - **Se a pessoa já morou no condomínio antes, cadastre de novo com o mesmo e-mail** em vez de tentar "reativar" de outro jeito: o vínculo anterior é reaproveitado automaticamente, sem duplicar cadastro nem perder histórico.
 - **Digite o nome certo da pessoa.** Até ela confirmar a inclusão, é o nome que você digitou que os outros moradores veem.
 - **"Não reconheço" costuma indicar e-mail ou unidade errados.** A pessoa sai do condomínio e a lista mostra *Não confirmou a inclusão*; confira os dados e inclua de novo se foi engano. Cobranças já emitidas não são canceladas.
+- **O que você digita no cadastro de quem ainda não confirmou pode ser apagado.** Se a pessoa responder "Não reconheço", o CPF, o telefone e os outros dados que você preencheu para ela somem do cadastro dela. Ao incluir de novo, será preciso preencher outra vez.
 - **Solicitação pendente não vence sozinha.** Uma solicitação esquecida fica ali indefinidamente — vale conferir a lista de tempos em tempos, não só quando alguém reclama.
 
 ## Quando dá errado
