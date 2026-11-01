@@ -59,7 +59,7 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 | **Básico** | Gratuito, com acesso às funcionalidades essenciais |
 | **Pro** | Pago, com acesso completo a todos os recursos |
 
-**3.2.** Todo condomínio novo recebe automaticamente **30 dias de trial gratuito** do plano Pro, sem necessidade de cartão de crédito.
+**3.2.** Todo condomínio novo recebe automaticamente **30 dias de trial gratuito** do plano Pro, contados da liberação do condomínio pela administração, sem necessidade de cartão de crédito.
 
 **3.3. Como o preço é formado.** O preço do plano Pro é calculado automaticamente a partir do **número de unidades cadastradas** pelo condomínio na plataforma, conforme faixas de quantidade de unidades.
 

@@ -6,7 +6,12 @@ nav_order: 3
 
 # Planos
 
-O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo condomínio novo começa com **30 dias de trial gratuito** do plano Pro — sem cartão de crédito.
+O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo condomínio novo tem **30 dias de trial gratuito** do plano Pro — sem cartão de crédito.
+
+{: .note }
+> **Os 30 dias contam da liberação, não da criação**
+>
+> Condomínio novo passa por uma [análise da administração](/modulos/configuracoes/#aba-liberação-síndico) antes de alcançar moradores. O trial só começa quando o condomínio é liberado pela primeira vez; o tempo de espera da análise não é descontado dos 30 dias. Enquanto espera, a configuração interna do condomínio funciona normalmente.
 
 {: .note }
 > **Cobrança automática**

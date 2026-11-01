@@ -1465,6 +1465,88 @@ de parcelamento criados pelos condôminos.
 
 ---
 
+## Liberação do condomínio e limites de envio *(síndico)*
+
+<details markdown="1">
+<summary>Por que aparece "Condomínio em análise pela administração" no topo da tela?</summary>
+
+Todo condomínio novo é analisado pela administração do V3RCondo antes de
+alcançar pessoas de fora. Enquanto a análise não termina, você configura
+tudo por dentro (unidades, categorias, Financeiro), mas **incluir
+moradores, enviar avisos e abrir a conta de cobrança** ainda não
+funcionam. Se você ainda não enviou o pedido, faça isso em
+**Configurações → Liberação**; se já enviou, a resposta chega por e-mail e a
+aba mostra a situação. Veja [Configurações → Liberação](/modulos/configuracoes/#aba-liberação-síndico).
+</details>
+
+<details markdown="1">
+<summary>Tentei incluir um morador ou enviar um aviso e o sistema recusou. O que fiz de errado?</summary>
+
+Nada. A mensagem diz que a ação *alcança pessoas de fora do condomínio e fica
+disponível depois que a administração liberar o condomínio*. Abra
+**Configurações → Liberação**, envie ou acompanhe o pedido e repita a ação
+quando o condomínio estiver liberado.
+</details>
+
+<details markdown="1">
+<summary>Meu pedido aparece como "Não aprovado". E agora?</summary>
+
+Abra **Configurações → Liberação**: o motivo informado pela administração
+aparece no pedido mais recente. Corrija o que o motivo apontar e envie um
+**novo pedido** com os dados atualizados. O condomínio e tudo o que você
+configurou continuam como estavam.
+</details>
+
+<details markdown="1">
+<summary>Meu condomínio não tem CNPJ. Posso pedir a liberação?</summary>
+
+Pode. No pedido, escolha **Um morador (CPF) — quando o condomínio não tem
+CNPJ** e informe o CPF do morador responsável. Não ter CNPJ não impede a
+liberação.
+</details>
+
+<details markdown="1">
+<summary>Os 30 dias de teste começam quando eu crio o condomínio?</summary>
+
+Não. Começam na **primeira liberação** pela administração. O tempo de espera
+da análise não é descontado.
+</details>
+
+<details markdown="1">
+<summary>Troquei o nome (ou o CNPJ) do condomínio e ele voltou para "em análise". É normal?</summary>
+
+É, se a troca aconteceu nos 30 dias seguintes à liberação. Nada se perde: os
+dados continuam todos lá. Envie um novo pedido em **Configurações → Liberação**
+para a administração analisar de novo. Depois desse período, trocar nome ou
+CNPJ não volta o condomínio à análise.
+</details>
+
+<details markdown="1">
+<summary>Apareceu "O condomínio atingiu o limite de 5 envios em massa por dia" (ou "30 envios individuais por hora"). O que fazer?</summary>
+
+É um limite por condomínio, e a própria mensagem informa a partir de que dia e
+hora você pode enviar de novo. Envio em massa é o que vai para mais de uma
+pessoa; envio individual é o que vai para uma só. Se for urgente, reúna os
+assuntos em um único aviso em vez de vários.
+</details>
+
+<details markdown="1">
+<summary>Meu aviso foi recusado por "endereço de site". Como envio?</summary>
+
+Nos **primeiros 30 dias depois da liberação**, mensagens enviadas a outras
+pessoas não podem conter endereço de site. Retire o endereço do texto e envie de novo; passados os 30 dias, a restrição
+termina. Condomínios que já existiam antes dessa regra não têm a restrição.
+</details>
+
+<details markdown="1">
+<summary>O botão "Agendar envio" está desligado. Por quê?</summary>
+
+O agendamento de avisos está indisponível por enquanto. Use o envio imediato
+(**Enviar agora**).
+</details>
+
+---
+
 ## Assistente por Mensagem (Telegram) *(síndico — plano Pro)*
 
 <details markdown="1">
@@ -1539,7 +1621,7 @@ condomínio com o seu nome como autor e o canal Telegram identificado.
 <details markdown="1">
 <summary>Preciso de cartão de crédito para o trial?</summary>
 
-Não. O trial de 30 dias é gratuito e não exige cartão de crédito.
+Não. O trial de 30 dias é gratuito e não exige cartão de crédito. Ele conta da primeira liberação do condomínio pela administração, e não do dia em que você o criou.
 </details>
 
 <details markdown="1">

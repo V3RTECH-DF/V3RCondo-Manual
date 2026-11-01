@@ -43,6 +43,11 @@ A ideia é simples: as pendências que só aparecem quando você tropeça nelas 
 | **Conta bancária** | Opcional. Serve para conciliar o extrato com os lançamentos | Cadastrar conta |
 | **Cobrança automática** | Boleto e Pix emitidos pelo Asaas, com baixa automática no Financeiro. Opcional | Conhecer e abrir conta |
 
+{: .note }
+> **Condomínio ainda não liberado: a lista começa por outro item**
+>
+> Enquanto a administração não liberou o condomínio, o primeiro item da lista é **Liberação do condomínio**, com o botão **Acompanhar liberação** (ou **Pedir novamente**, se o pedido não foi aprovado, caso em que o item aparece em destaque de problema). Ele leva a [Configurações → Liberação](/modulos/configuracoes/#aba-liberação-síndico). Não existe botão para pular: o item sai sozinho quando o condomínio é liberado. Os itens de **Condôminos** e **Cobrança automática** só têm efeito depois dessa liberação.
+
 Acima da lista, uma barra de progresso mostra **quantos passos de sete** já estão concluídos, com o botão **Continuar de onde parei** — ele leva ao primeiro passo que ainda não foi resolvido nem pulado.
 
 São os sete itens da tabela acima, na mesma ordem — **o Valor da cota das unidades entra na contagem**, logo depois de Unidades, que é de onde ele depende. Ele é o único passo **sem o botão Pular**: sair da lista, ele sai sozinho, quando **todas** as unidades tiverem valor definido. É deliberado — unidade sem valor de cota é pulada na geração mensal em silêncio, e esse é justamente o passo que não pode sumir do radar.

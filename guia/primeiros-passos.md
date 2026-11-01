@@ -39,7 +39,7 @@ Se você já tem conta, use o cartão **Entrar**:
 
 Se você ainda não tem conta, o cartão **Primeira vez por aqui?** oferece duas portas — escolha a que descreve a sua situação:
 
-- **Vou criar um condomínio** — você vai ser o síndico e cadastrar o condomínio do zero. São **30 dias com tudo liberado**, sem cartão de crédito
+- **Vou criar um condomínio** — você vai ser o síndico e cadastrar o condomínio do zero. São **30 dias com tudo liberado** a partir da liberação do condomínio pela administração, sem cartão de crédito
 - **Fui convidado para um condomínio** — o síndico já cadastrou você. Crie sua conta com o **mesmo e-mail** que ele usou ao te cadastrar
 
 {: .tip }
@@ -118,11 +118,24 @@ Se você pertence a mais de um condomínio, após o login o sistema exibe uma te
 
 ## Depois de escolher "Vou criar um condomínio"
 
-Preencha os dados básicos e o condomínio estará pronto em instantes. Você terá **30 dias com tudo liberado** (plano Pro completo) antes de precisar assinar — sem cartão de crédito.
+Preencha os dados básicos e o condomínio é criado em instantes. Os **30 dias com tudo liberado** (plano Pro completo) antes de precisar assinar — sem cartão de crédito — **começam quando a administração libera o condomínio**, e não no dia da criação. Veja logo abaixo o que é essa liberação.
 
 Faz parte da criação aceitar o **Termo de Responsabilidade do Síndico**, que trata da sua responsabilidade como administrador do condomínio na plataforma. É um aceite diferente dos Termos de Uso: veja [Termo de Responsabilidade do Síndico](/legal/termo-sindico/) para o texto completo e o que ele cobre.
 
 ![Formulário de criação de condomínio com o Termo de Responsabilidade do Síndico, a declaração de aceite e o botão Aceitar e criar o condomínio](/assets/screenshots/criar-condominio-termo-checkbox.png)
+
+### Todo condomínio novo passa por uma análise antes de alcançar moradores
+
+**Por que isso existe.** O V3RCondo envia e-mails, avisos e cobranças em nome do condomínio. Para que ninguém use um condomínio inventado para escrever a terceiros, a administração da plataforma confirma que o condomínio é real antes de ele alcançar pessoas de fora. Para você, síndico de verdade, é um passo único e rápido de cumprir.
+
+**O que funciona durante a análise:** toda a configuração interna — unidades, categorias, contas bancárias e Financeiro. **O que espera a liberação:** incluir moradores, enviar avisos e abrir a conta de cobrança. Uma faixa no topo do aplicativo lembra disso enquanto o pedido não for liberado.
+
+**O que você faz:** abra **Configurações → Liberação** e envie o pedido. Os detalhes — CNPJ ou CPF, comprovante, o que fazer se o pedido não for aprovado — estão em [Configurações → Liberação](/modulos/configuracoes/#aba-liberação-síndico). A resposta chega por e-mail.
+
+{: .tip }
+> **Envie o pedido no primeiro dia**
+>
+> O teste grátis só começa na liberação. Quanto mais cedo você pedir, mais cedo o condomínio chega aos moradores e o relógio do teste começa a andar. Enquanto espera, aproveite para cadastrar unidades e categorias.
 
 {: .note }
 > **As unidades são cadastradas depois, não na criação**

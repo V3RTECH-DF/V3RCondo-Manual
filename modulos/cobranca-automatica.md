@@ -25,6 +25,10 @@ A Cobrança Automática abre, em nome do condomínio, uma **conta de pagamento n
 - A cobrança **sempre parte de um lançamento que já existe no Financeiro**. Nada é lançado em dobro.
 - **Abrir a conta é opcional.** O condomínio que nunca abrir continua operando o aplicativo inteiro, só lançando a cota manualmente. Enquanto a conta não estiver aprovada, nada muda.
 
+### Antes de abrir a conta: o condomínio precisa estar liberado
+
+Condomínio novo passa por uma análise da administração do V3RCondo antes de alcançar pessoas de fora, e **abrir a conta de cobrança está entre as coisas que esperam essa liberação**. Se o condomínio ainda estiver em análise, a tela avisa que a ação fica disponível depois da liberação e aponta para [Configurações → Liberação](/modulos/configuracoes/#aba-liberação-síndico), onde o pedido é enviado e acompanhado. Condomínios que já existiam antes dessa regra já estão liberados.
+
 ### Antes de abrir a conta: o Contrato de Prestação de Serviços precisa estar aceito
 
 A conta de cobrança só pode ser aberta depois que o síndico aceitar, em nome do condomínio, o **Contrato de Prestação de Serviços** — o instrumento que autoriza a V3RTECH a operar a cobrança e a tratar os dados do condomínio para isso. Sem ele, a tela mostra o aviso abaixo no lugar do formulário de abertura:

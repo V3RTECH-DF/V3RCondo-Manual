@@ -9,6 +9,22 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.193.0 a v7.194.2 — Novembro 2026
+
+### Novidade
+
+- **Condomínio novo passa por uma análise da administração antes de alcançar pessoas de fora.** Enquanto a análise não termina, você continua configurando tudo por dentro (unidades, categorias, Financeiro), mas **incluir moradores, enviar avisos e abrir a conta de cobrança** esperam a liberação. Uma faixa no topo do aplicativo e o primeiro item da **Configuração inicial** do Painel mostram em que pé está o pedido.
+- **Nova aba Liberação em Configurações.** É ali que você envia o pedido (CNPJ do condomínio ou, se ele não tem CNPJ, o CPF de um morador responsável, mais telefone, número de unidades e a sua relação com o condomínio), acompanha a situação (*Em análise*, *Aguardando comprovante*, *Liberado* ou *Não aprovado*) e recebe a resposta por e-mail. O comprovante (ata de eleição, cartão CNPJ ou outro documento que mostre que você administra o condomínio) é opcional ao pedir; se a administração precisar dele, o pedido fica em *Aguardando comprovante* e você envia o arquivo no mesmo pedido, sem perder o que já foi analisado. Se o pedido não for aprovado, a aba mostra o motivo e você pode pedir de novo com dados novos.
+- **Os limites de envio passaram a valer por condomínio:** até **5 envios em massa por dia** e **30 envios individuais por hora**. Ao chegar no limite, a mensagem diz a partir de quando dá para enviar de novo.
+- **Nos primeiros 30 dias depois da liberação, as mensagens enviadas a outras pessoas não podem conter endereço de site.** Basta retirar o endereço do texto e enviar de novo. Condomínios que já existiam antes desta regra não têm a restrição de links.
+
+### Alterado
+
+- **Os 30 dias de teste do plano Pro agora contam da primeira liberação, e não da criação do condomínio.** Quem fica alguns dias esperando a análise não perde nada do período de teste.
+- **Trocar o nome ou o CNPJ do condomínio nos 30 dias seguintes à liberação devolve o condomínio à análise,** sem apagar nenhum dado. Depois de alterar, envie um novo pedido em **Configurações → Liberação**.
+- **Termo de Responsabilidade do Síndico atualizado para a versão 1.2.** Passa a dizer que o condomínio é analisado antes de incluir pessoas, enviar avisos ou abrir conta de cobrança, e que os 30 dias de acesso completo contam da liberação. Quem aceitou a versão anterior vê um aviso para aceitar de novo, **sem nenhum bloqueio** — até lá o aceite anterior continua valendo.
+- **O agendamento de avisos está indisponível por enquanto.** O botão **Agendar envio** aparece desligado, com a indicação de que o agendamento está indisponível; use o envio imediato.
+
 ## v7.190.1 — Outubro 2026
 
 ### Melhorado

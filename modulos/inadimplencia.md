@@ -19,7 +19,7 @@ O módulo de **Inadimplência** reúne, por unidade, tudo o que está em atraso 
 >
 > É uma área de gestão: o **síndico** opera tudo; **Conselho Fiscal** e **Contador** entram em **modo leitura** (veem devedores e acordos, mas não operam); o **condômino comum não acessa** — ele acompanha só a própria dívida e os próprios acordos na **Minha Área**.
 >
-> **Visualizar** os inadimplentes está no plano **Básico**. As **ações de recuperação** (fechar acordos, emitir notificação extrajudicial e liberar a negociação pelo próprio condômino) são do plano **Pro**. Nos 30 dias grátis tudo fica liberado.
+> **Visualizar** os inadimplentes está no plano **Básico**. As **ações de recuperação** (fechar acordos, emitir notificação extrajudicial e liberar a negociação pelo próprio condômino) são do plano **Pro**. Nos 30 dias grátis (que contam da liberação do condomínio) tudo fica liberado.
 
 ![Módulo Inadimplência com as abas Inadimplentes e Acordos, e a lista de unidades devedoras](/assets/screenshots/inad-visao-01.png)
 
@@ -176,7 +176,7 @@ A última tela mostra **tudo o que será adotado**, na ordem das parcelas, e o *
 | *"O pagamento em dd/mm/aaaa cai no período …, que já tem prestação de contas publicada"* | Você marcou uma parcela como paga numa data cujo mês já foi prestado e publicado. Escolha outra data ou registre essa parcela como paga **antes do sistema** (passo 1). Ver o aviso abaixo. |
 | O botão **Registrar acordo** não habilita | Falta algo: nenhuma parcela marcada, data de pagamento em branco, ou — se há parcela marcada como paga — a **conta que recebeu os pagamentos** não foi escolhida. |
 | Mensagem de erro seguida de *"Nada foi gravado"* | O servidor recusou o registro. Como tudo é gravado de uma vez, nada ficou pela metade: corrija e tente de novo. |
-| O botão aparece desabilitado com *"Disponível no plano Pro"* | Registrar acordo é recurso do plano Pro (nos 30 dias grátis fica liberado). |
+| O botão aparece desabilitado com *"Disponível no plano Pro"* | Registrar acordo é recurso do plano Pro (nos 30 dias grátis, contados da liberação do condomínio, fica liberado). |
 
 {: .warning }
 > **Baixa de parcela em mês com prestação de contas já publicada é recusada.**

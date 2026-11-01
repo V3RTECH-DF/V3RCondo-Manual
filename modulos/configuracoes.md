@@ -16,7 +16,8 @@ nav_order: 14
                       descricao="As seis abas de configuração: unidades geradas em lote, condôminos importados por planilha, categorias e conta bancária." %}
 
 O módulo reúne todas as opções de gestão do condomínio, organizadas em
-seis abas.
+sete abas — a última, **Liberação**, é onde o condomínio novo pede a
+autorização da administração para alcançar moradores.
 
 {: .note }
 > **Procurando as preferências de notificação?**
@@ -75,7 +76,7 @@ Logo abaixo dos dados cadastrais, um cartão mostra a situação do **Contrato d
 {: .warning }
 > **O que fica bloqueado até o aceite — e o que não fica**
 >
-> Sem o contrato aceito, a única coisa indisponível é **abrir a conta de cobrança automática** no módulo [Cobrança automática](/modulos/cobranca-automatica/). Todo o resto continua funcionando normalmente: os condôminos seguem usando o aplicativo sem qualquer restrição, e um condomínio que já tenha a conta de cobrança aberta continua operando. O motivo do bloqueio: é esse contrato que autoriza a V3RTECH a tratar os dados do condomínio e a operar a cobrança automática em nome dele — sem ele, essa autorização não existe.
+> Sem o contrato aceito, a única coisa que esse aceite trava é **abrir a conta de cobrança automática** no módulo [Cobrança automática](/modulos/cobranca-automatica/). Todo o resto continua funcionando normalmente: os condôminos seguem usando o aplicativo sem qualquer restrição, e um condomínio que já tenha a conta de cobrança aberta continua operando. O motivo do bloqueio: é esse contrato que autoriza a V3RTECH a tratar os dados do condomínio e a operar a cobrança automática em nome dele — sem ele, essa autorização não existe.
 
 Clicando em **Ler e aceitar o contrato**, abre uma janela com o resumo do que está sendo aceito e um link para ler o contrato na íntegra. Marque a declaração de que você é o síndico e aceita o contrato em nome do condomínio, e confirme.
 
@@ -89,6 +90,14 @@ Ao confirmar, ficam registrados a **data e a hora**, a **versão do contrato**, 
 > A tela avisa na hora, e **nada fica registrado pela metade** — não existe um aceite "meio feito". Basta tentar de novo, ali mesmo ou depois, pela pendência.
 
 Enquanto o contrato estiver pendente, o síndico também vê um aviso no topo do [Painel](/modulos/dashboard/), com o atalho **Ocultar por 30 dias** — que apenas adia o lembrete, sem resolver a pendência: ele volta a aparecer depois desse prazo.
+
+### Termo de Responsabilidade do Síndico
+
+No cartão **Documentos**, junto do contrato, fica o **Termo de Responsabilidade do Síndico** — o compromisso que o síndico assume, em nome do condomínio, sobre como a plataforma será usada. Ele é aceito na criação do condomínio e de novo por quem assumir a função depois. O texto completo está em [Termo de Responsabilidade do Síndico](/legal/termo-sindico/).
+
+Quando sai uma **versão nova** do termo, quem aceitou a anterior vê no Painel uma faixa *"Termo de Responsabilidade do Síndico pendente"*, com o aviso de que há uma nova versão para ler e aceitar. **Nada fica bloqueado**: o aceite anterior continua valendo até você aceitar a nova versão. Use **Ler e aceitar** na faixa (ou o cartão, em **Configurações → Condomínio**) quando puder; **Ocultar por 30 dias** apenas adia o lembrete.
+
+Foi o que aconteceu na versão **1.2**, que passou a dizer que o condomínio é analisado pela administração antes de incluir pessoas, enviar avisos ou abrir conta de cobrança, e que os 30 dias de acesso completo contam da liberação. Veja [Aba Liberação](#aba-liberação-síndico).
 
 ### Seu Plano
 
@@ -231,6 +240,11 @@ Use o filtro para visualizar apenas síndicos ou apenas condôminos, e o filtro 
 situação (**Todos**, **Ativos**, **Inativos**) para escolher quem aparece na lista.
 Cada membro exibe um badge de situação — **Ativo** (verde) ou **Inativo** (cinza).
 O condômino designado como **responsável** pela unidade aparece com um badge laranja "Responsável" — ele é o destinatário das notificações extrajudiciais.
+
+{: .note }
+> **Condomínio novo: incluir moradores espera a liberação**
+>
+> Enquanto a administração não liberou o condomínio, adicionar ou importar moradores fica indisponível, com a mensagem de que a ação *alcança pessoas de fora do condomínio e fica disponível depois que a administração liberar o condomínio*. Peça a liberação em [Aba Liberação](#aba-liberação-síndico); a configuração das unidades pode seguir enquanto isso.
 
 ![Aba Condôminos com lista de membros ativos, badges de responsável, ícone de editar perfil e botão Transferir](/assets/screenshots/config-condominos-editar.png)
 
@@ -609,3 +623,84 @@ São ações diferentes, para situações diferentes — a lógica é a mesma qu
 >
 > Se todos os lançamentos de uma conta já foram excluídos, ela ainda assim não libera a exclusão da conta em si — o app explica que há histórico excluído guardado nela. Isso é proposital: um lançamento excluído continua recuperável com a nossa ajuda (ver [O que acontece ao excluir uma categoria](#o-que-acontece-ao-excluir-uma-categoria), acima), e apagar a conta cortaria esse caminho de recuperação.
 
+
+## Aba Liberação *(síndico)*
+
+### Por que o condomínio passa por uma análise
+
+O V3RCondo envia e-mails, avisos e cobranças **em nome do condomínio**. Para que ninguém use um condomínio inventado para escrever a terceiros, todo condomínio novo é analisado pela administração da plataforma antes de alcançar pessoas de fora. Para o síndico de verdade, é um passo único.
+
+**Durante a análise**, a configuração interna funciona normalmente: unidades, categorias, contas bancárias e Financeiro. **Esperam a liberação:**
+
+- **incluir moradores** (cadastro e importação por planilha);
+- **enviar avisos** a outras pessoas;
+- **abrir a conta de cobrança** da [Cobrança Automática](/modulos/cobranca-automatica/).
+
+Enquanto o condomínio não estiver liberado, uma faixa no topo do aplicativo avisa *"Condomínio em análise pela administração"* e leva até esta aba. O primeiro item da **Configuração inicial** do [Painel](/modulos/dashboard/) também acompanha a liberação, com o botão **Acompanhar liberação**.
+
+{: .note }
+> **Condomínios que já existiam**
+>
+> Os condomínios criados antes dessa regra já foram liberados e não precisam fazer nada. O pedido vale para condomínios novos.
+
+### Pedir a liberação
+
+Abra **Configurações → Liberação**. Na primeira vez, o cartão **Pedir liberação** pede:
+
+1. **O responsável legal é** — escolha **O condomínio (CNPJ)** ou **Um morador (CPF) — quando o condomínio não tem CNPJ**. Há muito condomínio administrado por morador e sem CNPJ: isso é aceito.
+2. **CNPJ do condomínio** ou **CPF do responsável**, conforme a escolha.
+3. **Telefone de contato com DDD**.
+4. **Número de unidades**.
+5. **Sua relação com o condomínio** — por exemplo, *síndico morador* ou *administradora*.
+6. **Comprovante (opcional)** — ata de eleição, cartão CNPJ ou outro documento que mostre que você administra o condomínio. PDF ou imagem, até 5 MB.
+
+Clique em **Enviar pedido de liberação**. A administração analisa e **você recebe a resposta por e-mail**; a aba também mostra a situação.
+
+{: .tip }
+> **Envie o comprovante já no primeiro pedido, se o tiver à mão**
+>
+> Ele é opcional, mas pode poupar uma etapa: quando a administração precisa de um documento para decidir, o pedido para e espera por ele. Com o comprovante anexado desde o início, essa ida e volta não acontece. O arquivo fica guardado com acesso restrito à administração e é apagado 90 dias depois da decisão.
+
+**Exemplo.** Marta é síndica moradora de um prédio de 24 unidades, sem CNPJ. Ela escolhe *Um morador (CPF)*, informa o próprio CPF, o telefone, `24` unidades e a relação *síndica moradora*, anexa a ata de eleição e envia. No mesmo dia ela pode seguir cadastrando unidades e categorias; quando o e-mail de liberação chega, já pode incluir os moradores.
+
+### Acompanhar o pedido
+
+O cartão **Liberação do condomínio** mostra o **Pedido mais recente**, com a data de envio e o documento informado (sempre parcialmente oculto), e uma destas situações:
+
+| Situação | O que significa | O que fazer |
+|---|---|---|
+| **Em análise** | O pedido chegou e a administração ainda vai decidir | Esperar a resposta por e-mail. Enquanto isso, configure o condomínio por dentro |
+| **Aguardando comprovante** | A administração pediu um documento que mostre que você administra o condomínio | Use o cartão **Enviar comprovante** que aparece logo abaixo e escolha o arquivo. Ele entra no **mesmo pedido**, sem perder a análise já feita |
+| **Liberado** | O condomínio pode incluir moradores, enviar avisos e abrir a conta de cobrança | Nada. Os 30 dias de teste do plano Pro começam a contar a partir da primeira liberação |
+| **Não aprovado** | A administração não aprovou o pedido | Leia o **Motivo informado** no próprio cartão, corrija o que ele apontar e use **Pedir liberação** de novo, com dados novos |
+
+### Quando dá errado
+
+| O que aparece | O que significa | O que fazer |
+|---|---|---|
+| *"Esta ação alcança pessoas de fora do condomínio e fica disponível depois que a administração liberar o condomínio..."* ao incluir morador ou enviar aviso | O condomínio ainda não foi liberado | Envie ou acompanhe o pedido nesta aba |
+| *"Este condomínio não foi liberado pela administração. Veja o motivo em Configurações › Liberação..."* | O pedido foi recusado | Leia o motivo e peça de novo com dados novos |
+| *"O comprovante pode ter no máximo 5 MB."* | O arquivo é grande demais | Reduza o arquivo ou envie uma foto menor; aceita PDF, JPG, PNG ou WebP |
+| *"Não foi possível conferir a situação do pedido agora. Recarregue a página para tentar de novo."* | A situação do pedido não pôde ser lida naquele momento | Recarregue a página. Isso não quer dizer que o pedido foi perdido |
+| *"Sua sessão expirou. Entre de novo."* | Passou muito tempo desde o último acesso | Entre de novo e reenvie |
+
+{: .warning }
+> **Trocar o nome ou o CNPJ logo depois da liberação devolve o condomínio à análise**
+>
+> Se você alterar o **nome** ou o **CNPJ** do condomínio nos **30 dias seguintes à liberação**, o condomínio volta para *Em análise* — sem apagar nenhum dado. Enquanto estiver em análise, incluir moradores e enviar avisos voltam a esperar. A aba explica *"O nome ou o CNPJ mudou depois da liberação"* e pede um novo pedido. Por isso, **confira o nome e o CNPJ antes de pedir a liberação** e deixe as correções para depois do primeiro mês, a menos que sejam necessárias.
+
+### Limites de envio depois da liberação
+
+Mesmo liberado, o condomínio tem limites de envio, para que a plataforma nunca seja usada para disparar mensagens em excesso:
+
+- até **5 envios em massa por dia** (aviso que vai para mais de uma pessoa);
+- até **30 envios individuais por hora** (aviso que vai para uma pessoa só).
+
+Ao chegar no limite, a mensagem informa a partir de que dia e hora você pode enviar de novo: *"O condomínio atingiu o limite de 5 envios em massa por dia. Você pode enviar novamente em ..."*. Os limites valem **por condomínio**, e não por pessoa.
+
+Além disso, **nos primeiros 30 dias depois da liberação, as mensagens enviadas a outras pessoas não podem conter endereço de site**. Se o texto tiver um, o envio é recusado com *"Nos primeiros 30 dias após a liberação, mensagens enviadas a outras pessoas não podem conter endereço de site. Retire o endereço e tente novamente."* — basta tirar o endereço e enviar de novo. Condomínios criados antes desta regra não têm a restrição de links.
+
+{: .tip }
+> **Junte os assuntos em um aviso só**
+>
+> Cinco envios em massa por dia costumam sobrar para um condomínio. Se você chegar no limite, é sinal de que vários avisos curtos podem virar um comunicado mais completo — e o morador agradece a caixa de entrada menos cheia.

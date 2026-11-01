@@ -8,7 +8,7 @@ nav_order: 5
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.1 — 16 de setembro de 2026
+Versão 1.2 — Novembro de 2026
 
 ---
 
@@ -29,7 +29,7 @@ Versão 1.1 — 16 de setembro de 2026
 
 ## 2. Do Aceite
 
-O condomínio começa com **acesso completo por 30 dias**. Passado esse prazo sem assinatura, ele continua funcionando no plano básico, sem os recursos exclusivos do plano superior — a cláusula 7 detalha. A contratação dos serviços de cobrança, quando o condomínio quiser usá-los, é feita depois, por documento próprio (o Contrato de Prestação de Serviços).
+O condomínio passa por uma **análise da administração** antes de incluir pessoas, enviar avisos ou abrir conta de cobrança. Depois de liberado, ele tem **acesso completo por 30 dias**. Passado esse prazo sem assinatura, ele continua funcionando no plano básico, sem os recursos exclusivos do plano superior — a cláusula 7 detalha. A contratação dos serviços de cobrança, quando o condomínio quiser usá-los, é feita depois, por documento próprio (o Contrato de Prestação de Serviços).
 
 Do aceite ficam registrados a data e a hora, a versão deste termo, quem aceitou e o endereço de rede apurado pelo servidor da V3RTECH. Depois de aceitar, o documento fica disponível para download a qualquer momento.
 
@@ -52,6 +52,8 @@ Do aceite ficam registrados a data e a hora, a versão deste termo, quem aceitou
 2.1. Os dados do condomínio informados no cadastro — nome, endereço, unidades e demais informações — devem ser verdadeiros e mantidos atualizados.
 
 2.2. Constatada informação falsa ou cadastro de condomínio inexistente, a V3RTECH pode suspender o acesso, na forma da cláusula 6.
+
+2.3. A administração pode liberar ou recusar o condomínio, informando o motivo da recusa. Trocar o nome ou o CNPJ nos primeiros 30 dias depois da liberação devolve o condomínio à análise, sem apagar nenhum dado.
 
 ### 3. Uso consciente da plataforma
 
@@ -95,7 +97,7 @@ Do aceite ficam registrados a data e a hora, a versão deste termo, quem aceitou
 
 ### 7. Plano, período de avaliação e serviços de cobrança
 
-7.1. O condomínio criado inicia com **30 dias de acesso ao plano completo**, contados da criação, sem custo e sem necessidade de informar meio de pagamento.
+7.1. Depois de liberado pela administração, o condomínio tem **30 dias de acesso ao plano completo**, contados da liberação, sem custo e sem necessidade de informar meio de pagamento.
 
 7.2. **Encerrado esse prazo sem a contratação da assinatura, o condomínio passa automaticamente ao plano básico** e deixa de dispor dos recursos exclusivos do plano superior. Nenhum dado é apagado por essa mudança, e a assinatura pode ser contratada a qualquer tempo.
 
@@ -120,7 +122,7 @@ Para dúvidas, solicitações ou notificações relacionadas a este termo:
 
 ---
 
-*Versão 1.1 — 16 de setembro de 2026. Acrescentado o item 3.5 (seção "Uso consciente da plataforma"): ao habilitar o assistente por mensagem para os condôminos, o síndico o faz em nome do condomínio, na qualidade de controlador dos dados, ciente de que as mensagens dos condôminos que ativarem o recurso são interpretadas por provedor de inteligência artificial.*
+*Versão 1.2 — Novembro de 2026. Reúne o item 3.5, sobre o assistente por mensagem para os condôminos, publicado neste manual em 16 de setembro de 2026, e as mudanças a seguir. O condomínio passa por análise da administração antes de incluir pessoas, enviar avisos ou abrir conta de cobrança (parágrafo de abertura e item 2.3); o período de avaliação de 30 dias passa a contar da liberação, e não da criação (item 7.1). Quem aceitou a versão anterior é solicitado a aceitar a nova, sem bloqueio: até o novo aceite, a versão anterior continua valendo (itens 1.4 e 8.2).*
 
 *Versão 1.0 — Setembro de 2026. Documento criado a partir do desmembramento do compromisso que, até então, não existia como instrumento próprio: quem criava um condomínio não assumia nenhum compromisso formal sobre como usá-lo, além dos Termos de Uso pessoais. Este termo passa a ser aceito na criação do condomínio, uma vez por condomínio, e novamente por quem vier a assumir a síndica depois.*
 *Próxima revisão prevista: quando houver alteração relevante no período de avaliação ou nas regras de responsabilidade do síndico.*

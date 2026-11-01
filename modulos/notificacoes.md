@@ -25,9 +25,30 @@ O formulário de envio fica no topo da página. Preencha:
     - *Todos os condôminos* — envia para todos os membros ativos
     - *Unidades específicas* — selecione uma ou mais unidades
     - *Condômino individual* — selecione um condômino pelo nome
-4. **Agendar envio** — ative para definir data e horário futuros. Deixe desativado para enviar imediatamente.
+4. **Agendar envio** — **indisponível no momento**. O interruptor aparece desligado, com a indicação *"Indisponível no momento — use o envio imediato"*, e não pode ser ativado.
 
 Clique em **Enviar agora** para disparar a notificação.
+
+{: .warning }
+> **Agendamento indisponível: envie na hora**
+>
+> Por enquanto, não dá para deixar um aviso marcado para sair depois. Se o aviso depende de uma data (por exemplo, o lembrete de uma assembleia), anote o dia e envie na hora certa, com **Enviar agora**. Os avisos que o próprio V3RCondo manda sozinho — lembretes de vencimento, por exemplo — não dependem desse interruptor.
+
+{: .note }
+> **Condomínio novo: envio só depois da liberação**
+>
+> Um condomínio em análise pela administração ainda não envia avisos a outras pessoas; ao tentar, aparece a mensagem *"Esta ação alcança pessoas de fora do condomínio e fica disponível depois que a administração liberar o condomínio"*, com o caminho para acompanhar o pedido em [Configurações → Liberação](/modulos/configuracoes/#aba-liberação-síndico).
+
+### Limites de envio e endereços de site
+
+Depois da liberação, valem dois limites **por condomínio**: até **5 envios em massa por dia** (aviso para mais de uma pessoa) e **30 envios individuais por hora** (aviso para uma pessoa só). Ao atingir o limite, o aplicativo mostra *"O condomínio atingiu o limite de 5 envios em massa por dia. Você pode enviar novamente em ..."* (ou *30 envios individuais por hora*), já com o dia e a hora em que dá para enviar de novo.
+
+Nos **primeiros 30 dias depois da liberação**, as mensagens também **não podem conter endereço de site**. Se o texto tiver um, o envio é recusado com *"Nos primeiros 30 dias após a liberação, mensagens enviadas a outras pessoas não podem conter endereço de site. Retire o endereço e tente novamente."* Tire o endereço e envie de novo. Condomínios anteriores a essa regra não têm a restrição de links.
+
+{: .tip }
+> **Um aviso bom vale por três**
+>
+> Como o limite de envios em massa é diário, vale juntar assuntos próximos num só comunicado em vez de disparar vários seguidos.
 
 ## Histórico de notificações
 

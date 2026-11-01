@@ -13,14 +13,14 @@ São **dois instrumentos com públicos diferentes**, e vale saber qual é qual:
 | Documento | Quem aceita | Versão | Atualizado em |
 |---|---|---|---|
 | [Contrato de Prestação de Serviços](/legal/contrato/) | O **síndico**, em nome do **condomínio** | v1.5 | 16 de setembro de 2026 |
-| [Termo de Responsabilidade do Síndico](/legal/termo-sindico/) | Quem **cria o condomínio**, na qualidade de síndico | v1.1 | 16 de setembro de 2026 |
+| [Termo de Responsabilidade do Síndico](/legal/termo-sindico/) | Quem **cria o condomínio**, na qualidade de síndico | v1.2 | Novembro de 2026 |
 | [Termos de Uso](/legal/termos/) | **Cada pessoa** que usa a plataforma | v1.7 | 16 de setembro de 2026 |
 | [Política de Privacidade](/legal/privacidade/) | — (informativa, vale para todos) | v1.6 | 16 de setembro de 2026 |
 | [Segurança e Privacidade](/legal/seguranca/) | — (informativa) | — | Julho de 2026 |
 
 O **Contrato** rege a relação com o condomínio contratante: objeto, planos e preços, cancelamento, cobrança da cota pelos condôminos, proteção de dados e encerramento.
 
-O **Termo de Responsabilidade do Síndico** é aceito por quem cria o condomínio — uma vez por condomínio, e novamente por quem vier a assumir a função depois. Trata do uso consciente da plataforma, do período de avaliação de 30 dias e da proteção de dados dos moradores.
+O **Termo de Responsabilidade do Síndico** é aceito por quem cria o condomínio — uma vez por condomínio, e novamente por quem vier a assumir a função depois. Trata do uso consciente da plataforma, da análise do condomínio pela administração, do período de avaliação de 30 dias (contado da liberação) e da proteção de dados dos moradores.
 
 Os **Termos de Uso** regem o uso da plataforma por cada pessoa — síndico, condômino ou porteiro: cadastro, conduta, responsabilidades e recursos como inteligência artificial e acordos de inadimplência.
 
