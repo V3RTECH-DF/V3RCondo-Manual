@@ -9,6 +9,20 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.196.9 e v7.196.10 — Novembro 2026
+
+### Alterado
+
+- **A Declaração de Residência agora sai no nome e no CPF de quem pediu.** Antes, o documento trazia os dados do responsável pela unidade, mesmo quando quem pedia era outro morador. Se quem pediu não tem CPF no cadastro, a declaração sai sem CPF.
+- **O CPF do responsável pela unidade, no Nada Consta e no Extrato da Unidade em PDF, aparece completo só para o próprio responsável e para o síndico do condomínio.** Para os demais moradores, o CPF aparece parcialmente oculto (por exemplo, `***.456.789-**`). O nome do responsável continua aparecendo.
+- **Se o responsável ainda não confirmou o vínculo com o condomínio, o documento mostra o nome digitado e o CPF parcialmente oculto para todos, menos para ele mesmo** (inclusive para o síndico).
+- **Documentos já emitidos não mudam.** Ao baixar de novo um documento emitido antes, o texto continua igual e o código de verificação continua válido.
+- **O endereço antigo `/fornecedores/pessoal` foi retirado.** Quem o abrir é levado para a tela **Fornecedores**, onde os fornecedores pessoais continuam disponíveis.
+
+### Corrigido
+
+- **No Extrato da Unidade em PDF, o rótulo do documento ocultado saía errado:** um CNPJ parcialmente oculto aparecia como "CPF". Agora o rótulo (CPF ou CNPJ) acompanha o tipo do documento.
+
 ## v7.196.4 a v7.196.8 — Novembro 2026
 
 ### Novidade

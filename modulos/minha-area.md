@@ -41,8 +41,12 @@ Alguns documentos são gerados automaticamente, na hora, a partir dos dados da s
 | **Nada Consta** | Comprova que a unidade está sem débitos | Básico |
 | **Quitação Anual (IR)** | Demonstrativo anual de pagamentos para o Imposto de Renda (você escolhe o ano) | Básico |
 | **Declaração de Débitos** | Relação dos débitos em aberto da unidade | Pro |
-| **Declaração de Residência** | Comprova o vínculo da unidade com o condomínio | Pro |
+| **Declaração de Residência** | Comprova o vínculo da unidade com o condomínio. Sai no **seu** nome e CPF, com os dados do seu cadastro | Pro |
 | **Certidão de Quitação (venda)** | Atesta quitação para escritura/venda do imóvel | Pro |
+
+> **Quem vê o CPF do responsável pela unidade**
+>
+> No **Nada Consta** e no **Extrato da Unidade em PDF**, o CPF do responsável pela unidade aparece completo apenas para o próprio responsável e para o síndico do condomínio. Para os demais moradores ele aparece parcialmente oculto (por exemplo, `***.456.789-**`). Se o responsável ainda não confirmou o vínculo com o condomínio, o documento mostra o nome digitado e o CPF parcialmente oculto para todos, menos para ele. Documentos emitidos antes dessa regra continuam como foram emitidos.
 
 Clique em **Emitir** e o PDF é baixado na hora. Na Quitação Anual (IR), o seletor mostra apenas os anos em que há lançamentos da sua unidade. Documentos do plano **Pro** aparecem com cadeado quando o condomínio está no Básico. Se a unidade tiver débitos vencidos, o Nada Consta e a Certidão de venda não são emitidos — o app oferece a Declaração de Débitos no lugar.
 
@@ -67,11 +71,13 @@ Consulte o histórico completo de cobranças da sua unidade — taxas de condom�
 
 *Os dados financeiros apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
 
-O cabeçalho da página exibe o nome e o documento — **CPF ou CNPJ**, conforme o que
-está cadastrado — do condômino designado como **responsável pela unidade** (quando
-configurado pelo síndico). Essa informação também aparece no PDF exportado, com o
+Para o condômino designado como **responsável pela unidade** (quando configurado
+pelo síndico), o cabeçalho da página exibe o próprio nome e documento — **CPF ou
+CNPJ**, conforme o que está cadastrado. Para os demais moradores da unidade, o
+cabeçalho não mostra esses dados. O PDF exportado traz o responsável com o
 rótulo certo ("CPF" ou "CNPJ") para cada caso, facilitando o uso como comprovante
 formal ou para a declaração de imposto de renda.
+No PDF, o CPF do responsável aparece completo só para ele e para o síndico; para os demais moradores aparece parcialmente oculto.
 
 **O que você encontra:**
 
