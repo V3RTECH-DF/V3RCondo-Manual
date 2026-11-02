@@ -253,6 +253,33 @@ O condômino designado como **responsável** pela unidade aparece com um badge l
 >
 > Se a pessoa responder **Não reconheço**, ela sai do condomínio e a linha passa a mostrar **Não confirmou a inclusão**, com a data. **O que você digitou no cadastro dela** (CPF, telefone, RG, profissão, redes sociais e aniversário) **é apagado** nesse momento, mesmo que ela participe de outro condomínio; o que ela mesma digitou fica, e o nome não entra nessa regra. Depois de ela confirmar, nada é apagado. Cobranças que já tinham sido emitidas para ela **não são canceladas**. Se ela era a responsável pela unidade, a responsabilidade passa para o morador confirmado mais antigo da mesma unidade (ou, se ninguém confirmou ainda, para o mais antigo). Para tentar de novo, inclua a pessoa outra vez: ela confirmará novamente.
 
+{: .note }
+> **Quem entra pelo link não passa por essa confirmação**
+>
+> A pessoa que **pede para entrar** pelo [link do condomínio](#link-de-entrada-do-condomínio-síndico) e que você aprova já entra como **confirmada**: foi ela quem pediu, então não há o que reconhecer. A janela **Confirmar / Não reconheço** vale só para quem **você** incluiu (cadastro direto, importação ou reinclusão).
+
+### Link de entrada do condomínio *(síndico)*
+
+No alto da aba Condôminos fica o cartão **Link de entrada do condomínio**. É a forma de o morador pedir para entrar **sem que você precise cadastrar um por um**: você gera o link, manda pelo grupo do condomínio (ou imprime o QR) e decide os pedidos que chegam. Sem o link, ninguém encontra o condomínio — não existe busca pelo nome.
+
+- **Gerar link:** cria o link e o QR do condomínio. O link **não expira sozinho**.
+- **Copiar** (ícone ao lado do link) e **Baixar QR:** para colar em uma mensagem ou imprimir no mural.
+- **Gerar outro link:** o link atual e o QR já impresso **deixam de funcionar na hora**. Use quando o link foi parar onde não devia. Os pedidos já feitos continuam na lista.
+- **Desativar:** ninguém consegue pedir entrada, nem pelo link nem pelo QR, até você gerar um novo. Os pedidos já feitos continuam na lista.
+
+{: .note }
+> **Condomínio novo ou suspenso**
+>
+> Enquanto o condomínio está **aguardando liberação** (veja [Aba Liberação](#aba-liberação-síndico)) ou **suspenso**, o link não pode ser gerado, e um link que já existia responde como indisponível — mesmo quem tem o endereço não consegue pedir entrada. Quando a situação se resolve, o link volta a funcionar.
+
+**O que o morador vê:** ao abrir o link, só o **nome, a cidade e o estado** do condomínio. Ele entra (ou cria a conta), informa a unidade — escolhendo da lista, se você já cadastrou as unidades em **Configurações → Unidades**, ou digitando — e envia o pedido. Por isso vale **cadastrar as unidades antes** de divulgar o link: a lista evita unidade escrita errada. Cada pessoa pode fazer até 5 pedidos em 24 horas, e o condomínio comporta até 30 pedidos aguardando; passando disso, o pedido é recusado com uma mensagem e você precisa decidir os que estão na fila.
+
+**O que você recebe:** um **e-mail a cada pedido**. Os pedidos aguardando aparecem em **Pedidos de entrada**, logo abaixo do cartão do link, com nome, e-mail, unidade e data.
+
+- **Aprovar** (um a um ou com **Aprovar selecionados**): a pessoa entra como condômino ativo na unidade e recebe um e-mail de aviso. **Antes de aprovar, confira a unidade** e corrija se for o caso; é a unidade da lista que vale. Se a unidade ainda não tem responsável, a pessoa passa a ser a **responsável** (selo laranja).
+- **Recusar** (um a um ou com **Recusar selecionados**): a pessoa recebe um e-mail e passa a ver **Recusado** na tela de escolha de condomínio. Aprovar ou recusar vários pede uma única confirmação, que diz **quantos pedidos** serão afetados, e o resultado separa os que foram concluídos, os recusados por regra e os que falharam — nada de "pronto" que esconda falha parcial.
+- **Pedido de quem já faz parte do condomínio:** é só encerrado, **sem alterar o vínculo** dela.
+
 ![Aba Condôminos com lista de membros ativos, badges de responsável, ícone de editar perfil e botão Transferir](/assets/screenshots/config-condominos-editar.png)
 
 *Os dados pessoais apresentados nesta imagem são fictícios e foram utilizados apenas para fins ilustrativos.*
@@ -359,9 +386,10 @@ veem o nome digitado na planilha até lá.
 
 ![Tela de importação de planilha de condôminos](/assets/screenshots/78-config-importar-planilha.png)
 
-**Solicitações pendentes:** solicitações de vínculo enviadas pelos próprios
-moradores aparecem acima da lista. O síndico pode **Aprovar** ou **Rejeitar**
-cada solicitação.
+**Pedidos de entrada pendentes:** os pedidos feitos pelos moradores pelo
+[link do condomínio](#link-de-entrada-do-condomínio-síndico) aparecem acima da
+lista. O síndico pode **Aprovar** ou **Recusar** cada pedido, um a um ou em lote,
+e corrigir a unidade antes de aprovar.
 
 ## Aba Unidades *(síndico)*
 

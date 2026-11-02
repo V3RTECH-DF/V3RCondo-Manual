@@ -9,6 +9,24 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.197.0 e v7.197.1 — Novembro 2026
+
+### Novidade
+
+- **O síndico passa a convidar moradores por um link e um QR do condomínio.** Em **Configurações → Condôminos**, o síndico gera o link, copia, baixa o QR para imprimir ou mandar pelo grupo, gera outro quando quiser (o anterior deixa de funcionar na hora) e desativa. Condomínio ainda em análise ou suspenso não gera link, e o link que já existia fica indisponível enquanto durar a situação.
+- **Quem abre o link vê só o nome, a cidade e o estado do condomínio.** Sem conta, a pessoa entra ou cria a conta e volta ao link, inclusive depois de confirmar o e-mail. Com o e-mail confirmado, ela informa a unidade (escolhe da lista, quando o condomínio tem unidades cadastradas, ou digita) e pede para entrar. Cada pessoa pode fazer até **5 pedidos em 24 horas**, e cada condomínio aceita até **30 pedidos aguardando** o síndico. A pessoa acompanha o pedido, como **Aguardando o síndico** ou **Recusado**, na tela de escolha de condomínio.
+- **O síndico recebe um e-mail a cada pedido e decide em Configurações → Condôminos.** Aprova ou recusa um a um ou vários de uma vez, e pode corrigir a unidade antes de aprovar. Quem é aprovado entra já como confirmado, sem passar pela janela **Confirmar / Não reconheço**. A primeira pessoa aprovada numa unidade sem responsável passa a ser a responsável. Se a pessoa já fazia parte do condomínio, o pedido é só encerrado e nada muda no vínculo dela.
+
+### Alterado
+
+- **A tela de pedido de vínculo deixou de buscar condomínio pelo nome.** Quem abre essa tela sem o link recebe a orientação de pedir o link ao síndico. A inclusão direta pelo síndico (**+ Adicionar condômino**) e a importação de planilha continuam como antes.
+
+### Removido
+
+- **A busca de condomínio por nome** (a que pedia pelo menos 3 letras) saiu do aplicativo. Só chega a um condomínio quem tem o link do síndico.
+
+---
+
 ## v7.196.9 e v7.196.10 — Novembro 2026
 
 ### Alterado

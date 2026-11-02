@@ -48,14 +48,15 @@ clicando no botão de reenvio ao lado do seu nome. O link expira após 7 dias
 </details>
 
 <details markdown="1">
-<summary>Como solicitar vínculo a um condomínio sem ter recebido convite?</summary>
+<summary>Como entro em um condomínio sem ter sido cadastrado pelo síndico?</summary>
 
-Acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br) e, no cartão
-**Primeira vez por aqui?**, escolha **Fui convidado para um condomínio**.
-Depois de criar a conta, busque o condomínio pelo nome (a partir de 3 letras),
-informe sua unidade e envie a solicitação. Condomínio ainda em análise não
-aparece na busca. O síndico poderá aprová-la em **Configurações →
-Condôminos**.
+Peça ao seu síndico o **link** (ou o **QR**) do condomínio — não existe busca
+de condomínio pelo nome. Abra o link, entre ou crie a sua conta, informe a sua
+unidade e envie o pedido. O síndico recebe um e-mail e aprova ou recusa em
+**Configurações → Condôminos**; você recebe um e-mail com a decisão e vê
+**Aguardando o síndico** ou **Recusado** na tela de escolha de condomínio. Cada
+pessoa pode fazer até 5 pedidos em 24 horas. Se aparecer "Este link não está
+disponível", o síndico trocou ou desativou o link: peça o link atual a ele.
 </details>
 
 <details markdown="1">
@@ -377,10 +378,23 @@ composição do pagamento, sem botões de ação.
 </details>
 
 <details markdown="1">
-<summary>Como aprovar ou rejeitar uma solicitação de vínculo?</summary>
+<summary>Como aprovar ou recusar um pedido de entrada?</summary>
 
-As solicitações aparecem no topo da lista em **Configurações →
-Condôminos**. Clique em **Aprovar** ou **Rejeitar** para cada solicitação.
+Os pedidos feitos pelo link do condomínio chegam por e-mail e aparecem no topo
+da lista em **Configurações → Condôminos**. Confira a unidade e clique em
+**Aprovar** ou **Recusar** — um a um, ou marque vários e use **Aprovar
+selecionados** ou **Recusar selecionados**. Quem você aprova entra já
+confirmado.
+</details>
+
+<details markdown="1">
+<summary>Como gero, troco ou desativo o link de entrada do condomínio?</summary>
+
+Em **Configurações → Condôminos**, no cartão **Link de entrada do
+condomínio** *(síndico)*: **Gerar link**, copiar, **Baixar QR**, **Gerar outro
+link** (o anterior e o QR impresso deixam de funcionar na hora) e
+**Desativar**. Condomínio ainda em análise ou suspenso não gera link, e o link
+que já existia fica indisponível enquanto durar a situação.
 </details>
 
 <details markdown="1">

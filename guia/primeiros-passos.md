@@ -40,7 +40,7 @@ Se você já tem conta, use o cartão **Entrar**:
 Se você ainda não tem conta, o cartão **Primeira vez por aqui?** oferece duas portas — escolha a que descreve a sua situação:
 
 - **Vou criar um condomínio** — você vai ser o síndico e cadastrar o condomínio do zero. São **30 dias com tudo liberado** a partir da liberação do condomínio pela administração, sem cartão de crédito
-- **Fui convidado para um condomínio** — o síndico já cadastrou você. Crie sua conta com o **mesmo e-mail** que ele usou ao te cadastrar
+- **Fui convidado para um condomínio** — o síndico já cadastrou você. Crie sua conta com o **mesmo e-mail** que ele usou ao te cadastrar. **Recebeu um link ou um QR do condomínio?** Não precisa escolher porta: abra o link e siga as instruções (veja [abaixo](#depois-de-escolher-fui-convidado-para-um-condomínio))
 
 {: .tip }
 > **A escolha é reversível**
@@ -150,7 +150,23 @@ Faz parte da criação aceitar o **Termo de Responsabilidade do Síndico**, que 
 
 ## Depois de escolher "Fui convidado para um condomínio"
 
-Para condôminos cujo condomínio já está cadastrado. Busque o condomínio pelo nome (digite pelo menos **3 letras**), informe sua unidade e envie a solicitação. Só aparecem condomínios já liberados — um condomínio ainda em análise não é encontrado. O síndico receberá a solicitação e poderá aprová-la em **Configurações → Condôminos**.
+Para condôminos cujo condomínio já está cadastrado. **Não existe busca de condomínio pelo nome:** quem entra por conta própria usa o **link** (ou o **QR**) que o síndico gera para o condomínio. Peça o link ao seu síndico; ele costuma mandar pelo grupo do condomínio ou deixar o QR impresso no mural.
+
+1. **Abra o link** (ou aponte a câmera do celular para o QR). A página mostra só o **nome, a cidade e o estado** do condomínio, para você conferir que é o certo.
+2. **Entre ou crie a sua conta.** Você volta para a mesma página do link logo depois, inclusive se precisar confirmar o e-mail antes — abra o e-mail de confirmação e clique no link dele.
+3. **Informe a sua unidade.** Se o condomínio já tem as unidades cadastradas, escolha a sua na lista; se não tem, digite (até 40 caracteres).
+4. **Envie o pedido.** O síndico recebe um e-mail e confere a unidade antes de aprovar. Você recebe um e-mail quando ele decidir.
+
+Enquanto espera, o pedido aparece na tela de escolha de condomínio como **Aguardando o síndico**. Se o síndico recusar, aparece **Recusado**.
+
+{: .note }
+> **Limites e situações comuns**
+>
+> - Cada pessoa pode fazer até **5 pedidos em 24 horas**; passando disso, o aplicativo pede para tentar de novo no dia seguinte.
+> - Cada condomínio comporta até **30 pedidos aguardando**. Se o limite foi atingido, fale com o síndico para ele decidir os pedidos que já estão na fila.
+> - **"Este link não está disponível"** quer dizer que o síndico trocou ou desativou o link, ou que o condomínio está temporariamente indisponível. Peça o link atual ao síndico.
+> - Quem **já faz parte** do condomínio vê a mensagem de que já está vinculado e pode abrir o condomínio direto.
+> - Quando o síndico aprova, você entra **já confirmado**: a janela **Confirmar / Não reconheço** não aparece, porque foi você quem pediu para entrar.
 
 {: .tip }
 > **Convite por e-mail**
