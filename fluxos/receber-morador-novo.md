@@ -36,7 +36,7 @@ Clique em **Importar planilha**, baixe o modelo, preencha Nome, E-mail, Unidade 
 
 Em Configurações → Condôminos, no cartão **Link de entrada do condomínio**, clique em **Gerar link**. Mande o link pelo grupo do condomínio, ou **Baixe o QR** e imprima para o mural ou o elevador. Quem abre o link vê só o nome, a cidade e o estado do condomínio, entra (ou cria a conta), informa a unidade e envia o pedido. **Não existe busca de condomínio pelo nome:** sem o link, ninguém encontra o seu condomínio.
 
-Você recebe um **e-mail a cada pedido**, e os pedidos aguardando aparecem **acima da lista**, em Configurações → Condôminos. **Confira a unidade** e clique em **Aprovar** — ou **Recusar**, se a pessoa não for de fato do condomínio. Dá para decidir vários de uma vez, marcando os pedidos e usando **Aprovar selecionados** ou **Recusar selecionados**.
+Você recebe um **e-mail a cada pedido**, e os pedidos aguardando aparecem **acima da lista**, em Configurações → Condôminos, no cartão **Pedidos de entrada pendentes**. **Confira a unidade** e clique em **Aprovar** — ou **Recusar**, se a pessoa não for de fato do condomínio. Dá para decidir vários de uma vez, marcando os pedidos (ou **Selecionar todos**) e usando **Aprovar selecionados** ou **Recusar selecionados**; a confirmação diz quantos pedidos serão afetados e o quadro **Resultado** mostra o que foi concluído, o que foi recusado por regra e o que falhou.
 
 Quem você aprova **entra já confirmado** (não vê a janela **Confirmar / Não reconheço**, porque foi a própria pessoa que pediu) e recebe um e-mail de aviso. Se a unidade ainda não tinha responsável, a pessoa passa a ser a responsável.
 
@@ -44,6 +44,11 @@ Quem você aprova **entra já confirmado** (não vê a janela **Confirmar / Não
 > **Cadastre as unidades antes de divulgar o link**
 >
 > Com as unidades cadastradas em **Configurações → Unidades**, o morador escolhe a dele numa lista e você evita pedido com unidade escrita errada. Sem unidades cadastradas, ele digita a unidade à mão.
+
+{: .tip }
+> **Imprimiu o QR? Teste, escreva uma frase ao lado e anote onde colou**
+>
+> Aponte o celular para o QR antes de imprimir, e escreva ao lado algo como *Moradores: aponte a câmera e peça a sua entrada*. Cole onde só morador passa (hall, elevador), não onde a rua enxerga: o link não expira, e qualquer pessoa que o abrir vê o nome, a cidade e o estado do condomínio. E anote os lugares — **Gerar outro link** invalida todos os QRs impressos, e você vai ter de reimprimir e recolar cada um. Mais detalhes em [Link de entrada do condomínio](/modulos/configuracoes/#link-de-entrada-do-condomínio-síndico).
 
 {: .tip }
 > **O link vazou? Gere outro**
@@ -97,6 +102,6 @@ A unidade 302 do Edifício Aurora foi vendida. O síndico cadastra o novo morado
 | Morador diz que não recebeu o e-mail de boas-vindas | Confira o e-mail cadastrado em Configurações → Condôminos; se estiver certo, peça para checar a caixa de spam antes de recadastrar |
 | Morador cadastrado, mas com a unidade vazia | Edite o membro (ícone de lápis) e preencha a unidade — sem ela, o morador não aparece nas listas por unidade nem no lançamento em lote |
 | Duas pessoas aparecem como responsável pela mesma unidade | Não deveria acontecer — o sistema mantém sempre um único responsável por unidade; se você observar isso, é um comportamento a reportar |
-| Pedido de alguém que não é do condomínio | Clique em **Recusar** — a pessoa não é cadastrada. Se o link circulou onde não devia, use **Gerar outro link** |
+| Pedido de alguém que não é do condomínio | Clique em **Recusar** — a pessoa não é cadastrada, mas **pode pedir de novo** pelo mesmo link. Se o link circulou onde não devia, use **Gerar outro link** |
 | Morador diz que "o link não está disponível" | O link foi trocado ou desativado, ou o condomínio está em análise ou suspenso. Confira o cartão em Configurações → Condôminos e mande o link atual |
-| Pedido de quem já faz parte do condomínio | É só encerrado, sem mudar o vínculo da pessoa. Nada a fazer |
+| Pedido de quem já faz parte do condomínio | É só encerrado, sem mudar o vínculo da pessoa; no quadro **Resultado** ele aparece em *Recusados por regra*, com o motivo *Esta pessoa já está vinculada ao condomínio.* Nada a fazer |

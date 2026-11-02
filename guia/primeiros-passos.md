@@ -40,7 +40,7 @@ Se você já tem conta, use o cartão **Entrar**:
 Se você ainda não tem conta, o cartão **Primeira vez por aqui?** oferece duas portas — escolha a que descreve a sua situação:
 
 - **Vou criar um condomínio** — você vai ser o síndico e cadastrar o condomínio do zero. São **30 dias com tudo liberado** a partir da liberação do condomínio pela administração, sem cartão de crédito
-- **Fui convidado para um condomínio** — o síndico já cadastrou você. Crie sua conta com o **mesmo e-mail** que ele usou ao te cadastrar. **Recebeu um link ou um QR do condomínio?** Não precisa escolher porta: abra o link e siga as instruções (veja [abaixo](#depois-de-escolher-fui-convidado-para-um-condomínio))
+- **Fui convidado para um condomínio** — o síndico já cadastrou você. Crie sua conta com o **mesmo e-mail** que ele usou ao te cadastrar. **Recebeu um link ou um QR do condomínio?** Comece por ele: abra o link e siga as instruções (veja [abaixo](#depois-de-escolher-fui-convidado-para-um-condomínio))
 
 {: .tip }
 > **A escolha é reversível**
@@ -152,21 +152,40 @@ Faz parte da criação aceitar o **Termo de Responsabilidade do Síndico**, que 
 
 Para condôminos cujo condomínio já está cadastrado. **Não existe busca de condomínio pelo nome:** quem entra por conta própria usa o **link** (ou o **QR**) que o síndico gera para o condomínio. Peça o link ao seu síndico; ele costuma mandar pelo grupo do condomínio ou deixar o QR impresso no mural.
 
-1. **Abra o link** (ou aponte a câmera do celular para o QR). A página mostra só o **nome, a cidade e o estado** do condomínio, para você conferir que é o certo.
-2. **Entre ou crie a sua conta.** Você volta para a mesma página do link logo depois, inclusive se precisar confirmar o e-mail antes — abra o e-mail de confirmação e clique no link dele.
-3. **Informe a sua unidade.** Se o condomínio já tem as unidades cadastradas, escolha a sua na lista; se não tem, digite (até 40 caracteres).
-4. **Envie o pedido.** O síndico recebe um e-mail e confere a unidade antes de aprovar. Você recebe um e-mail quando ele decidir.
+**Por que é assim.** O condomínio só aparece para quem tem o link. Sem busca, um estranho não consegue descobrir que o seu prédio usa o V3RCondo nem tentar entrar nele — e o síndico ainda confere a unidade de cada pedido antes de aprovar.
 
-Enquanto espera, o pedido aparece na tela de escolha de condomínio como **Aguardando o síndico**. Se o síndico recusar, aparece **Recusado**.
+1. **Abra o link** (ou aponte a câmera do celular para o QR). A página diz **Você foi convidado para pedir entrada em** e mostra só o **nome, a cidade e o estado** do condomínio, para você conferir que é o certo.
+2. **Entre ou crie a sua conta.** Na página do link, **Entrar** e **Criar conta** levam à mesma tela de entrada do V3RCondo. Quem já tem conta usa o cartão **Entrar**. Quem ainda não tem escolhe, no cartão **Primeira vez por aqui?**, a porta **Fui convidado para um condomínio** e preenche o cadastro. Logo depois de entrar, você volta para a mesma página do link.
+3. **Confirme o seu e-mail, se a página pedir.** Enquanto o e-mail não estiver confirmado, a página mostra *Confirme seu e-mail antes de pedir a entrada*. Abra a mensagem de confirmação na sua caixa de entrada e clique no link dela; você volta ao link do condomínio.
+4. **Informe a sua unidade.** No campo **Sua unidade**, escolha na lista, se o condomínio já tem as unidades cadastradas; se não tem, digite (por exemplo, *Apto 101, Bloco A*; até 40 caracteres).
+5. **Clique em Pedir para entrar.** A página responde **Pedido enviado**. O síndico recebe um e-mail e confere a unidade antes de aprovar; você recebe um e-mail quando ele decidir. O botão **Acompanhar pedido** leva à tela de escolha de condomínio.
+
+Enquanto espera, o pedido aparece no bloco **Seus pedidos de entrada**, na tela de escolha de condomínio, como **Aguardando o síndico**. Se o síndico recusar, aparece **Recusado**; se aprovar, você entra no condomínio.
+
+**Exemplo.** Marina, do apartamento 302 do Edifício Aurora, fotografa o QR do mural, cria a conta, escolhe **302** na lista e clica em **Pedir para entrar**. Duas horas depois chega o e-mail *Seu pedido para entrar no condomínio foi aprovado*; ela abre o V3RCondo e já vê o condomínio, sem passar pela janela **Confirmar / Não reconheço**.
 
 {: .note }
 > **Limites e situações comuns**
 >
-> - Cada pessoa pode fazer até **5 pedidos em 24 horas**; passando disso, o aplicativo pede para tentar de novo no dia seguinte.
-> - Cada condomínio comporta até **30 pedidos aguardando**. Se o limite foi atingido, fale com o síndico para ele decidir os pedidos que já estão na fila.
-> - **"Este link não está disponível"** quer dizer que o síndico trocou ou desativou o link, ou que o condomínio está temporariamente indisponível. Peça o link atual ao síndico.
-> - Quem **já faz parte** do condomínio vê a mensagem de que já está vinculado e pode abrir o condomínio direto.
+> - Cada pessoa pode fazer até **5 pedidos em 24 horas**. Passando disso, o aplicativo avisa *Você já fez 5 pedidos nas últimas 24 horas. Tente novamente amanhã.*
+> - Cada condomínio comporta até **30 pedidos aguardando**. Se o limite foi atingido, o aplicativo avisa *Este condomínio tem muitos pedidos aguardando o síndico*. Fale com o síndico para ele decidir os pedidos que já estão na fila.
+> - **"Este link não está disponível. Peça o link atual ao síndico."** quer dizer que o síndico trocou ou desativou o link, ou que o condomínio está temporariamente indisponível. Peça o link atual a ele.
+> - **"Muitas tentativas a partir desta rede"**: a mesma rede abriu muitos links em poucos minutos. Aguarde alguns minutos e clique em **Tentar de novo**.
+> - Quem **já faz parte** do condomínio vê *Você já está vinculado a este condomínio* e o botão **Abrir o condomínio**. Quem **já pediu** vê *Você já pediu para entrar. Aguarde a resposta do síndico.*
 > - Quando o síndico aprova, você entra **já confirmado**: a janela **Confirmar / Não reconheço** não aparece, porque foi você quem pediu para entrar.
+> - **Recusado não é o fim.** Se foi engano, fale com o síndico e abra o link de novo: o pedido novo conta nos 5 das 24 horas.
+
+{: .warning }
+> **Confirmou o e-mail em outro navegador ou depois de um dia? Abra o link de novo**
+>
+> O aplicativo guarda o endereço do link por **24 horas, neste navegador**, para levar você de volta depois da confirmação do e-mail. Se você abriu a mensagem de confirmação em outro aparelho, ou deixou passar mais de um dia, você cai na tela de boas-vindas (com as opções **Criar meu condomínio** e **Solicitar vínculo**) em vez de voltar ao link: abra o link do síndico de novo e continue de lá.
+
+{: .note }
+> **Já faz parte de outro condomínio?**
+>
+> Quem já tem exatamente um condomínio entra direto nele e **não vê** o bloco **Seus pedidos de entrada**. O resultado do novo pedido chega por e-mail; depois de aprovado, ele passa a aparecer na escolha de condomínio.
+
+**E se você abrir a tela de vínculo sem link?** Na tela de escolha de condomínio, o cartão **Solicitar vínculo** (botão **Como entrar**) não busca nada: só orienta *Para entrar no condomínio, peça o link ao síndico.*
 
 {: .tip }
 > **Convite por e-mail**

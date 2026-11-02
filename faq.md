@@ -388,13 +388,33 @@ confirmado.
 </details>
 
 <details markdown="1">
+<summary>O síndico recusou o meu pedido. Posso pedir de novo?</summary>
+
+Pode. **Recusado** não bloqueia ninguém: se foi engano, fale com o síndico e
+abra o link do condomínio de novo. O pedido novo conta nos **5 pedidos por 24
+horas** que cada pessoa pode fazer. Se o link tiver sido trocado nesse meio
+tempo, peça o link atual a ele.
+</details>
+
+<details markdown="1">
+<summary>Pedi para entrar e não vejo o pedido na tela. Onde acompanho?</summary>
+
+Na tela de escolha de condomínio, no bloco **Seus pedidos de entrada**, com a
+situação **Aguardando o síndico** ou **Recusado** (pedido aprovado deixa de aparecer ali: o condomínio passa a constar na lista). Quem já faz
+parte de exatamente um condomínio entra direto nele e não passa por essa
+tela: o resultado chega por e-mail. Se você confirmou o e-mail em outro
+navegador, abra o link do síndico de novo.
+</details>
+
+<details markdown="1">
 <summary>Como gero, troco ou desativo o link de entrada do condomínio?</summary>
 
 Em **Configurações → Condôminos**, no cartão **Link de entrada do
 condomínio** *(síndico)*: **Gerar link**, copiar, **Baixar QR**, **Gerar outro
 link** (o anterior e o QR impresso deixam de funcionar na hora) e
 **Desativar**. Condomínio ainda em análise ou suspenso não gera link, e o link
-que já existia fica indisponível enquanto durar a situação.
+que já existia fica indisponível enquanto durar a situação. Se você imprimiu o
+QR, anote onde colou: trocar o link obriga a reimprimir todos.
 </details>
 
 <details markdown="1">

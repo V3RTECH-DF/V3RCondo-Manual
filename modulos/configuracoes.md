@@ -249,7 +249,7 @@ O condômino designado como **responsável** pela unidade aparece com um badge l
 {: .note }
 > **A pessoa que você inclui precisa confirmar**
 >
-> Quem você acabou de incluir vê, ao entrar no aplicativo, uma janela com duas opções: **Confirmar** ou **Não reconheço**. Até ela responder, a linha dela na lista mostra o selo **Aguardando confirmação**, o nome que **você digitou** ao incluí-la, o e-mail, a unidade e, pelo indicador de cadastro, se ela já tem CPF e telefone (apenas "sim" ou "não", nunca o número). O CPF, o RG, o telefone, a foto e os demais dados do cadastro dela só aparecem para você depois da confirmação. Quem você incluiu há mais tempo, antes desta regra, já conta como confirmado.
+> Quem você acabou de incluir vê, ao entrar no aplicativo, uma janela com duas opções: **Confirmar** ou **Não reconheço**. Até ela responder, a linha dela na lista mostra o selo **Aguardando confirmação**, o nome que **você digitou** ao incluí-la, o e-mail, a unidade e, pelo indicador de cadastro, se ela já tem CPF e telefone (apenas "sim" ou "não", nunca o número). O CPF, o RG, o telefone, a foto e os demais dados do cadastro dela só aparecem para você depois da confirmação. Quem você incluiu há mais tempo, antes desta regra, já conta como confirmado. Se a pessoa incluída for a **responsável** pela unidade, os documentos da unidade (Nada Consta, Extrato em PDF) saem com o nome que você digitou e o CPF parcialmente oculto para todos, **inclusive para você**, até ela confirmar.
 >
 > Se a pessoa responder **Não reconheço**, ela sai do condomínio e a linha passa a mostrar **Não confirmou a inclusão**, com a data. **O que você digitou no cadastro dela** (CPF, telefone, RG, profissão, redes sociais e aniversário) **é apagado** nesse momento, mesmo que ela participe de outro condomínio; o que ela mesma digitou fica, e o nome não entra nessa regra. Depois de ela confirmar, nada é apagado. Cobranças que já tinham sido emitidas para ela **não são canceladas**. Se ela era a responsável pela unidade, a responsabilidade passa para o morador confirmado mais antigo da mesma unidade (ou, se ninguém confirmou ainda, para o mais antigo). Para tentar de novo, inclua a pessoa outra vez: ela confirmará novamente.
 
@@ -262,23 +262,53 @@ O condômino designado como **responsável** pela unidade aparece com um badge l
 
 No alto da aba Condôminos fica o cartão **Link de entrada do condomínio**. É a forma de o morador pedir para entrar **sem que você precise cadastrar um por um**: você gera o link, manda pelo grupo do condomínio (ou imprime o QR) e decide os pedidos que chegam. Sem o link, ninguém encontra o condomínio — não existe busca pelo nome.
 
-- **Gerar link:** cria o link e o QR do condomínio. O link **não expira sozinho**.
-- **Copiar** (ícone ao lado do link) e **Baixar QR:** para colar em uma mensagem ou imprimir no mural.
-- **Gerar outro link:** o link atual e o QR já impresso **deixam de funcionar na hora**. Use quando o link foi parar onde não devia. Os pedidos já feitos continuam na lista.
-- **Desativar:** ninguém consegue pedir entrada, nem pelo link nem pelo QR, até você gerar um novo. Os pedidos já feitos continuam na lista.
+**Por que isto importa.** Cadastrar 80 moradores um a um é trabalho de uma tarde; com o link, cada morador faz a sua parte e você só confere a unidade e aprova. E, como o condomínio só aparece para quem tem o link, você controla quem consegue pedir entrada: trocou o link, o anterior morreu.
+
+- **Gerar link** (aparece com *Nenhum link ativo*): cria o link e o QR do condomínio. O link **não expira sozinho** — você pode trocar ou desativar quando quiser.
+- **Copiar** (ícone ao lado do link) e **Baixar QR** (arquivo `qr-entrada-` mais o nome do condomínio): para colar em uma mensagem ou imprimir no mural. O cartão mostra desde quando o link está ativo.
+- **Gerar outro link:** pede confirmação (*Gerar outro link?*). O link atual e o QR já impresso **deixam de funcionar na hora**. Use quando o link foi parar onde não devia. Os pedidos já feitos continuam na lista.
+- **Desativar:** pede confirmação (*Desativar o link?*). Ninguém consegue pedir entrada, nem pelo link nem pelo QR, até você gerar um novo. Os pedidos já feitos continuam na lista.
 
 {: .note }
 > **Condomínio novo ou suspenso**
 >
-> Enquanto o condomínio está **aguardando liberação** (veja [Aba Liberação](#aba-liberação-síndico)) ou **suspenso**, o link não pode ser gerado, e um link que já existia responde como indisponível — mesmo quem tem o endereço não consegue pedir entrada. Quando a situação se resolve, o link volta a funcionar.
+> Enquanto o condomínio está **aguardando liberação** (veja [Aba Liberação](#aba-liberação-síndico)) ou **suspenso**, o link não pode ser gerado, e um link que já existia responde como indisponível — mesmo quem tem o endereço não consegue pedir entrada. O cartão explica: *O link não pode ser gerado agora e o link existente não funciona enquanto durar esta situação.* Quando a situação se resolve, o link volta a funcionar.
+
+{: .tip }
+> **Como usar bem o QR**
+>
+> - **Teste antes de imprimir.** Aponte a câmera do seu próprio celular para o QR na tela e confira que abre a página com o nome do seu condomínio.
+> - **Imprima em tamanho que a câmera leia sem esforço** — a partir de uns 5 cm de lado costuma bastar — e **sem cortar a margem branca** em volta do quadrado, que é o que ajuda a câmera a achá-lo.
+> - **Escreva uma frase ao lado**, por exemplo: *Moradores: aponte a câmera do celular e peça a sua entrada no Edifício Aurora.* QR solto no mural ninguém sabe para que serve.
+> - **Cole onde só morador passa** — portaria interna, elevador, mural do hall. O link não expira, e um QR visível da rua deixa qualquer pessoa ver o nome, a cidade e o estado do condomínio e pedir entrada (você ainda decide, mas vai receber o pedido).
+> - **Anote onde colou.** **Gerar outro link** invalida **todos** os QRs impressos: se você trocar o link, vai ter de reimprimir e recolar cada um.
 
 **O que o morador vê:** ao abrir o link, só o **nome, a cidade e o estado** do condomínio. Ele entra (ou cria a conta), informa a unidade — escolhendo da lista, se você já cadastrou as unidades em **Configurações → Unidades**, ou digitando — e envia o pedido. Por isso vale **cadastrar as unidades antes** de divulgar o link: a lista evita unidade escrita errada. Cada pessoa pode fazer até 5 pedidos em 24 horas, e o condomínio comporta até 30 pedidos aguardando; passando disso, o pedido é recusado com uma mensagem e você precisa decidir os que estão na fila.
 
-**O que você recebe:** um **e-mail a cada pedido**. Os pedidos aguardando aparecem em **Pedidos de entrada**, logo abaixo do cartão do link, com nome, e-mail, unidade e data.
+**O que você recebe:** um **e-mail a cada pedido** (*Novo pedido para entrar no condomínio*). Os pedidos aguardando aparecem no cartão **Pedidos de entrada pendentes**, logo abaixo do cartão do link, com nome, e-mail, unidade e data. O cartão **só aparece quando há pelo menos um pedido aguardando**.
 
-- **Aprovar** (um a um ou com **Aprovar selecionados**): a pessoa entra como condômino ativo na unidade e recebe um e-mail de aviso. **Antes de aprovar, confira a unidade** e corrija se for o caso; é a unidade da lista que vale. Se a unidade ainda não tem responsável, a pessoa passa a ser a **responsável** (selo laranja).
-- **Recusar** (um a um ou com **Recusar selecionados**): a pessoa recebe um e-mail e passa a ver **Recusado** na tela de escolha de condomínio. Aprovar ou recusar vários pede uma única confirmação, que diz **quantos pedidos** serão afetados, e o resultado separa os que foram concluídos, os recusados por regra e os que falharam — nada de "pronto" que esconda falha parcial.
-- **Pedido de quem já faz parte do condomínio:** é só encerrado, **sem alterar o vínculo** dela.
+- **Aprovar** (um a um ou com **Aprovar selecionados**): a pessoa entra como condômino ativo na unidade e recebe um e-mail de aviso. Cada linha tem um seletor **Unidade** — **antes de aprovar, confira a unidade** e corrija se for o caso; é a unidade escolhida ali que vale. Com unidades cadastradas, você só consegue escolher uma da lista; sem unidades cadastradas, o campo é livre (até 40 caracteres). Se a unidade ainda não tem responsável, a pessoa passa a ser a **responsável** (selo laranja).
+- **Recusar** (um a um ou com **Recusar selecionados**): a pessoa recebe um e-mail e passa a ver **Recusado** na tela de escolha de condomínio. **Recusar não bloqueia a pessoa:** ela pode pedir de novo pelo mesmo link. Se o problema é o link ter circulado onde não devia, use **Gerar outro link**.
+- **Selecionar todos** marca todos os pedidos. **Aprovar selecionados (n)** só conta os pedidos feitos pela própria pessoa; **Recusar selecionados (n)** conta todos.
+- **Confirmação e resultado:** aprovar ou recusar vários pede uma única confirmação, que diz **quantos pedidos** serão afetados (*Aprovar 3 pedidos?*). Em seguida, o quadro **Resultado** separa **Concluídos**, **Recusados por regra** (com o motivo de cada um) e **Falharam** — nada de "pronto" que esconda falha parcial. Use **Fechar** para dispensar o quadro.
+- **Pedido de quem já faz parte do condomínio:** o pedido é encerrado **sem alterar o vínculo** da pessoa, e aparece no **Resultado**, em *Recusados por regra*, com o motivo *Esta pessoa já está vinculada ao condomínio.*
+- **Convite antigo por e-mail:** convites feitos pelo caminho antigo, que ainda estejam aguardando, aparecem na mesma lista marcados como *Convite antigo por e-mail*. Eles não podem ser aprovados aqui — só **Cancelar convite**.
+
+**Exemplo.** O Edifício Aurora tem 48 unidades cadastradas. Depois de colar o QR no hall, o síndico recebe 12 pedidos em dois dias. Ele abre **Configurações → Condôminos**, vê o cartão *Pedidos de entrada pendentes (12)*, confere cada unidade, marca **Selecionar todos**, desmarca os dois pedidos que não reconhece e clica em **Aprovar selecionados (10)**. A confirmação diz *Aprovar 10 pedidos?*; no **Resultado** aparecem 10 concluídos. Depois ele marca os dois restantes e usa **Recusar selecionados (2)**.
+
+**Quando dá errado**
+
+| O que aparece | O que significa | O que fazer |
+|---|---|---|
+| *Não foi possível carregar o link do condomínio.* (botão **Tentar de novo**) | O cartão não conseguiu ler o link. Isso **não** quer dizer que não há link | Clique em **Tentar de novo**. Se persistir, confira a internet |
+| *Link não gerado* ou *Link não desativado* — *Nada mudou. Tente de novo.* | A troca ou a desativação não foi gravada | Repita; o link anterior continua valendo até a ação dar certo |
+| *Sem conexão* | A internet caiu no meio da ação | Verifique a conexão e repita |
+| **Escolha uma unidade da lista do condomínio.** no **Resultado** | A unidade do pedido não está mais entre as cadastradas (por exemplo, foi renomeada) | Escolha a unidade certa no seletor da linha e aprove de novo |
+| **Este pedido já foi decidido.** no **Resultado** | Outro síndico decidiu o mesmo pedido antes | Nada a fazer; recarregue a lista |
+| **Só pedidos feitos pela própria pessoa podem ser aprovados.** | A linha é um convite antigo por e-mail | Use **Cancelar convite**, ou cadastre a pessoa por **+ Adicionar condômino** |
+| *Aviso não enviado* — *As decisões foram gravadas, mas o aviso às pessoas não saiu.* | A decisão valeu, mas o e-mail à pessoa não saiu | Avise a pessoa por outro canal; não precisa decidir de novo |
+
+### Lista de condôminos e ações por membro
 
 ![Aba Condôminos com lista de membros ativos, badges de responsável, ícone de editar perfil e botão Transferir](/assets/screenshots/config-condominos-editar.png)
 

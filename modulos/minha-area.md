@@ -41,12 +41,18 @@ Alguns documentos são gerados automaticamente, na hora, a partir dos dados da s
 | **Nada Consta** | Comprova que a unidade está sem débitos | Básico |
 | **Quitação Anual (IR)** | Demonstrativo anual de pagamentos para o Imposto de Renda (você escolhe o ano) | Básico |
 | **Declaração de Débitos** | Relação dos débitos em aberto da unidade | Pro |
-| **Declaração de Residência** | Comprova o vínculo da unidade com o condomínio. Sai no **seu** nome e CPF, com os dados do seu cadastro | Pro |
+| **Declaração de Residência** | Comprova o vínculo da unidade com o condomínio. Sai no **seu** nome e CPF, com os dados do seu cadastro (sem CPF, se você ainda não preencheu) | Pro |
 | **Certidão de Quitação (venda)** | Atesta quitação para escritura/venda do imóvel | Pro |
 
 > **Quem vê o CPF do responsável pela unidade**
 >
-> No **Nada Consta** e no **Extrato da Unidade em PDF**, o CPF do responsável pela unidade aparece completo apenas para o próprio responsável e para o síndico do condomínio. Para os demais moradores ele aparece parcialmente oculto (por exemplo, `***.456.789-**`). Se o responsável ainda não confirmou o vínculo com o condomínio, o documento mostra o nome digitado e o CPF parcialmente oculto para todos, menos para ele. Documentos emitidos antes dessa regra continuam como foram emitidos.
+> **Por quê:** o Nada Consta e o Extrato circulam — vão para a imobiliária, o banco, o comprador do imóvel. O CPF completo de uma pessoa só precisa estar na mão de quem tem relação direta com a unidade.
+>
+> No **Nada Consta** e no **Extrato da Unidade em PDF**, o CPF do responsável pela unidade aparece completo apenas para o próprio responsável e para o síndico do condomínio. Para os demais moradores ele aparece parcialmente oculto (por exemplo, `***.456.789-**`). O nome do responsável continua aparecendo. Se o responsável ainda não confirmou o vínculo com o condomínio, o documento mostra o nome digitado e o CPF parcialmente oculto para todos, menos para ele (inclusive para o síndico).
+>
+> **Exemplo:** a Marina é a responsável pela unidade 302 e emite o Nada Consta: o CPF dela sai completo. O Carlos, morador da mesma unidade, emite o mesmo documento: o CPF da Marina sai como `***.456.789-**`.
+>
+> **Atenção:** documento emitido **não muda depois** — ele guarda o CPF do jeito que saiu na emissão. Se você é o responsável ou o síndico e envia o PDF a terceiros, o CPF vai completo. E se você precisa de um comprovante com o **seu** CPF e não é o responsável, use a **Declaração de Residência**, que sai no nome e no CPF de quem pede. Documentos emitidos antes dessa regra continuam como foram emitidos, e ao baixá-los de novo o texto e o código de verificação continuam os mesmos.
 
 Clique em **Emitir** e o PDF é baixado na hora. Na Quitação Anual (IR), o seletor mostra apenas os anos em que há lançamentos da sua unidade. Documentos do plano **Pro** aparecem com cadeado quando o condomínio está no Básico. Se a unidade tiver débitos vencidos, o Nada Consta e a Certidão de venda não são emitidos — o app oferece a Declaração de Débitos no lugar.
 
@@ -77,7 +83,8 @@ CNPJ**, conforme o que está cadastrado. Para os demais moradores da unidade, o
 cabeçalho não mostra esses dados. O PDF exportado traz o responsável com o
 rótulo certo ("CPF" ou "CNPJ") para cada caso, facilitando o uso como comprovante
 formal ou para a declaração de imposto de renda.
-No PDF, o CPF do responsável aparece completo só para ele e para o síndico; para os demais moradores aparece parcialmente oculto.
+
+No PDF, o CPF do responsável aparece completo só para ele e para o síndico; para os demais moradores aparece parcialmente oculto — a regra completa está em [Quem vê o CPF do responsável pela unidade](#emitir-documento-na-hora).
 
 **O que você encontra:**
 
