@@ -9,6 +9,30 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.196.4 a v7.196.8 — Novembro 2026
+
+### Novidade
+
+- **Cada arquivo do condomínio passa a ser aberto só por quem tem direito a ele.** Antes, qualquer morador com vínculo ativo conseguia abrir arquivos de áreas que não eram dele, se tivesse o endereço do arquivo. Agora:
+  - **Notificações de inadimplência, tarefas, compras e arquivos sem dono definido:** só o síndico abre.
+  - **Prestação de contas ainda não publicada e Relatório de Gestão:** o síndico e quem faz a auditoria financeira (Conselho Fiscal e Contador).
+  - **Anexo de uma solicitação ao síndico:** quem enviou e quem abriu a solicitação, além do síndico.
+  - **Procuração de assembleia:** o síndico e as duas partes, outorgante e procurador. Para os demais moradores, ela deixa de aparecer também na lista de **Documentos**.
+  - **O que você mesmo enviou** continua abrindo para você.
+- **Comprovantes de lançamentos financeiros continuam abertos aos moradores ativos.** Essa regra está em revisão por causa da privacidade dos nomes que aparecem nos comprovantes, e será tratada à parte.
+- **O aviso do condômino no Mural agora segue as regras mesmo fora da tela.** O condômino só publica na categoria **Informativo**, com título de até 200 caracteres e mensagem de até 300, sem data de validade; só pode excluir o **próprio** aviso, e não pode alterá-lo depois de publicado. Antes, esses limites valiam apenas no formulário do aplicativo.
+
+### Alterado
+
+- **A busca de condomínio no cadastro ("Fui convidado para um condomínio") passa a pedir pelo menos 3 letras** e não mostra mais condomínio que foi excluído ou que ainda está em análise. A tela avisa quando há menos de 3 letras, em vez de parecer que não achou nada.
+- **Arquivos têm limite de tamanho em mais lugares:** anexos de assembleia, procuração e arquivo da condução aceitam até **20 MB**; a foto de um item do Nosso Condomínio, até **5 MB** e só imagem; o anexo do botão de feedback, até **10 MB** (imagem, PDF, planilha ou CSV), conferido também fora da tela. A mensagem diz o limite e pede um arquivo menor.
+- **O link de um relatório de compra para abrir o PDF vale por, no máximo, 1 hora.**
+- **Arquivo vinculado a uma assembleia (anexo, edital ou ata) ou a um relatório de compra continua aberto aos moradores**, mesmo que o síndico tire a linha dele da tela de Arquivos.
+
+### Corrigido
+
+- **A confirmação de excluir um fornecedor pessoal prometia que o histórico ficava guardado, mas a exclusão é definitiva.** A caixa agora diz: *"Este fornecedor será removido permanentemente. Esta ação não pode ser desfeita."*
+
 ## v7.196.0 a v7.196.3 — Novembro 2026
 
 ### Novidade

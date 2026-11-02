@@ -150,7 +150,7 @@ Faz parte da criação aceitar o **Termo de Responsabilidade do Síndico**, que 
 
 ## Depois de escolher "Fui convidado para um condomínio"
 
-Para condôminos cujo condomínio já está cadastrado. Busque o condomínio pelo nome, informe sua unidade e envie a solicitação. O síndico receberá a solicitação e poderá aprová-la em **Configurações → Condôminos**.
+Para condôminos cujo condomínio já está cadastrado. Busque o condomínio pelo nome (digite pelo menos **3 letras**), informe sua unidade e envie a solicitação. Só aparecem condomínios já liberados — um condomínio ainda em análise não é encontrado. O síndico receberá a solicitação e poderá aprová-la em **Configurações → Condôminos**.
 
 {: .tip }
 > **Convite por e-mail**

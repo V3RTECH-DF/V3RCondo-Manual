@@ -98,7 +98,8 @@ ou no ícone de lixeira para excluir (com confirmação).
 Na seção **Documentos adicionais**, anexe arquivos de apoio que devem
 acompanhar o edital — orçamentos, laudos, propostas etc. Clique em
 **Escolher arquivo**, informe uma descrição opcional e clique em
-**Enviar arquivo**.
+**Enviar arquivo**. Cada arquivo pode ter até **20 MB**; acima disso, a tela
+recusa e pede um arquivo menor.
 
 Os documentos aparecem também no módulo **Documentos** com a categoria
 "Assembleias".
@@ -156,7 +157,13 @@ outro membro para votar em seu nome. Clique em **+ Registrar procuração** e:
 1. Selecione o **outorgante** — quem concedeu a procuração
 2. Selecione o **procurador** — quem vai representar o outorgante
 3. Adicione observações (opcional)
-4. Anexe o documento da procuração (obrigatório)
+4. Anexe o documento da procuração (obrigatório, até **20 MB**)
+
+{: .note }
+> **Quem abre o documento da procuração**
+>
+> O síndico e as duas partes — o outorgante e o procurador. Os demais moradores
+> não veem o documento nem na lista de **Documentos**.
 
 ---
 

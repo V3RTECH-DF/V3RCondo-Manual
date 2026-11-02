@@ -57,6 +57,10 @@ são exibidas como miniaturas clicáveis; outros tipos abrem em nova aba.
 Os arquivos enviados na solicitação inicial também aparecem no topo da
 conversa para referência.
 
+Os anexos de uma solicitação só abrem para **quem enviou**, para **quem abriu
+a solicitação** e para o síndico — outros moradores não conseguem abri-los,
+mesmo com o endereço do arquivo.
+
 Quando houver mensagens não lidas, um **badge vermelho** aparece sobre o seu
 avatar no cabeçalho do app. Passe o mouse sobre o badge para ver quantas
 mensagens estão pendentes. Ele desaparece automaticamente ao abrir a conversa.

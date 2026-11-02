@@ -34,7 +34,7 @@ Clique em **Importar planilha**, baixe o modelo, preencha Nome, E-mail, Unidade 
 
 ### 2c. Solicitação do próprio morador
 
-Quando alguém escolhe, na tela de cadastro do app, a porta **"Fui convidado para um condomínio"** e busca o seu condomínio pelo nome, a solicitação aparece **acima da lista**, em Configurações → Condôminos, esperando por você. Clique em **Aprovar** — ou **Rejeitar**, se a pessoa não for de fato do condomínio.
+Quando alguém escolhe, na tela de cadastro do app, a porta **"Fui convidado para um condomínio"** e busca o seu condomínio pelo nome (a busca começa com 3 letras e só encontra condomínios já liberados), a solicitação aparece **acima da lista**, em Configurações → Condôminos, esperando por você. Clique em **Aprovar** — ou **Rejeitar**, se a pessoa não for de fato do condomínio.
 
 {: .tip }
 > **Convite por e-mail é outro caminho, sem solicitação a aprovar**

@@ -52,8 +52,9 @@ clicando no botão de reenvio ao lado do seu nome. O link expira após 7 dias
 
 Acesse [app.v3rcondo.com.br](https://app.v3rcondo.com.br) e, no cartão
 **Primeira vez por aqui?**, escolha **Fui convidado para um condomínio**.
-Depois de criar a conta, busque o condomínio pelo nome, informe sua unidade
-e envie a solicitação. O síndico poderá aprová-la em **Configurações →
+Depois de criar a conta, busque o condomínio pelo nome (a partir de 3 letras),
+informe sua unidade e envie a solicitação. Condomínio ainda em análise não
+aparece na busca. O síndico poderá aprová-la em **Configurações →
 Condôminos**.
 </details>
 

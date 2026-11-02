@@ -64,6 +64,11 @@ Ao expandir uma unidade, você vê os débitos individuais e pode emitir uma **n
 O **PDF** traz o cabeçalho com logo e dados do condomínio, os dados do notificado — com o rótulo **CPF ou CNPJ** conforme o documento cadastrado para o responsável —, a tabela de débitos (descrição, vencimento, valor, dias em atraso), o prazo para regularização, a cláusula legal e um **código de referência** para rastreio. Todas as notificações emitidas ficam no **Histórico**, ao fim da lista, com botão de download.
 
 {: .note }
+> **Quem abre o arquivo da notificação guardado**
+>
+> O PDF fica guardado no aplicativo e só o **síndico** consegue abri-lo por lá. Outros moradores não alcançam o arquivo, nem com o endereço dele. O condômino notificado recebe o PDF pelo canal escolhido (e-mail, por exemplo), que é uma cópia dele.
+
+{: .note }
 > **Responsável pela unidade.** Só o condômino designado **responsável** pela unidade recebe a notificação. O responsável é definido ao expandir a unidade ou em **Configurações → Condôminos** — sempre um único por unidade.
 
 ## Fechar um acordo de parcelamento *(Pro)*

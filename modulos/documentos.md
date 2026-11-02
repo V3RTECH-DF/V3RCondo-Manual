@@ -53,7 +53,12 @@ Clique em **+ Fazer Upload** e preencha:
 
 ## Baixar um documento
 
-Tanto síndicos quanto condôminos podem baixar qualquer arquivo clicando no ícone de **download** no card.
+Tanto síndicos quanto condôminos podem baixar os arquivos da lista clicando no ícone de **download** no card.
+
+{: .note }
+> **Procuração de assembleia só abre para quem faz parte dela**
+>
+> O documento de uma procuração registrada em [Assembleias](/modulos/assembleias/) é aberto pelo **síndico** e pelas **duas partes** (quem outorgou e quem foi indicado como procurador). Para os demais moradores, ele não aparece nesta lista e o endereço do arquivo não abre.
 
 ## Relatórios gerados automaticamente
 

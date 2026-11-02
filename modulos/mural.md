@@ -51,7 +51,12 @@ Condôminos visualizam todos os avisos e podem filtrar por categoria. Diferente 
 
 ### Publicar um aviso *(condômino)*
 
-Clique em **+ Novo Aviso** e preencha **Título** e **Mensagem** (até 300 caracteres). O aviso sai sempre na categoria **Informativo** — é a única disponível para condômino, e o formulário avisa disso.
+Clique em **+ Novo Aviso** e preencha **Título** (até 200 caracteres) e **Mensagem** (até 300 caracteres). O aviso sai sempre na categoria **Informativo** — é a única disponível para condômino, e o formulário avisa disso.
+
+{: .note }
+> **As regras valem mesmo fora do formulário**
+>
+> Categoria, tamanho, ausência de validade e a regra de só excluir o **próprio** aviso são conferidas pelo sistema, e não só pela tela. Se uma publicação for recusada, a mensagem diz o motivo. O condômino não consegue alterar um aviso depois de publicado, nem mover um aviso de um condomínio para outro.
 
 {: .tip }
 > **Excluir seu próprio aviso**

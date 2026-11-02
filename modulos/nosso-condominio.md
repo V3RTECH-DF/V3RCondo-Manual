@@ -359,7 +359,8 @@ Clique em **+ Adicionar item** e preencha:
    "Vaga 12"
 3. **Descrição** — detalhes adicionais (opcional). O campo exibe exemplos de
    boas práticas conforme a categoria selecionada
-4. **Fotos** — até 3 fotos por item. Clique em qualquer foto para ampliar em
+4. **Fotos** — até 3 fotos por item, cada uma com até **5 MB** e somente
+   imagem (JPG, PNG ou WebP). Clique em qualquer foto para ampliar em
    lightbox com navegação entre imagens
 
 ![Formulário de cadastro de item com toggle "Item do condomínio"](/assets/screenshots/56-nosso-cond-itens-form.png)
