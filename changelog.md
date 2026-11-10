@@ -9,6 +9,19 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.198.0 — Novembro 2026
+
+### Novidade
+
+- **Acordo com entrada.** Em **Gerar Acordo**, a opção **Com entrada** permite informar o valor e a data da entrada. O restante do total é dividido em parcelas iguais (o arredondamento cai na última), com datas a partir do mês seguinte à entrada, que você pode ajustar. A entrada é a parcela 1 e aparece como **Entrada** no resumo, no card do acordo e no PDF. Entrada igual a zero, negativa ou maior ou igual ao total é recusada, com a mensagem no próprio campo.
+- **Total acordado em reais.** Ao lado de **Multa / Desconto (%)**, o campo **Total acordado (R$)** aceita o valor exato combinado. Vale o último campo digitado: o total digitado é gravado como foi informado, e o percentual passa a aparecer como aproximado (≈).
+
+### Corrigido
+
+- **O valor da parcela no acordo acompanha o Financeiro.** A aba Acordos, a Minha Área e o PDF mostravam o valor que a parcela tinha quando o acordo foi criado, mesmo depois de você corrigir o lançamento no Financeiro. Agora mostram sempre o valor do lançamento. Ao editar uma parcela no Financeiro, o total acordado passa a ser a soma das parcelas, contando as parcelas pagas antes de o acordo entrar no sistema (em acordo já registrado como existente). Um acordo que estava com valores divergentes foi corrigido.
+
+---
+
 ## v7.197.0 e v7.197.1 — Novembro 2026
 
 ### Novidade

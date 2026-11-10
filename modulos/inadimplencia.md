@@ -79,16 +79,28 @@ Um acordo transforma uma ou mais dívidas vencidas de uma unidade em um parcelam
 
 1. Na unidade devedora, clique em **Gerar Acordo**.
 2. **Selecione as dívidas** que entram na negociação.
-3. Defina o **número de parcelas** (de 1 a 36) e, se quiser, um **desconto**.
-4. Confira o resumo e confirme.
+3. Defina o **valor do acordo**, de uma das duas formas. Vale a que você digitou por último:
+   - **Total acordado (R$)**: digite o total exato combinado, por exemplo `12.682,27`. O sistema grava esse valor como você digitou, e o percentual de multa ou desconto passa a aparecer como aproximado (≈).
+   - **Multa / Desconto (%)**: digite o percentual. O total é calculado a partir dele sobre as dívidas selecionadas.
+4. Defina o **número de parcelas** (de 1 a 36).
+5. Se houver **entrada**, marque **Com entrada** e informe o **valor** e a **data** dela. O restante do total é dividido em parcelas iguais, com o arredondamento na última, e as datas começam no mês seguinte à entrada (você pode ajustá-las). A entrada é a **parcela 1** e aparece como **Entrada** no resumo. Entrada igual a zero, negativa ou maior ou igual ao total é recusada, com a mensagem no próprio campo.
+6. Confira o resumo e confirme.
+
+Exemplo: total de R$ 12.682,27, entrada de R$ 6.682,27 em 10/11/2026 e 6 parcelas. A entrada é a parcela 1 e cada uma das 6 parcelas seguintes fica em R$ 1.000,00, com vencimentos a partir de dezembro de 2026.
 
 ![Assistente de novo acordo: seleção das dívidas vencidas que entram na negociação](/assets/screenshots/inad-acordo-criar-01.png)
 
 **O que o sistema faz ao criar o acordo:**
 
 - As dívidas originais **não são apagadas nem quitadas** — passam para o estado "em acordo" e **saem da lista de inadimplência**.
-- São criadas as **parcelas novas** (já com o desconto), que passam a ser o que o condômino deve pagar.
-- É gerado um **PDF do acordo** com **atestação eletrônica** (quem fez o acordo, o vínculo com a unidade e a data) e o documento do condômino identificado como **CPF** ou **CNPJ**, conforme o que está cadastrado.
+- São criadas as **parcelas novas** (já com o desconto), que passam a ser o que o condômino deve pagar. Com entrada, a entrada é a primeira delas.
+- É gerado um **PDF do acordo** com **atestação eletrônica** (quem fez o acordo, o vínculo com a unidade e a data) e o documento do condômino identificado como **CPF** ou **CNPJ**, conforme o que está cadastrado. Com entrada, o PDF mostra a entrada como parcela 1, com o seu valor.
+
+**Valor das parcelas depois de criado o acordo:**
+
+- O valor de cada parcela mostrado no acordo (aba Acordos, Minha Área e PDF) é sempre o mesmo do lançamento no **Financeiro**.
+- Se você editar o valor de uma parcela no Financeiro, o acordo acompanha: a parcela mostra o novo valor em todos esses lugares, e o **total acordado** passa a ser a soma das parcelas. Em acordo registrado como já existente, entram também as parcelas pagas antes de o acordo ser cadastrado no sistema.
+- O percentual de multa ou desconto é recalculado a partir desse novo total e continua aparecendo como aproximado.
 
 {: .tip }
 > Um acordo pode ser iniciado por você (síndico) ou pelo **próprio condômino**, pela negociação self-service — veja "Negociação pelo próprio condômino".
